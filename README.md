@@ -175,9 +175,15 @@ See [references/sources.yaml](references/sources.yaml) for the complete source i
 - **Turnover costs** include direct replacement ($2,500/hire), overtime coverage during vacancies, and quality incident costs. Based on NCI/ANCOR national benchmarks applied to TX workforce size.
 - **Lifetime earnings** assume 2% annual raises for all career paths over 30 years, compounded. The gap is not sensitive to the raise assumption — it persists at any reasonable growth rate.
 
-## The Ask
+## What Needs to Change
 
-Fund a **$15/hr attendant wage floor** in the 90th Legislature General Appropriations Act, indexed annually to CPI-U South Region. Estimated biennial cost: ~$4.5B all funds (~$1.8B GR at 40.6% FMAP). This is less than the $4.8B workers already forfeit annually in below-market labor.
+The 90th Texas Legislature can fix this by raising the Medicaid attendant wage floor to **$15/hr** and indexing it to inflation so it never falls behind again.
+
+- **$15/hr** restores purchasing power to approximately 2015 levels and approaches the provider breakeven threshold (~$15.50/hr)
+- **Estimated cost:** ~$4.5B per biennium across all funds (~$1.8B from the state's share)
+- **For context:** this is *less* than the $4.8B that care workers already lose every year in below-market wages
+
+The state doesn't need to match Buc-ee's. It needs to stop asking caregivers to finance Medicaid with their poverty.
 
 ## License
 
