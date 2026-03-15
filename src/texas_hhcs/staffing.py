@@ -2,7 +2,6 @@
 
 from dataclasses import dataclass
 
-
 # Constants
 HOURS_PER_WEEK = 168  # 24 * 7
 STANDARD_WORK_WEEK = 40

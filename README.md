@@ -82,6 +82,8 @@ The full source list with direct links is in [references/sources.yaml](reference
 - **Turnover costs:** Replacing one worker costs about $2,500 in recruiting and training alone. Add overtime to cover empty shifts and quality problems from constant new staff, and a single four-bed home loses ~$14,250/yr to turnover. A $1/hr raise for the whole house costs $10,400 — and would save $3,850.
 - **Career earnings gap:** We compared 30-year earnings at $10.60/hr vs. $18/hr, both with 2% annual raises. The gap ($624,424) isn't sensitive to the raise rate — it persists no matter what you assume.
 
+For the full methodology, assumptions, and limitations, see [METHODOLOGY.md](METHODOLOGY.md).
+
 </details>
 
 <details>
@@ -108,7 +110,15 @@ python -m venv .venv && source .venv/bin/activate
 pip install -e ".[dev]"
 ```
 
-### Run the notebooks in order
+### Quick start (with [just](https://github.com/casey/just))
+
+```bash
+just setup    # install deps + editable package
+just check    # lint + run tests
+just build    # regenerate all charts from scratch
+```
+
+### Run the notebooks interactively
 
 ```bash
 jupyter lab
@@ -117,8 +127,6 @@ jupyter lab
 | Notebook | What it does | Pulls data from | Creates |
 |---|---|---|---|
 | `00_data_collection` | Downloads wage and rate data | HHSC, BLS | CSV files in `data/processed/` |
-| `01_provider_classification` | Provider type lookup | — | *(placeholder for future work)* |
-| `02_house_pnl_model` | Per-house profit & loss model | — | *(placeholder for future work)* |
 | `03_wage_policy_analysis` | Core wage analysis | — | 6 charts |
 | `04_waitlist_access` | Waitlist and turnover crisis | — | 3 charts |
 | `05_wage_stagnation` | Inflation erosion and lost wages | BLS inflation API | 4 charts |
@@ -145,8 +153,6 @@ All outputs go to `reports/`.
 texas-caregiver-crisis/
 ├── notebooks/
 │   ├── 00_data_collection.ipynb        — Downloads and cleans the data
-│   ├── 01_provider_classification.ipynb — Provider type lookup (placeholder)
-│   ├── 02_house_pnl_model.ipynb        — House profit/loss model (placeholder)
 │   ├── 03_wage_policy_analysis.ipynb    — Wage analysis (6 charts)
 │   ├── 04_waitlist_access.ipynb        — Waitlist + turnover (3 charts)
 │   ├── 05_wage_stagnation.ipynb        — Inflation erosion + lost wages (4 charts)
@@ -157,15 +163,20 @@ texas-caregiver-crisis/
 │   ├── budget.py    — Legislative budget data by session
 │   ├── staffing.py  — 24/7 staffing coverage calculator
 │   └── scraper.py   — Downloads HHSC rate spreadsheets
+├── tests/           — Headline figure verification (pytest)
 ├── data/
-│   ├── raw/         — Original downloaded files
-│   └── processed/   — Cleaned, analysis-ready data
+│   ├── raw/         — Original downloaded files (HHSC rate spreadsheets)
+│   └── processed/   — Cleaned, analysis-ready CSVs
 ├── reports/         — All charts + policy brief
 └── references/
     └── sources.yaml — Every source with URLs
 ```
 
 </details>
+
+## Future Work
+
+Provider classification (linking HHSC/TMHP/PPP records to identify provider types) and per-house profit-and-loss modeling are planned extensions.
 
 ## License
 

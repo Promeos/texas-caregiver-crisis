@@ -1,0 +1,14 @@
+employer,wage,category,source
+Buc-ee's (entry),18.0,retail,Public job postings / news
+BLS TX Nursing Assistant (mean),17.79,bls_actual,BLS OEWS May 2024
+Amazon Warehouse,17.5,retail,Amazon public wage data
+H-E-B (cashier),15.0,retail,News reporting
+Walmart,14.0,retail,Walmart public wage data
+Whataburger,13.0,food_service,News reporting
+HHSC Target (new),13.0,medicaid_assumption,KERA 2025-03-04
+McDonald's (TX avg),12.5,food_service,BLS / news reporting
+BLS TX Home Health Aide (mean),12.19,bls_actual,BLS OEWS May 2024
+BLS TX Home Health Aide (median),11.29,bls_actual,BLS OEWS May 2024
+HHSC Target (old),10.6,medicaid_assumption,PFD Wage Calculator B7
+TX Minimum Wage,7.25,minimum,Texas law
+Federal Minimum Wage,7.25,minimum,Federal law

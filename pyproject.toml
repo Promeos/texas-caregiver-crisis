@@ -1,7 +1,7 @@
 [project]
-name = "texas-hhcs"
-version = "0.1.0"
-description = "Data science investigation into Texas ICF/IID and HCS provider economics"
+name = "texas-caregiver-crisis"
+version = "1.0.0"
+description = "The Invisible Pay Cut — How Texas's $10.60 wage assumption drives a 100,000-person waitlist"
 requires-python = ">=3.12"
 dependencies = [
     # Analysis
@@ -31,9 +31,13 @@ dev = [
 [tool.ruff]
 line-length = 100
 target-version = "py312"
+extend-exclude = ["notebooks"]
 
 [tool.ruff.lint]
 select = ["E", "F", "I", "W"]
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/texas_hhcs"]
 
 [build-system]
 requires = ["hatchling"]

@@ -1,7 +1,7 @@
 """BLS CPI data retrieval and wage deflation utilities."""
 
-import requests
 import pandas as pd
+import requests
 
 
 def fetch_cpi_series(
