@@ -104,6 +104,30 @@ Per-hire replacement cost of $2,500 includes recruiting, background checks, onbo
 
 ---
 
+## Figure Audit
+
+Every headline number traced to its source, formula, generating code, and verification test.
+
+| Figure | Type | Formula / Source | Generated In | Verified By |
+|--------|------|-----------------|--------------|-------------|
+| **$10.60/hr** | Source observation | HHSC PFD Wage Calculator, cell B7 | `00_data_collection.ipynb` cell 3 | `test_headline_figures.py` |
+| **$7.82/hr** | Derived estimate | $10.60 * (CPI_2015 / CPI_2025) | `03_wage_stagnation.ipynb` cell 5 | `TestInflationErosion::test_real_purchasing_power_approximately_7_82` |
+| **$14.37/hr** | Derived estimate | $10.60 * (CPI_2025 / CPI_2015) | `03_wage_stagnation.ipynb` cell 7 | `TestInflationErosion::test_should_be_wage_approximately_14_37` |
+| **$12.19/hr** | Source observation | BLS OEWS May 2024, SOC 31-1120, hourly mean | `00_data_collection.ipynb` cell 10 | `bls_oews_texas_2024.csv` |
+| **314,610 workers** | Source observation | BLS OEWS May 2024, SOC 31-1120, employment | `00_data_collection.ipynb` cell 10 | `bls_oews_texas_2024.csv` |
+| **~$4.8B/yr wage gap** | Modeled comparison | ($18.00 - $10.60) * 2,080 hrs * 314,610 | `03_wage_stagnation.ipynb` cell 9 | `TestStatewideWageGap::test_annual_gap_approximately_4_8b` |
+| **100,000+ waitlist** | Source observation | HHSC Interest List data, LBB rider packets | `02_waitlist_access.ipynb` cell 3 | LBB 88th Legislature rider packet |
+| **87 years** | Derived estimate | ~130,000 / ~1,500 slots per year | `02_waitlist_access.ipynb` cell 4 | `TestWaitlistTimeline::test_years_to_clear` |
+| **~50% turnover** | Source observation | NCI Staff Stability Survey 2023 | `02_waitlist_access.ipynb` cell 6 | National Core Indicators report |
+| **$624,424 gap** | Modeled comparison | 30-yr cumulative at 2% raises, $10.60 vs $18.00 | `03_wage_stagnation.ipynb` cell 12 | `TestLifetimeEarningsGap::test_gap_approximately_624k` |
+
+**Type key:**
+- **Source observation** — read directly from a government dataset or official report
+- **Derived estimate** — calculated from source data using a documented formula (e.g., inflation adjustment)
+- **Modeled comparison** — scenario built on stated assumptions (e.g., career length, raise rate, employer comparison)
+
+---
+
 ## Limitations
 
 - **BLS wage data is May 2024**, not real-time. Wages may have shifted since publication.

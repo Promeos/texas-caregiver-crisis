@@ -17,10 +17,15 @@ lint:
 # Run linting + tests
 check: lint test
 
+# Generate machine-verifiable results summary
+results:
+    uv run python scripts/generate_results.py
+
 # Regenerate all analysis outputs from scratch
 build: setup
     uv run jupyter nbconvert --to notebook --execute notebooks/00_data_collection.ipynb --output-dir notebooks/
-    uv run jupyter nbconvert --to notebook --execute notebooks/03_wage_policy_analysis.ipynb --output-dir notebooks/
-    uv run jupyter nbconvert --to notebook --execute notebooks/04_waitlist_access.ipynb --output-dir notebooks/
-    uv run jupyter nbconvert --to notebook --execute notebooks/05_wage_stagnation.ipynb --output-dir notebooks/
-    uv run jupyter nbconvert --to notebook --execute notebooks/06_policy_brief.ipynb --output-dir notebooks/
+    uv run jupyter nbconvert --to notebook --execute notebooks/01_wage_policy_analysis.ipynb --output-dir notebooks/
+    uv run jupyter nbconvert --to notebook --execute notebooks/02_waitlist_access.ipynb --output-dir notebooks/
+    uv run jupyter nbconvert --to notebook --execute notebooks/03_wage_stagnation.ipynb --output-dir notebooks/
+    uv run jupyter nbconvert --to notebook --execute notebooks/04_policy_brief.ipynb --output-dir notebooks/
+    uv run python scripts/generate_results.py

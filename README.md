@@ -1,10 +1,12 @@
 # The Invisible Pay Cut
 
+![tests](https://img.shields.io/badge/tests-18%20passing-brightgreen) ![data](https://img.shields.io/badge/data%20sources-public-blue) ![reproducible](https://img.shields.io/badge/reproducible-just%20build-orange) ![license](https://img.shields.io/badge/license-CC%20BY%204.0-lightgrey)
+
 **How Texas's $10.60 Wage Assumption Drives a 100,000-Person Waitlist**
 
 Texas sets the pay for Medicaid-funded caregivers using a single number buried in a state spreadsheet: **$10.60 an hour**. That number hasn't changed in over a decade. This investigation follows the money to show what happens next — poverty wages, a workforce exodus to retail, and over 100,000 Texans with disabilities stuck on a waitlist that would take **87 years** to clear.
 
-Every number in this analysis comes from the state's own data. Every calculation has been independently verified.
+Every number in this analysis traces to a public government source, a documented formula, or a stated modeling assumption. Every headline figure is locked down by an automated test — run `just test` to verify.
 
 ---
 
@@ -22,18 +24,20 @@ Every number in this analysis comes from the state's own data. Every calculation
 
 ## What We Found
 
-| What | Number | Where it comes from |
-|---|---|---|
-| State's target wage for caregivers | **$10.60/hr** | HHSC wage calculator, cell B7 (updated 2/7/2025) |
-| What $10.60 actually buys today | **$7.82/hr** | Adjusted for inflation (BLS Consumer Price Index, South Region) |
-| What $10.60 should be with inflation | **$14.37/hr** | Same inflation data, calculated forward |
-| Average pay for TX home health aides | **$12.19/hr** | Bureau of Labor Statistics, May 2024 |
-| Number of these workers in Texas | **314,610** | Bureau of Labor Statistics, May 2024 |
-| Total wages lost vs. entry-level retail | **~$4.8 billion/yr** | Gap between $10.60 and Buc-ee's $18, across all workers |
-| People on the disability services waitlist | **100,000+** | HHSC Interest List data |
-| Time to serve everyone at current pace | **87 years** | ~1,500 new slots funded per year |
-| Workers who quit each year | **~50%** | National Core Indicators survey, 2023 |
-| Lifetime earnings gap vs. Buc-ee's | **$624,424** | 30-year career comparison at 2% annual raises |
+| What | Number | Type | Where it comes from |
+|---|---|---|---|
+| State's target wage for caregivers | **$10.60/hr** | Source | HHSC wage calculator, cell B7 (updated 2/7/2025) |
+| What $10.60 actually buys today | **$7.82/hr** | Derived | Adjusted for inflation (BLS CPI-U South, 2015-2025) |
+| What $10.60 should be with inflation | **$14.37/hr** | Derived | Same CPI data, calculated forward |
+| Average pay for TX home health aides | **$12.19/hr** | Source | Bureau of Labor Statistics, OEWS May 2024 |
+| Number of these workers in Texas | **314,610** | Source | Bureau of Labor Statistics, OEWS May 2024 |
+| Total wages lost vs. entry-level retail | **~$4.8 billion/yr** | Modeled | ($18 - $10.60) * 2,080 hrs * 314,610 workers |
+| People on the disability services waitlist | **100,000+** | Source | HHSC Interest List data |
+| Time to serve everyone at current pace | **87 years** | Derived | ~130,000 waitlist / ~1,500 new slots per year |
+| Workers who quit each year | **~50%** | Source | National Core Indicators survey, 2023 |
+| Lifetime earnings gap vs. Buc-ee's | **$624,424** | Modeled | 30-year career comparison at 2% annual raises |
+
+*Type key: **Source** = read directly from government data. **Derived** = calculated from source data using a documented formula. **Modeled** = scenario built on stated assumptions. See [METHODOLOGY.md](METHODOLOGY.md) for full audit trail.*
 
 ## Policy Brief
 
@@ -127,19 +131,19 @@ jupyter lab
 | Notebook | What it does | Pulls data from | Creates |
 |---|---|---|---|
 | `00_data_collection` | Downloads wage and rate data | HHSC, BLS | CSV files in `data/processed/` |
-| `03_wage_policy_analysis` | Core wage analysis | — | 6 charts |
-| `04_waitlist_access` | Waitlist and turnover crisis | — | 3 charts |
-| `05_wage_stagnation` | Inflation erosion and lost wages | BLS inflation API | 4 charts |
-| `06_policy_brief` | Generates the one-page brief | — | PNG + PDF |
+| `01_wage_policy_analysis` | Core wage analysis | — | 6 charts |
+| `02_waitlist_access` | Waitlist and turnover crisis | — | 3 charts |
+| `03_wage_stagnation` | Inflation erosion and lost wages | BLS inflation API | 4 charts |
+| `04_policy_brief` | Generates the one-page brief | — | PNG + PDF |
 
 ### Regenerate all charts from scratch
 
 ```bash
 jupyter nbconvert --to notebook --execute notebooks/00_data_collection.ipynb
-jupyter nbconvert --to notebook --execute notebooks/03_wage_policy_analysis.ipynb
-jupyter nbconvert --to notebook --execute notebooks/04_waitlist_access.ipynb
-jupyter nbconvert --to notebook --execute notebooks/05_wage_stagnation.ipynb
-jupyter nbconvert --to notebook --execute notebooks/06_policy_brief.ipynb
+jupyter nbconvert --to notebook --execute notebooks/01_wage_policy_analysis.ipynb
+jupyter nbconvert --to notebook --execute notebooks/02_waitlist_access.ipynb
+jupyter nbconvert --to notebook --execute notebooks/03_wage_stagnation.ipynb
+jupyter nbconvert --to notebook --execute notebooks/04_policy_brief.ipynb
 ```
 
 All outputs go to `reports/`.
@@ -153,21 +157,25 @@ All outputs go to `reports/`.
 texas-caregiver-crisis/
 ├── notebooks/
 │   ├── 00_data_collection.ipynb        — Downloads and cleans the data
-│   ├── 03_wage_policy_analysis.ipynb    — Wage analysis (6 charts)
-│   ├── 04_waitlist_access.ipynb        — Waitlist + turnover (3 charts)
-│   ├── 05_wage_stagnation.ipynb        — Inflation erosion + lost wages (4 charts)
-│   └── 06_policy_brief.ipynb           — One-page brief generator
+│   ├── 01_wage_policy_analysis.ipynb    — Wage analysis (6 charts)
+│   ├── 02_waitlist_access.ipynb        — Waitlist + turnover (3 charts)
+│   ├── 03_wage_stagnation.ipynb        — Inflation erosion + lost wages (4 charts)
+│   └── 04_policy_brief.ipynb           — One-page brief generator
 ├── src/texas_hhcs/
 │   ├── cpi.py       — Pulls inflation data from BLS
 │   ├── rates.py     — HHSC Medicaid rate structures
 │   ├── budget.py    — Legislative budget data by session
 │   ├── staffing.py  — 24/7 staffing coverage calculator
 │   └── scraper.py   — Downloads HHSC rate spreadsheets
+├── scripts/
+│   └── generate_results.py — Produces results_summary.json
 ├── tests/           — Headline figure verification (pytest)
 ├── data/
 │   ├── raw/         — Original downloaded files (HHSC rate spreadsheets)
 │   └── processed/   — Cleaned, analysis-ready CSVs
 ├── reports/         — All charts + policy brief
+├── results_summary.json — Machine-verifiable headline figures
+├── METHODOLOGY.md   — Full methodology, figure audit, limitations
 └── references/
     └── sources.yaml — Every source with URLs
 ```

@@ -1,0 +1,71 @@
+{
+  "_generated": "2026-03-15T04:24:18.068734+00:00",
+  "_description": "Machine-verifiable summary of headline figures. Run `uv run python scripts/generate_results.py` to regenerate.",
+  "figures": {
+    "hhsc_target_wage": {
+      "value": 10.6,
+      "unit": "$/hr",
+      "type": "source_observation",
+      "source": "HHSC PFD Wage Calculator, cell B7 (updated 2/7/2025)"
+    },
+    "real_purchasing_power": {
+      "value": 7.82,
+      "unit": "$/hr (2015 dollars)",
+      "type": "derived_estimate",
+      "formula": "$10.6 * (CPI_2015 / CPI_2025)"
+    },
+    "inflation_adjusted_wage": {
+      "value": 14.37,
+      "unit": "$/hr",
+      "type": "derived_estimate",
+      "formula": "$10.6 * (CPI_2025 / CPI_2015)"
+    },
+    "purchasing_power_lost_pct": {
+      "value": 26.2,
+      "unit": "%",
+      "type": "derived_estimate"
+    },
+    "bls_tx_hha_mean_wage": {
+      "value": 12.19,
+      "unit": "$/hr",
+      "type": "source_observation",
+      "source": "BLS OEWS May 2024, SOC 31-1120"
+    },
+    "bls_tx_hha_employment": {
+      "value": 314610,
+      "unit": "workers",
+      "type": "source_observation",
+      "source": "BLS OEWS May 2024, SOC 31-1120"
+    },
+    "statewide_annual_wage_gap": {
+      "value": 4842477120.0,
+      "unit": "$/yr",
+      "type": "modeled_comparison",
+      "formula": "($18.0 - $10.6) * 2080 hrs * 314610 workers"
+    },
+    "waitlist_size": {
+      "value": 130000,
+      "unit": "people",
+      "type": "source_observation",
+      "source": "HHSC Interest List, LBB rider packets (pre-cleanup)"
+    },
+    "years_to_clear_waitlist": {
+      "value": 87.0,
+      "unit": "years",
+      "type": "derived_estimate",
+      "formula": "130000 / 1500 slots per year"
+    },
+    "lifetime_earnings_gap": {
+      "value": 624424.0,
+      "unit": "$",
+      "type": "modeled_comparison",
+      "formula": "30-year cumulative at 2% raises, $10.6 vs $18.0"
+    },
+    "ftes_for_24_7_coverage": {
+      "value": 4.96,
+      "unit": "FTEs",
+      "type": "derived_estimate",
+      "formula": "168 hrs/wk / 40 hrs * 1.18 absence factor"
+    }
+  }
+}
