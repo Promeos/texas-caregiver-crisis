@@ -1,0 +1,89 @@
+# Texas HHCS Investigation — Source Index
+# All sources used in analysis must be logged here with URLs and access dates.
+
+government:
+  - name: "HHSC ICF/IID Provider Page"
+    url: "https://www.hhs.texas.gov/providers/long-term-care-providers/intermediate-care-facilities-icfiid"
+    type: provider_info
+    description: "Texas HHSC page on ICF/IID licensing, requirements, and residential/habilitation services"
+
+  - name: "CMS ICF Conditions of Participation"
+    url: "https://www.cms.gov/medicare/health-safety-standards/conditions-coverage-participation/immediate-care-facilities"
+    type: regulation
+    description: "Federal CMS standards for ICF/IID facilities"
+
+  - name: "HHSC Interest List Reduction"
+    url: "https://www.hhs.texas.gov/about/records-statistics/interest-list-reduction"
+    type: data
+    description: "HHSC data on interest list sizes and reduction efforts"
+
+  - name: "HHSC Form 8578 — ID/RC Assessment"
+    url: "https://www.hhs.texas.gov/regulations/forms/8000-8999/form-8578-intellectual-disability-or-related-conditions-assessment"
+    type: form
+    description: "Level-of-care assessment form used by LIDDAs/providers"
+
+  - name: "Texas LTSS Waiver Fee Schedules"
+    url: "https://www.hhs.texas.gov/sites/default/files/documents/doing-business-with-hhs/providers/resources/ltss-waivers.pdf"
+    type: rate_doc
+    description: "HCS and other waiver fee schedule overview"
+
+regulatory:
+  - name: "1 TAC §355.456 — ICF/IID Reimbursement Methodology"
+    url: "https://www.law.cornell.edu/regulations/texas/1-Tex-Admin-Code-SS-355-456"
+    type: regulation
+    description: "Texas Administrative Code defining ICF/IID per-diem reimbursement structure"
+
+  - name: "26 TAC §261.236 — ICF/IID Eligibility Criteria"
+    url: "https://www.law.cornell.edu/regulations/texas/26-Tex-Admin-Code-SS-261-236"
+    type: regulation
+    description: "Eligibility criteria for ICF/IID (LOC I, LOC VIII, active treatment)"
+
+legislative:
+  - name: "LBB 88th Legislature Rider Packet — Article II"
+    url: "https://www.lbb.texas.gov/Documents/Appropriations_Bills/88/Initial_Dockets/Article%20II_Rider.pdf"
+    type: budget
+    description: "2024-25 biennium rider comparisons showing waiver slot funding ($96M for 3,292 slots)"
+
+  - name: "Texas Comptroller Annual Cash Report 2016"
+    url: "https://comptroller.texas.gov/transparency/reports/cash-report/2016/96-368.pdf"
+    type: budget
+    description: "Statewide financial reporting (HHS footprint context)"
+
+family_resources:
+  - name: "NavigateLifeTexas — Medicaid Waiver Programs"
+    url: "https://www.navigatelifetexas.org/en/insurance-financial-help/texas-medicaid-waiver-programs-for-children-with-disabilities"
+    type: guide
+    description: "Overview of HCS, TxHmL, and other waivers; LIDDA as front door for interest lists"
+
+  - name: "Arc of Texas — Medicaid Waivers"
+    url: "https://www.thearcoftexas.org/resources/medicaid-waivers/"
+    type: guide
+    description: "How to join waitlists, waiver differences, YourTexasBenefits Interest List Manager"
+
+news:
+  - name: "KERA — $12/hr not enough for disability services"
+    url: "https://www.keranews.org/health-wellness/2025-03-04/families-providers-say-12-an-hour-for-workers-isnt-enough-to-keep-texas-disability-services-afloat"
+    date: "2025-03-04"
+    type: investigation
+    description: "Coverage of $10.60→$13 attendant wage assumption in Medicaid rate funding"
+
+  - name: "Texas Standard — Life-or-death decisions for $10.60/hr"
+    url: "https://www.texasstandard.org/stories/texas-group-homes-staffing-crisis-worker-retention-state-legislature/"
+    type: investigation
+    description: "Staffing crisis in Texas group homes, wage comparison to retail"
+
+  - name: "Texas Tribune — Low wages worsen caregiver shortage"
+    url: "https://www.texastribune.org/2024/06/17/texas-disabled-caregivers-wages/"
+    date: "2024-06-17"
+    type: investigation
+    description: "Decade-long waits, systemic shortage dynamics"
+
+  - name: "Houston Chronicle — Group homes shutter amid funding crisis"
+    url: "https://www.houstonchronicle.com/politics/texas/article/group-homes-texas-funding-20372319.php"
+    type: investigation
+    description: "Houston-area closures tied to funding/staffing strain"
+
+  - name: "Express-News — Maofu Home Healthcare arrest"
+    url: "https://www.expressnews.com/news/article/maofu-home-healthcare-bexar-county-arrest-20344245.php"
+    type: investigation
+    description: "Fraud/abuse case in Bexar County home healthcare"
