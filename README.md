@@ -52,8 +52,8 @@ All math independently verified. Every claim sourced to HHSC, BLS, or LBB data.
 ### Setup
 
 ```bash
-git clone https://github.com/<your-username>/texas-hhcs.git
-cd texas-hhcs
+git clone https://github.com/Promeos/texas-caregiver-crisis.git
+cd texas-caregiver-crisis
 
 # Option A: uv (recommended)
 uv venv && source .venv/bin/activate
