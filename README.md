@@ -2,52 +2,96 @@
 
 **How Texas's $10.60 Wage Assumption Drives a 100,000-Person Waitlist**
 
-A data-driven investigation into how HHSC's frozen Medicaid wage assumption creates a cascading crisis: poverty wages for caregivers, 50% annual workforce turnover, and over 100,000 Texans with disabilities waiting years — sometimes decades — for services.
+Texas sets the pay for Medicaid-funded caregivers using a single number buried in a state spreadsheet: **$10.60 an hour**. That number hasn't changed in over a decade. This investigation follows the money to show what happens next — poverty wages, a workforce exodus to retail, and over 100,000 Texans with disabilities stuck on a waitlist that would take **87 years** to clear.
+
+Every number in this analysis comes from the state's own data. Every calculation has been independently verified.
 
 ---
 
 ![Texas Direct Care Worker Wages vs. Market Alternatives](reports/wage_comparison_chart.png)
 
-*Texas pays its direct care workers less than Buc-ee's, Amazon, H-E-B, Walmart, and Whataburger. The HHSC wage assumption ($10.60/hr) has been frozen since ~2014.*
+*A Buc-ee's cashier earns $18/hr. An Amazon warehouse worker earns $17.50. The people Texas trusts to care for its most vulnerable residents? $10.60.*
 
 ---
 
 ![The Invisible Pay Cut — Real Wage Erosion](reports/real_wage_erosion.png)
 
-*After a decade of inflation, $10.60/hr is worth just $7.82 in real terms — a 26% pay cut that never showed up on a paystub. To match 2015 purchasing power, the wage would need to be $14.37/hr.*
+*Because of inflation, that $10.60 buys what $7.82 bought in 2015. Workers got a 26% pay cut without anyone changing their paycheck — prices just rose around them. To have the same buying power as when the wage was set, it would need to be $14.37 today.*
 
 ---
 
-## Key Findings
+## What We Found
 
-| Statistic | Value | Source |
+| What | Number | Where it comes from |
 |---|---|---|
-| HHSC wage assumption | **$10.60/hr** | PFD Wage Calculator cell B7 (2/7/2025) |
-| Real purchasing power | **$7.82/hr** | BLS CPI-U South Region, ~2015 baseline |
-| Inflation-adjusted parity | **$14.37/hr** | CPI deflation calculation |
-| BLS TX Home Health Aide mean | **$12.19/hr** | OEWS May 2024, SOC 31-1120 |
-| TX HHA employment | **314,610 workers** | BLS OEWS May 2024 |
-| Annual worker "subsidy" | **~$4.8B/yr** | Foregone wages vs. entry-level retail |
-| HCS interest list | **100,000+ people** | HHSC Interest List data |
-| Years to clear waitlist | **87 years** | At current funding pace (~1,500 slots/yr) |
-| DSP annual turnover | **~50%** | NCI Staff Stability Survey 2023 |
-| 30-year career earnings gap | **$624,424** | Care worker ($10.60) vs. Buc-ee's ($18.00) |
-
-All math independently verified. Every claim sourced to HHSC, BLS, or LBB data.
+| State's target wage for caregivers | **$10.60/hr** | HHSC wage calculator, cell B7 (updated 2/7/2025) |
+| What $10.60 actually buys today | **$7.82/hr** | Adjusted for inflation (BLS Consumer Price Index, South Region) |
+| What $10.60 should be with inflation | **$14.37/hr** | Same inflation data, calculated forward |
+| Average pay for TX home health aides | **$12.19/hr** | Bureau of Labor Statistics, May 2024 |
+| Number of these workers in Texas | **314,610** | Bureau of Labor Statistics, May 2024 |
+| Total wages lost vs. entry-level retail | **~$4.8 billion/yr** | Gap between $10.60 and Buc-ee's $18, across all workers |
+| People on the disability services waitlist | **100,000+** | HHSC Interest List data |
+| Time to serve everyone at current pace | **87 years** | ~1,500 new slots funded per year |
+| Workers who quit each year | **~50%** | National Core Indicators survey, 2023 |
+| Lifetime earnings gap vs. Buc-ee's | **$624,424** | 30-year career comparison at 2% annual raises |
 
 ## Policy Brief
 
 ![Policy Brief](reports/policy_brief.png)
 
-*One-page summary suitable for legislators, journalists, and advocates. Also available as [PDF](reports/policy_brief.pdf).*
+*A one-page summary you can print, email, or hand to a legislator. Also available as a [PDF](reports/policy_brief.pdf).*
 
-## Reproducing This Analysis
+## What Needs to Change
 
-### Prerequisites
+The 90th Texas Legislature can fix this by raising the Medicaid caregiver wage floor to **$15/hr** and tying it to inflation so it never falls behind again.
 
-- Python >= 3.12
+- **$15/hr** restores buying power to roughly 2015 levels and gets close to what providers need to break even (~$15.50/hr)
+- **Estimated cost:** ~$4.5 billion per two-year budget cycle (~$1.8 billion from the state, the rest matched by federal funds)
+- **For context:** that's *less* than the $4.8 billion care workers already lose every year by accepting below-market pay
+
+The state doesn't need to match Buc-ee's. It needs to stop asking caregivers to finance Medicaid with their poverty.
+
+---
+
+## How This Analysis Works
+
+<details>
+<summary><strong>Where the data comes from</strong></summary>
+
+Everything comes from public government sources. No records requests, no proprietary databases, no paywalls.
+
+| Source | What we pulled | Website |
+|---|---|---|
+| **HHSC** (Texas Health & Human Services) | The $10.60 wage target, by program | pfd.hhs.texas.gov |
+| **BLS** (Bureau of Labor Statistics) | How many home health aides work in Texas, and what they earn | bls.gov/oes/ |
+| **BLS** Consumer Price Index | Inflation data for the South region | bls.gov/cpi/ |
+| **LBB** (Legislative Budget Board) | How many waitlist slots the Legislature funded each session | lbb.texas.gov |
+| **NCI** (National Core Indicators) | Caregiver turnover rates nationwide | nationalcoreindicators.org |
+| **HHSC** Interest List | Waitlist size over time | hhs.texas.gov |
+
+The full source list with direct links is in [references/sources.yaml](references/sources.yaml).
+
+</details>
+
+<details>
+<summary><strong>How we did the math</strong></summary>
+
+- **Inflation adjustment:** We used the Consumer Price Index for the South (where these workers live) to calculate what $10.60 from ~2015 is worth today. Same method the government uses to adjust Social Security payments.
+- **"Lost wages" estimate:** We took the gap between $10.60 and Buc-ee's entry wage ($18/hr), multiplied by a full-time year (2,080 hours), and scaled it across all 314,610 Texas home health aides. This is conservative — many retail jobs pay even more.
+- **Waitlist timeline:** We divided the 100,000-person waitlist by the average number of new slots the Legislature funds each year (~1,500). At that rate: 87 years.
+- **Turnover costs:** Replacing one worker costs about $2,500 in recruiting and training alone. Add overtime to cover empty shifts and quality problems from constant new staff, and a single four-bed home loses ~$14,250/yr to turnover. A $1/hr raise for the whole house costs $10,400 — and would save $3,850.
+- **Career earnings gap:** We compared 30-year earnings at $10.60/hr vs. $18/hr, both with 2% annual raises. The gap ($624,424) isn't sensitive to the raise rate — it persists no matter what you assume.
+
+</details>
+
+<details>
+<summary><strong>How to reproduce everything yourself</strong></summary>
+
+### What you need
+
+- Python 3.12 or newer
 - [uv](https://docs.astral.sh/uv/) (recommended) or pip
-- Internet access for BLS API calls (no API key required)
+- Internet access (to pull data from BLS and HHSC — no accounts or API keys needed)
 
 ### Setup
 
@@ -64,57 +108,25 @@ python -m venv .venv && source .venv/bin/activate
 pip install -e ".[dev]"
 ```
 
-### Running the Notebooks
-
-Run notebooks **in order** — later notebooks depend on data and modules established by earlier ones.
+### Run the notebooks in order
 
 ```bash
 jupyter lab
 ```
 
-| Notebook | Purpose | External API calls | Outputs |
+| Notebook | What it does | Pulls data from | Creates |
 |---|---|---|---|
-| `00_data_collection.ipynb` | Download HHSC rate data, BLS OEWS wage data, build `market_wages.csv` | HHSC (pfd.hhs.texas.gov), BLS OEWS | `data/processed/*.csv` |
-| `01_provider_classification.ipynb` | Provider type confirmation (ICF vs HCS) | None (stub) | — |
-| `02_house_pnl_model.ipynb` | Per-house revenue vs. cost model | None (stub) | — |
-| `03_wage_policy_analysis.ipynb` | Core wage analysis: rate anatomy, margins, wage comparisons | None | 6 charts in `reports/` |
-| `04_waitlist_access.ipynb` | HCS waitlist crisis, turnover cost modeling, causal chain | None | 3 charts in `reports/` |
-| `05_wage_stagnation.ipynb` | CPI inflation erosion, worker subsidy math, lifetime earnings | BLS CPI API (`api.bls.gov`) | 4 charts in `reports/` |
-| `06_policy_brief.ipynb` | Single-page policy brief generation | None | `reports/policy_brief.png`, `.pdf` |
+| `00_data_collection` | Downloads wage and rate data | HHSC, BLS | CSV files in `data/processed/` |
+| `01_provider_classification` | Provider type lookup | — | *(placeholder for future work)* |
+| `02_house_pnl_model` | Per-house profit & loss model | — | *(placeholder for future work)* |
+| `03_wage_policy_analysis` | Core wage analysis | — | 6 charts |
+| `04_waitlist_access` | Waitlist and turnover crisis | — | 3 charts |
+| `05_wage_stagnation` | Inflation erosion and lost wages | BLS inflation API | 4 charts |
+| `06_policy_brief` | Generates the one-page brief | — | PNG + PDF |
 
-> **Note:** Notebooks 01 and 02 are stubs for future provider-level and P&L analysis. The core investigation runs through 00, 03, 04, 05, and 06.
-
-### API Dependencies
-
-This project uses **public, unauthenticated** government APIs:
-
-| API | Endpoint | Rate Limit | Used In |
-|---|---|---|---|
-| BLS CPI-U | `api.bls.gov/publicAPI/v2/timeseries/data/` | 10-year window per request, 25 requests/day | `05_wage_stagnation.ipynb` via `src/texas_hhcs/cpi.py` |
-| BLS OEWS | `api.bls.gov/publicAPI/v2/timeseries/data/` | Same as above | `00_data_collection.ipynb` |
-| HHSC PFD | `pfd.hhs.texas.gov` | None documented | `00_data_collection.ipynb` via `src/texas_hhcs/scraper.py` |
-
-No API keys, accounts, or credentials are required. All data can also be downloaded manually from the source websites.
-
-### Data Pipeline
-
-```
-HHSC pfd.hhs.texas.gov ──► scraper.py ──► data/processed/pfd_wage_calculator_*.csv
-BLS api.bls.gov         ──► cpi.py    ──► CPI monthly/annual (in-memory)
-BLS OEWS flat files     ──► pandas    ──► data/processed/bls_oews_texas_2024.csv
-Manual research         ──► notebook  ──► data/processed/market_wages.csv
-                                            │
-                    ┌───────────────────────┘
-                    ▼
-            Notebooks 03-06 ──► reports/*.png, reports/policy_brief.pdf
-```
-
-### Regenerating All Charts
-
-To regenerate every chart and the policy brief from scratch:
+### Regenerate all charts from scratch
 
 ```bash
-# Run all analysis notebooks in sequence
 jupyter nbconvert --to notebook --execute notebooks/00_data_collection.ipynb
 jupyter nbconvert --to notebook --execute notebooks/03_wage_policy_analysis.ipynb
 jupyter nbconvert --to notebook --execute notebooks/04_waitlist_access.ipynb
@@ -122,74 +134,44 @@ jupyter nbconvert --to notebook --execute notebooks/05_wage_stagnation.ipynb
 jupyter nbconvert --to notebook --execute notebooks/06_policy_brief.ipynb
 ```
 
-All outputs land in `reports/`.
+All outputs go to `reports/`.
 
-## Project Structure
+</details>
+
+<details>
+<summary><strong>Project file structure</strong></summary>
 
 ```
-texas-hhcs/
+texas-caregiver-crisis/
 ├── notebooks/
-│   ├── 00_data_collection.ipynb      — Data download & processing
-│   ├── 01_provider_classification.ipynb — Provider type lookup (stub)
-│   ├── 02_house_pnl_model.ipynb      — Per-house P&L model (stub)
-│   ├── 03_wage_policy_analysis.ipynb  — Core wage analysis (6 charts)
-│   ├── 04_waitlist_access.ipynb       — Waitlist + turnover crisis (3 charts)
-│   ├── 05_wage_stagnation.ipynb       — CPI erosion + subsidy math (4 charts)
-│   └── 06_policy_brief.ipynb         — Policy brief generator
+│   ├── 00_data_collection.ipynb        — Downloads and cleans the data
+│   ├── 01_provider_classification.ipynb — Provider type lookup (placeholder)
+│   ├── 02_house_pnl_model.ipynb        — House profit/loss model (placeholder)
+│   ├── 03_wage_policy_analysis.ipynb    — Wage analysis (6 charts)
+│   ├── 04_waitlist_access.ipynb        — Waitlist + turnover (3 charts)
+│   ├── 05_wage_stagnation.ipynb        — Inflation erosion + lost wages (4 charts)
+│   └── 06_policy_brief.ipynb           — One-page brief generator
 ├── src/texas_hhcs/
-│   ├── __init__.py
-│   ├── cpi.py                        — BLS CPI retrieval + wage deflation
-│   ├── rates.py                      — HHSC rate structures (ICF, HCS)
-│   ├── budget.py                     — Biennium budget data model
-│   ├── staffing.py                   — 24/7 staffing coverage model
-│   └── scraper.py                    — HHSC rate data scraper
+│   ├── cpi.py       — Pulls inflation data from BLS
+│   ├── rates.py     — HHSC Medicaid rate structures
+│   ├── budget.py    — Legislative budget data by session
+│   ├── staffing.py  — 24/7 staffing coverage calculator
+│   └── scraper.py   — Downloads HHSC rate spreadsheets
 ├── data/
-│   ├── raw/                          — Original downloaded data
-│   └── processed/                    — Cleaned analysis-ready CSVs
-├── reports/                          — All generated charts + policy brief
+│   ├── raw/         — Original downloaded files
+│   └── processed/   — Cleaned, analysis-ready data
+├── reports/         — All charts + policy brief
 └── references/
-    └── sources.yaml                  — Full source index with URLs
+    └── sources.yaml — Every source with URLs
 ```
 
-## Data Sources
-
-All data comes from publicly available government sources. No FOIA requests, no proprietary data, no paywalled databases.
-
-| Source | What we use | URL |
-|---|---|---|
-| **HHSC** PFD Wage Calculator | Attendant wage assumptions by program | pfd.hhs.texas.gov |
-| **BLS** OEWS | TX Home Health Aide employment & wages (SOC 31-1120) | bls.gov/oes/ |
-| **BLS** CPI-U South Region | Inflation data, series CUUR0300SA0 | bls.gov/cpi/ |
-| **LBB** Article II Riders | HCS slots funded & wage assumptions, 83rd–89th Legislatures | lbb.texas.gov |
-| **NCI** Staff Stability Survey | National DSP turnover rates | nationalcoreindicators.org |
-| **HHSC** Interest List data | HCS waitlist size over time | hhs.texas.gov |
-
-See [references/sources.yaml](references/sources.yaml) for the complete source index with direct URLs, access dates, and descriptions.
-
-## Methodology Notes
-
-- **CPI deflation** uses BLS series CUUR0300SA0 (CPI-U, All Items, South Urban), which matches the geographic region where these workers live and spend their wages.
-- **Wage erosion** is computed as: `real_value = $10.60 × (base_year_CPI / current_year_CPI)`. The inverse gives the inflation-adjusted wage that $10.60 *should* be.
-- **Worker subsidy** uses BLS OEWS employment count (314,610 TX HHAs) × hourly gap × 2,080 annual hours. This is a conservative estimate — it uses the Buc-ee's entry wage ($18/hr) as the comparison, not median retail.
-- **Waitlist projection** divides current interest list size by historical average annual slot funding rate (~1,500/yr across 6 biennia).
-- **Turnover costs** include direct replacement ($2,500/hire), overtime coverage during vacancies, and quality incident costs. Based on NCI/ANCOR national benchmarks applied to TX workforce size.
-- **Lifetime earnings** assume 2% annual raises for all career paths over 30 years, compounded. The gap is not sensitive to the raise assumption — it persists at any reasonable growth rate.
-
-## What Needs to Change
-
-The 90th Texas Legislature can fix this by raising the Medicaid attendant wage floor to **$15/hr** and indexing it to inflation so it never falls behind again.
-
-- **$15/hr** restores purchasing power to approximately 2015 levels and approaches the provider breakeven threshold (~$15.50/hr)
-- **Estimated cost:** ~$4.5B per biennium across all funds (~$1.8B from the state's share)
-- **For context:** this is *less* than the $4.8B that care workers already lose every year in below-market wages
-
-The state doesn't need to match Buc-ee's. It needs to stop asking caregivers to finance Medicaid with their poverty.
+</details>
 
 ## License
 
-This work is licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) — free to share and adapt, but **you must give credit**. Suggested citation:
+This work is licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) — free to share and adapt, but **you must give credit**.
 
-> Ortiz, C. (2026). "The Invisible Pay Cut: How Texas's $10.60 Wage Assumption Drives a 100,000-Person Waitlist." Data science investigation.
+> Ortiz, C. (2026). "The Invisible Pay Cut: How Texas's $10.60 Wage Assumption Drives a 100,000-Person Waitlist." Data science investigation. https://github.com/Promeos/texas-caregiver-crisis
 
 ---
 
