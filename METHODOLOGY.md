@@ -1,139 +1,134 @@
 # Methodology
 
-This document describes the data sources, calculations, and assumptions behind every headline figure in this investigation.
+Audit date: 2026-03-15
+
+This document records only the figures in this repo that are supported by checked-in files or by deterministic calculations with stated inputs. If a claim depends on external reporting, manually entered notebook values, or unsourced scenario assumptions, it is excluded from the audited headline set.
+
+See [VERIFICATION.md](VERIFICATION.md) for the audit log and [results_summary.json](results_summary.json) for the machine-readable headline figures.
+
+---
+
+## Audited Scope
+
+| Figure | Status | Support |
+|--------|--------|---------|
+| HHSC base target wage = **$10.60/hr** | Verified source observation | Checked-in HHSC workbook, sheet `Fiscal by Program`, cell `B7` |
+| BLS Texas SOC 31-1120 hourly mean = **$12.19/hr** | Verified source observation | Checked-in processed OEWS extract |
+| BLS Texas SOC 31-1120 employment = **314,610** | Verified source observation | Checked-in processed OEWS extract |
+| 2025 CPI-equivalent of `$10.60` = **$14.37/hr** | Derived estimate | Deterministic formula using the repo's explicit 2015 base-year assumption |
+| 2025 real purchasing power of `$10.60` = **$7.82/hr** in 2015 dollars | Derived estimate | Same CPI series and same stated assumption |
+
+The last two figures are not direct source observations. They are outputs of a documented calculation that currently treats `$10.60` as a 2015-dollar benchmark.
 
 ---
 
 ## Data Sources
 
-| Source | What We Used | Access Method | As Of |
-|--------|-------------|---------------|-------|
-| HHSC PFD Wage Calculator | $10.60 target wage (cell B7), per-service wage assumptions | Direct download (XLSX) | Feb 7, 2025 |
-| HHSC PFD LTSS Rate Tables | Current Medicaid daily/hourly rates by program and LON | Direct download (XLSX) | SFY 2026-27 |
-| BLS OEWS (Texas) | Home health aide employment (314,610) and wages ($12.19 mean) | API v2, SOC 31-1120 | May 2024 |
-| BLS CPI-U South | Inflation data, series CUUR0300SA0 | API v2 | 2010-2025 |
-| LBB Rider Packets | HCS slots funded per biennium, waitlist size | Public PDFs, 83rd-88th Legislatures | 2014-2025 |
-| NCI Staff Stability Survey | National DSP turnover rate (43.5%) | Published report | 2023 |
-| Market wage data | Buc-ee's ($18), Amazon ($17.50), H-E-B ($15), Walmart ($14) | Public job postings, news reporting | 2024-2025 |
+| Source file | What is used | Notes |
+|-------------|--------------|-------|
+| `data/raw/rates/ltss-personal-attendant-base-wage-calculator.xlsx` | HHSC target wage | Audited value is sheet `Fiscal by Program`, cell `B7` |
+| `data/processed/bls_oews_texas_2024.csv` | Texas OEWS wage and employment values for SOC `31-1120` | Official occupation title is `Home Health and Personal Care Aides` |
+| `tests/test_headline_figures.py` | Offline CPI verification inputs | Uses annual CPI values `234.812` for 2015 and `318.451` for 2025 |
+| `data/raw/external/lbb-88th-article-ii-rider.txt` | Audit-only disconfirmation file | Used only to show that earlier `3,292` slot claims were misapplied |
+| `data/raw/external/nci-state-of-the-workforce-2023.txt` | Audit-only disconfirmation file | Used only to show that earlier turnover claims were misstated or overgeneralized |
 
-Full source list with direct URLs: [references/sources.yaml](references/sources.yaml)
+The source index with original URLs is maintained in [references/sources.yaml](references/sources.yaml).
 
 ---
 
-## Calculations
+## Verified Source Observations
 
-### Inflation Adjustment ($14.37 and $7.82)
+### HHSC target wage
 
-**Series:** BLS CPI-U, South Region, All Items (CUUR0300SA0) — not seasonally adjusted.
+The repo verifies the published HHSC base target wage directly from the checked-in workbook:
 
-**Base year:** 2015 (conservative estimate of when HHSC locked $10.60 into rate methodology).
+- File: `data/raw/rates/ltss-personal-attendant-base-wage-calculator.xlsx`
+- Sheet: `Fiscal by Program`
+- Cell: `B7`
+- Verified value: **$10.60/hr**
 
-**"What $10.60 should be today":**
+This is tested in `tests/test_headline_figures.py::TestSourceData::test_hhsc_target_wage_cell_b7_is_10_60`.
 
-```
-should_be = $10.60 * (CPI_2025 / CPI_2015)
-          = $10.60 * (318.5 / 234.8)
-          ≈ $14.37
-```
+### BLS Texas wage and employment context
 
-**"What $10.60 actually buys"** (real purchasing power in 2015 dollars):
+The repo verifies the following values from `data/processed/bls_oews_texas_2024.csv` for SOC `31-1120`:
 
-```
-real_value = $10.60 * (CPI_2015 / CPI_2025)
-           = $10.60 * (234.8 / 318.5)
-           ≈ $7.82
-```
+- Hourly mean wage: **$12.19/hr**
+- Employment: **314,610**
+- Occupation title: **Home Health and Personal Care Aides**
 
-This is the same method the federal government uses to adjust Social Security payments.
+This is tested in `tests/test_headline_figures.py::TestSourceData::test_bls_soc_31_1120_matches_processed_extract`.
 
-**Code:** [src/texas_hhcs/cpi.py](src/texas_hhcs/cpi.py) — `deflate_wage()`, `build_erosion_table()`
+Important scope note: SOC `31-1120` is broader than Medicaid-funded waiver staff alone. Any statewide scaling based on that occupation should be treated as an upper bound, not a direct count of Medicaid-funded workers.
 
-### Statewide Wage Gap (~$4.8 billion/yr)
+---
 
-```
-gap_per_worker = ($18.00 - $10.60) * 2,080 hours/yr = $15,392
-statewide      = $15,392 * 314,610 workers = ~$4.84 billion
-```
+## Derived Estimates
 
-- $18.00 = Buc-ee's entry-level wage (publicly posted)
-- $10.60 = HHSC wage assumption (PFD Wage Calculator cell B7)
-- 314,610 = BLS OEWS May 2024 Texas employment for SOC 31-1120
-- 2,080 = standard full-time hours (40 hrs/wk * 52 wks)
+### CPI adjustment to 2025 dollars
 
-### Waitlist Timeline (87 years)
+The repo currently models the frozen `$10.60` wage as a **2015-dollar benchmark**. That base year is an explicit repo assumption used for the audited inflation calculation. It is **not** a verified claim that HHSC first adopted the figure in exactly 2015.
 
-```
-years = ~130,000 people / ~1,500 slots per year ≈ 87
-```
+The offline verification fixture in `tests/test_headline_figures.py` uses:
 
-- 130,000 = approximate combined IDD waiver interest list (HCS, TxHmL, CLASS, DBMD) as of 88th Legislature, before HHSC list cleanup reduced it to ~100,000
-- 1,500 = average slots funded per year across the 83rd-88th Legislatures (total ~13,817 slots / ~10 years)
+- `CPI_2015 = 234.812`
+- `CPI_2025 = 318.451`
 
-The README rounds to "87 years" based on the pre-cleanup list. Using the post-cleanup 100,000 figure yields ~67 years.
+Under that stated assumption:
 
-### Lifetime Earnings Gap ($624,424)
-
-30-year career comparison with 2% annual raises for both paths:
-
-```
-cumulative = sum(start_wage * 2,080 * 1.02^(year-1) for year in 1..30)
-
-Care worker:  $10.60 start → $896,739 cumulative
-Buc-ee's:     $18.00 start → $1,521,163 cumulative
-Gap:          $624,424
+```text
+2025 equivalent = $10.60 * (CPI_2025 / CPI_2015)
+                = $10.60 * (318.451 / 234.812)
+                = $14.37
 ```
 
-The gap is not sensitive to the raise rate — at 0% raises it's $462K; at 3% it's $696K.
-
-### Staffing Model (24/7 Coverage)
-
-A single staff position covering 24 hours/day, 7 days/week requires:
-
-```
-base FTEs    = 168 hrs/wk / 40 hrs = 4.2
-with absence = 4.2 * 1.18 = ~4.96 FTEs
+```text
+2025 real value in 2015 dollars = $10.60 * (CPI_2015 / CPI_2025)
+                                = $10.60 * (234.812 / 318.451)
+                                = $7.82
 ```
 
-The 1.18 absence factor accounts for PTO, sick time, and training days.
+These calculations are verified by:
 
-**Code:** [src/texas_hhcs/staffing.py](src/texas_hhcs/staffing.py) — `StaffingModel`
+- `tests/test_headline_figures.py::TestInflationErosion::test_should_be_wage_approximately_14_37`
+- `tests/test_headline_figures.py::TestInflationErosion::test_real_purchasing_power_approximately_7_82`
 
-### Turnover Cost ($2,500 per hire)
-
-Per-hire replacement cost of $2,500 includes recruiting, background checks, onboarding, and training. Source: NCI and PHI national estimates. Full turnover cost per 4-bed house (~$14,250/yr) adds overtime coverage during vacancies and quality/safety incident costs.
+The implementation used by the repo lives in `src/texas_hhcs/cpi.py`, and the machine-readable outputs are written to `results_summary.json`.
 
 ---
 
 ## Figure Audit
 
-Every headline number traced to its source, formula, generating code, and verification test.
+| Figure | Type | Evidence | Verified by |
+|--------|------|----------|-------------|
+| **$10.60/hr** | Source observation | HHSC workbook cell `B7` | `test_hhsc_target_wage_cell_b7_is_10_60` |
+| **$12.19/hr** | Source observation | `data/processed/bls_oews_texas_2024.csv` | `test_bls_soc_31_1120_matches_processed_extract` |
+| **314,610** | Source observation | `data/processed/bls_oews_texas_2024.csv` | `test_bls_soc_31_1120_matches_processed_extract` |
+| **$14.37/hr** | Derived estimate | CPI formula shown above, using stated 2015 base-year assumption | `test_should_be_wage_approximately_14_37` |
+| **$7.82/hr** | Derived estimate | CPI formula shown above, using stated 2015 base-year assumption | `test_real_purchasing_power_approximately_7_82` |
 
-| Figure | Type | Formula / Source | Generated In | Verified By |
-|--------|------|-----------------|--------------|-------------|
-| **$10.60/hr** | Source observation | HHSC PFD Wage Calculator, cell B7 | `00_data_collection.ipynb` cell 3 | `test_headline_figures.py` |
-| **$7.82/hr** | Derived estimate | $10.60 * (CPI_2015 / CPI_2025) | `03_wage_stagnation.ipynb` cell 5 | `TestInflationErosion::test_real_purchasing_power_approximately_7_82` |
-| **$14.37/hr** | Derived estimate | $10.60 * (CPI_2025 / CPI_2015) | `03_wage_stagnation.ipynb` cell 7 | `TestInflationErosion::test_should_be_wage_approximately_14_37` |
-| **$12.19/hr** | Source observation | BLS OEWS May 2024, SOC 31-1120, hourly mean | `00_data_collection.ipynb` cell 10 | `bls_oews_texas_2024.csv` |
-| **314,610 workers** | Source observation | BLS OEWS May 2024, SOC 31-1120, employment | `00_data_collection.ipynb` cell 10 | `bls_oews_texas_2024.csv` |
-| **~$4.8B/yr wage gap** | Modeled comparison | ($18.00 - $10.60) * 2,080 hrs * 314,610 | `03_wage_stagnation.ipynb` cell 9 | `TestStatewideWageGap::test_annual_gap_approximately_4_8b` |
-| **100,000+ waitlist** | Source observation | HHSC Interest List data, LBB rider packets | `02_waitlist_access.ipynb` cell 3 | LBB 88th Legislature rider packet |
-| **87 years** | Derived estimate | ~130,000 / ~1,500 slots per year | `02_waitlist_access.ipynb` cell 4 | `TestWaitlistTimeline::test_years_to_clear` |
-| **~50% turnover** | Source observation | NCI Staff Stability Survey 2023 | `02_waitlist_access.ipynb` cell 6 | National Core Indicators report |
-| **$624,424 gap** | Modeled comparison | 30-yr cumulative at 2% raises, $10.60 vs $18.00 | `03_wage_stagnation.ipynb` cell 12 | `TestLifetimeEarningsGap::test_gap_approximately_624k` |
+For the current audited headline set, only the figures above should be treated as verified.
 
-**Type key:**
-- **Source observation** — read directly from a government dataset or official report
-- **Derived estimate** — calculated from source data using a documented formula (e.g., inflation adjustment)
-- **Modeled comparison** — scenario built on stated assumptions (e.g., career length, raise rate, employer comparison)
+---
+
+## Excluded From The Audited Headline Set
+
+The following material exists elsewhere in the repo but is not part of the audited headline set in this document:
+
+- Retail benchmark comparisons such as Buc-ee's, Amazon, H-E-B, Walmart, and any statewide wage-gap figure built from them
+- Lifetime earnings comparisons such as the `$624,424` 30-year gap
+- Provider breakeven, operating-margin, occupancy, overhead, and overtime scenario models
+- Waitlist size, years-to-clear, or slot-funding timeline claims that are based on manually entered notebook values
+- Turnover-rate or turnover-cost claims that rely on national context plus local assumptions
+- Policy-cost estimates, replacement-wage scenarios, or budget recommendations
+
+Those items may be useful exploratory work, but they are not source-audited headline evidence unless they are backed by checked-in source tables and explicit verification tests.
 
 ---
 
 ## Limitations
 
-- **BLS wage data is May 2024**, not real-time. Wages may have shifted since publication.
-- **The $10.60 base year is estimated at ~2015.** The exact year HHSC locked this number into rate methodology is not publicly documented. We use 2015 as a conservative estimate; if the actual year is earlier, the erosion is worse.
-- **Turnover cost ($2,500/hire) and rate (~50%) are from national surveys** (NCI 2023, PHI), not Texas-specific data. Texas likely tracks at or above national averages given its below-average wages.
-- **Buc-ee's as a comparison is illustrative.** It represents the upper end of entry-level retail. Other retailers pay less ($14-17/hr). The core finding — that Medicaid-funded care work pays less than entry-level retail — holds regardless of which retailer is used.
-- **Waitlist slot pace (1,500/yr) is averaged** across the 83rd-88th Legislatures. Individual sessions funded between 1,375 and 3,292 slots.
-- **The wage gap calculation assumes all 314,610 home health aides are Medicaid-funded.** In practice, some work in private-pay settings. This makes our $4.8B figure an upper bound.
-- **Provider overhead ($45,000/yr for a 4-bed home) is a conservative estimate** based on industry reporting, not audited financial data from specific providers.
+- The BLS wage and employment figures in this repo are for **May 2024**, not a live series.
+- The inflation-derived figures depend on the repo's explicit **2015 base-year assumption** for the frozen `$10.60` benchmark.
+- SOC `31-1120` covers **Home Health and Personal Care Aides**, which is broader than Medicaid-funded waiver staff alone.
+- Older notebooks and report assets may still contain exploratory or stale claims. For audited headline figures, treat `README.md`, `VERIFICATION.md`, `results_summary.json`, and this file as the authoritative set.
