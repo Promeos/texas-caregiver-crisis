@@ -1,5 +1,5 @@
 {
-  "_generated": "2026-03-15T04:24:18.068734+00:00",
+  "_generated": "2026-03-15T22:26:11.304954+00:00",
   "_description": "Machine-verifiable summary of headline figures. Run `uv run python scripts/generate_results.py` to regenerate.",
   "figures": {
     "hhsc_target_wage": {
@@ -29,37 +29,27 @@
       "value": 12.19,
       "unit": "$/hr",
       "type": "source_observation",
-      "source": "BLS OEWS May 2024, SOC 31-1120"
+      "source": "BLS OEWS May 2024, SOC 31-1120 (Home Health and Personal Care Aides)"
     },
     "bls_tx_hha_employment": {
       "value": 314610,
       "unit": "workers",
       "type": "source_observation",
-      "source": "BLS OEWS May 2024, SOC 31-1120"
+      "source": "BLS OEWS May 2024, SOC 31-1120 (Home Health and Personal Care Aides)"
     },
     "statewide_annual_wage_gap": {
       "value": 4842477120.0,
       "unit": "$/yr",
-      "type": "modeled_comparison",
-      "formula": "($18.0 - $10.6) * 2080 hrs * 314610 workers"
-    },
-    "waitlist_size": {
-      "value": 130000,
-      "unit": "people",
-      "type": "source_observation",
-      "source": "HHSC Interest List, LBB rider packets (pre-cleanup)"
-    },
-    "years_to_clear_waitlist": {
-      "value": 87.0,
-      "unit": "years",
-      "type": "derived_estimate",
-      "formula": "130000 / 1500 slots per year"
+      "type": "illustrative_upper_bound",
+      "formula": "($18.0 - $10.6) * 2080 hrs * 314610 workers",
+      "note": "Illustrative ceiling: assumes every worker in BLS SOC 31-1120 is full-time, affected by the HHSC base wage, and comparable to the retail benchmark."
     },
     "lifetime_earnings_gap": {
       "value": 624424.0,
       "unit": "$",
-      "type": "modeled_comparison",
-      "formula": "30-year cumulative at 2% raises, $10.6 vs $18.0"
+      "type": "illustrative_scenario",
+      "formula": "30-year cumulative at 2% raises, $10.6 vs $18.0",
+      "note": "Illustrative career comparison, not an observed longitudinal earnings dataset."
     },
     "ftes_for_24_7_coverage": {
       "value": 4.96,

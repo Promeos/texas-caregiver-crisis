@@ -1,6 +1,32 @@
 # Texas HHCS Investigation — Source Index
 # All sources used in analysis must be logged here with URLs and access dates.
 
+core_analysis:
+  - name: "HHSC PFD Rate Tables"
+    url: "https://pfd.hhs.texas.gov/rate-tables"
+    type: rate_source
+    description: "Landing page for the Personal Attendant Base Wage Calculator and LTSS rate tables used in data/raw/rates/"
+
+  - name: "BLS Public Data API v2"
+    url: "https://www.bls.gov/developers/api_signature_v2.htm"
+    type: api
+    description: "API used to retrieve OEWS and CPI series in the notebooks and scripts"
+
+  - name: "BLS Texas OEWS State Profile"
+    url: "https://www.bls.gov/oes/current/oes_tx.htm"
+    type: labor_data
+    description: "Official Texas OEWS tables; SOC 31-1120 is Home Health and Personal Care Aides"
+
+  - name: "LBB 88th Legislature Article II Rider Comparison Packet"
+    url: "https://www.lbb.texas.gov/Documents/Appropriations_Bills/88/Initial_Dockets/Article%20II_Rider.pdf"
+    type: budget
+    description: "Downloaded during audit; confirms 3,292 refers to Texas Home Living end-of-year waiver slots"
+
+  - name: "NCI State of the Workforce in 2023 Survey Report"
+    url: "https://idd.nationalcoreindicators.org/wp-content/uploads/2024/11/2023-NCI-IDD-SoTW_241126_FINAL.pdf"
+    type: workforce_report
+    description: "Downloaded during audit; reports a 39.7% weighted average turnover ratio across participating states"
+
 government:
   - name: "HHSC ICF/IID Provider Page"
     url: "https://www.hhs.texas.gov/providers/long-term-care-providers/intermediate-care-facilities-icfiid"
@@ -42,7 +68,7 @@ legislative:
   - name: "LBB 88th Legislature Rider Packet — Article II"
     url: "https://www.lbb.texas.gov/Documents/Appropriations_Bills/88/Initial_Dockets/Article%20II_Rider.pdf"
     type: budget
-    description: "2024-25 biennium rider comparisons showing waiver slot funding ($96M for 3,292 slots)"
+    description: "2024-25 biennium rider comparison packet; audit review showed the 3,292 figure belongs to Texas Home Living end-of-year waiver slots, not HCS new annual slots"
 
   - name: "Texas Comptroller Annual Cash Report 2016"
     url: "https://comptroller.texas.gov/transparency/reports/cash-report/2016/96-368.pdf"

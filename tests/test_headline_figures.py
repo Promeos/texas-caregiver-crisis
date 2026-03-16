@@ -4,12 +4,22 @@ Each test locks down a key claim to its source data, so any data update
 that changes a headline number is caught immediately.
 """
 
+from pathlib import Path
+
 import pandas as pd
 import pytest
+from openpyxl import load_workbook
 
 from texas_hhcs.cpi import deflate_wage
 
 # -- Constants from the investigation --
+ROOT = Path(__file__).resolve().parent.parent
+RAW_WAGE_CALCULATOR = (
+    ROOT / "data" / "raw" / "rates" / "ltss-personal-attendant-base-wage-calculator.xlsx"
+)
+PROCESSED_BLS = ROOT / "data" / "processed" / "bls_oews_texas_2024.csv"
+LBB_RIDER_TEXT = ROOT / "data" / "raw" / "external" / "lbb-88th-article-ii-rider.txt"
+NCI_WORKFORCE_TEXT = ROOT / "data" / "raw" / "external" / "nci-state-of-the-workforce-2023.txt"
 HHSC_WAGE = 10.60
 BUCEES_WAGE = 18.00
 TX_HHA_EMPLOYMENT = 314_610
@@ -46,18 +56,35 @@ class TestInflationErosion:
         assert 7.50 < real_value < 8.10, f"Expected ~$7.82, got ${real_value:.2f}"
 
 
-class TestWaitlistTimeline:
-    """100,000+ waitlist / ~1,500 slots per year = ~87 years."""
+class TestSourceData:
+    """Source-backed figures should come from checked-in data files."""
 
-    def test_years_to_clear(self):
-        waitlist = 130_000
-        slots_per_year = 1_500
-        years = waitlist / slots_per_year
-        assert 80 < years < 95, f"Expected ~87 years, got {years:.0f}"
+    def test_hhsc_target_wage_cell_b7_is_10_60(self):
+        wb = load_workbook(RAW_WAGE_CALCULATOR, data_only=True, read_only=True)
+        ws = wb["Fiscal by Program"]
+        assert ws["B7"].value == pytest.approx(HHSC_WAGE)
+
+    def test_bls_soc_31_1120_matches_processed_extract(self):
+        df_bls = pd.read_csv(PROCESSED_BLS)
+        soc_311120 = df_bls[df_bls["soc_code"] == "31-1120"]
+        assert set(soc_311120["occupation"].unique()) == {"Home Health and Personal Care Aides"}
+
+        measures = soc_311120.set_index("measure")["value"]
+        assert measures["hourly_mean"] == pytest.approx(12.19)
+        assert int(measures["employment"]) == TX_HHA_EMPLOYMENT
+
+    def test_lbb_3292_figure_is_for_txhml_not_hcs(self):
+        lbb_text = LBB_RIDER_TEXT.read_text()
+        assert "Strategy A.3.4, Texas Home Living" in lbb_text
+        assert "fiscal year 2025 for 3,292 end-of-year waiver slots." in lbb_text
+
+    def test_nci_weighted_average_turnover_ratio_is_39_7(self):
+        nci_text = NCI_WORKFORCE_TEXT.read_text()
+        assert "weighted average turnover ratio was 39.7%." in nci_text
 
 
 class TestLifetimeEarningsGap:
-    """30-year career comparison: care worker vs retail."""
+    """Illustrative 30-year career comparison: care worker vs retail."""
 
     def test_gap_approximately_624k(self):
         multipliers = [(1 + ANNUAL_RAISE) ** (y - 1) for y in range(1, CAREER_YEARS + 1)]
@@ -68,7 +95,7 @@ class TestLifetimeEarningsGap:
 
 
 class TestStatewideWageGap:
-    """314,610 workers x ($18.00 - $10.60) x 2,080 hours = ~$4.8B."""
+    """Upper-bound scenario using all BLS SOC 31-1120 workers."""
 
     def test_annual_gap_approximately_4_8b(self):
         gap_per_worker = (BUCEES_WAGE - HHSC_WAGE) * HOURS_PER_YEAR

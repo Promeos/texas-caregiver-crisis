@@ -28,8 +28,6 @@ BUCEES_WAGE = 18.00
 HOURS_PER_YEAR = 2_080
 CAREER_YEARS = 30
 ANNUAL_RAISE = 0.02
-WAITLIST_SIZE = 130_000
-SLOTS_PER_YEAR = 1_500
 
 
 def main():
@@ -55,9 +53,6 @@ def main():
     tx_employment = float(hha["employment"])
     gap_per_worker = (BUCEES_WAGE - HHSC_WAGE) * HOURS_PER_YEAR
     statewide_gap = gap_per_worker * tx_employment
-
-    # Waitlist timeline
-    years_to_clear = WAITLIST_SIZE / SLOTS_PER_YEAR
 
     # Staffing model
     model = StaffingModel(residents=4, staff_per_shift=1, hourly_wage=HHSC_WAGE)
@@ -94,42 +89,39 @@ def main():
                 "value": float(hha["hourly_mean"]),
                 "unit": "$/hr",
                 "type": "source_observation",
-                "source": "BLS OEWS May 2024, SOC 31-1120",
+                "source": "BLS OEWS May 2024, SOC 31-1120 (Home Health and Personal Care Aides)",
             },
             "bls_tx_hha_employment": {
                 "value": int(tx_employment),
                 "unit": "workers",
                 "type": "source_observation",
-                "source": "BLS OEWS May 2024, SOC 31-1120",
+                "source": "BLS OEWS May 2024, SOC 31-1120 (Home Health and Personal Care Aides)",
             },
             "statewide_annual_wage_gap": {
                 "value": round(statewide_gap, 0),
                 "unit": "$/yr",
-                "type": "modeled_comparison",
+                "type": "illustrative_upper_bound",
                 "formula": (
                     f"(${BUCEES_WAGE} - ${HHSC_WAGE}) "
                     f"* {HOURS_PER_YEAR} hrs * {int(tx_employment)} workers"
                 ),
-            },
-            "waitlist_size": {
-                "value": WAITLIST_SIZE,
-                "unit": "people",
-                "type": "source_observation",
-                "source": "HHSC Interest List, LBB rider packets (pre-cleanup)",
-            },
-            "years_to_clear_waitlist": {
-                "value": round(years_to_clear, 0),
-                "unit": "years",
-                "type": "derived_estimate",
-                "formula": f"{WAITLIST_SIZE} / {SLOTS_PER_YEAR} slots per year",
+                "note": (
+                    "Illustrative ceiling: assumes every worker in BLS SOC 31-1120 is "
+                    "full-time, affected by the HHSC base wage, and comparable to the "
+                    "retail benchmark."
+                ),
             },
             "lifetime_earnings_gap": {
                 "value": round(retail_total - care_total, 0),
                 "unit": "$",
-                "type": "modeled_comparison",
+                "type": "illustrative_scenario",
                 "formula": (
                     f"30-year cumulative at {ANNUAL_RAISE:.0%} raises, "
                     f"${HHSC_WAGE} vs ${BUCEES_WAGE}"
+                ),
+                "note": (
+                    "Illustrative career comparison, not an observed longitudinal "
+                    "earnings dataset."
                 ),
             },
             "ftes_for_24_7_coverage": {
