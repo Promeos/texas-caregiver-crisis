@@ -1,0 +1,9 @@
+program,enhancement_type,participating_providers,total_contracted_providers,pct_participating,pct_utilization,wage_diff_pct_low,wage_diff_pct_high
+Nursing Facility (DCSE),Direct Care Staff Enhancement,1107,1187,0.93,0.902,,
+PHC_CAS_FC,Attendant Compensation Rate Enhancement,1840,2096,0.88,0.9611,0.01,0.04
+DAHS,Attendant Compensation Rate Enhancement,252,282,0.89,0.9043,0.01,0.04
+RC,Attendant Compensation Rate Enhancement,20,52,0.38,0.3472,,
+CLASS,Attendant Compensation Rate Enhancement,103,116,0.89,0.6642,0.01,0.04
+DBMD,Attendant Compensation Rate Enhancement,37,49,0.76,0.8138,,
+ICF_IID,Attendant Compensation Rate Enhancement,88,125,0.7,0.6806,0.07,0.07
+HCS_TxHmL,Attendant Compensation Rate Enhancement,241,696,0.35,0.5294,0.16,0.16

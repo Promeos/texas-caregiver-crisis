@@ -31,6 +31,10 @@ build: setup
     uv run jupyter nbconvert --to notebook --execute notebooks/00_data_collection.ipynb --output-dir notebooks/
     uv run jupyter nbconvert --to notebook --execute notebooks/01_wage_policy_analysis.ipynb --output-dir notebooks/
     uv run jupyter nbconvert --to notebook --execute notebooks/03_wage_stagnation.ipynb --output-dir notebooks/
+    uv run jupyter nbconvert --to notebook --execute notebooks/05_rate_policy_change.ipynb --output-dir notebooks/
+    uv run jupyter nbconvert --to notebook --execute notebooks/06_national_wage_comparison.ipynb --output-dir notebooks/
+    uv run jupyter nbconvert --to notebook --execute notebooks/07_rate_enhancement_effectiveness.ipynb --output-dir notebooks/
+    uv run jupyter nbconvert --to notebook --execute notebooks/08_budget_funding_context.ipynb --output-dir notebooks/
     uv run python scripts/generate_verified_datasets.py
     uv run python scripts/generate_results.py
     uv run python scripts/generate_verified_readme_visuals.py

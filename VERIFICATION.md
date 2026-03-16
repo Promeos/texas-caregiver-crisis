@@ -1,6 +1,6 @@
 # Verification Notes
 
-Audit date: 2026-03-15
+Audit date: 2026-03-16
 
 This note records which figures and datasets in the repo are directly supported by checked-in source files, which claims remain excluded from the audited set, and where earlier waitlist/operator-cost assertions were corrected.
 
@@ -39,6 +39,26 @@ Important scope note: the official BLS occupation title for SOC `31-1120` is **H
 | Community ICF/IID small-home LON 1 average individuals served per month | **999** | `hhsc_community_icf_iid_costs_by_lonsize_fy2023.csv` |
 | ICF/IID non-state community residential LON 1 small-home attendant component | **$60.3944** | `hhsc_residential_rate_components.csv` |
 | HCS supervised living LON 5 attendant component | **$85.74** | `hhsc_residential_rate_components.csv` |
+| Rider 23 new wage assumption | **$13.00/hr** | `verified_datasets.RIDER_23_WAGE` (from `9-1-2025-payment-rate-actions.pdf`) |
+| Rider 23 PTB facility | **15%** | `verified_datasets.RIDER_23_PTB_FACILITY` |
+| Rider 23 PTB non-facility | **14%** | `verified_datasets.RIDER_23_PTB_NON_FACILITY` |
+| HCS SL LON 1 proposed rate | **$163.66/day** | `hhsc_rate_comparison_old_vs_new.csv` |
+| ICF/IID small LON 1 proposed rate | **$173.61/day** | `hhsc_rate_comparison_old_vs_new.csv` |
+| Wage increase ($10.60 → $13.00) | **$2.40/hr (+22.6%)** | Derived from audited constants |
+| New wage vs CPI parity gap | **-$1.38/hr** | $14.38 − $13.00 |
+| TX HHA/PCA median wage (BLS OEWS May 2023) | **$10.83/hr** | `aspe_state_dcw_wages.csv` |
+| TX HHA/PCA wage gap vs entry-level — **largest nationally** | **$6.77/hr** | `aspe_state_dcw_wages.csv` |
+| National home care median wage (2024) | **$16.77/hr** | `phi_national_dcw_wage_trends.csv` |
+| National all-DCW median wage (2024) | **$17.36/hr** | `phi_national_dcw_wage_trends.csv` |
+| DCSE nursing facility participation rate | **93%** | `hhsc_acre_participation.csv` |
+| ACRE HCS/TxHmL participation rate | **35%** (lowest) | `hhsc_acre_participation.csv` |
+| ACRE HCS/TxHmL wage differential | **16%** | HHSC Rate Enhancement Evaluation p.19 |
+| ICF/IID ACRE participation rate | **70%** | `hhsc_acre_participation.csv` |
+| Total ACRE recoupments (2019-20) | **$14,894,648** | `hhsc_acre_recoupments.csv` |
+| Attendant base wage: latest entry (2023-09-01) | **$10.60** | `hhsc_acre_wage_history.csv` |
+| Medicaid federal funds SFY 2024 | **$25.5B** (93% of federal HHS) | `hhsc_federal_funds_summary.csv` |
+| HHSC federal funds SFY 2024 | **$26,869,487,588** | `hhsc_federal_funds_summary.csv` |
+| TX HHS system: 55% federally funded (adjusted TOTAL per PDF footnote 2) | **$27.4B of $49.5B** | `hhsc_federal_funds_summary.csv` |
 
 ## Not currently verified in-repo
 

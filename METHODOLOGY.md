@@ -1,6 +1,6 @@
 # Methodology
 
-Audit date: 2026-03-15
+Audit date: 2026-03-16
 
 This document records only the figures and datasets in this repo that are supported by checked-in source files or by deterministic calculations with stated inputs. If a claim depends on external reporting, manually entered notebook values, or unsourced scenario assumptions, it is outside the audited set.
 
@@ -21,6 +21,18 @@ See `VERIFICATION.md` for the audit log and `results_summary.json` for the machi
 | HHSC community ICF/IID cost table by LON and facility size | Verified source-backed dataset | Parsed from checked-in HHSC cost comparison report |
 | HHSC HCS/ICF cost-report category definitions | Verified source-backed dataset | Extracted from checked-in 2024 HHSC cost-report instructions |
 | HHSC HCS `SL/RSS` and community ICF/IID residential reimbursement components | Verified source-backed dataset | Parsed from checked-in processed HHSC rate workbook extract |
+| Rider 23 wage increase: $10.60 → **$13.00/hr**, PTB 15%/14% | Verified source observation | `9-1-2025-payment-rate-actions.pdf`, page 3; GAA SB1, 89th Legislature |
+| HCS SL/RSS and ICF/IID old-vs-new rate comparison table | Verified source-backed dataset | Parsed from rate actions PDF and existing rate components |
+| TX HHA/PCA median wage = **$10.83/hr**, wage gap = **$6.77/hr** (largest nationally) | Verified source observation | ASPE Issue Brief Dec 2024, Table A1 |
+| National home care median = **$16.77/hr**, all-DCW median = **$17.36/hr** | Verified source observation | PHI Key Facts 2025 |
+| National DCW wage trends (2014-2024) by setting | Verified source-backed dataset | PHI Key Facts 2025 |
+| ACRE/DCSE participation rates by program (35%-93%) | Verified source observation | HHSC Rate Enhancement Evaluation Oct 2024, Tables 2-3 |
+| ACRE wage differentials by program (1%-16%) | Verified source observation | HHSC Rate Enhancement Evaluation Oct 2024, p.19 |
+| ACRE recoupments 2019-20: **$14.9M** total | Verified derived figure | Sum of Table 4 recoupments |
+| ACRE program funding trend SFY 2019-2024 | Verified source-backed dataset | HHSC Rate Enhancement Evaluation Oct 2024, Table 1 |
+| Attendant base wage history: 5 increases, $5.15 → $10.60 (2000-2023) | Verified source observation | HHSC Rate Enhancement Evaluation Oct 2024, Table 5 |
+| TX HHS federal funding: **$27.4B** of **$49.5B** total (55%, adjusted per PDF footnote 2) | Verified source observation | HHSC Annual Federal Funds Report Dec 2024, Figure 1 |
+| Medicaid = **$25.5B** = 93% of federal HHS funds | Verified source observation | HHSC Annual Federal Funds Report Dec 2024, p.1 |
 
 ## Data Sources
 
@@ -34,6 +46,11 @@ See `VERIFICATION.md` for the audit log and `results_summary.json` for the machi
 | `data/raw/official/2024-hcs-cost-report-instructions.txt` | HHSC HCS cost-report area definitions | Used to verify operator cost-area categories |
 | `data/raw/official/2024-icf-cost-report-instructions.txt` | HHSC ICF/IID cost-report area definitions | Used to verify operator cost-area categories |
 | `data/processed/pfd_wage_calculator_all_services.csv` | HHSC reimbursement components by service line | Used for HCS `SL/RSS` and non-state community ICF/IID residential rate components |
+| `data/raw/rates/9-1-2025-payment-rate-actions.pdf` | Rider 23 rate tables and wage parameters | Tables 1 & 2: proposed HCS SL/RSS and ICF/IID rates effective 9/1/2025 |
+| `data/raw/official/rate-enhancement-evaluation-2024.pdf` | ACRE program evaluation | Tables 1-5: participation, funding, recoupments, wage history |
+| `data/raw/official/annual-federal-funds-report-2024.pdf` | HHSC federal funding breakdown | Figure 1 and p.1: agency funding, Medicaid share |
+| `data/raw/external/aspe-dcw-wages-brief.pdf` | State-by-state HHA/PCA wages | Tables A1/A2: median wages and entry-level gap by state |
+| `data/raw/external/phi-dcw-key-facts-2025.pdf` | National DCW wage trends | 2014-2024 median wages by setting |
 | `data/raw/external/lbb-88th-article-ii-rider.txt` | Audit-only disconfirmation file | Used to show that earlier `3,292` slot claims were misapplied to HCS |
 | `data/raw/external/nci-state-of-the-workforce-2023.txt` | Audit-only disconfirmation file | Used only to show that earlier turnover claims were overstated or overgeneralized |
 
@@ -114,6 +131,15 @@ The output preserves:
 | `hhsc_community_icf_iid_costs_by_lonsize_fy2023.csv` | Source-backed dataset | HHSC cost comparison report | `tests/test_verified_datasets.py` |
 | `hhsc_residential_rate_components.csv` | Source-backed dataset | Processed HHSC rate extract | `tests/test_verified_datasets.py` |
 | `hhsc_cost_report_cost_areas.csv` | Source-backed dataset | HHSC cost-report instructions | `tests/test_verified_datasets.py` |
+| `hhsc_rate_comparison_old_vs_new.csv` | Source-backed dataset | Rate actions PDF + existing rate components | `tests/test_headline_figures.py` (TestRider23RateChange) |
+| `aspe_state_dcw_wages.csv` | Source-backed dataset | ASPE Issue Brief Dec 2024, Tables A1/A2 | `tests/test_headline_figures.py` (TestNationalWageComparison) |
+| `phi_national_dcw_wage_trends.csv` | Source-backed dataset | PHI Key Facts 2025 | `tests/test_headline_figures.py` (TestNationalWageComparison) |
+| `hhsc_acre_participation.csv` | Source-backed dataset | HHSC Rate Enhancement Evaluation Oct 2024 | `tests/test_headline_figures.py` (TestRateEnhancementEvaluation) |
+| `hhsc_acre_program_funding.csv` | Source-backed dataset | HHSC Rate Enhancement Evaluation Oct 2024 | `tests/test_headline_figures.py` (TestRateEnhancementEvaluation) |
+| `hhsc_acre_recoupments.csv` | Source-backed dataset | HHSC Rate Enhancement Evaluation Oct 2024 | `tests/test_headline_figures.py` (TestRateEnhancementEvaluation) |
+| `hhsc_acre_wage_history.csv` | Source-backed dataset | HHSC Rate Enhancement Evaluation Oct 2024 | `tests/test_headline_figures.py` (TestRateEnhancementEvaluation) |
+| `hhsc_federal_funds_summary.csv` | Source-backed dataset | HHSC Annual Federal Funds Report Dec 2024 | `tests/test_headline_figures.py` (TestFederalFundingContext) |
+| `results_summary.json` Rider 23, ASPE, PHI, ACRE, federal funding figures | Source observations and derived figures | Multiple HHSC/federal sources | `tests/test_headline_figures.py` |
 
 ## Excluded From the Audited Set
 

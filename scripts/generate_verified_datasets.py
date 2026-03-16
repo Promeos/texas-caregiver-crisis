@@ -3,6 +3,12 @@
 from pathlib import Path
 
 from texas_hhcs.verified_datasets import (
+    build_acre_evaluation,
+    build_acre_program_funding,
+    build_acre_recoupments,
+    build_acre_wage_history,
+    build_aspe_state_wages,
+    build_federal_funds_summary,
     build_cost_report_cost_areas,
     build_icf_community_costs_by_lon,
     build_interest_list_closure_summary,
@@ -10,6 +16,8 @@ from texas_hhcs.verified_datasets import (
     build_interest_list_releases_summary,
     build_interest_list_totals,
     build_interest_list_years_on_list,
+    build_phi_national_dcw_trends,
+    build_proposed_rate_comparison,
     build_residential_rate_components,
     build_setting_costs,
 )
@@ -64,6 +72,38 @@ def main() -> None:
     write_csv(
         "hhsc_cost_report_cost_areas.csv",
         build_cost_report_cost_areas(),
+    )
+    write_csv(
+        "hhsc_rate_comparison_old_vs_new.csv",
+        build_proposed_rate_comparison(PROCESSED / "hhsc_residential_rate_components.csv"),
+    )
+    write_csv(
+        "aspe_state_dcw_wages.csv",
+        build_aspe_state_wages(),
+    )
+    write_csv(
+        "phi_national_dcw_wage_trends.csv",
+        build_phi_national_dcw_trends(),
+    )
+    write_csv(
+        "hhsc_acre_participation.csv",
+        build_acre_evaluation(),
+    )
+    write_csv(
+        "hhsc_acre_program_funding.csv",
+        build_acre_program_funding(),
+    )
+    write_csv(
+        "hhsc_acre_recoupments.csv",
+        build_acre_recoupments(),
+    )
+    write_csv(
+        "hhsc_acre_wage_history.csv",
+        build_acre_wage_history(),
+    )
+    write_csv(
+        "hhsc_federal_funds_summary.csv",
+        build_federal_funds_summary(),
     )
 
 
