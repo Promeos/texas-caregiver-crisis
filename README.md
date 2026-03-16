@@ -2,9 +2,9 @@
 
 **How Texas's $10.60 Wage Assumption Shows Up in Public Rate Data**
 
-Texas publishes a **$10.60 an hour** base target wage in the HHSC Personal Attendant Base Wage Calculator. That figure is directly visible in the raw workbook bundled in this repo, and it anchors the audited claim set below.
+More than 314,000 home health and personal care aides work in Texas. The state agency that sets their Medicaid reimbursement rates — the Health and Human Services Commission (HHSC) — publishes a **$10.60 an hour** base target wage in its Personal Attendant Base Wage Calculator. Adjusted for inflation, that figure buys **$7.82 in 2015 dollars**. When a commenter asked HHSC to use independent federal labor market data instead of provider self-reported cost reports, the agency declined — locking in a wage methodology that references only its own outputs.
 
-This repo was audited on 2026-03-15 to separate checked figures from illustrative or stale claims. This README now shows only figures that are either read directly from checked-in source files or derived deterministically from those files with documented formulas. The repo now also includes audited HHSC waitlist datasets and audited HCS/ICF cost datasets, but older waitlist-clearing, turnover, retail-comparison, and policy-brief outputs remain exploratory artifacts. See [VERIFICATION.md](VERIFICATION.md).
+Every figure in this README is either read directly from a checked-in source file or derived deterministically from those files with documented formulas. See [METHODOLOGY.md](METHODOLOGY.md) and [VERIFICATION.md](VERIFICATION.md) for the full audit trail.
 
 ---
 
@@ -48,15 +48,17 @@ The repo now includes source-audited datasets built directly from official HHSC 
 
 ## What the Audited Evidence Supports
 
-The narrow conclusion that survives the audit is straightforward:
+Taken together, the audited evidence tells a consistent story: **the wage assumption that anchors Medicaid reimbursement for Texas's largest direct care workforce has not kept pace with inflation, trails the BLS market mean, and is set by a methodology that was explicitly offered an independent alternative and declined it.**
 
 - HHSC's published calculator still starts from **$10.60/hr**
 - CPI parity from a 2015 base year is about **$14.38/hr**
 - The May 2024 BLS Texas mean for SOC 31-1120 is **$12.19/hr**
+- Even after Rider 23's increase to **$13.00/hr**, the new wage remains **$1.38/hr below** CPI parity
+- Texas has the **largest HHA/PCA wage gap nationally** at **$6.77/hr** below the entry-level benchmark (ASPE Dec 2024)
 - HHSC's latest checked-in interest-list workbook reports **130,764 HCS** names and **117,175 TxHmL** names as of **January 31, 2026**
 - HHSC's audited FY 2023 cost comparison report shows **$5,247.52** per month for **community ICF/IID** and **$6,563.91** for **HCS residential**
 
-The repo now contains source-audited waitlist counts, release tables, legislative allocation data, and HCS/ICF cost tables. It still does not contain a reproducible waitlist-clearing timeline, a provider profit-and-loss model, or a Texas-specific turnover estimate. Those claims remain out of scope until the underlying data and assumptions are checked in and tested.
+The repo contains source-audited waitlist counts, release tables, legislative allocation data, HCS/ICF cost tables, national wage comparisons, and rate enhancement effectiveness data. It does not contain a reproducible waitlist-clearing timeline, a provider profit-and-loss model, or a Texas-specific turnover estimate — those remain out of scope until underlying data and assumptions are checked in and tested.
 
 ---
 
@@ -140,12 +142,16 @@ jupyter lab
 | `00_data_collection` | Downloads wage and rate data | HHSC, BLS | CSV files in `data/processed/` |
 | `01_wage_policy_analysis` | Core wage analysis | Processed CSVs | 6 charts |
 | `03_wage_stagnation` | Inflation erosion and lost wages | BLS inflation API | 4 charts |
+| `05_rate_policy_change` | Rider 23 rate impact analysis | Rate actions PDF, verified datasets | Rate comparison charts |
+| `06_national_wage_comparison` | TX vs national DCW wages | ASPE brief, PHI Key Facts | Wage gap charts |
+| `07_rate_enhancement_effectiveness` | ACRE program evaluation | HHSC rate enhancement report | Participation and funding charts |
+| `08_budget_funding_context` | Federal funding breakdown | HHSC federal funds report | Funding context charts |
 
 **Exploratory notebooks** (in `notebooks/exploratory/`, not in build pipeline):
 
 | Notebook | What it does | Status |
 |---|---|---|
-| `02_waitlist_access` | Waitlist and turnover analysis | Exploratory notebook; not yet rewired to the audited waitlist CSVs |
+| `02_waitlist_access` | Waitlist and turnover analysis | Exploratory; not yet rewired to audited waitlist CSVs |
 | `04_policy_brief` | One-page brief generator | Mixes audited and unaudited figures |
 
 ### Regenerate audited outputs
