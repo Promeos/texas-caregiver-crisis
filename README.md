@@ -1,4 +1,4 @@
-# The Invisible Pay Cut
+# Texas HHCS — ICF/IID & HCS Provider Economics Investigation
 
 **How Texas's $10.60 Wage Assumption Shows Up in Public Rate Data**
 
