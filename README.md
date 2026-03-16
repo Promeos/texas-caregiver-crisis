@@ -23,6 +23,8 @@ This repo was audited on 2026-03-15 to separate checked figures from illustrativ
 | What $10.60 should be in 2025 dollars | **$14.38/hr** | Derived | Same CPI data, calculated forward |
 | Average pay for TX home health and personal care aides | **$12.19/hr** | Source | Bureau of Labor Statistics, OEWS May 2024, SOC 31-1120 |
 | Number of TX home health and personal care aides | **314,610** | Source | Bureau of Labor Statistics, OEWS May 2024, SOC 31-1120 |
+| HHSC rejected BLS data for wage methodology | Declined to use independent labor market data; chose provider self-reported cost reports instead | Source | [Texas Register, Sept 5, 2025, §355.7052 adoption](https://www.sos.state.tx.us/texreg/archive/September52025/Adopted%20Rules/1.ADMINISTRATION.html) |
+| Legislature set $13.00/hr attendant wage assumption | GAA Rider 23 funds the new rate; SB 457 adds nursing facility patient care expense ratio | Source | [SB 1 Rider 23](https://capitol.texas.gov/BillLookup/History.aspx?LegSess=89R&Bill=SB1), [SB 457](https://capitol.texas.gov/BillLookup/History.aspx?LegSess=89R&Bill=SB457), 89th Legislature |
 
 *Type key: **Source** = read directly from a checked-in source file. **Derived** = calculated from source data using a documented formula. See [METHODOLOGY.md](METHODOLOGY.md) and [VERIFICATION.md](VERIFICATION.md) for the audit trail.*
 

@@ -131,6 +131,36 @@ government:
     description: "Utilization anomalies, compliance findings, provider and payment methodology reviews"
 
 regulatory:
+  - name: "1 TAC §355.7052 — Attendant Cost Determination (Adopted Rule, Sept 2025)"
+    url: "https://www.sos.state.tx.us/texreg/archive/September52025/Adopted%20Rules/1.ADMINISTRATION.html"
+    pdf_url: "https://www.sos.state.tx.us/texreg/pdf/backview/0905/0905adop.pdf"
+    type: adopted_rule
+    accessed: "2026-03-16"
+    effective_date: "2025-09-01"
+    published_date: "2025-09-05"
+    register_volume: 50
+    register_number: 36
+    description: "New rule governing attendant cost component for all LTSS programs; encodes $13/hr wage and 14%/15% payroll ratios per GAA Rider 23"
+    notes: >
+      HHSC declined commenter request to use BLS wage data or State Supported Living Center wages.
+      Stated preference for cost-report-based methodology. 21 comments received from 20 organizations
+      during comment period ending August 1, 2025. Statutory authority cites both SB 457 and GAA Rider 23.
+
+  - name: "Texas Register Vol. 50 No. 36 — Proposed Rules PDF (July 11, 2025)"
+    url: "https://www.sos.state.tx.us/texreg/pdf/backview/0711/0711prop.pdf"
+    type: proposed_rule
+    accessed: "2026-03-16"
+    published_date: "2025-07-11"
+    register_volume: 50
+    register_number: 28
+    description: "Original proposal for 1 TAC Chapter 355 changes; comment period ended August 1, 2025"
+
+  - name: "TMHP Information Letter IL 2025-25 — Rider 23 Implementation"
+    url: "https://www.tmhp.com/news/2025-11-10-il-2025-25-now-published-regarding-hhsc-rider-23-2026-2027-general-appropriations"
+    type: implementation
+    accessed: "2026-03-16"
+    description: "TMHP implementation notice for Rider 23 rate changes across CFC, HCBS-AMH, HCS, TxHmL, ICF/IID"
+
   - name: "1 TAC §355.456 — ICF/IID Reimbursement Methodology"
     url: "https://www.law.cornell.edu/regulations/texas/1-Tex-Admin-Code-SS-355-456"
     type: regulation
@@ -142,6 +172,20 @@ regulatory:
     description: "Eligibility criteria for ICF/IID (LOC I, LOC VIII, active treatment)"
 
 legislative:
+  - name: "GAA SB 1, 89th Legislature — General Appropriations Act (Enrolled)"
+    url: "https://capitol.texas.gov/tlodocs/89R/billtext/pdf/SB00001F.pdf"
+    type: budget
+    accessed: "2026-03-16"
+    description: "89th Legislature enrolled text — 2026-27 GAA; Rider 23 (Article II, HHSC) sets $13/hr attendant wage assumption and discontinues ACRE program"
+    notes: "Signed June 22, 2025; Rider 23 effective September 1, 2025"
+
+  - name: "SB 457, 89th Legislature — Nursing Facility Patient Care Expense Ratio"
+    url: "https://capitol.texas.gov/tlodocs/89R/billtext/html/SB00457F.htm"
+    type: legislation
+    accessed: "2026-03-16"
+    description: "Enrolled text; establishes 80% patient care expense ratio for NF Medicaid reimbursement, repeals NF Direct Care Staff Rate Enhancement; author Sen. Lois Kolkhorst"
+    notes: "Signed June 20, 2025; effective September 1, 2025"
+
   - name: "LBB 88th Legislature Rider Packet — Article II"
     url: "https://www.lbb.texas.gov/Documents/Appropriations_Bills/88/Initial_Dockets/Article%20II_Rider.pdf"
     type: budget
