@@ -2,43 +2,61 @@
 
 Audit date: 2026-03-15
 
-This note records which figures in the repo are directly supported by checked-in source files, which are illustrative scenarios, and which claims should not currently be treated as verified.
+This note records which figures and datasets in the repo are directly supported by checked-in source files, which claims remain excluded from the audited set, and where earlier waitlist/operator-cost assertions were corrected.
 
 ## Verified from local source files
 
-| Figure | Status | Evidence |
+| Figure or dataset | Status | Evidence |
 |---|---|---|
-| HHSC base target wage = **$10.60/hr** | Verified | [`data/raw/rates/ltss-personal-attendant-base-wage-calculator.xlsx`](data/raw/rates/ltss-personal-attendant-base-wage-calculator.xlsx), sheet `Fiscal by Program`, cell `B7` |
-| CPI-adjusted value of $10.60 in 2025 = **$14.37/hr** | Verified | Deterministic calculation from BLS CPI-U South annual averages used in [`tests/test_headline_figures.py`](tests/test_headline_figures.py) |
-| Real purchasing power of $10.60 in 2025 = **$7.82/hr** in 2015 dollars | Verified | Same CPI series and formula as above |
-| BLS SOC 31-1120 hourly mean = **$12.19/hr** | Verified | [`data/processed/bls_oews_texas_2024.csv`](data/processed/bls_oews_texas_2024.csv) |
-| BLS SOC 31-1120 employment = **314,610** | Verified | [`data/processed/bls_oews_texas_2024.csv`](data/processed/bls_oews_texas_2024.csv) |
+| HHSC base target wage = **$10.60/hr** | Verified | `data/raw/rates/ltss-personal-attendant-base-wage-calculator.xlsx`, sheet `Fiscal by Program`, cell `B7` |
+| CPI-adjusted value of $10.60 in 2025 = **$14.38/hr** | Verified derived figure | Deterministic formula using checked-in CPI annual values documented in `tests/test_headline_figures.py` |
+| Real purchasing power of $10.60 in 2025 = **$7.82/hr** in 2015 dollars | Verified derived figure | Same CPI series and formula as above |
+| BLS SOC 31-1120 hourly mean = **$12.19/hr** | Verified | `data/processed/bls_oews_texas_2024.csv` |
+| BLS SOC 31-1120 employment = **314,610** | Verified | `data/processed/bls_oews_texas_2024.csv` |
+| Monthly HHSC interest-list totals by program | Verified dataset | `data/processed/hhsc_interest_list_totals_monthly.csv`, generated from the checked-in HHSC workbook archive |
+| Monthly HHSC interest-list years-on-list buckets | Verified dataset | `data/processed/hhsc_interest_list_years_on_list_monthly.csv`, generated from the checked-in HHSC workbook archive |
+| Monthly HHSC interest-list closures and release summaries | Verified dataset | `data/processed/hhsc_interest_list_closure_summary_monthly.csv` and `data/processed/hhsc_interest_list_releases_summary_monthly.csv` |
+| HHSC 2022-23 legislative allocation table | Verified dataset | `data/processed/hhsc_interest_list_legislative_allocations.csv`, parsed from the checked-in HHSC Interest List Reduction page |
+| HHSC FY 2023 setting-level monthly cost tables for HCS/ICF/IID | Verified dataset | `data/processed/hhsc_setting_costs_fy2023.csv` |
+| HHSC community ICF/IID cost table by LON and facility size | Verified dataset | `data/processed/hhsc_community_icf_iid_costs_by_lonsize_fy2023.csv` |
+| HHSC HCS/ICF cost-report categories and residential reimbursement components | Verified dataset | `data/processed/hhsc_cost_report_cost_areas.csv` and `data/processed/hhsc_residential_rate_components.csv` |
 
 Important scope note: the official BLS occupation title for SOC `31-1120` is **Home Health and Personal Care Aides**. That is broader than Medicaid-funded waiver staff alone.
 
-## Kept as illustrative scenarios
+## Verified values now checked in
 
-| Figure | Why it is not a source observation |
-|---|---|
-| **~$4.8B/yr** statewide wage gap vs. `$18/hr` retail | Assumes every worker counted by BLS SOC `31-1120` is full-time, affected by the HHSC base wage, and directly comparable to the retail benchmark |
-| **$624,424** 30-year earnings gap | Assumes a 30-year career, 2% annual raises, and a fixed retail comparison wage |
-
-These are useful scenario calculations, but they should not be described as measured statewide losses.
+| Claim | Verified value | Source file |
+|---|---|---|
+| HCS interest-list total as of **January 31, 2026** | **130,764** | `hhsc_interest_list_totals_monthly.csv` |
+| TxHmL interest-list total as of **January 31, 2026** | **117,175** | `hhsc_interest_list_totals_monthly.csv` |
+| HCS enrolled from interest-list releases in the January 2026 workbook | **339** | `hhsc_interest_list_releases_summary_monthly.csv` |
+| HCS total releases this biennium in the January 2026 workbook | **284** | `hhsc_interest_list_releases_summary_monthly.csv` |
+| HCS legislative allocation for the 2022-23 biennium | **542 slots** | `hhsc_interest_list_legislative_allocations.csv` |
+| TxHmL legislative allocation for the 2022-23 biennium | **471 slots** | `hhsc_interest_list_legislative_allocations.csv` |
+| Community ICF/IID monthly average Medicaid cost per individual, FY 2023 | **$5,247.52** | `hhsc_setting_costs_fy2023.csv` |
+| HCS residential monthly average Medicaid cost per individual, FY 2023 | **$6,563.91** | `hhsc_setting_costs_fy2023.csv` |
+| Community ICF/IID small-home LON 1 average monthly cost per individual | **$4,232.10** | `hhsc_community_icf_iid_costs_by_lonsize_fy2023.csv` |
+| Community ICF/IID small-home LON 1 average individuals served per month | **999** | `hhsc_community_icf_iid_costs_by_lonsize_fy2023.csv` |
+| ICF/IID non-state community residential LON 1 small-home attendant component | **$60.3944** | `hhsc_residential_rate_components.csv` |
+| HCS supervised living LON 5 attendant component | **$85.74** | `hhsc_residential_rate_components.csv` |
 
 ## Not currently verified in-repo
 
 | Claim | Audit finding |
 |---|---|
-| `100,000+` waitlist / `87 years` to clear | The notebook uses manually entered biennium values and mixes a `100,000+` headline with a separate `130,000 / 1,500 = 87 years` scenario. The repo does not include a checked-in waitlist dataset that reproduces those figures. |
-| `3,292` slots used as the pace for HCS access | The downloaded LBB rider packet shows `3,292` under **Strategy A.3.4, Texas Home Living**, as an **end-of-year waiver slots** count. It is not a checked local source for HCS new annual slots. |
-| `~50%` turnover and related per-house turnover costs | The downloaded NCI 2023 workforce report says the **weighted average turnover ratio was 39.7%**. The report is national, Texas is not a participating state in that edition, and the repo adds extra house-level cost assumptions on top of it. |
-| "Everything comes from public government sources" | Not accurate. Market wage and turnover context rely on nongovernment sources. |
+| `87 years` to clear the HCS waitlist or any similar clearing timeline | The repo now contains verified monthly counts and release tables, but it still does not contain a reproducible, source-audited model that converts those counts into a defensible years-to-clear estimate. |
+| `3,292` slots used as the pace for HCS access | The checked-in LBB rider packet shows `3,292` under **Strategy A.3.4, Texas Home Living**, as an end-of-year TxHmL waiver-slot count. It is not an HCS annual-enrollment figure. |
+| `~50%` turnover and related per-house turnover costs | The checked-in NCI 2023 workforce report says the weighted average turnover ratio was **39.7%** across participating states. It is not a Texas-specific rate, and the repo’s older house-level turnover costs add extra assumptions on top of it. |
+| Retail-wage gap headlines such as `~$4.8B/yr` or `$624,424` | These are scenario calculations, not source observations. They were removed from the audited outputs. |
+| Provider margin or profit claims inferred from these cost tables alone | The HHSC cost comparison report gives Medicaid cost per individual and the rate workbook gives reimbursement components. Neither file, by itself, is an audited provider profit-and-loss statement. |
 
 ## Current repo caveat
 
-Several files under `reports/` and the policy brief were generated before this audit. They still contain waitlist and turnover claims that are no longer part of the verified headline set.
+The repo now has audited waitlist and operator-cost CSVs, but some exploratory notebooks and older report assets still contain stale scenarios or pre-audit framing. Treat `README.md`, `METHODOLOGY.md`, `results_summary.json`, and the `data/processed/hhsc_*.csv` files as the authoritative audited set.
 
-## Downloaded external evidence
+## Checked external evidence used for corrections
 
-- [`data/raw/external/lbb-88th-article-ii-rider.txt`](data/raw/external/lbb-88th-article-ii-rider.txt) confirms the `3,292` figure is tied to Texas Home Living, not HCS.
-- [`data/raw/external/nci-state-of-the-workforce-2023.txt`](data/raw/external/nci-state-of-the-workforce-2023.txt) confirms the 2023 weighted-average turnover ratio is `39.7%`.
+- `data/raw/external/lbb-88th-article-ii-rider.txt` confirms the `3,292` figure is tied to Texas Home Living, not HCS.
+- `data/raw/external/nci-state-of-the-workforce-2023.txt` confirms the 2023 weighted-average turnover ratio is `39.7%`.
+- `data/raw/official/interest-list-reduction.html` contains the official HHSC legislative-allocation table and the direct link to the January 2026 interest-list workbook.
+- `data/raw/official/cost-comparison-report-aug-2024.txt` contains the official FY 2023 HCS/ICF/IID cost tables used in the new operator-cost datasets.

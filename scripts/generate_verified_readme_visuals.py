@@ -86,7 +86,7 @@ def build_chart(figures: dict) -> None:
     )
 
     fig.suptitle(
-        "Verified README Summary\nOnly source-backed or deterministic figures from this repo",
+        "Audited Wage Figures\nOnly source-backed or deterministic figures from this repo",
         fontsize=17,
         weight="bold",
         y=1.02,

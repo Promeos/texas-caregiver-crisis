@@ -27,6 +27,20 @@ core_analysis:
     type: workforce_report
     description: "Downloaded during audit; reports a 39.7% weighted average turnover ratio across participating states"
 
+  - name: "HHSC PFD Sept 2025 Payment Rate Actions"
+    url: "https://pfd.hhs.texas.gov/sites/default/files/documents/2025/9-1-2025-pmnt-rate-actions-cfc-hcbs-amh-hcs-txhml-icf-iid.pdf"
+    type: rate_source
+    accessed: "2026-03-15"
+    local_file: "data/raw/rates/9-1-2025-payment-rate-actions.pdf"
+    description: "Approved payment rates effective 9/1/2025 for CFC, HCBS-AMH, HCS, TxHmL, ICF/IID — includes $13/hr attendant wage assumption"
+
+  - name: "HHSC Rate Enhancement Evaluation 2024"
+    url: "https://www.hhs.texas.gov/sites/default/files/documents/evaluation-of-rate-enhancement-programs-2024.pdf"
+    type: workforce_report
+    accessed: "2026-03-15"
+    local_file: "data/raw/official/rate-enhancement-evaluation-2024.pdf"
+    description: "Official evaluation of ACRE and Direct Care Staff Enhancement programs; wage impact negligible to 16%"
+
 government:
   - name: "HHSC ICF/IID Provider Page"
     url: "https://www.hhs.texas.gov/providers/long-term-care-providers/intermediate-care-facilities-icfiid"
@@ -43,6 +57,41 @@ government:
     type: data
     description: "HHSC data on interest list sizes and reduction efforts"
 
+  - name: "HHSC Interest List Waiver Caseload Summary Archive"
+    url: "https://www.hhs.texas.gov/about/records-statistics/interest-list-reduction/interest-list-waiver-caseload-summary-archive"
+    type: data
+    accessed: "2026-03-15"
+    local_file: "data/raw/official/interest-list-waiver-caseload-summary-archive.html"
+    description: "Archive page used to download the checked-in monthly interest-list Excel workbooks in data/raw/official/interest-list-monthly/"
+
+  - name: "HHSC Interest List Reduction Page Snapshot"
+    url: "https://www.hhs.texas.gov/about/records-statistics/interest-list-reduction"
+    type: data
+    accessed: "2026-03-15"
+    local_file: "data/raw/official/interest-list-reduction.html"
+    description: "Checked-in page snapshot containing the 2022-23 legislative allocation table and the current January 2026 workbook link on the audit date"
+
+  - name: "HHSC Cost Comparison Report August 2024"
+    url: "https://www.hhs.texas.gov/sites/default/files/documents/cost-comparison-report-aug-2024.pdf"
+    type: cost_report
+    accessed: "2026-03-15"
+    local_file: "data/raw/official/cost-comparison-report-aug-2024.pdf"
+    description: "Official HHSC Rider 4 cost comparison report with FY 2023 per-person Medicaid cost tables for HCS, TxHmL, and ICF/IID settings"
+
+  - name: "HHSC HCS Cost Report Instructions 2024"
+    url: "https://www.hhs.texas.gov/sites/default/files/documents/2024-hcs-cost-report-instructions.pdf"
+    type: cost_report
+    accessed: "2026-03-15"
+    local_file: "data/raw/official/2024-hcs-cost-report-instructions.pdf"
+    description: "Official HCS cost-report instructions used to verify operator cost-area definitions such as residential SL/RSS and central office"
+
+  - name: "HHSC ICF/IID Cost Report Instructions 2024"
+    url: "https://www.hhs.texas.gov/sites/default/files/documents/2024-icf-cost-report-instructions.pdf"
+    type: cost_report
+    accessed: "2026-03-15"
+    local_file: "data/raw/official/2024-icf-cost-report-instructions.pdf"
+    description: "Official ICF/IID cost-report instructions used to verify operator cost-area definitions such as residential size buckets and day habilitation"
+
   - name: "HHSC Form 8578 — ID/RC Assessment"
     url: "https://www.hhs.texas.gov/regulations/forms/8000-8999/form-8578-intellectual-disability-or-related-conditions-assessment"
     type: form
@@ -52,6 +101,34 @@ government:
     url: "https://www.hhs.texas.gov/sites/default/files/documents/doing-business-with-hhs/providers/resources/ltss-waivers.pdf"
     type: rate_doc
     description: "HCS and other waiver fee schedule overview"
+
+  - name: "HHSC LAR FY 2026-2027"
+    url: "https://www.hhs.texas.gov/sites/default/files/documents/hhsc-legislative-appropriations-request-2026-2027.pdf"
+    type: budget
+    accessed: "2026-03-15"
+    local_file: "data/raw/official/hhsc-lar-2026-2027.pdf"
+    description: "HHSC legislative appropriations request — what the agency asked for vs. what legislature funded"
+
+  - name: "HHSC LTC Facilities Council Report Jan 2025"
+    url: "https://www.hhs.texas.gov/sites/default/files/documents/sb-1519-ltc-facilities-council-report-jan-2025.pdf"
+    type: oversight
+    accessed: "2026-03-15"
+    local_file: "data/raw/official/ltc-facilities-council-report-jan-2025.pdf"
+    description: "SB 1519 council recommendations on survey consistency and IDR for ICF/IIDs"
+
+  - name: "HHSC Annual Federal Funds Report FY 2024"
+    url: "https://www.hhs.texas.gov/sites/default/files/documents/2024-annual-federal-funds-report.pdf"
+    type: budget
+    accessed: "2026-03-15"
+    local_file: "data/raw/official/annual-federal-funds-report-2024.pdf"
+    description: "Accounting of all federal funds flowing into the HHS system"
+
+  - name: "HHSC Medicaid CHIP Data Analytics Q4 SFY 2024"
+    url: "https://www.hhs.texas.gov/sites/default/files/documents/medicaid-chip-data-analytics-unit-annual-report-of-activities-sfy-2024-q4.pdf"
+    type: data
+    accessed: "2026-03-15"
+    local_file: "data/raw/official/medicaid-chip-analytics-sfy2024-q4.pdf"
+    description: "Utilization anomalies, compliance findings, provider and payment methodology reviews"
 
 regulatory:
   - name: "1 TAC §355.456 — ICF/IID Reimbursement Methodology"
@@ -69,6 +146,20 @@ legislative:
     url: "https://www.lbb.texas.gov/Documents/Appropriations_Bills/88/Initial_Dockets/Article%20II_Rider.pdf"
     type: budget
     description: "2024-25 biennium rider comparison packet; audit review showed the 3,292 figure belongs to Texas Home Living end-of-year waiver slots, not HCS new annual slots"
+
+  - name: "LBB 89th Legislature Art II Rider Packet — Senate"
+    url: "https://www.lbb.texas.gov/Documents/Appropriations_Bills/89/Senate_Adopted/Art%20II%20Rider%20Packet_SFC_89.pdf"
+    type: budget
+    accessed: "2026-03-15"
+    local_file: "data/raw/external/lbb-89th-article-ii-rider-senate.pdf"
+    description: "2026-27 biennium rider provisions including Rider 23 (attendant services rate increase authority)"
+
+  - name: "LBB 89th Legislature GAB — House"
+    url: "https://www.lbb.texas.gov/Documents/Appropriations_Bills/89/House/HseFull_Cmte_GAB_89R.pdf"
+    type: budget
+    accessed: "2026-03-15"
+    local_file: "data/raw/external/lbb-89th-gab-house.pdf"
+    description: "Full appropriations bill with Article II HHSC line items for 2026-27 biennium"
 
   - name: "Texas Comptroller Annual Cash Report 2016"
     url: "https://comptroller.texas.gov/transparency/reports/cash-report/2016/96-368.pdf"
@@ -113,3 +204,92 @@ news:
     url: "https://www.expressnews.com/news/article/maofu-home-healthcare-bexar-county-arrest-20344245.php"
     type: investigation
     description: "Fraud/abuse case in Bexar County home healthcare"
+
+  - name: "KERA — Group home workers get $10.60/hr base wage"
+    url: "https://www.keranews.org/health-wellness/2024-08-28/texas-group-home-workers-get-a-base-wage-of-10-60-an-hour-advocates-push-lawmakers-for-a-raise"
+    date: "2024-08-28"
+    type: investigation
+    description: "229 group homes closed Jan 2023–Feb 2024; workers averaging 60-hour weeks"
+
+workforce:
+  - name: "PHI National — Direct Care Workers Key Facts 2025"
+    url: "https://www.phinational.org/wp-content/uploads/2025/09/PHI-DCW-Key-Facts-Report-2025.pdf"
+    type: workforce_report
+    accessed: "2026-03-15"
+    local_file: "data/raw/external/phi-dcw-key-facts-2025.pdf"
+    description: "National DCW demographics, turnover, median wage $17.36/hr; TX ranks near bottom on worker-supportive policies"
+
+  - name: "PHI — Direct Care Workforce State Index"
+    url: "https://www.phinational.org/state-index-tool/"
+    type: workforce_report
+    description: "State rankings on worker-supportive policies — TX near bottom with MS, AL, LA, TN"
+
+  - name: "ASPE — Direct Care Worker Wages Brief"
+    url: "https://aspe.hhs.gov/sites/default/files/documents/9f37d617a1b21bf0c2dfad433b1c95af/dcw-entry-level-wages-continue-lower.pdf"
+    type: workforce_report
+    accessed: "2026-03-15"
+    local_file: "data/raw/external/aspe-dcw-wages-brief.pdf"
+    description: "Federal analysis: TX/LA have worst DCW wage ratio (67%) vs. comparable entry-level jobs"
+
+  - name: "Time to Care Texas Coalition"
+    url: "https://timetocaretx.org/"
+    type: advocacy
+    description: "Provider coalition: $317M funding ask, $17.50/hr wage target, group home closure data"
+
+federal:
+  - name: "MACPAC MACStats Data Book — Feb 2026"
+    url: "https://www.macpac.gov/wp-content/uploads/2026/02/MACSTATS_Feb2026_WEB_508.pdf"
+    type: federal_data
+    accessed: "2026-03-15"
+    local_file: "data/raw/external/macpac-macstats-feb-2026.pdf"
+    description: "State-level Medicaid/CHIP enrollment, spending, federal matching rates"
+
+  - name: "MACPAC MACStats Data Book — Dec 2024"
+    url: "https://www.macpac.gov/wp-content/uploads/2024/12/MACSTATS_Dec2024_WEB-508.pdf"
+    type: federal_data
+    accessed: "2026-03-15"
+    local_file: "data/raw/external/macpac-macstats-dec-2024.pdf"
+    description: "Medicaid spending was $957.4B in FY 2024; state-level breakdowns"
+
+  - name: "MACPAC — LTSS Methodological Approaches Aug 2024"
+    url: "https://www.macpac.gov/wp-content/uploads/2024/08/Methodological-Approaches-for-Analyzing-Use-and-Spending-in-Medicaid-Long-Term-Services-and-Supports-A-Comparative-Review.pdf"
+    type: methodology
+    accessed: "2026-03-15"
+    local_file: "data/raw/external/macpac-ltss-methodology-2024.pdf"
+    description: "Review of methods for analyzing LTSS spending — useful for replicating analyses"
+
+  - name: "CMS — MBES/CBES Expenditure Reports"
+    url: "https://www.medicaid.gov/medicaid/financial-management/state-budget-expenditure-reporting-for-medicaid-and-chip/expenditure-reports-mbes/cbes"
+    type: federal_data
+    description: "State-by-state Medicaid expenditure data by category including HCBS and ICF/IID"
+
+  - name: "KFF — HCBS Waiting Lists 2016-2025"
+    url: "https://www.kff.org/medicaid/a-look-at-waiting-lists-for-medicaid-home-and-community-based-services-from-2016-to-2025/"
+    type: federal_data
+    description: "Multi-state HCBS waiver waiting list comparison — national context for TX waitlist"
+
+  - name: "KFF — Medicaid HCBS Enrollment and Spending"
+    url: "https://www.kff.org/medicaid/medicaid-home-and-community-based-services-enrollment-and-spending/"
+    type: federal_data
+    description: "Per-person I/DD costs ($48,900) vs. aging/physical disability ($17,600)"
+
+  - name: "GAO — Medicaid Expenditures for Adults with I/DD"
+    url: "https://www.gao.gov/products/gao-23-105457"
+    type: federal_data
+    description: "Federal audit of Medicaid I/DD expenditure patterns"
+
+oversight:
+  - name: "HHSC OIG — Published Reports"
+    url: "https://oig.hhs.texas.gov/reports"
+    type: oversight
+    description: "Audit/inspection reports, fraud investigations, Medicaid overpayment recoveries"
+
+  - name: "SBA — PPP Loan Data (bulk download)"
+    url: "https://www.sba.gov/funding-programs/loans/covid-19-relief-options/paycheck-protection-program/ppp-data"
+    type: ppp_data
+    description: "Full CSV datasets of all PPP loans — cross-reference with HHSC provider lookup"
+
+  - name: "ProPublica — PPP Loan Tracker"
+    url: "https://projects.propublica.org/coronavirus/bailouts/"
+    type: ppp_data
+    description: "Searchable database of 11M+ PPP loans for provider name verification"

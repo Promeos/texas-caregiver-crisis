@@ -1,7 +1,7 @@
 [project]
 name = "texas-caregiver-crisis"
 version = "1.0.0"
-description = "The Invisible Pay Cut — How Texas's $10.60 wage assumption drives a 100,000-person waitlist"
+description = "Audited analysis of Texas HHSC's $10.60 wage assumption with verified waitlist and HCS/ICF cost data"
 requires-python = ">=3.12"
 dependencies = [
     # Analysis

@@ -1,0 +1,9 @@
+program,cost_area,source_file,source_line_start,source_line_end,description
+HCS_TXHML,RESIDENTIAL_SL_RSS,2024-hcs-cost-report-instructions.txt,4071,4083,Group-home-specific supervised living and residential support costs.
+HCS_TXHML,INDIVIDUALIZED_SKILLS_SOCIALIZATION,2024-hcs-cost-report-instructions.txt,4084,4102,Individualized Skills and Socialization facility and staffing costs.
+HCS_TXHML,PROGRAM_ADMINISTRATION_OPERATIONS,2024-hcs-cost-report-instructions.txt,4106,4112,Direct program-management administrative expenses for the contracted provider.
+HCS_TXHML,CENTRAL_OFFICE,2024-hcs-cost-report-instructions.txt,4114,4136,Allocated shared administrative costs reported at actual cost with no markup.
+ICF_IID,RESIDENTIAL_SMALL_MEDIUM_LARGE,2024-icf-cost-report-instructions.txt,3950,3961,"Residential facility costs reported separately by small, medium, and large homes."
+ICF_IID,DAY_HABILITATION,2024-icf-cost-report-instructions.txt,3963,3979,Day habilitation facility and shared-service costs.
+ICF_IID,PROGRAM_ADMINISTRATION_OPERATIONS,2024-icf-cost-report-instructions.txt,3981,3989,Administrative expenses directly chargeable to the facility itself.
+ICF_IID,CENTRAL_OFFICE,2024-icf-cost-report-instructions.txt,3991,4013,Allocated shared administrative costs reported at actual cost with no markup.

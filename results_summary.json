@@ -1,6 +1,6 @@
 {
-  "_generated": "2026-03-15T22:26:11.304954+00:00",
-  "_description": "Machine-verifiable summary of headline figures. Run `uv run python scripts/generate_results.py` to regenerate.",
+  "_generated": "2026-03-16T00:41:30.030145+00:00",
+  "_description": "Machine-verifiable summary of audited figures. Run `uv run python scripts/generate_results.py` to regenerate.",
   "figures": {
     "hhsc_target_wage": {
       "value": 10.6,
@@ -15,13 +15,13 @@
       "formula": "$10.6 * (CPI_2015 / CPI_2025)"
     },
     "inflation_adjusted_wage": {
-      "value": 14.37,
+      "value": 14.38,
       "unit": "$/hr",
       "type": "derived_estimate",
       "formula": "$10.6 * (CPI_2025 / CPI_2015)"
     },
     "purchasing_power_lost_pct": {
-      "value": 26.2,
+      "value": 26.3,
       "unit": "%",
       "type": "derived_estimate"
     },
@@ -37,25 +37,35 @@
       "type": "source_observation",
       "source": "BLS OEWS May 2024, SOC 31-1120 (Home Health and Personal Care Aides)"
     },
-    "statewide_annual_wage_gap": {
-      "value": 4842477120.0,
-      "unit": "$/yr",
-      "type": "illustrative_upper_bound",
-      "formula": "($18.0 - $10.6) * 2080 hrs * 314610 workers",
-      "note": "Illustrative ceiling: assumes every worker in BLS SOC 31-1120 is full-time, affected by the HHSC base wage, and comparable to the retail benchmark."
+    "hcs_interest_list_count_latest_report": {
+      "value": 130764,
+      "unit": "people",
+      "type": "source_observation",
+      "source": "HHSC interest list workbook archive, latest checked-in report month (2026-01-01)"
     },
-    "lifetime_earnings_gap": {
-      "value": 624424.0,
-      "unit": "$",
-      "type": "illustrative_scenario",
-      "formula": "30-year cumulative at 2% raises, $10.6 vs $18.0",
-      "note": "Illustrative career comparison, not an observed longitudinal earnings dataset."
+    "txhml_interest_list_count_latest_report": {
+      "value": 117175,
+      "unit": "people",
+      "type": "source_observation",
+      "source": "HHSC interest list workbook archive, latest checked-in report month (2026-01-01)"
     },
-    "ftes_for_24_7_coverage": {
-      "value": 4.96,
-      "unit": "FTEs",
-      "type": "derived_estimate",
-      "formula": "168 hrs/wk / 40 hrs * 1.18 absence factor"
+    "hcs_2022_2023_legislative_allocation": {
+      "value": 542,
+      "unit": "slots",
+      "type": "source_observation",
+      "source": "HHSC Interest List Reduction page, 2022-23 biennium table"
+    },
+    "community_icf_iid_total_monthly_cost_fy2023": {
+      "value": 5247.52,
+      "unit": "$/person-month",
+      "type": "source_observation",
+      "source": "HHSC cost comparison report (FY 2023 community ICF/IID total cost)"
+    },
+    "hcs_residential_total_monthly_cost_fy2023": {
+      "value": 6563.91,
+      "unit": "$/person-month",
+      "type": "source_observation",
+      "source": "HHSC cost comparison report (FY 2023 HCS residential total cost)"
     }
   }
 }

@@ -2,74 +2,50 @@
 
 Audit date: 2026-03-15
 
-This document records only the figures in this repo that are supported by checked-in files or by deterministic calculations with stated inputs. If a claim depends on external reporting, manually entered notebook values, or unsourced scenario assumptions, it is excluded from the audited headline set.
+This document records only the figures and datasets in this repo that are supported by checked-in source files or by deterministic calculations with stated inputs. If a claim depends on external reporting, manually entered notebook values, or unsourced scenario assumptions, it is outside the audited set.
 
-See [VERIFICATION.md](VERIFICATION.md) for the audit log and [results_summary.json](results_summary.json) for the machine-readable headline figures.
-
----
+See `VERIFICATION.md` for the audit log and `results_summary.json` for the machine-readable audited figure summary.
 
 ## Audited Scope
 
-| Figure | Status | Support |
-|--------|--------|---------|
+| Item | Status | Support |
+|---|---|---|
 | HHSC base target wage = **$10.60/hr** | Verified source observation | Checked-in HHSC workbook, sheet `Fiscal by Program`, cell `B7` |
 | BLS Texas SOC 31-1120 hourly mean = **$12.19/hr** | Verified source observation | Checked-in processed OEWS extract |
 | BLS Texas SOC 31-1120 employment = **314,610** | Verified source observation | Checked-in processed OEWS extract |
-| 2025 CPI-equivalent of `$10.60` = **$14.37/hr** | Derived estimate | Deterministic formula using the repo's explicit 2015 base-year assumption |
-| 2025 real purchasing power of `$10.60` = **$7.82/hr** in 2015 dollars | Derived estimate | Same CPI series and same stated assumption |
-
-The last two figures are not direct source observations. They are outputs of a documented calculation that currently treats `$10.60` as a 2015-dollar benchmark.
-
----
+| 2025 CPI-equivalent of `$10.60` = **$14.38/hr** | Verified derived figure | Deterministic formula using the repo's explicit 2015 base-year assumption |
+| 2025 real purchasing power of `$10.60` = **$7.82/hr** in 2015 dollars | Verified derived figure | Same CPI series and same stated assumption |
+| HHSC monthly interest-list totals, years-on-list buckets, closures, and releases | Verified source-backed datasets | Parsed from checked-in HHSC workbook archive |
+| HHSC 2022-23 legislative allocation table | Verified source-backed dataset | Parsed from checked-in HHSC Interest List Reduction page |
+| HHSC FY 2023 HCS/ICF/IID setting-level cost tables | Verified source-backed dataset | Parsed from checked-in HHSC cost comparison report |
+| HHSC community ICF/IID cost table by LON and facility size | Verified source-backed dataset | Parsed from checked-in HHSC cost comparison report |
+| HHSC HCS/ICF cost-report category definitions | Verified source-backed dataset | Extracted from checked-in 2024 HHSC cost-report instructions |
+| HHSC HCS `SL/RSS` and community ICF/IID residential reimbursement components | Verified source-backed dataset | Parsed from checked-in processed HHSC rate workbook extract |
 
 ## Data Sources
 
 | Source file | What is used | Notes |
-|-------------|--------------|-------|
+|---|---|---|
 | `data/raw/rates/ltss-personal-attendant-base-wage-calculator.xlsx` | HHSC target wage | Audited value is sheet `Fiscal by Program`, cell `B7` |
 | `data/processed/bls_oews_texas_2024.csv` | Texas OEWS wage and employment values for SOC `31-1120` | Official occupation title is `Home Health and Personal Care Aides` |
-| `tests/test_headline_figures.py` | Offline CPI verification inputs | Uses annual CPI values `234.812` for 2015 and `318.451` for 2025 |
-| `data/raw/external/lbb-88th-article-ii-rider.txt` | Audit-only disconfirmation file | Used only to show that earlier `3,292` slot claims were misapplied |
-| `data/raw/external/nci-state-of-the-workforce-2023.txt` | Audit-only disconfirmation file | Used only to show that earlier turnover claims were misstated or overgeneralized |
+| `data/raw/official/interest-list-monthly/*.xlsx` | Monthly HHSC interest-list totals, years-on-list buckets, closures, and releases | Archive currently spans September 2023 through January 2026 |
+| `data/raw/official/interest-list-reduction.html` | HHSC legislative allocation table and current-page metadata | Includes the 2022-23 allocation table and the link to the latest workbook on the audit date |
+| `data/raw/official/cost-comparison-report-aug-2024.txt` | HHSC FY 2023 per-person cost tables for HCS/ICF/IID | Used for setting-level costs and community ICF/IID LON-by-size costs |
+| `data/raw/official/2024-hcs-cost-report-instructions.txt` | HHSC HCS cost-report area definitions | Used to verify operator cost-area categories |
+| `data/raw/official/2024-icf-cost-report-instructions.txt` | HHSC ICF/IID cost-report area definitions | Used to verify operator cost-area categories |
+| `data/processed/pfd_wage_calculator_all_services.csv` | HHSC reimbursement components by service line | Used for HCS `SL/RSS` and non-state community ICF/IID residential rate components |
+| `data/raw/external/lbb-88th-article-ii-rider.txt` | Audit-only disconfirmation file | Used to show that earlier `3,292` slot claims were misapplied to HCS |
+| `data/raw/external/nci-state-of-the-workforce-2023.txt` | Audit-only disconfirmation file | Used only to show that earlier turnover claims were overstated or overgeneralized |
 
-The source index with original URLs is maintained in [references/sources.yaml](references/sources.yaml).
+The source index with original URLs is maintained in `references/sources.yaml`.
 
----
+## How the Audited Datasets Are Built
 
-## Verified Source Observations
+### Wage and inflation figures
 
-### HHSC target wage
+The wage figures come from a checked-in HHSC workbook and a checked-in BLS OEWS extract. The inflation figures are derived, not observed. The repo currently treats `$10.60` as a 2015-dollar benchmark for the purpose of the audited CPI calculation.
 
-The repo verifies the published HHSC base target wage directly from the checked-in workbook:
-
-- File: `data/raw/rates/ltss-personal-attendant-base-wage-calculator.xlsx`
-- Sheet: `Fiscal by Program`
-- Cell: `B7`
-- Verified value: **$10.60/hr**
-
-This is tested in `tests/test_headline_figures.py::TestSourceData::test_hhsc_target_wage_cell_b7_is_10_60`.
-
-### BLS Texas wage and employment context
-
-The repo verifies the following values from `data/processed/bls_oews_texas_2024.csv` for SOC `31-1120`:
-
-- Hourly mean wage: **$12.19/hr**
-- Employment: **314,610**
-- Occupation title: **Home Health and Personal Care Aides**
-
-This is tested in `tests/test_headline_figures.py::TestSourceData::test_bls_soc_31_1120_matches_processed_extract`.
-
-Important scope note: SOC `31-1120` is broader than Medicaid-funded waiver staff alone. Any statewide scaling based on that occupation should be treated as an upper bound, not a direct count of Medicaid-funded workers.
-
----
-
-## Derived Estimates
-
-### CPI adjustment to 2025 dollars
-
-The repo currently models the frozen `$10.60` wage as a **2015-dollar benchmark**. That base year is an explicit repo assumption used for the audited inflation calculation. It is **not** a verified claim that HHSC first adopted the figure in exactly 2015.
-
-The offline verification fixture in `tests/test_headline_figures.py` uses:
+The offline CPI inputs used by the repo are:
 
 - `CPI_2015 = 234.812`
 - `CPI_2025 = 318.451`
@@ -77,58 +53,88 @@ The offline verification fixture in `tests/test_headline_figures.py` uses:
 Under that stated assumption:
 
 ```text
-2025 equivalent = $10.60 * (CPI_2025 / CPI_2015)
-                = $10.60 * (318.451 / 234.812)
-                = $14.37
+2025 equivalent = $10.60 * (318.451 / 234.812) = $14.38
+2025 real value in 2015 dollars = $10.60 * (234.812 / 318.451) = $7.82
 ```
 
-```text
-2025 real value in 2015 dollars = $10.60 * (CPI_2015 / CPI_2025)
-                                = $10.60 * (234.812 / 318.451)
-                                = $7.82
-```
+These figures are generated in `scripts/generate_results.py` and validated in `tests/test_headline_figures.py`.
 
-These calculations are verified by:
+### Waitlist datasets
 
-- `tests/test_headline_figures.py::TestInflationErosion::test_should_be_wage_approximately_14_37`
-- `tests/test_headline_figures.py::TestInflationErosion::test_real_purchasing_power_approximately_7_82`
+The repo parses each checked-in HHSC interest-list workbook into four structured tables:
 
-The implementation used by the repo lives in `src/texas_hhcs/cpi.py`, and the machine-readable outputs are written to `results_summary.json`.
+- monthly totals by program
+- years-on-list buckets by program
+- monthly closure categories by program
+- monthly release-summary metrics by program
 
----
+The parser resolves older and newer workbook variants by sheet-name prefix and detects the actual header layout in each workbook instead of assuming a single tab name or fixed row number.
 
-## Figure Audit
+The legislative allocation table is parsed separately from the checked-in HHSC Interest List Reduction page.
 
-| Figure | Type | Evidence | Verified by |
-|--------|------|----------|-------------|
-| **$10.60/hr** | Source observation | HHSC workbook cell `B7` | `test_hhsc_target_wage_cell_b7_is_10_60` |
-| **$12.19/hr** | Source observation | `data/processed/bls_oews_texas_2024.csv` | `test_bls_soc_31_1120_matches_processed_extract` |
-| **314,610** | Source observation | `data/processed/bls_oews_texas_2024.csv` | `test_bls_soc_31_1120_matches_processed_extract` |
-| **$14.37/hr** | Derived estimate | CPI formula shown above, using stated 2015 base-year assumption | `test_should_be_wage_approximately_14_37` |
-| **$7.82/hr** | Derived estimate | CPI formula shown above, using stated 2015 base-year assumption | `test_real_purchasing_power_approximately_7_82` |
+The dataset builder lives in `src/texas_hhcs/verified_datasets.py`, and the checked-in CSVs are generated by `scripts/generate_verified_datasets.py`.
 
-For the current audited headline set, only the figures above should be treated as verified.
+### HCS/ICF operator-cost datasets
 
----
+The repo builds three kinds of operator-cost evidence from official HHSC files:
 
-## Excluded From The Audited Headline Set
+1. Setting-level monthly Medicaid cost per individual from the HHSC cost comparison report.
+2. Community ICF/IID monthly cost per individual by level of need and facility size from the same report.
+3. Cost-report categories and reimbursement components from HHSC cost-report instructions and the HHSC rate workbook extract.
 
-The following material exists elsewhere in the repo but is not part of the audited headline set in this document:
+For the cost comparison report, the parser handles the PDF text-extraction quirks explicitly:
+
+- Table 1 is read as setting blocks with currency values mapped in order.
+- Table 2 and Table 3 are separated so the LON labels in the counts table are not confused with the same labels in the cost table.
+
+For reimbursement components, the repo uses the processed HHSC rate extract and keeps only:
+
+- HCS `SL/RSS`
+- ICF/IID non-state community residential rows
+
+The output preserves:
+
+- current rate
+- attendant cost component
+- attendant share of the rate
+- non-attendant reimbursement component
+- wage-required field from the HHSC calculator extract
+
+## Figure and Dataset Audit
+
+| Output | Type | Built from | Verified by |
+|---|---|---|---|
+| `results_summary.json` wage figures | Source observations and deterministic derived figures | HHSC workbook, BLS OEWS extract, offline CPI inputs | `tests/test_headline_figures.py` |
+| `hhsc_interest_list_totals_monthly.csv` | Source-backed dataset | HHSC monthly workbook archive | `tests/test_verified_datasets.py` |
+| `hhsc_interest_list_years_on_list_monthly.csv` | Source-backed dataset | HHSC monthly workbook archive | `tests/test_verified_datasets.py` |
+| `hhsc_interest_list_closure_summary_monthly.csv` | Source-backed dataset | HHSC monthly workbook archive | `tests/test_verified_datasets.py` |
+| `hhsc_interest_list_releases_summary_monthly.csv` | Source-backed dataset | HHSC monthly workbook archive | `tests/test_verified_datasets.py` |
+| `hhsc_interest_list_legislative_allocations.csv` | Source-backed dataset | HHSC Interest List Reduction page | `tests/test_verified_datasets.py` |
+| `hhsc_setting_costs_fy2023.csv` | Source-backed dataset | HHSC cost comparison report | `tests/test_verified_datasets.py` |
+| `hhsc_community_icf_iid_costs_by_lonsize_fy2023.csv` | Source-backed dataset | HHSC cost comparison report | `tests/test_verified_datasets.py` |
+| `hhsc_residential_rate_components.csv` | Source-backed dataset | Processed HHSC rate extract | `tests/test_verified_datasets.py` |
+| `hhsc_cost_report_cost_areas.csv` | Source-backed dataset | HHSC cost-report instructions | `tests/test_verified_datasets.py` |
+
+## Excluded From the Audited Set
+
+The following material exists elsewhere in the repo but is not part of the audited set in this document:
 
 - Retail benchmark comparisons such as Buc-ee's, Amazon, H-E-B, Walmart, and any statewide wage-gap figure built from them
 - Lifetime earnings comparisons such as the `$624,424` 30-year gap
-- Provider breakeven, operating-margin, occupancy, overhead, and overtime scenario models
-- Waitlist size, years-to-clear, or slot-funding timeline claims that are based on manually entered notebook values
+- Waitlist-clearing timelines such as `87 years to clear`
 - Turnover-rate or turnover-cost claims that rely on national context plus local assumptions
+- Provider breakeven, occupancy, overhead, and overtime scenario models
+- Provider margin or profit claims inferred from these cost tables without provider-level cost reports
 - Policy-cost estimates, replacement-wage scenarios, or budget recommendations
 
-Those items may be useful exploratory work, but they are not source-audited headline evidence unless they are backed by checked-in source tables and explicit verification tests.
-
----
+Those items may be useful exploratory work, but they are not audited evidence unless they are backed by checked-in source tables and explicit verification tests.
 
 ## Limitations
 
 - The BLS wage and employment figures in this repo are for **May 2024**, not a live series.
 - The inflation-derived figures depend on the repo's explicit **2015 base-year assumption** for the frozen `$10.60` benchmark.
 - SOC `31-1120` covers **Home Health and Personal Care Aides**, which is broader than Medicaid-funded waiver staff alone.
-- Older notebooks and report assets may still contain exploratory or stale claims. For audited headline figures, treat `README.md`, `VERIFICATION.md`, `results_summary.json`, and this file as the authoritative set.
+- The HHSC interest-list archive in the repo currently runs through **January 2026**, which was the latest checked-in workbook on the audit date.
+- The HHSC cost comparison report provides Medicaid cost per individual by setting. It does not, by itself, prove provider profit margins or cash flow.
+- The reimbursement-component dataset describes HHSC payment structure, not audited provider books.
+- Older notebooks and report assets may still contain exploratory or stale claims. For audited material, treat `README.md`, `VERIFICATION.md`, `results_summary.json`, and the `data/processed/hhsc_*.csv` outputs as authoritative.

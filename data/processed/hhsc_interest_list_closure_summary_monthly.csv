@@ -1,0 +1,1741 @@
+report_month,program,closure_category,closures,percent_of_program_closures,source_file
+2023-09-01,CLASS,Deceased,1,0.0625,interest-list-data-sept-2023.xlsx
+2023-09-01,CLASS,Declined,3,0.1875,interest-list-data-sept-2023.xlsx
+2023-09-01,CLASS,Denied,0,0.0,interest-list-data-sept-2023.xlsx
+2023-09-01,CLASS,Enrolled,8,0.5,interest-list-data-sept-2023.xlsx
+2023-09-01,CLASS,No Response,3,0.1875,interest-list-data-sept-2023.xlsx
+2023-09-01,CLASS,Not Categorized,0,0.0,interest-list-data-sept-2023.xlsx
+2023-09-01,CLASS,Other,0,0.0,interest-list-data-sept-2023.xlsx
+2023-09-01,CLASS,Totals,16,1.0,interest-list-data-sept-2023.xlsx
+2023-09-01,CLASS,Unable to Locate,0,0.0,interest-list-data-sept-2023.xlsx
+2023-09-01,CLASS,Withdrawn,1,0.0625,interest-list-data-sept-2023.xlsx
+2023-09-01,DBMD,Deceased,0,0.0,interest-list-data-sept-2023.xlsx
+2023-09-01,DBMD,Declined,0,0.0,interest-list-data-sept-2023.xlsx
+2023-09-01,DBMD,Denied,0,0.0,interest-list-data-sept-2023.xlsx
+2023-09-01,DBMD,Enrolled,0,0.0,interest-list-data-sept-2023.xlsx
+2023-09-01,DBMD,No Response,1,1.0,interest-list-data-sept-2023.xlsx
+2023-09-01,DBMD,Not Categorized,0,0.0,interest-list-data-sept-2023.xlsx
+2023-09-01,DBMD,Other,0,0.0,interest-list-data-sept-2023.xlsx
+2023-09-01,DBMD,Totals,1,1.0,interest-list-data-sept-2023.xlsx
+2023-09-01,DBMD,Unable to Locate,0,0.0,interest-list-data-sept-2023.xlsx
+2023-09-01,DBMD,Withdrawn,0,0.0,interest-list-data-sept-2023.xlsx
+2023-09-01,HCS,Deceased,0,0.0,interest-list-data-sept-2023.xlsx
+2023-09-01,HCS,Declined,3,0.06382978723404255,interest-list-data-sept-2023.xlsx
+2023-09-01,HCS,Denied,2,0.0425531914893617,interest-list-data-sept-2023.xlsx
+2023-09-01,HCS,Enrolled,41,0.8723404255319149,interest-list-data-sept-2023.xlsx
+2023-09-01,HCS,No Response,0,0.0,interest-list-data-sept-2023.xlsx
+2023-09-01,HCS,Not Categorized,1,0.02127659574468085,interest-list-data-sept-2023.xlsx
+2023-09-01,HCS,Other,0,0.0,interest-list-data-sept-2023.xlsx
+2023-09-01,HCS,Totals,47,1.0,interest-list-data-sept-2023.xlsx
+2023-09-01,HCS,Unable to Locate,0,0.0,interest-list-data-sept-2023.xlsx
+2023-09-01,HCS,Withdrawn,0,0.0,interest-list-data-sept-2023.xlsx
+2023-09-01,MDCP,Deceased,0,0.0,interest-list-data-sept-2023.xlsx
+2023-09-01,MDCP,Declined,0,0.0,interest-list-data-sept-2023.xlsx
+2023-09-01,MDCP,Denied,4,0.5714286,interest-list-data-sept-2023.xlsx
+2023-09-01,MDCP,Enrolled,3,0.4285714,interest-list-data-sept-2023.xlsx
+2023-09-01,MDCP,No Response,0,0.0,interest-list-data-sept-2023.xlsx
+2023-09-01,MDCP,Not Categorized,0,0.0,interest-list-data-sept-2023.xlsx
+2023-09-01,MDCP,Other,0,0.0,interest-list-data-sept-2023.xlsx
+2023-09-01,MDCP,Totals,7,1.0,interest-list-data-sept-2023.xlsx
+2023-09-01,MDCP,Unable to Locate,0,0.0,interest-list-data-sept-2023.xlsx
+2023-09-01,MDCP,Withdrawn,0,0.0,interest-list-data-sept-2023.xlsx
+2023-09-01,STAR_PLUS_HCBS,Deceased,8,0.0089586,interest-list-data-sept-2023.xlsx
+2023-09-01,STAR_PLUS_HCBS,Declined,63,0.0705487,interest-list-data-sept-2023.xlsx
+2023-09-01,STAR_PLUS_HCBS,Denied,467,0.5229563,interest-list-data-sept-2023.xlsx
+2023-09-01,STAR_PLUS_HCBS,Enrolled,162,0.181411,interest-list-data-sept-2023.xlsx
+2023-09-01,STAR_PLUS_HCBS,No Response,127,0.1422172,interest-list-data-sept-2023.xlsx
+2023-09-01,STAR_PLUS_HCBS,Not Categorized,0,0.0,interest-list-data-sept-2023.xlsx
+2023-09-01,STAR_PLUS_HCBS,Other,12,0.0134378,interest-list-data-sept-2023.xlsx
+2023-09-01,STAR_PLUS_HCBS,Totals,893,1.0,interest-list-data-sept-2023.xlsx
+2023-09-01,STAR_PLUS_HCBS,Unable to Locate,24,0.0268757,interest-list-data-sept-2023.xlsx
+2023-09-01,STAR_PLUS_HCBS,Withdrawn,30,0.0335946,interest-list-data-sept-2023.xlsx
+2023-09-01,TXHML,Deceased,0,0.0,interest-list-data-sept-2023.xlsx
+2023-09-01,TXHML,Declined,4,0.125,interest-list-data-sept-2023.xlsx
+2023-09-01,TXHML,Denied,12,0.375,interest-list-data-sept-2023.xlsx
+2023-09-01,TXHML,Enrolled,10,0.3125,interest-list-data-sept-2023.xlsx
+2023-09-01,TXHML,No Response,1,0.03125,interest-list-data-sept-2023.xlsx
+2023-09-01,TXHML,Not Categorized,0,0.0,interest-list-data-sept-2023.xlsx
+2023-09-01,TXHML,Other,0,0.0,interest-list-data-sept-2023.xlsx
+2023-09-01,TXHML,Totals,32,1.0,interest-list-data-sept-2023.xlsx
+2023-09-01,TXHML,Unable to Locate,5,0.15625,interest-list-data-sept-2023.xlsx
+2023-09-01,TXHML,Withdrawn,0,0.0,interest-list-data-sept-2023.xlsx
+2023-10-01,CLASS,Deceased,1,0.0116279,interest-list-data-oct-2023.xlsx
+2023-10-01,CLASS,Declined,7,0.0813953,interest-list-data-oct-2023.xlsx
+2023-10-01,CLASS,Denied,0,0.0,interest-list-data-oct-2023.xlsx
+2023-10-01,CLASS,Enrolled,19,0.2209302,interest-list-data-oct-2023.xlsx
+2023-10-01,CLASS,No Response,57,0.6627907,interest-list-data-oct-2023.xlsx
+2023-10-01,CLASS,Not Categorized,0,0.0,interest-list-data-oct-2023.xlsx
+2023-10-01,CLASS,Other,0,0.0,interest-list-data-oct-2023.xlsx
+2023-10-01,CLASS,Totals,86,1.0,interest-list-data-oct-2023.xlsx
+2023-10-01,CLASS,Unable to Locate,0,0.0,interest-list-data-oct-2023.xlsx
+2023-10-01,CLASS,Withdrawn,2,0.0232558,interest-list-data-oct-2023.xlsx
+2023-10-01,DBMD,Deceased,0,0.0,interest-list-data-oct-2023.xlsx
+2023-10-01,DBMD,Declined,0,0.0,interest-list-data-oct-2023.xlsx
+2023-10-01,DBMD,Denied,0,0.0,interest-list-data-oct-2023.xlsx
+2023-10-01,DBMD,Enrolled,1,0.5,interest-list-data-oct-2023.xlsx
+2023-10-01,DBMD,No Response,1,0.5,interest-list-data-oct-2023.xlsx
+2023-10-01,DBMD,Not Categorized,0,0.0,interest-list-data-oct-2023.xlsx
+2023-10-01,DBMD,Other,0,0.0,interest-list-data-oct-2023.xlsx
+2023-10-01,DBMD,Totals,2,1.0,interest-list-data-oct-2023.xlsx
+2023-10-01,DBMD,Unable to Locate,0,0.0,interest-list-data-oct-2023.xlsx
+2023-10-01,DBMD,Withdrawn,0,0.0,interest-list-data-oct-2023.xlsx
+2023-10-01,HCS,Deceased,0,0.0,interest-list-data-oct-2023.xlsx
+2023-10-01,HCS,Declined,7,0.07526881720430108,interest-list-data-oct-2023.xlsx
+2023-10-01,HCS,Denied,9,0.0967741935483871,interest-list-data-oct-2023.xlsx
+2023-10-01,HCS,Enrolled,76,0.8172043010752689,interest-list-data-oct-2023.xlsx
+2023-10-01,HCS,No Response,0,0.0,interest-list-data-oct-2023.xlsx
+2023-10-01,HCS,Not Categorized,1,0.010752688172043012,interest-list-data-oct-2023.xlsx
+2023-10-01,HCS,Other,0,0.0,interest-list-data-oct-2023.xlsx
+2023-10-01,HCS,Totals,93,1.0000000000000002,interest-list-data-oct-2023.xlsx
+2023-10-01,HCS,Unable to Locate,0,0.0,interest-list-data-oct-2023.xlsx
+2023-10-01,HCS,Withdrawn,0,0.0,interest-list-data-oct-2023.xlsx
+2023-10-01,MDCP,Deceased,1,0.0666667,interest-list-data-oct-2023.xlsx
+2023-10-01,MDCP,Declined,1,0.0666667,interest-list-data-oct-2023.xlsx
+2023-10-01,MDCP,Denied,5,0.3333333,interest-list-data-oct-2023.xlsx
+2023-10-01,MDCP,Enrolled,6,0.4,interest-list-data-oct-2023.xlsx
+2023-10-01,MDCP,No Response,0,0.0,interest-list-data-oct-2023.xlsx
+2023-10-01,MDCP,Not Categorized,0,0.0,interest-list-data-oct-2023.xlsx
+2023-10-01,MDCP,Other,0,0.0,interest-list-data-oct-2023.xlsx
+2023-10-01,MDCP,Totals,15,1.0,interest-list-data-oct-2023.xlsx
+2023-10-01,MDCP,Unable to Locate,0,0.0,interest-list-data-oct-2023.xlsx
+2023-10-01,MDCP,Withdrawn,2,0.1333333,interest-list-data-oct-2023.xlsx
+2023-10-01,STAR_PLUS_HCBS,Deceased,19,0.014318,interest-list-data-oct-2023.xlsx
+2023-10-01,STAR_PLUS_HCBS,Declined,103,0.0776187,interest-list-data-oct-2023.xlsx
+2023-10-01,STAR_PLUS_HCBS,Denied,657,0.4951017,interest-list-data-oct-2023.xlsx
+2023-10-01,STAR_PLUS_HCBS,Enrolled,266,0.2004521,interest-list-data-oct-2023.xlsx
+2023-10-01,STAR_PLUS_HCBS,No Response,161,0.1213263,interest-list-data-oct-2023.xlsx
+2023-10-01,STAR_PLUS_HCBS,Not Categorized,0,0.0,interest-list-data-oct-2023.xlsx
+2023-10-01,STAR_PLUS_HCBS,Other,27,0.0203466,interest-list-data-oct-2023.xlsx
+2023-10-01,STAR_PLUS_HCBS,Totals,1327,1.0,interest-list-data-oct-2023.xlsx
+2023-10-01,STAR_PLUS_HCBS,Unable to Locate,38,0.028636,interest-list-data-oct-2023.xlsx
+2023-10-01,STAR_PLUS_HCBS,Withdrawn,56,0.0422005,interest-list-data-oct-2023.xlsx
+2023-10-01,TXHML,Deceased,0,0.0,interest-list-data-oct-2023.xlsx
+2023-10-01,TXHML,Declined,15,0.24193548387096775,interest-list-data-oct-2023.xlsx
+2023-10-01,TXHML,Denied,10,0.16129032258064516,interest-list-data-oct-2023.xlsx
+2023-10-01,TXHML,Enrolled,19,0.3064516129032258,interest-list-data-oct-2023.xlsx
+2023-10-01,TXHML,No Response,10,0.16129032258064516,interest-list-data-oct-2023.xlsx
+2023-10-01,TXHML,Not Categorized,1,0.016129032258064516,interest-list-data-oct-2023.xlsx
+2023-10-01,TXHML,Other,0,0.0,interest-list-data-oct-2023.xlsx
+2023-10-01,TXHML,Totals,62,0.9999999999999999,interest-list-data-oct-2023.xlsx
+2023-10-01,TXHML,Unable to Locate,7,0.11290322580645161,interest-list-data-oct-2023.xlsx
+2023-10-01,TXHML,Withdrawn,0,0.0,interest-list-data-oct-2023.xlsx
+2023-11-01,CLASS,Deceased,1,0.0068493,interest-list-data-nov-2023.xlsx
+2023-11-01,CLASS,Declined,14,0.0958904,interest-list-data-nov-2023.xlsx
+2023-11-01,CLASS,Denied,1,0.0068493,interest-list-data-nov-2023.xlsx
+2023-11-01,CLASS,Enrolled,27,0.1849315,interest-list-data-nov-2023.xlsx
+2023-11-01,CLASS,No Response,101,0.6917808,interest-list-data-nov-2023.xlsx
+2023-11-01,CLASS,Not Categorized,0,0.0,interest-list-data-nov-2023.xlsx
+2023-11-01,CLASS,Other,0,0.0,interest-list-data-nov-2023.xlsx
+2023-11-01,CLASS,Totals,146,1.0,interest-list-data-nov-2023.xlsx
+2023-11-01,CLASS,Unable to Locate,0,0.0,interest-list-data-nov-2023.xlsx
+2023-11-01,CLASS,Withdrawn,2,0.0136986,interest-list-data-nov-2023.xlsx
+2023-11-01,DBMD,Deceased,0,0.0,interest-list-data-nov-2023.xlsx
+2023-11-01,DBMD,Declined,0,0.0,interest-list-data-nov-2023.xlsx
+2023-11-01,DBMD,Denied,0,0.0,interest-list-data-nov-2023.xlsx
+2023-11-01,DBMD,Enrolled,1,0.5,interest-list-data-nov-2023.xlsx
+2023-11-01,DBMD,No Response,1,0.5,interest-list-data-nov-2023.xlsx
+2023-11-01,DBMD,Not Categorized,0,0.0,interest-list-data-nov-2023.xlsx
+2023-11-01,DBMD,Other,0,0.0,interest-list-data-nov-2023.xlsx
+2023-11-01,DBMD,Totals,2,1.0,interest-list-data-nov-2023.xlsx
+2023-11-01,DBMD,Unable to Locate,0,0.0,interest-list-data-nov-2023.xlsx
+2023-11-01,DBMD,Withdrawn,0,0.0,interest-list-data-nov-2023.xlsx
+2023-11-01,HCS,Deceased,0,0.0,interest-list-data-nov-2023.xlsx
+2023-11-01,HCS,Declined,12,0.09836065573770492,interest-list-data-nov-2023.xlsx
+2023-11-01,HCS,Denied,15,0.12295081967213115,interest-list-data-nov-2023.xlsx
+2023-11-01,HCS,Enrolled,94,0.7704918032786885,interest-list-data-nov-2023.xlsx
+2023-11-01,HCS,No Response,0,0.0,interest-list-data-nov-2023.xlsx
+2023-11-01,HCS,Not Categorized,1,0.00819672131147541,interest-list-data-nov-2023.xlsx
+2023-11-01,HCS,Other,0,0.0,interest-list-data-nov-2023.xlsx
+2023-11-01,HCS,Totals,122,1.0,interest-list-data-nov-2023.xlsx
+2023-11-01,HCS,Unable to Locate,0,0.0,interest-list-data-nov-2023.xlsx
+2023-11-01,HCS,Withdrawn,0,0.0,interest-list-data-nov-2023.xlsx
+2023-11-01,MDCP,Deceased,6,0.1016949,interest-list-data-nov-2023.xlsx
+2023-11-01,MDCP,Declined,15,0.2542373,interest-list-data-nov-2023.xlsx
+2023-11-01,MDCP,Denied,7,0.1186441,interest-list-data-nov-2023.xlsx
+2023-11-01,MDCP,Enrolled,10,0.1694915,interest-list-data-nov-2023.xlsx
+2023-11-01,MDCP,No Response,3,0.0508475,interest-list-data-nov-2023.xlsx
+2023-11-01,MDCP,Not Categorized,0,0.0,interest-list-data-nov-2023.xlsx
+2023-11-01,MDCP,Other,1,0.0169492,interest-list-data-nov-2023.xlsx
+2023-11-01,MDCP,Totals,59,1.0,interest-list-data-nov-2023.xlsx
+2023-11-01,MDCP,Unable to Locate,0,0.0,interest-list-data-nov-2023.xlsx
+2023-11-01,MDCP,Withdrawn,17,0.2881356,interest-list-data-nov-2023.xlsx
+2023-11-01,STAR_PLUS_HCBS,Deceased,37,0.0226438,interest-list-data-nov-2023.xlsx
+2023-11-01,STAR_PLUS_HCBS,Declined,159,0.0973072,interest-list-data-nov-2023.xlsx
+2023-11-01,STAR_PLUS_HCBS,Denied,733,0.4485924,interest-list-data-nov-2023.xlsx
+2023-11-01,STAR_PLUS_HCBS,Enrolled,325,0.1988984,interest-list-data-nov-2023.xlsx
+2023-11-01,STAR_PLUS_HCBS,No Response,162,0.0991432,interest-list-data-nov-2023.xlsx
+2023-11-01,STAR_PLUS_HCBS,Not Categorized,0,0.0,interest-list-data-nov-2023.xlsx
+2023-11-01,STAR_PLUS_HCBS,Other,32,0.0195838,interest-list-data-nov-2023.xlsx
+2023-11-01,STAR_PLUS_HCBS,Totals,1634,1.0,interest-list-data-nov-2023.xlsx
+2023-11-01,STAR_PLUS_HCBS,Unable to Locate,37,0.0226438,interest-list-data-nov-2023.xlsx
+2023-11-01,STAR_PLUS_HCBS,Withdrawn,149,0.0911873,interest-list-data-nov-2023.xlsx
+2023-11-01,TXHML,Deceased,0,0.0,interest-list-data-nov-2023.xlsx
+2023-11-01,TXHML,Declined,21,0.2530120481927711,interest-list-data-nov-2023.xlsx
+2023-11-01,TXHML,Denied,12,0.14457831325301204,interest-list-data-nov-2023.xlsx
+2023-11-01,TXHML,Enrolled,29,0.3493975903614458,interest-list-data-nov-2023.xlsx
+2023-11-01,TXHML,No Response,12,0.14457831325301204,interest-list-data-nov-2023.xlsx
+2023-11-01,TXHML,Not Categorized,2,0.024096385542168676,interest-list-data-nov-2023.xlsx
+2023-11-01,TXHML,Other,0,0.0,interest-list-data-nov-2023.xlsx
+2023-11-01,TXHML,Totals,83,1.0000000000000002,interest-list-data-nov-2023.xlsx
+2023-11-01,TXHML,Unable to Locate,7,0.08433734939759036,interest-list-data-nov-2023.xlsx
+2023-11-01,TXHML,Withdrawn,0,0.0,interest-list-data-nov-2023.xlsx
+2023-12-01,CLASS,Deceased,2,0.009901,interest-list-data-dec-2023.xlsx
+2023-12-01,CLASS,Declined,17,0.0841584,interest-list-data-dec-2023.xlsx
+2023-12-01,CLASS,Denied,3,0.0148515,interest-list-data-dec-2023.xlsx
+2023-12-01,CLASS,Enrolled,38,0.1881188,interest-list-data-dec-2023.xlsx
+2023-12-01,CLASS,No Response,140,0.6930693,interest-list-data-dec-2023.xlsx
+2023-12-01,CLASS,Not Categorized,0,,interest-list-data-dec-2023.xlsx
+2023-12-01,CLASS,Other,0,,interest-list-data-dec-2023.xlsx
+2023-12-01,CLASS,Totals,202,1.0,interest-list-data-dec-2023.xlsx
+2023-12-01,CLASS,Unable to Locate,0,,interest-list-data-dec-2023.xlsx
+2023-12-01,CLASS,Withdrawn,2,0.009901,interest-list-data-dec-2023.xlsx
+2023-12-01,DBMD,Deceased,0,,interest-list-data-dec-2023.xlsx
+2023-12-01,DBMD,Declined,0,,interest-list-data-dec-2023.xlsx
+2023-12-01,DBMD,Denied,0,,interest-list-data-dec-2023.xlsx
+2023-12-01,DBMD,Enrolled,1,0.5,interest-list-data-dec-2023.xlsx
+2023-12-01,DBMD,No Response,1,0.5,interest-list-data-dec-2023.xlsx
+2023-12-01,DBMD,Not Categorized,0,,interest-list-data-dec-2023.xlsx
+2023-12-01,DBMD,Other,0,,interest-list-data-dec-2023.xlsx
+2023-12-01,DBMD,Totals,2,1.0,interest-list-data-dec-2023.xlsx
+2023-12-01,DBMD,Unable to Locate,0,,interest-list-data-dec-2023.xlsx
+2023-12-01,DBMD,Withdrawn,0,,interest-list-data-dec-2023.xlsx
+2023-12-01,HCS,Deceased,0,,interest-list-data-dec-2023.xlsx
+2023-12-01,HCS,Declined,12,0.09090909090909091,interest-list-data-dec-2023.xlsx
+2023-12-01,HCS,Denied,17,0.12878787878787878,interest-list-data-dec-2023.xlsx
+2023-12-01,HCS,Enrolled,102,0.7727272727272727,interest-list-data-dec-2023.xlsx
+2023-12-01,HCS,No Response,0,,interest-list-data-dec-2023.xlsx
+2023-12-01,HCS,Not Categorized,1,0.007575757575757576,interest-list-data-dec-2023.xlsx
+2023-12-01,HCS,Other,0,,interest-list-data-dec-2023.xlsx
+2023-12-01,HCS,Totals,132,1.0,interest-list-data-dec-2023.xlsx
+2023-12-01,HCS,Unable to Locate,0,,interest-list-data-dec-2023.xlsx
+2023-12-01,HCS,Withdrawn,0,,interest-list-data-dec-2023.xlsx
+2023-12-01,MDCP,Deceased,13,0.0420712,interest-list-data-dec-2023.xlsx
+2023-12-01,MDCP,Declined,36,0.1165049,interest-list-data-dec-2023.xlsx
+2023-12-01,MDCP,Denied,25,0.0809061,interest-list-data-dec-2023.xlsx
+2023-12-01,MDCP,Enrolled,47,0.1521036,interest-list-data-dec-2023.xlsx
+2023-12-01,MDCP,No Response,164,0.5307443,interest-list-data-dec-2023.xlsx
+2023-12-01,MDCP,Not Categorized,0,,interest-list-data-dec-2023.xlsx
+2023-12-01,MDCP,Other,2,0.0064725,interest-list-data-dec-2023.xlsx
+2023-12-01,MDCP,Totals,309,1.0,interest-list-data-dec-2023.xlsx
+2023-12-01,MDCP,Unable to Locate,0,,interest-list-data-dec-2023.xlsx
+2023-12-01,MDCP,Withdrawn,22,0.0711974,interest-list-data-dec-2023.xlsx
+2023-12-01,STAR_PLUS_HCBS,Deceased,138,0.0525514,interest-list-data-dec-2023.xlsx
+2023-12-01,STAR_PLUS_HCBS,Declined,301,0.114623,interest-list-data-dec-2023.xlsx
+2023-12-01,STAR_PLUS_HCBS,Denied,818,0.3115004,interest-list-data-dec-2023.xlsx
+2023-12-01,STAR_PLUS_HCBS,Enrolled,361,0.1374714,interest-list-data-dec-2023.xlsx
+2023-12-01,STAR_PLUS_HCBS,No Response,515,0.1961158,interest-list-data-dec-2023.xlsx
+2023-12-01,STAR_PLUS_HCBS,Not Categorized,0,,interest-list-data-dec-2023.xlsx
+2023-12-01,STAR_PLUS_HCBS,Other,41,0.0156131,interest-list-data-dec-2023.xlsx
+2023-12-01,STAR_PLUS_HCBS,Totals,2626,1.0,interest-list-data-dec-2023.xlsx
+2023-12-01,STAR_PLUS_HCBS,Unable to Locate,39,0.0148515,interest-list-data-dec-2023.xlsx
+2023-12-01,STAR_PLUS_HCBS,Withdrawn,413,0.1572734,interest-list-data-dec-2023.xlsx
+2023-12-01,TXHML,Deceased,0,,interest-list-data-dec-2023.xlsx
+2023-12-01,TXHML,Declined,22,0.23404255319148937,interest-list-data-dec-2023.xlsx
+2023-12-01,TXHML,Denied,12,0.1276595744680851,interest-list-data-dec-2023.xlsx
+2023-12-01,TXHML,Enrolled,38,0.40425531914893614,interest-list-data-dec-2023.xlsx
+2023-12-01,TXHML,No Response,13,0.13829787234042554,interest-list-data-dec-2023.xlsx
+2023-12-01,TXHML,Not Categorized,2,0.02127659574468085,interest-list-data-dec-2023.xlsx
+2023-12-01,TXHML,Other,0,,interest-list-data-dec-2023.xlsx
+2023-12-01,TXHML,Totals,94,1.0,interest-list-data-dec-2023.xlsx
+2023-12-01,TXHML,Unable to Locate,7,0.07446808510638298,interest-list-data-dec-2023.xlsx
+2023-12-01,TXHML,Withdrawn,0,,interest-list-data-dec-2023.xlsx
+2024-01-01,CLASS,Deceased,2,0.0085837,interest-list-data-jan-2024.xlsx
+2024-01-01,CLASS,Declined,28,0.1201717,interest-list-data-jan-2024.xlsx
+2024-01-01,CLASS,Denied,6,0.0257511,interest-list-data-jan-2024.xlsx
+2024-01-01,CLASS,Enrolled,41,0.1759657,interest-list-data-jan-2024.xlsx
+2024-01-01,CLASS,No Response,152,0.6523605,interest-list-data-jan-2024.xlsx
+2024-01-01,CLASS,Not Categorized,0,,interest-list-data-jan-2024.xlsx
+2024-01-01,CLASS,Other,1,0.0042918,interest-list-data-jan-2024.xlsx
+2024-01-01,CLASS,Totals,233,1.0,interest-list-data-jan-2024.xlsx
+2024-01-01,CLASS,Unable to Locate,0,,interest-list-data-jan-2024.xlsx
+2024-01-01,CLASS,Withdrawn,3,0.0128755,interest-list-data-jan-2024.xlsx
+2024-01-01,DBMD,Deceased,0,,interest-list-data-jan-2024.xlsx
+2024-01-01,DBMD,Declined,0,,interest-list-data-jan-2024.xlsx
+2024-01-01,DBMD,Denied,0,,interest-list-data-jan-2024.xlsx
+2024-01-01,DBMD,Enrolled,1,0.5,interest-list-data-jan-2024.xlsx
+2024-01-01,DBMD,No Response,1,0.5,interest-list-data-jan-2024.xlsx
+2024-01-01,DBMD,Not Categorized,0,,interest-list-data-jan-2024.xlsx
+2024-01-01,DBMD,Other,0,,interest-list-data-jan-2024.xlsx
+2024-01-01,DBMD,Totals,2,1.0,interest-list-data-jan-2024.xlsx
+2024-01-01,DBMD,Unable to Locate,0,,interest-list-data-jan-2024.xlsx
+2024-01-01,DBMD,Withdrawn,0,,interest-list-data-jan-2024.xlsx
+2024-01-01,HCS,Deceased,2,0.012738853503184714,interest-list-data-jan-2024.xlsx
+2024-01-01,HCS,Declined,20,0.12738853503184713,interest-list-data-jan-2024.xlsx
+2024-01-01,HCS,Denied,18,0.11464968152866242,interest-list-data-jan-2024.xlsx
+2024-01-01,HCS,Enrolled,112,0.7133757961783439,interest-list-data-jan-2024.xlsx
+2024-01-01,HCS,No Response,0,,interest-list-data-jan-2024.xlsx
+2024-01-01,HCS,Not Categorized,4,0.025477707006369428,interest-list-data-jan-2024.xlsx
+2024-01-01,HCS,Other,0,,interest-list-data-jan-2024.xlsx
+2024-01-01,HCS,Totals,157,1.0,interest-list-data-jan-2024.xlsx
+2024-01-01,HCS,Unable to Locate,1,0.006369426751592357,interest-list-data-jan-2024.xlsx
+2024-01-01,HCS,Withdrawn,0,,interest-list-data-jan-2024.xlsx
+2024-01-01,MDCP,Deceased,18,0.0245902,interest-list-data-jan-2024.xlsx
+2024-01-01,MDCP,Declined,76,0.1038251,interest-list-data-jan-2024.xlsx
+2024-01-01,MDCP,Denied,83,0.113388,interest-list-data-jan-2024.xlsx
+2024-01-01,MDCP,Enrolled,101,0.1379781,interest-list-data-jan-2024.xlsx
+2024-01-01,MDCP,No Response,408,0.557377,interest-list-data-jan-2024.xlsx
+2024-01-01,MDCP,Not Categorized,0,,interest-list-data-jan-2024.xlsx
+2024-01-01,MDCP,Other,2,0.0027322,interest-list-data-jan-2024.xlsx
+2024-01-01,MDCP,Totals,732,1.0,interest-list-data-jan-2024.xlsx
+2024-01-01,MDCP,Unable to Locate,0,,interest-list-data-jan-2024.xlsx
+2024-01-01,MDCP,Withdrawn,44,0.0601093,interest-list-data-jan-2024.xlsx
+2024-01-01,STAR_PLUS_HCBS,Deceased,197,0.040402,interest-list-data-jan-2024.xlsx
+2024-01-01,STAR_PLUS_HCBS,Declined,456,0.0935193,interest-list-data-jan-2024.xlsx
+2024-01-01,STAR_PLUS_HCBS,Denied,924,0.1894996,interest-list-data-jan-2024.xlsx
+2024-01-01,STAR_PLUS_HCBS,Enrolled,422,0.0865463,interest-list-data-jan-2024.xlsx
+2024-01-01,STAR_PLUS_HCBS,No Response,1341,0.2750205,interest-list-data-jan-2024.xlsx
+2024-01-01,STAR_PLUS_HCBS,Not Categorized,0,,interest-list-data-jan-2024.xlsx
+2024-01-01,STAR_PLUS_HCBS,Other,81,0.016612,interest-list-data-jan-2024.xlsx
+2024-01-01,STAR_PLUS_HCBS,Totals,4876,1.0,interest-list-data-jan-2024.xlsx
+2024-01-01,STAR_PLUS_HCBS,Unable to Locate,38,0.0077933,interest-list-data-jan-2024.xlsx
+2024-01-01,STAR_PLUS_HCBS,Withdrawn,1417,0.2906071,interest-list-data-jan-2024.xlsx
+2024-01-01,TXHML,Deceased,2,0.015267175572519083,interest-list-data-jan-2024.xlsx
+2024-01-01,TXHML,Declined,46,0.35114503816793896,interest-list-data-jan-2024.xlsx
+2024-01-01,TXHML,Denied,17,0.1297709923664122,interest-list-data-jan-2024.xlsx
+2024-01-01,TXHML,Enrolled,42,0.32061068702290074,interest-list-data-jan-2024.xlsx
+2024-01-01,TXHML,No Response,13,0.09923664122137404,interest-list-data-jan-2024.xlsx
+2024-01-01,TXHML,Not Categorized,4,0.030534351145038167,interest-list-data-jan-2024.xlsx
+2024-01-01,TXHML,Other,0,,interest-list-data-jan-2024.xlsx
+2024-01-01,TXHML,Totals,131,1.0,interest-list-data-jan-2024.xlsx
+2024-01-01,TXHML,Unable to Locate,7,0.05343511450381679,interest-list-data-jan-2024.xlsx
+2024-01-01,TXHML,Withdrawn,0,,interest-list-data-jan-2024.xlsx
+2024-02-01,CLASS,Deceased,2,0.0074906,interest-list-data-feb-2024.xlsx
+2024-02-01,CLASS,Declined,41,0.1535581,interest-list-data-feb-2024.xlsx
+2024-02-01,CLASS,Denied,9,0.0337079,interest-list-data-feb-2024.xlsx
+2024-02-01,CLASS,Enrolled,51,0.1910112,interest-list-data-feb-2024.xlsx
+2024-02-01,CLASS,No Response,156,0.5842697,interest-list-data-feb-2024.xlsx
+2024-02-01,CLASS,Not Categorized,0,,interest-list-data-feb-2024.xlsx
+2024-02-01,CLASS,Other,1,0.0037453,interest-list-data-feb-2024.xlsx
+2024-02-01,CLASS,Totals,267,1.0,interest-list-data-feb-2024.xlsx
+2024-02-01,CLASS,Unable to Locate,0,,interest-list-data-feb-2024.xlsx
+2024-02-01,CLASS,Withdrawn,7,0.0262172,interest-list-data-feb-2024.xlsx
+2024-02-01,DBMD,Deceased,2,0.1666667,interest-list-data-feb-2024.xlsx
+2024-02-01,DBMD,Declined,4,0.3333333,interest-list-data-feb-2024.xlsx
+2024-02-01,DBMD,Denied,0,,interest-list-data-feb-2024.xlsx
+2024-02-01,DBMD,Enrolled,1,0.0833333,interest-list-data-feb-2024.xlsx
+2024-02-01,DBMD,No Response,2,0.1666667,interest-list-data-feb-2024.xlsx
+2024-02-01,DBMD,Not Categorized,0,,interest-list-data-feb-2024.xlsx
+2024-02-01,DBMD,Other,0,,interest-list-data-feb-2024.xlsx
+2024-02-01,DBMD,Totals,12,1.0,interest-list-data-feb-2024.xlsx
+2024-02-01,DBMD,Unable to Locate,0,,interest-list-data-feb-2024.xlsx
+2024-02-01,DBMD,Withdrawn,3,0.25,interest-list-data-feb-2024.xlsx
+2024-02-01,HCS,Deceased,4,0.021739130434782608,interest-list-data-feb-2024.xlsx
+2024-02-01,HCS,Declined,47,0.2554347826086956,interest-list-data-feb-2024.xlsx
+2024-02-01,HCS,Denied,20,0.10869565217391304,interest-list-data-feb-2024.xlsx
+2024-02-01,HCS,Enrolled,103,0.5597826086956522,interest-list-data-feb-2024.xlsx
+2024-02-01,HCS,No Response,0,,interest-list-data-feb-2024.xlsx
+2024-02-01,HCS,Not Categorized,6,0.03260869565217391,interest-list-data-feb-2024.xlsx
+2024-02-01,HCS,Other,0,,interest-list-data-feb-2024.xlsx
+2024-02-01,HCS,Totals,184,1.0,interest-list-data-feb-2024.xlsx
+2024-02-01,HCS,Unable to Locate,4,0.021739130434782608,interest-list-data-feb-2024.xlsx
+2024-02-01,HCS,Withdrawn,0,,interest-list-data-feb-2024.xlsx
+2024-02-01,MDCP,Deceased,22,0.022022,interest-list-data-feb-2024.xlsx
+2024-02-01,MDCP,Declined,121,0.1211211,interest-list-data-feb-2024.xlsx
+2024-02-01,MDCP,Denied,152,0.1521522,interest-list-data-feb-2024.xlsx
+2024-02-01,MDCP,Enrolled,195,0.1951952,interest-list-data-feb-2024.xlsx
+2024-02-01,MDCP,No Response,443,0.4434434,interest-list-data-feb-2024.xlsx
+2024-02-01,MDCP,Not Categorized,0,,interest-list-data-feb-2024.xlsx
+2024-02-01,MDCP,Other,2,0.002002,interest-list-data-feb-2024.xlsx
+2024-02-01,MDCP,Totals,999,1.0,interest-list-data-feb-2024.xlsx
+2024-02-01,MDCP,Unable to Locate,0,,interest-list-data-feb-2024.xlsx
+2024-02-01,MDCP,Withdrawn,64,0.0640641,interest-list-data-feb-2024.xlsx
+2024-02-01,STAR_PLUS_HCBS,Deceased,325,0.0461976,interest-list-data-feb-2024.xlsx
+2024-02-01,STAR_PLUS_HCBS,Declined,580,0.0824449,interest-list-data-feb-2024.xlsx
+2024-02-01,STAR_PLUS_HCBS,Denied,1053,0.1496802,interest-list-data-feb-2024.xlsx
+2024-02-01,STAR_PLUS_HCBS,Enrolled,500,0.0710732,interest-list-data-feb-2024.xlsx
+2024-02-01,STAR_PLUS_HCBS,No Response,2806,0.3988628,interest-list-data-feb-2024.xlsx
+2024-02-01,STAR_PLUS_HCBS,Not Categorized,0,,interest-list-data-feb-2024.xlsx
+2024-02-01,STAR_PLUS_HCBS,Other,137,0.0194741,interest-list-data-feb-2024.xlsx
+2024-02-01,STAR_PLUS_HCBS,Totals,7035,1.0,interest-list-data-feb-2024.xlsx
+2024-02-01,STAR_PLUS_HCBS,Unable to Locate,45,0.0063966,interest-list-data-feb-2024.xlsx
+2024-02-01,STAR_PLUS_HCBS,Withdrawn,1589,0.2258706,interest-list-data-feb-2024.xlsx
+2024-02-01,TXHML,Deceased,8,0.03076923076923077,interest-list-data-feb-2024.xlsx
+2024-02-01,TXHML,Declined,127,0.4884615384615385,interest-list-data-feb-2024.xlsx
+2024-02-01,TXHML,Denied,22,0.08461538461538462,interest-list-data-feb-2024.xlsx
+2024-02-01,TXHML,Enrolled,53,0.20384615384615384,interest-list-data-feb-2024.xlsx
+2024-02-01,TXHML,No Response,16,0.06153846153846154,interest-list-data-feb-2024.xlsx
+2024-02-01,TXHML,Not Categorized,13,0.05,interest-list-data-feb-2024.xlsx
+2024-02-01,TXHML,Other,0,,interest-list-data-feb-2024.xlsx
+2024-02-01,TXHML,Totals,260,1.0000000000000002,interest-list-data-feb-2024.xlsx
+2024-02-01,TXHML,Unable to Locate,21,0.08076923076923077,interest-list-data-feb-2024.xlsx
+2024-02-01,TXHML,Withdrawn,0,,interest-list-data-feb-2024.xlsx
+2024-03-01,CLASS,Deceased,7,0.0229508,interest-list-data-march-2024.xlsx
+2024-03-01,CLASS,Declined,58,0.1901639,interest-list-data-march-2024.xlsx
+2024-03-01,CLASS,Denied,11,0.0360656,interest-list-data-march-2024.xlsx
+2024-03-01,CLASS,Enrolled,54,0.1770492,interest-list-data-march-2024.xlsx
+2024-03-01,CLASS,No Response,162,0.5311475,interest-list-data-march-2024.xlsx
+2024-03-01,CLASS,Not Categorized,0,,interest-list-data-march-2024.xlsx
+2024-03-01,CLASS,Other,1,0.0032787,interest-list-data-march-2024.xlsx
+2024-03-01,CLASS,Totals,305,1.0,interest-list-data-march-2024.xlsx
+2024-03-01,CLASS,Unable to Locate,0,,interest-list-data-march-2024.xlsx
+2024-03-01,CLASS,Withdrawn,12,0.0393443,interest-list-data-march-2024.xlsx
+2024-03-01,DBMD,Deceased,2,0.0769231,interest-list-data-march-2024.xlsx
+2024-03-01,DBMD,Declined,9,0.3461538,interest-list-data-march-2024.xlsx
+2024-03-01,DBMD,Denied,0,,interest-list-data-march-2024.xlsx
+2024-03-01,DBMD,Enrolled,1,0.0384615,interest-list-data-march-2024.xlsx
+2024-03-01,DBMD,No Response,9,0.3461538,interest-list-data-march-2024.xlsx
+2024-03-01,DBMD,Not Categorized,0,,interest-list-data-march-2024.xlsx
+2024-03-01,DBMD,Other,0,,interest-list-data-march-2024.xlsx
+2024-03-01,DBMD,Totals,26,1.0,interest-list-data-march-2024.xlsx
+2024-03-01,DBMD,Unable to Locate,0,,interest-list-data-march-2024.xlsx
+2024-03-01,DBMD,Withdrawn,5,0.1923077,interest-list-data-march-2024.xlsx
+2024-03-01,HCS,Deceased,9,0.033210332103321034,interest-list-data-march-2024.xlsx
+2024-03-01,HCS,Declined,82,0.3025830258302583,interest-list-data-march-2024.xlsx
+2024-03-01,HCS,Denied,24,0.08856088560885608,interest-list-data-march-2024.xlsx
+2024-03-01,HCS,Enrolled,128,0.47232472324723246,interest-list-data-march-2024.xlsx
+2024-03-01,HCS,No Response,0,,interest-list-data-march-2024.xlsx
+2024-03-01,HCS,Not Categorized,9,0.033210332103321034,interest-list-data-march-2024.xlsx
+2024-03-01,HCS,Other,0,,interest-list-data-march-2024.xlsx
+2024-03-01,HCS,Totals,271,1.0,interest-list-data-march-2024.xlsx
+2024-03-01,HCS,Unable to Locate,19,0.07011070110701106,interest-list-data-march-2024.xlsx
+2024-03-01,HCS,Withdrawn,0,,interest-list-data-march-2024.xlsx
+2024-03-01,MDCP,Deceased,26,0.0213115,interest-list-data-march-2024.xlsx
+2024-03-01,MDCP,Declined,184,0.1508197,interest-list-data-march-2024.xlsx
+2024-03-01,MDCP,Denied,243,0.1991803,interest-list-data-march-2024.xlsx
+2024-03-01,MDCP,Enrolled,63,0.0516393,interest-list-data-march-2024.xlsx
+2024-03-01,MDCP,No Response,598,0.4901639,interest-list-data-march-2024.xlsx
+2024-03-01,MDCP,Not Categorized,0,,interest-list-data-march-2024.xlsx
+2024-03-01,MDCP,Other,3,0.002459,interest-list-data-march-2024.xlsx
+2024-03-01,MDCP,Totals,1220,1.0,interest-list-data-march-2024.xlsx
+2024-03-01,MDCP,Unable to Locate,6,0.004918,interest-list-data-march-2024.xlsx
+2024-03-01,MDCP,Withdrawn,97,0.0795082,interest-list-data-march-2024.xlsx
+2024-03-01,STAR_PLUS_HCBS,Deceased,390,0.0451755,interest-list-data-march-2024.xlsx
+2024-03-01,STAR_PLUS_HCBS,Declined,668,0.0773775,interest-list-data-march-2024.xlsx
+2024-03-01,STAR_PLUS_HCBS,Denied,1214,0.1406232,interest-list-data-march-2024.xlsx
+2024-03-01,STAR_PLUS_HCBS,Enrolled,642,0.0743658,interest-list-data-march-2024.xlsx
+2024-03-01,STAR_PLUS_HCBS,No Response,3473,0.4022935,interest-list-data-march-2024.xlsx
+2024-03-01,STAR_PLUS_HCBS,Not Categorized,0,,interest-list-data-march-2024.xlsx
+2024-03-01,STAR_PLUS_HCBS,Other,202,0.0233986,interest-list-data-march-2024.xlsx
+2024-03-01,STAR_PLUS_HCBS,Totals,8633,1.0,interest-list-data-march-2024.xlsx
+2024-03-01,STAR_PLUS_HCBS,Unable to Locate,57,0.0066026,interest-list-data-march-2024.xlsx
+2024-03-01,STAR_PLUS_HCBS,Withdrawn,1987,0.2301633,interest-list-data-march-2024.xlsx
+2024-03-01,TXHML,Deceased,18,0.0400890868596882,interest-list-data-march-2024.xlsx
+2024-03-01,TXHML,Declined,209,0.4654788418708241,interest-list-data-march-2024.xlsx
+2024-03-01,TXHML,Denied,38,0.08463251670378619,interest-list-data-march-2024.xlsx
+2024-03-01,TXHML,Enrolled,65,0.1447661469933185,interest-list-data-march-2024.xlsx
+2024-03-01,TXHML,No Response,30,0.066815144766147,interest-list-data-march-2024.xlsx
+2024-03-01,TXHML,Not Categorized,22,0.04899777282850779,interest-list-data-march-2024.xlsx
+2024-03-01,TXHML,Other,0,,interest-list-data-march-2024.xlsx
+2024-03-01,TXHML,Totals,449,1.0,interest-list-data-march-2024.xlsx
+2024-03-01,TXHML,Unable to Locate,67,0.1492204899777283,interest-list-data-march-2024.xlsx
+2024-03-01,TXHML,Withdrawn,0,,interest-list-data-march-2024.xlsx
+2024-04-01,CLASS,Deceased,7,0.0208955,interest-list-data-april-2024.xlsx
+2024-04-01,CLASS,Declined,64,0.1910448,interest-list-data-april-2024.xlsx
+2024-04-01,CLASS,Denied,13,0.038806,interest-list-data-april-2024.xlsx
+2024-04-01,CLASS,Enrolled,60,0.1791045,interest-list-data-april-2024.xlsx
+2024-04-01,CLASS,No Response,172,0.5134328,interest-list-data-april-2024.xlsx
+2024-04-01,CLASS,Not Categorized,0,,interest-list-data-april-2024.xlsx
+2024-04-01,CLASS,Other,1,0.0029851,interest-list-data-april-2024.xlsx
+2024-04-01,CLASS,Totals,335,1.0,interest-list-data-april-2024.xlsx
+2024-04-01,CLASS,Unable to Locate,0,,interest-list-data-april-2024.xlsx
+2024-04-01,CLASS,Withdrawn,18,0.0537313,interest-list-data-april-2024.xlsx
+2024-04-01,DBMD,Deceased,2,0.0465116,interest-list-data-april-2024.xlsx
+2024-04-01,DBMD,Declined,14,0.3255814,interest-list-data-april-2024.xlsx
+2024-04-01,DBMD,Denied,0,,interest-list-data-april-2024.xlsx
+2024-04-01,DBMD,Enrolled,1,0.0232558,interest-list-data-april-2024.xlsx
+2024-04-01,DBMD,No Response,20,0.4651163,interest-list-data-april-2024.xlsx
+2024-04-01,DBMD,Not Categorized,0,,interest-list-data-april-2024.xlsx
+2024-04-01,DBMD,Other,0,,interest-list-data-april-2024.xlsx
+2024-04-01,DBMD,Totals,43,1.0,interest-list-data-april-2024.xlsx
+2024-04-01,DBMD,Unable to Locate,0,,interest-list-data-april-2024.xlsx
+2024-04-01,DBMD,Withdrawn,6,0.1395349,interest-list-data-april-2024.xlsx
+2024-04-01,HCS,Deceased,20,0.05115089514066496,interest-list-data-april-2024.xlsx
+2024-04-01,HCS,Declined,133,0.34015345268542196,interest-list-data-april-2024.xlsx
+2024-04-01,HCS,Denied,25,0.0639386189258312,interest-list-data-april-2024.xlsx
+2024-04-01,HCS,Enrolled,156,0.3989769820971867,interest-list-data-april-2024.xlsx
+2024-04-01,HCS,No Response,0,,interest-list-data-april-2024.xlsx
+2024-04-01,HCS,Not Categorized,20,0.05115089514066497,interest-list-data-april-2024.xlsx
+2024-04-01,HCS,Other,0,,interest-list-data-april-2024.xlsx
+2024-04-01,HCS,Totals,391,0.9999999999999999,interest-list-data-april-2024.xlsx
+2024-04-01,HCS,Unable to Locate,37,0.09462915601023018,interest-list-data-april-2024.xlsx
+2024-04-01,HCS,Withdrawn,0,,interest-list-data-april-2024.xlsx
+2024-04-01,MDCP,Deceased,30,0.0175644,interest-list-data-april-2024.xlsx
+2024-04-01,MDCP,Declined,267,0.1563232,interest-list-data-april-2024.xlsx
+2024-04-01,MDCP,Denied,346,0.2025761,interest-list-data-april-2024.xlsx
+2024-04-01,MDCP,Enrolled,87,0.0509368,interest-list-data-april-2024.xlsx
+2024-04-01,MDCP,No Response,800,0.4683841,interest-list-data-april-2024.xlsx
+2024-04-01,MDCP,Not Categorized,0,,interest-list-data-april-2024.xlsx
+2024-04-01,MDCP,Other,4,0.0023419,interest-list-data-april-2024.xlsx
+2024-04-01,MDCP,Totals,1708,1.0,interest-list-data-april-2024.xlsx
+2024-04-01,MDCP,Unable to Locate,31,0.0181499,interest-list-data-april-2024.xlsx
+2024-04-01,MDCP,Withdrawn,143,0.0837237,interest-list-data-april-2024.xlsx
+2024-04-01,STAR_PLUS_HCBS,Deceased,538,0.0442434,interest-list-data-april-2024.xlsx
+2024-04-01,STAR_PLUS_HCBS,Declined,892,0.0733553,interest-list-data-april-2024.xlsx
+2024-04-01,STAR_PLUS_HCBS,Denied,1528,0.1256579,interest-list-data-april-2024.xlsx
+2024-04-01,STAR_PLUS_HCBS,Enrolled,915,0.0752467,interest-list-data-april-2024.xlsx
+2024-04-01,STAR_PLUS_HCBS,No Response,5324,0.4378289,interest-list-data-april-2024.xlsx
+2024-04-01,STAR_PLUS_HCBS,Not Categorized,0,,interest-list-data-april-2024.xlsx
+2024-04-01,STAR_PLUS_HCBS,Other,275,0.0226151,interest-list-data-april-2024.xlsx
+2024-04-01,STAR_PLUS_HCBS,Totals,12160,1.0,interest-list-data-april-2024.xlsx
+2024-04-01,STAR_PLUS_HCBS,Unable to Locate,83,0.0068257,interest-list-data-april-2024.xlsx
+2024-04-01,STAR_PLUS_HCBS,Withdrawn,2605,0.214227,interest-list-data-april-2024.xlsx
+2024-04-01,TXHML,Deceased,33,0.045081967213114756,interest-list-data-april-2024.xlsx
+2024-04-01,TXHML,Declined,342,0.4672131147540984,interest-list-data-april-2024.xlsx
+2024-04-01,TXHML,Denied,49,0.06693989071038252,interest-list-data-april-2024.xlsx
+2024-04-01,TXHML,Enrolled,67,0.09153005464480875,interest-list-data-april-2024.xlsx
+2024-04-01,TXHML,No Response,78,0.10655737704918032,interest-list-data-april-2024.xlsx
+2024-04-01,TXHML,Not Categorized,43,0.0587431693989071,interest-list-data-april-2024.xlsx
+2024-04-01,TXHML,Other,0,,interest-list-data-april-2024.xlsx
+2024-04-01,TXHML,Totals,732,1.0,interest-list-data-april-2024.xlsx
+2024-04-01,TXHML,Unable to Locate,120,0.16393442622950818,interest-list-data-april-2024.xlsx
+2024-04-01,TXHML,Withdrawn,0,,interest-list-data-april-2024.xlsx
+2024-05-01,CLASS,Deceased,9,0.0230769,interest-list-data-may-2024.xlsx
+2024-05-01,CLASS,Declined,75,0.1923077,interest-list-data-may-2024.xlsx
+2024-05-01,CLASS,Denied,17,0.0435897,interest-list-data-may-2024.xlsx
+2024-05-01,CLASS,Enrolled,72,0.1846154,interest-list-data-may-2024.xlsx
+2024-05-01,CLASS,No Response,189,0.4846154,interest-list-data-may-2024.xlsx
+2024-05-01,CLASS,Not Categorized,0,,interest-list-data-may-2024.xlsx
+2024-05-01,CLASS,Other,1,0.0025641,interest-list-data-may-2024.xlsx
+2024-05-01,CLASS,Totals,390,1.0,interest-list-data-may-2024.xlsx
+2024-05-01,CLASS,Unable to Locate,0,,interest-list-data-may-2024.xlsx
+2024-05-01,CLASS,Withdrawn,27,0.0692308,interest-list-data-may-2024.xlsx
+2024-05-01,DBMD,Deceased,2,0.0333333,interest-list-data-may-2024.xlsx
+2024-05-01,DBMD,Declined,15,0.25,interest-list-data-may-2024.xlsx
+2024-05-01,DBMD,Denied,0,,interest-list-data-may-2024.xlsx
+2024-05-01,DBMD,Enrolled,2,0.0333333,interest-list-data-may-2024.xlsx
+2024-05-01,DBMD,No Response,34,0.5666667,interest-list-data-may-2024.xlsx
+2024-05-01,DBMD,Not Categorized,0,,interest-list-data-may-2024.xlsx
+2024-05-01,DBMD,Other,0,,interest-list-data-may-2024.xlsx
+2024-05-01,DBMD,Totals,60,1.0,interest-list-data-may-2024.xlsx
+2024-05-01,DBMD,Unable to Locate,0,,interest-list-data-may-2024.xlsx
+2024-05-01,DBMD,Withdrawn,7,0.1166667,interest-list-data-may-2024.xlsx
+2024-05-01,HCS,Deceased,26,0.04788213627992634,interest-list-data-may-2024.xlsx
+2024-05-01,HCS,Declined,187,0.3443830570902394,interest-list-data-may-2024.xlsx
+2024-05-01,HCS,Denied,27,0.049723756906077346,interest-list-data-may-2024.xlsx
+2024-05-01,HCS,Enrolled,202,0.3720073664825046,interest-list-data-may-2024.xlsx
+2024-05-01,HCS,No Response,0,,interest-list-data-may-2024.xlsx
+2024-05-01,HCS,Not Categorized,29,0.053406998158379376,interest-list-data-may-2024.xlsx
+2024-05-01,HCS,Other,0,,interest-list-data-may-2024.xlsx
+2024-05-01,HCS,Totals,543,0.9999999999999999,interest-list-data-may-2024.xlsx
+2024-05-01,HCS,Unable to Locate,71,0.13075506445672191,interest-list-data-may-2024.xlsx
+2024-05-01,HCS,Withdrawn,1,0.001841620626151013,interest-list-data-may-2024.xlsx
+2024-05-01,MDCP,Deceased,33,0.0147059,interest-list-data-may-2024.xlsx
+2024-05-01,MDCP,Declined,321,0.1430481,interest-list-data-may-2024.xlsx
+2024-05-01,MDCP,Denied,460,0.2049911,interest-list-data-may-2024.xlsx
+2024-05-01,MDCP,Enrolled,195,0.0868984,interest-list-data-may-2024.xlsx
+2024-05-01,MDCP,No Response,1017,0.4532086,interest-list-data-may-2024.xlsx
+2024-05-01,MDCP,Not Categorized,0,,interest-list-data-may-2024.xlsx
+2024-05-01,MDCP,Other,4,0.0017825,interest-list-data-may-2024.xlsx
+2024-05-01,MDCP,Totals,2244,1.0,interest-list-data-may-2024.xlsx
+2024-05-01,MDCP,Unable to Locate,31,0.0138146,interest-list-data-may-2024.xlsx
+2024-05-01,MDCP,Withdrawn,183,0.0815508,interest-list-data-may-2024.xlsx
+2024-05-01,STAR_PLUS_HCBS,Deceased,635,0.0437237,interest-list-data-may-2024.xlsx
+2024-05-01,STAR_PLUS_HCBS,Declined,1097,0.0755354,interest-list-data-may-2024.xlsx
+2024-05-01,STAR_PLUS_HCBS,Denied,1849,0.1273153,interest-list-data-may-2024.xlsx
+2024-05-01,STAR_PLUS_HCBS,Enrolled,1221,0.0840735,interest-list-data-may-2024.xlsx
+2024-05-01,STAR_PLUS_HCBS,No Response,6189,0.4261516,interest-list-data-may-2024.xlsx
+2024-05-01,STAR_PLUS_HCBS,Not Categorized,0,,interest-list-data-may-2024.xlsx
+2024-05-01,STAR_PLUS_HCBS,Other,355,0.024444,interest-list-data-may-2024.xlsx
+2024-05-01,STAR_PLUS_HCBS,Totals,14523,1.0,interest-list-data-may-2024.xlsx
+2024-05-01,STAR_PLUS_HCBS,Unable to Locate,95,0.0065413,interest-list-data-may-2024.xlsx
+2024-05-01,STAR_PLUS_HCBS,Withdrawn,3082,0.2122151,interest-list-data-may-2024.xlsx
+2024-05-01,TXHML,Deceased,49,0.04450499545867393,interest-list-data-may-2024.xlsx
+2024-05-01,TXHML,Declined,453,0.4114441416893733,interest-list-data-may-2024.xlsx
+2024-05-01,TXHML,Denied,65,0.05903723887375113,interest-list-data-may-2024.xlsx
+2024-05-01,TXHML,Enrolled,113,0.10263396911898275,interest-list-data-may-2024.xlsx
+2024-05-01,TXHML,No Response,162,0.14713896457765668,interest-list-data-may-2024.xlsx
+2024-05-01,TXHML,Not Categorized,59,0.053587647593097185,interest-list-data-may-2024.xlsx
+2024-05-01,TXHML,Other,0,0.0,interest-list-data-may-2024.xlsx
+2024-05-01,TXHML,Totals,1101,1.0,interest-list-data-may-2024.xlsx
+2024-05-01,TXHML,Unable to Locate,200,0.18165304268846502,interest-list-data-may-2024.xlsx
+2024-05-01,TXHML,Withdrawn,0,0.0,interest-list-data-may-2024.xlsx
+2024-06-01,CLASS,Deceased,10,0.0229358,interest-list-data-june-2024.xlsx
+2024-06-01,CLASS,Declined,82,0.1880734,interest-list-data-june-2024.xlsx
+2024-06-01,CLASS,Denied,25,0.0573394,interest-list-data-june-2024.xlsx
+2024-06-01,CLASS,Enrolled,82,0.1880734,interest-list-data-june-2024.xlsx
+2024-06-01,CLASS,No Response,206,0.4724771,interest-list-data-june-2024.xlsx
+2024-06-01,CLASS,Not Categorized,0,,interest-list-data-june-2024.xlsx
+2024-06-01,CLASS,Other,1,0.0022936,interest-list-data-june-2024.xlsx
+2024-06-01,CLASS,Totals,436,1.0,interest-list-data-june-2024.xlsx
+2024-06-01,CLASS,Unable to Locate,0,,interest-list-data-june-2024.xlsx
+2024-06-01,CLASS,Withdrawn,30,0.0688073,interest-list-data-june-2024.xlsx
+2024-06-01,DBMD,Deceased,3,0.0352941,interest-list-data-june-2024.xlsx
+2024-06-01,DBMD,Declined,17,0.2,interest-list-data-june-2024.xlsx
+2024-06-01,DBMD,Denied,0,,interest-list-data-june-2024.xlsx
+2024-06-01,DBMD,Enrolled,2,0.0235294,interest-list-data-june-2024.xlsx
+2024-06-01,DBMD,No Response,50,0.5882353,interest-list-data-june-2024.xlsx
+2024-06-01,DBMD,Not Categorized,0,,interest-list-data-june-2024.xlsx
+2024-06-01,DBMD,Other,2,0.0235294,interest-list-data-june-2024.xlsx
+2024-06-01,DBMD,Totals,85,1.0,interest-list-data-june-2024.xlsx
+2024-06-01,DBMD,Unable to Locate,0,,interest-list-data-june-2024.xlsx
+2024-06-01,DBMD,Withdrawn,11,0.1294118,interest-list-data-june-2024.xlsx
+2024-06-01,HCS,Deceased,31,0.047400611620795105,interest-list-data-june-2024.xlsx
+2024-06-01,HCS,Declined,229,0.35015290519877673,interest-list-data-june-2024.xlsx
+2024-06-01,HCS,Denied,36,0.05504587155963303,interest-list-data-june-2024.xlsx
+2024-06-01,HCS,Enrolled,236,0.36085626911314983,interest-list-data-june-2024.xlsx
+2024-06-01,HCS,No Response,0,,interest-list-data-june-2024.xlsx
+2024-06-01,HCS,Not Categorized,38,0.05810397553516819,interest-list-data-june-2024.xlsx
+2024-06-01,HCS,Other,0,,interest-list-data-june-2024.xlsx
+2024-06-01,HCS,Totals,654,1.0,interest-list-data-june-2024.xlsx
+2024-06-01,HCS,Unable to Locate,84,0.12844036697247707,interest-list-data-june-2024.xlsx
+2024-06-01,HCS,Withdrawn,0,,interest-list-data-june-2024.xlsx
+2024-06-01,MDCP,Deceased,34,0.0127724,interest-list-data-june-2024.xlsx
+2024-06-01,MDCP,Declined,363,0.1363636,interest-list-data-june-2024.xlsx
+2024-06-01,MDCP,Denied,547,0.2054846,interest-list-data-june-2024.xlsx
+2024-06-01,MDCP,Enrolled,305,0.1145755,interest-list-data-june-2024.xlsx
+2024-06-01,MDCP,No Response,1135,0.4263711,interest-list-data-june-2024.xlsx
+2024-06-01,MDCP,Not Categorized,0,,interest-list-data-june-2024.xlsx
+2024-06-01,MDCP,Other,4,0.0015026,interest-list-data-june-2024.xlsx
+2024-06-01,MDCP,Totals,2662,1.0,interest-list-data-june-2024.xlsx
+2024-06-01,MDCP,Unable to Locate,31,0.0116454,interest-list-data-june-2024.xlsx
+2024-06-01,MDCP,Withdrawn,243,0.0912847,interest-list-data-june-2024.xlsx
+2024-06-01,STAR_PLUS_HCBS,Deceased,735,0.0419856,interest-list-data-june-2024.xlsx
+2024-06-01,STAR_PLUS_HCBS,Declined,1220,0.0696904,interest-list-data-june-2024.xlsx
+2024-06-01,STAR_PLUS_HCBS,Denied,2291,0.1308694,interest-list-data-june-2024.xlsx
+2024-06-01,STAR_PLUS_HCBS,Enrolled,1653,0.0944248,interest-list-data-june-2024.xlsx
+2024-06-01,STAR_PLUS_HCBS,No Response,7468,0.4265966,interest-list-data-june-2024.xlsx
+2024-06-01,STAR_PLUS_HCBS,Not Categorized,5,0.0002856,interest-list-data-june-2024.xlsx
+2024-06-01,STAR_PLUS_HCBS,Other,395,0.0225637,interest-list-data-june-2024.xlsx
+2024-06-01,STAR_PLUS_HCBS,Totals,17506,1.0,interest-list-data-june-2024.xlsx
+2024-06-01,STAR_PLUS_HCBS,Unable to Locate,114,0.0065121,interest-list-data-june-2024.xlsx
+2024-06-01,STAR_PLUS_HCBS,Withdrawn,3625,0.2070719,interest-list-data-june-2024.xlsx
+2024-06-01,TXHML,Deceased,60,0.042735042735042736,interest-list-data-june-2024.xlsx
+2024-06-01,TXHML,Declined,571,0.40669515669515666,interest-list-data-june-2024.xlsx
+2024-06-01,TXHML,Denied,82,0.05840455840455841,interest-list-data-june-2024.xlsx
+2024-06-01,TXHML,Enrolled,133,0.09472934472934473,interest-list-data-june-2024.xlsx
+2024-06-01,TXHML,No Response,218,0.15527065527065528,interest-list-data-june-2024.xlsx
+2024-06-01,TXHML,Not Categorized,75,0.05341880341880342,interest-list-data-june-2024.xlsx
+2024-06-01,TXHML,Other,0,,interest-list-data-june-2024.xlsx
+2024-06-01,TXHML,Totals,1404,1.0,interest-list-data-june-2024.xlsx
+2024-06-01,TXHML,Unable to Locate,265,0.18874643874643873,interest-list-data-june-2024.xlsx
+2024-06-01,TXHML,Withdrawn,0,,interest-list-data-june-2024.xlsx
+2024-07-01,CLASS,Deceased,10,0.0212314,interest-list-data-july-2024.xlsx
+2024-07-01,CLASS,Declined,88,0.1868365,interest-list-data-july-2024.xlsx
+2024-07-01,CLASS,Denied,29,0.0615711,interest-list-data-july-2024.xlsx
+2024-07-01,CLASS,Enrolled,100,0.2123142,interest-list-data-july-2024.xlsx
+2024-07-01,CLASS,No Response,208,0.4416136,interest-list-data-july-2024.xlsx
+2024-07-01,CLASS,Not Categorized,1,0.0021231,interest-list-data-july-2024.xlsx
+2024-07-01,CLASS,Other,1,0.0021231,interest-list-data-july-2024.xlsx
+2024-07-01,CLASS,Totals,471,1.0,interest-list-data-july-2024.xlsx
+2024-07-01,CLASS,Unable to Locate,0,,interest-list-data-july-2024.xlsx
+2024-07-01,CLASS,Withdrawn,34,0.0721868,interest-list-data-july-2024.xlsx
+2024-07-01,DBMD,Deceased,3,0.0309278,interest-list-data-july-2024.xlsx
+2024-07-01,DBMD,Declined,17,0.1752577,interest-list-data-july-2024.xlsx
+2024-07-01,DBMD,Denied,0,,interest-list-data-july-2024.xlsx
+2024-07-01,DBMD,Enrolled,3,0.0309278,interest-list-data-july-2024.xlsx
+2024-07-01,DBMD,No Response,61,0.628866,interest-list-data-july-2024.xlsx
+2024-07-01,DBMD,Not Categorized,0,,interest-list-data-july-2024.xlsx
+2024-07-01,DBMD,Other,2,0.0206186,interest-list-data-july-2024.xlsx
+2024-07-01,DBMD,Totals,97,1.0,interest-list-data-july-2024.xlsx
+2024-07-01,DBMD,Unable to Locate,0,,interest-list-data-july-2024.xlsx
+2024-07-01,DBMD,Withdrawn,11,0.1134021,interest-list-data-july-2024.xlsx
+2024-07-01,HCS,Deceased,36,0.045512010113780026,interest-list-data-july-2024.xlsx
+2024-07-01,HCS,Declined,289,0.36536030341340076,interest-list-data-july-2024.xlsx
+2024-07-01,HCS,Denied,45,0.05689001264222504,interest-list-data-july-2024.xlsx
+2024-07-01,HCS,Enrolled,275,0.347661188369153,interest-list-data-july-2024.xlsx
+2024-07-01,HCS,No Response,0,,interest-list-data-july-2024.xlsx
+2024-07-01,HCS,Not Categorized,47,0.05309734513274336,interest-list-data-july-2024.xlsx
+2024-07-01,HCS,Other,0,,interest-list-data-july-2024.xlsx
+2024-07-01,HCS,Totals,791,1.0,interest-list-data-july-2024.xlsx
+2024-07-01,HCS,Unable to Locate,99,0.12515802781289506,interest-list-data-july-2024.xlsx
+2024-07-01,HCS,Withdrawn,0,,interest-list-data-july-2024.xlsx
+2024-07-01,MDCP,Deceased,36,0.0117149,interest-list-data-july-2024.xlsx
+2024-07-01,MDCP,Declined,398,0.1295151,interest-list-data-july-2024.xlsx
+2024-07-01,MDCP,Denied,638,0.2076147,interest-list-data-july-2024.xlsx
+2024-07-01,MDCP,Enrolled,392,0.1275626,interest-list-data-july-2024.xlsx
+2024-07-01,MDCP,No Response,1271,0.4136023,interest-list-data-july-2024.xlsx
+2024-07-01,MDCP,Not Categorized,0,,interest-list-data-july-2024.xlsx
+2024-07-01,MDCP,Other,6,0.0019525,interest-list-data-july-2024.xlsx
+2024-07-01,MDCP,Totals,3073,1.0,interest-list-data-july-2024.xlsx
+2024-07-01,MDCP,Unable to Locate,32,0.0104133,interest-list-data-july-2024.xlsx
+2024-07-01,MDCP,Withdrawn,300,0.0976245,interest-list-data-july-2024.xlsx
+2024-07-01,STAR_PLUS_HCBS,Deceased,812,0.0402818,interest-list-data-july-2024.xlsx
+2024-07-01,STAR_PLUS_HCBS,Declined,1316,0.0652843,interest-list-data-july-2024.xlsx
+2024-07-01,STAR_PLUS_HCBS,Denied,2730,0.1354301,interest-list-data-july-2024.xlsx
+2024-07-01,STAR_PLUS_HCBS,Enrolled,2174,0.107848,interest-list-data-july-2024.xlsx
+2024-07-01,STAR_PLUS_HCBS,No Response,8634,0.4283163,interest-list-data-july-2024.xlsx
+2024-07-01,STAR_PLUS_HCBS,Not Categorized,6,0.0002976,interest-list-data-july-2024.xlsx
+2024-07-01,STAR_PLUS_HCBS,Other,426,0.021133,interest-list-data-july-2024.xlsx
+2024-07-01,STAR_PLUS_HCBS,Totals,20158,1.0,interest-list-data-july-2024.xlsx
+2024-07-01,STAR_PLUS_HCBS,Unable to Locate,129,0.0063994,interest-list-data-july-2024.xlsx
+2024-07-01,STAR_PLUS_HCBS,Withdrawn,3931,0.1950094,interest-list-data-july-2024.xlsx
+2024-07-01,TXHML,Deceased,67,0.039458186101295645,interest-list-data-july-2024.xlsx
+2024-07-01,TXHML,Declined,640,0.37691401648998824,interest-list-data-july-2024.xlsx
+2024-07-01,TXHML,Denied,103,0.06065959952885748,interest-list-data-july-2024.xlsx
+2024-07-01,TXHML,Enrolled,165,0.09717314487632508,interest-list-data-july-2024.xlsx
+2024-07-01,TXHML,No Response,292,0.17196702002355713,interest-list-data-july-2024.xlsx
+2024-07-01,TXHML,Not Categorized,113,0.05182567726737338,interest-list-data-july-2024.xlsx
+2024-07-01,TXHML,Other,0,,interest-list-data-july-2024.xlsx
+2024-07-01,TXHML,Totals,1698,1.0,interest-list-data-july-2024.xlsx
+2024-07-01,TXHML,Unable to Locate,318,0.1872791519434629,interest-list-data-july-2024.xlsx
+2024-07-01,TXHML,Withdrawn,0,,interest-list-data-july-2024.xlsx
+2024-08-01,CLASS,Deceased,10,0.0188679,interest-list-data-aug-2024.xlsx
+2024-08-01,CLASS,Declined,101,0.190566,interest-list-data-aug-2024.xlsx
+2024-08-01,CLASS,Denied,34,0.0641509,interest-list-data-aug-2024.xlsx
+2024-08-01,CLASS,Enrolled,128,0.2415094,interest-list-data-aug-2024.xlsx
+2024-08-01,CLASS,No Response,209,0.3943396,interest-list-data-aug-2024.xlsx
+2024-08-01,CLASS,Not Categorized,1,0.0018868,interest-list-data-aug-2024.xlsx
+2024-08-01,CLASS,Other,5,0.009434,interest-list-data-aug-2024.xlsx
+2024-08-01,CLASS,Totals,530,1.0,interest-list-data-aug-2024.xlsx
+2024-08-01,CLASS,Unable to Locate,0,,interest-list-data-aug-2024.xlsx
+2024-08-01,CLASS,Withdrawn,42,0.0792453,interest-list-data-aug-2024.xlsx
+2024-08-01,DBMD,Deceased,3,0.0306122,interest-list-data-aug-2024.xlsx
+2024-08-01,DBMD,Declined,17,0.1734694,interest-list-data-aug-2024.xlsx
+2024-08-01,DBMD,Denied,0,,interest-list-data-aug-2024.xlsx
+2024-08-01,DBMD,Enrolled,3,0.0306122,interest-list-data-aug-2024.xlsx
+2024-08-01,DBMD,No Response,63,0.6428571,interest-list-data-aug-2024.xlsx
+2024-08-01,DBMD,Not Categorized,0,,interest-list-data-aug-2024.xlsx
+2024-08-01,DBMD,Other,1,0.0102041,interest-list-data-aug-2024.xlsx
+2024-08-01,DBMD,Totals,98,1.0,interest-list-data-aug-2024.xlsx
+2024-08-01,DBMD,Unable to Locate,0,,interest-list-data-aug-2024.xlsx
+2024-08-01,DBMD,Withdrawn,11,0.1122449,interest-list-data-aug-2024.xlsx
+2024-08-01,HCS,Deceased,38,0.03946002076843198,interest-list-data-aug-2024.xlsx
+2024-08-01,HCS,Declined,358,0.37175493250259606,interest-list-data-aug-2024.xlsx
+2024-08-01,HCS,Denied,48,0.049844236760124616,interest-list-data-aug-2024.xlsx
+2024-08-01,HCS,Enrolled,331,0.34371754932502596,interest-list-data-aug-2024.xlsx
+2024-08-01,HCS,No Response,3,0.003115264797507788,interest-list-data-aug-2024.xlsx
+2024-08-01,HCS,Not Categorized,57,0.059190031152647975,interest-list-data-aug-2024.xlsx
+2024-08-01,HCS,Other,0,,interest-list-data-aug-2024.xlsx
+2024-08-01,HCS,Totals,963,1.0,interest-list-data-aug-2024.xlsx
+2024-08-01,HCS,Unable to Locate,128,0.13291796469366562,interest-list-data-aug-2024.xlsx
+2024-08-01,HCS,Withdrawn,0,,interest-list-data-aug-2024.xlsx
+2024-08-01,MDCP,Deceased,38,0.0115431,interest-list-data-aug-2024.xlsx
+2024-08-01,MDCP,Declined,432,0.1312272,interest-list-data-aug-2024.xlsx
+2024-08-01,MDCP,Denied,684,0.2077764,interest-list-data-aug-2024.xlsx
+2024-08-01,MDCP,Enrolled,452,0.1373026,interest-list-data-aug-2024.xlsx
+2024-08-01,MDCP,No Response,1318,0.4003645,interest-list-data-aug-2024.xlsx
+2024-08-01,MDCP,Not Categorized,0,,interest-list-data-aug-2024.xlsx
+2024-08-01,MDCP,Other,6,0.0018226,interest-list-data-aug-2024.xlsx
+2024-08-01,MDCP,Totals,3292,1.0,interest-list-data-aug-2024.xlsx
+2024-08-01,MDCP,Unable to Locate,32,0.0097205,interest-list-data-aug-2024.xlsx
+2024-08-01,MDCP,Withdrawn,330,0.100243,interest-list-data-aug-2024.xlsx
+2024-08-01,STAR_PLUS_HCBS,Deceased,887,0.0385904,interest-list-data-aug-2024.xlsx
+2024-08-01,STAR_PLUS_HCBS,Declined,1391,0.0605177,interest-list-data-aug-2024.xlsx
+2024-08-01,STAR_PLUS_HCBS,Denied,3147,0.1369154,interest-list-data-aug-2024.xlsx
+2024-08-01,STAR_PLUS_HCBS,Enrolled,2684,0.1167718,interest-list-data-aug-2024.xlsx
+2024-08-01,STAR_PLUS_HCBS,No Response,9905,0.4309332,interest-list-data-aug-2024.xlsx
+2024-08-01,STAR_PLUS_HCBS,Not Categorized,6,0.000261,interest-list-data-aug-2024.xlsx
+2024-08-01,STAR_PLUS_HCBS,Other,447,0.0194475,interest-list-data-aug-2024.xlsx
+2024-08-01,STAR_PLUS_HCBS,Totals,22985,1.0,interest-list-data-aug-2024.xlsx
+2024-08-01,STAR_PLUS_HCBS,Unable to Locate,155,0.0067435,interest-list-data-aug-2024.xlsx
+2024-08-01,STAR_PLUS_HCBS,Withdrawn,4363,0.1898194,interest-list-data-aug-2024.xlsx
+2024-08-01,TXHML,Deceased,74,0.03638151425762045,interest-list-data-aug-2024.xlsx
+2024-08-01,TXHML,Declined,769,0.3780727630285152,interest-list-data-aug-2024.xlsx
+2024-08-01,TXHML,Denied,115,0.056538839724680434,interest-list-data-aug-2024.xlsx
+2024-08-01,TXHML,Enrolled,178,0.08751229105211406,interest-list-data-aug-2024.xlsx
+2024-08-01,TXHML,No Response,387,0.1902654867256637,interest-list-data-aug-2024.xlsx
+2024-08-01,TXHML,Not Categorized,133,0.06538839724680433,interest-list-data-aug-2024.xlsx
+2024-08-01,TXHML,Other,0,,interest-list-data-aug-2024.xlsx
+2024-08-01,TXHML,Totals,2034,1.0,interest-list-data-aug-2024.xlsx
+2024-08-01,TXHML,Unable to Locate,378,0.18584070796460178,interest-list-data-aug-2024.xlsx
+2024-08-01,TXHML,Withdrawn,0,,interest-list-data-aug-2024.xlsx
+2024-09-01,CLASS,Deceased,10,0.0175747,interest-list-data-sept-2024.xlsx
+2024-09-01,CLASS,Declined,107,0.1880492,interest-list-data-sept-2024.xlsx
+2024-09-01,CLASS,Denied,36,0.0632689,interest-list-data-sept-2024.xlsx
+2024-09-01,CLASS,Enrolled,146,0.2565905,interest-list-data-sept-2024.xlsx
+2024-09-01,CLASS,No Response,212,0.3725835,interest-list-data-sept-2024.xlsx
+2024-09-01,CLASS,Not Categorized,1,0.0017575,interest-list-data-sept-2024.xlsx
+2024-09-01,CLASS,Other,5,0.0087873,interest-list-data-sept-2024.xlsx
+2024-09-01,CLASS,Totals,569,1.0,interest-list-data-sept-2024.xlsx
+2024-09-01,CLASS,Unable to Locate,0,,interest-list-data-sept-2024.xlsx
+2024-09-01,CLASS,Withdrawn,52,0.0913884,interest-list-data-sept-2024.xlsx
+2024-09-01,DBMD,Deceased,3,0.029703,interest-list-data-sept-2024.xlsx
+2024-09-01,DBMD,Declined,17,0.1683168,interest-list-data-sept-2024.xlsx
+2024-09-01,DBMD,Denied,0,,interest-list-data-sept-2024.xlsx
+2024-09-01,DBMD,Enrolled,6,0.0594059,interest-list-data-sept-2024.xlsx
+2024-09-01,DBMD,No Response,62,0.6138614,interest-list-data-sept-2024.xlsx
+2024-09-01,DBMD,Not Categorized,0,,interest-list-data-sept-2024.xlsx
+2024-09-01,DBMD,Other,1,0.009901,interest-list-data-sept-2024.xlsx
+2024-09-01,DBMD,Totals,101,1.0,interest-list-data-sept-2024.xlsx
+2024-09-01,DBMD,Unable to Locate,0,,interest-list-data-sept-2024.xlsx
+2024-09-01,DBMD,Withdrawn,12,0.1188119,interest-list-data-sept-2024.xlsx
+2024-09-01,HCS,Deceased,40,0.034,interest-list-data-sept-2024.xlsx
+2024-09-01,HCS,Declined,413,0.354,interest-list-data-sept-2024.xlsx
+2024-09-01,HCS,Denied,61,0.052,interest-list-data-sept-2024.xlsx
+2024-09-01,HCS,Enrolled,437,0.374,interest-list-data-sept-2024.xlsx
+2024-09-01,HCS,No Response,5,0.004,interest-list-data-sept-2024.xlsx
+2024-09-01,HCS,Not Categorized,64,0.055,interest-list-data-sept-2024.xlsx
+2024-09-01,HCS,Other,0,,interest-list-data-sept-2024.xlsx
+2024-09-01,HCS,Totals,1167,1.0,interest-list-data-sept-2024.xlsx
+2024-09-01,HCS,Unable to Locate,147,0.126,interest-list-data-sept-2024.xlsx
+2024-09-01,HCS,Withdrawn,0,,interest-list-data-sept-2024.xlsx
+2024-09-01,MDCP,Deceased,41,0.0107246,interest-list-data-sept-2024.xlsx
+2024-09-01,MDCP,Declined,525,0.1373267,interest-list-data-sept-2024.xlsx
+2024-09-01,MDCP,Denied,768,0.2008894,interest-list-data-sept-2024.xlsx
+2024-09-01,MDCP,Enrolled,501,0.1310489,interest-list-data-sept-2024.xlsx
+2024-09-01,MDCP,No Response,1494,0.3907926,interest-list-data-sept-2024.xlsx
+2024-09-01,MDCP,Not Categorized,4,0.0010463,interest-list-data-sept-2024.xlsx
+2024-09-01,MDCP,Other,7,0.001831,interest-list-data-sept-2024.xlsx
+2024-09-01,MDCP,Totals,3823,1.0,interest-list-data-sept-2024.xlsx
+2024-09-01,MDCP,Unable to Locate,32,0.0083704,interest-list-data-sept-2024.xlsx
+2024-09-01,MDCP,Withdrawn,451,0.1179702,interest-list-data-sept-2024.xlsx
+2024-09-01,STAR_PLUS_HCBS,Deceased,941,0.0388666,interest-list-data-sept-2024.xlsx
+2024-09-01,STAR_PLUS_HCBS,Declined,1508,0.0622857,interest-list-data-sept-2024.xlsx
+2024-09-01,STAR_PLUS_HCBS,Denied,3592,0.1483623,interest-list-data-sept-2024.xlsx
+2024-09-01,STAR_PLUS_HCBS,Enrolled,3131,0.1293214,interest-list-data-sept-2024.xlsx
+2024-09-01,STAR_PLUS_HCBS,No Response,9967,0.4116724,interest-list-data-sept-2024.xlsx
+2024-09-01,STAR_PLUS_HCBS,Not Categorized,6,0.0002478,interest-list-data-sept-2024.xlsx
+2024-09-01,STAR_PLUS_HCBS,Other,477,0.0197018,interest-list-data-sept-2024.xlsx
+2024-09-01,STAR_PLUS_HCBS,Totals,24211,1.0,interest-list-data-sept-2024.xlsx
+2024-09-01,STAR_PLUS_HCBS,Unable to Locate,172,0.0071042,interest-list-data-sept-2024.xlsx
+2024-09-01,STAR_PLUS_HCBS,Withdrawn,4417,0.1824377,interest-list-data-sept-2024.xlsx
+2024-09-01,TXHML,Deceased,83,0.0339,interest-list-data-sept-2024.xlsx
+2024-09-01,TXHML,Declined,869,0.3548,interest-list-data-sept-2024.xlsx
+2024-09-01,TXHML,Denied,141,0.0576,interest-list-data-sept-2024.xlsx
+2024-09-01,TXHML,Enrolled,270,0.1102,interest-list-data-sept-2024.xlsx
+2024-09-01,TXHML,No Response,465,0.1899,interest-list-data-sept-2024.xlsx
+2024-09-01,TXHML,Not Categorized,155,0.0633,interest-list-data-sept-2024.xlsx
+2024-09-01,TXHML,Other,0,,interest-list-data-sept-2024.xlsx
+2024-09-01,TXHML,Totals,2449,1.0,interest-list-data-sept-2024.xlsx
+2024-09-01,TXHML,Unable to Locate,466,0.1903,interest-list-data-sept-2024.xlsx
+2024-09-01,TXHML,Withdrawn,0,,interest-list-data-sept-2024.xlsx
+2024-10-01,CLASS,Deceased,11,0.0179739,interest-list-data-oct-2024.xlsx
+2024-10-01,CLASS,Declined,117,0.1911765,interest-list-data-oct-2024.xlsx
+2024-10-01,CLASS,Denied,39,0.0637255,interest-list-data-oct-2024.xlsx
+2024-10-01,CLASS,Enrolled,168,0.2745098,interest-list-data-oct-2024.xlsx
+2024-10-01,CLASS,No Response,213,0.3480392,interest-list-data-oct-2024.xlsx
+2024-10-01,CLASS,Not Categorized,1,0.001634,interest-list-data-oct-2024.xlsx
+2024-10-01,CLASS,Other,7,0.0114379,interest-list-data-oct-2024.xlsx
+2024-10-01,CLASS,Totals,612,1.0,interest-list-data-oct-2024.xlsx
+2024-10-01,CLASS,Unable to Locate,0,,interest-list-data-oct-2024.xlsx
+2024-10-01,CLASS,Withdrawn,56,0.0915033,interest-list-data-oct-2024.xlsx
+2024-10-01,DBMD,Deceased,3,0.0294118,interest-list-data-oct-2024.xlsx
+2024-10-01,DBMD,Declined,18,0.1764706,interest-list-data-oct-2024.xlsx
+2024-10-01,DBMD,Denied,0,,interest-list-data-oct-2024.xlsx
+2024-10-01,DBMD,Enrolled,6,0.0588235,interest-list-data-oct-2024.xlsx
+2024-10-01,DBMD,No Response,62,0.6078431,interest-list-data-oct-2024.xlsx
+2024-10-01,DBMD,Not Categorized,0,,interest-list-data-oct-2024.xlsx
+2024-10-01,DBMD,Other,1,0.0098039,interest-list-data-oct-2024.xlsx
+2024-10-01,DBMD,Totals,102,1.0,interest-list-data-oct-2024.xlsx
+2024-10-01,DBMD,Unable to Locate,0,,interest-list-data-oct-2024.xlsx
+2024-10-01,DBMD,Withdrawn,12,0.1176471,interest-list-data-oct-2024.xlsx
+2024-10-01,HCS,Deceased,49,0.033607681755829906,interest-list-data-oct-2024.xlsx
+2024-10-01,HCS,Declined,518,0.355281207133059,interest-list-data-oct-2024.xlsx
+2024-10-01,HCS,Denied,76,0.05212620027434842,interest-list-data-oct-2024.xlsx
+2024-10-01,HCS,Enrolled,543,0.3724279835390947,interest-list-data-oct-2024.xlsx
+2024-10-01,HCS,No Response,6,0.00411522633744856,interest-list-data-oct-2024.xlsx
+2024-10-01,HCS,Not Categorized,83,0.056927297668038404,interest-list-data-oct-2024.xlsx
+2024-10-01,HCS,Other,0,,interest-list-data-oct-2024.xlsx
+2024-10-01,HCS,Totals,1458,1.0,interest-list-data-oct-2024.xlsx
+2024-10-01,HCS,Unable to Locate,183,0.12551440329218108,interest-list-data-oct-2024.xlsx
+2024-10-01,HCS,Withdrawn,0,,interest-list-data-oct-2024.xlsx
+2024-10-01,MDCP,Deceased,43,0.0103764,interest-list-data-oct-2024.xlsx
+2024-10-01,MDCP,Declined,557,0.1344112,interest-list-data-oct-2024.xlsx
+2024-10-01,MDCP,Denied,833,0.2010135,interest-list-data-oct-2024.xlsx
+2024-10-01,MDCP,Enrolled,556,0.1341699,interest-list-data-oct-2024.xlsx
+2024-10-01,MDCP,No Response,1525,0.3680019,interest-list-data-oct-2024.xlsx
+2024-10-01,MDCP,Not Categorized,4,0.0009653,interest-list-data-oct-2024.xlsx
+2024-10-01,MDCP,Other,7,0.0016892,interest-list-data-oct-2024.xlsx
+2024-10-01,MDCP,Totals,4144,1.0,interest-list-data-oct-2024.xlsx
+2024-10-01,MDCP,Unable to Locate,32,0.007722,interest-list-data-oct-2024.xlsx
+2024-10-01,MDCP,Withdrawn,587,0.1416506,interest-list-data-oct-2024.xlsx
+2024-10-01,STAR_PLUS_HCBS,Deceased,1000,0.0395398,interest-list-data-oct-2024.xlsx
+2024-10-01,STAR_PLUS_HCBS,Declined,1630,0.0644498,interest-list-data-oct-2024.xlsx
+2024-10-01,STAR_PLUS_HCBS,Denied,3911,0.15464,interest-list-data-oct-2024.xlsx
+2024-10-01,STAR_PLUS_HCBS,Enrolled,3561,0.1408011,interest-list-data-oct-2024.xlsx
+2024-10-01,STAR_PLUS_HCBS,No Response,9961,0.3938555,interest-list-data-oct-2024.xlsx
+2024-10-01,STAR_PLUS_HCBS,Not Categorized,5,0.0001977,interest-list-data-oct-2024.xlsx
+2024-10-01,STAR_PLUS_HCBS,Other,540,0.0213515,interest-list-data-oct-2024.xlsx
+2024-10-01,STAR_PLUS_HCBS,Totals,25291,1.0,interest-list-data-oct-2024.xlsx
+2024-10-01,STAR_PLUS_HCBS,Unable to Locate,178,0.0070381,interest-list-data-oct-2024.xlsx
+2024-10-01,STAR_PLUS_HCBS,Withdrawn,4505,0.1781266,interest-list-data-oct-2024.xlsx
+2024-10-01,TXHML,Deceased,88,0.03093145869947276,interest-list-data-oct-2024.xlsx
+2024-10-01,TXHML,Declined,962,0.33813708260105446,interest-list-data-oct-2024.xlsx
+2024-10-01,TXHML,Denied,166,0.05834797891036907,interest-list-data-oct-2024.xlsx
+2024-10-01,TXHML,Enrolled,336,0.11810193321616871,interest-list-data-oct-2024.xlsx
+2024-10-01,TXHML,No Response,555,0.19507908611599298,interest-list-data-oct-2024.xlsx
+2024-10-01,TXHML,Not Categorized,175,0.061511423550087874,interest-list-data-oct-2024.xlsx
+2024-10-01,TXHML,Other,0,,interest-list-data-oct-2024.xlsx
+2024-10-01,TXHML,Totals,2845,1.0,interest-list-data-oct-2024.xlsx
+2024-10-01,TXHML,Unable to Locate,563,0.19789103690685414,interest-list-data-oct-2024.xlsx
+2024-10-01,TXHML,Withdrawn,0,,interest-list-data-oct-2024.xlsx
+2024-11-01,CLASS,Deceased,13,0.0197568,interest-list-data-nov-2024.xlsx
+2024-11-01,CLASS,Declined,121,0.1838906,interest-list-data-nov-2024.xlsx
+2024-11-01,CLASS,Denied,40,0.0607903,interest-list-data-nov-2024.xlsx
+2024-11-01,CLASS,Enrolled,193,0.2933131,interest-list-data-nov-2024.xlsx
+2024-11-01,CLASS,No Response,216,0.3282675,interest-list-data-nov-2024.xlsx
+2024-11-01,CLASS,Not Categorized,1,0.0015198,interest-list-data-nov-2024.xlsx
+2024-11-01,CLASS,Other,7,0.0106383,interest-list-data-nov-2024.xlsx
+2024-11-01,CLASS,Totals,658,1.0,interest-list-data-nov-2024.xlsx
+2024-11-01,CLASS,Unable to Locate,0,,interest-list-data-nov-2024.xlsx
+2024-11-01,CLASS,Withdrawn,67,0.1018237,interest-list-data-nov-2024.xlsx
+2024-11-01,DBMD,Deceased,3,0.0280374,interest-list-data-nov-2024.xlsx
+2024-11-01,DBMD,Declined,20,0.1869159,interest-list-data-nov-2024.xlsx
+2024-11-01,DBMD,Denied,0,,interest-list-data-nov-2024.xlsx
+2024-11-01,DBMD,Enrolled,8,0.0747664,interest-list-data-nov-2024.xlsx
+2024-11-01,DBMD,No Response,62,0.5794393,interest-list-data-nov-2024.xlsx
+2024-11-01,DBMD,Not Categorized,0,,interest-list-data-nov-2024.xlsx
+2024-11-01,DBMD,Other,1,0.0093458,interest-list-data-nov-2024.xlsx
+2024-11-01,DBMD,Totals,107,1.0,interest-list-data-nov-2024.xlsx
+2024-11-01,DBMD,Unable to Locate,0,,interest-list-data-nov-2024.xlsx
+2024-11-01,DBMD,Withdrawn,13,0.1214953,interest-list-data-nov-2024.xlsx
+2024-11-01,HCS,Deceased,57,0.03298611111111111,interest-list-data-nov-2024.xlsx
+2024-11-01,HCS,Declined,634,0.36689814814814814,interest-list-data-nov-2024.xlsx
+2024-11-01,HCS,Denied,93,0.05381944444444445,interest-list-data-nov-2024.xlsx
+2024-11-01,HCS,Enrolled,610,0.35300925925925924,interest-list-data-nov-2024.xlsx
+2024-11-01,HCS,No Response,8,0.004629629629629629,interest-list-data-nov-2024.xlsx
+2024-11-01,HCS,Not Categorized,93,0.05381944444444445,interest-list-data-nov-2024.xlsx
+2024-11-01,HCS,Other,0,,interest-list-data-nov-2024.xlsx
+2024-11-01,HCS,Totals,1728,1.0,interest-list-data-nov-2024.xlsx
+2024-11-01,HCS,Unable to Locate,233,0.13483796296296297,interest-list-data-nov-2024.xlsx
+2024-11-01,HCS,Withdrawn,0,,interest-list-data-nov-2024.xlsx
+2024-11-01,MDCP,Deceased,49,0.0110038,interest-list-data-nov-2024.xlsx
+2024-11-01,MDCP,Declined,574,0.1289019,interest-list-data-nov-2024.xlsx
+2024-11-01,MDCP,Denied,865,0.1942511,interest-list-data-nov-2024.xlsx
+2024-11-01,MDCP,Enrolled,621,0.1394565,interest-list-data-nov-2024.xlsx
+2024-11-01,MDCP,No Response,1646,0.3696384,interest-list-data-nov-2024.xlsx
+2024-11-01,MDCP,Not Categorized,4,0.0008983,interest-list-data-nov-2024.xlsx
+2024-11-01,MDCP,Other,7,0.001572,interest-list-data-nov-2024.xlsx
+2024-11-01,MDCP,Totals,4453,1.0,interest-list-data-nov-2024.xlsx
+2024-11-01,MDCP,Unable to Locate,32,0.0071862,interest-list-data-nov-2024.xlsx
+2024-11-01,MDCP,Withdrawn,655,0.1470918,interest-list-data-nov-2024.xlsx
+2024-11-01,STAR_PLUS_HCBS,Deceased,1017,0.039147,interest-list-data-nov-2024.xlsx
+2024-11-01,STAR_PLUS_HCBS,Declined,1737,0.0668617,interest-list-data-nov-2024.xlsx
+2024-11-01,STAR_PLUS_HCBS,Denied,4142,0.1594365,interest-list-data-nov-2024.xlsx
+2024-11-01,STAR_PLUS_HCBS,Enrolled,3796,0.146118,interest-list-data-nov-2024.xlsx
+2024-11-01,STAR_PLUS_HCBS,No Response,9956,0.3832326,interest-list-data-nov-2024.xlsx
+2024-11-01,STAR_PLUS_HCBS,Not Categorized,10,0.0003849,interest-list-data-nov-2024.xlsx
+2024-11-01,STAR_PLUS_HCBS,Other,586,0.0225567,interest-list-data-nov-2024.xlsx
+2024-11-01,STAR_PLUS_HCBS,Totals,25979,1.0,interest-list-data-nov-2024.xlsx
+2024-11-01,STAR_PLUS_HCBS,Unable to Locate,188,0.0072366,interest-list-data-nov-2024.xlsx
+2024-11-01,STAR_PLUS_HCBS,Withdrawn,4547,0.175026,interest-list-data-nov-2024.xlsx
+2024-11-01,TXHML,Deceased,90,0.028616852146263912,interest-list-data-nov-2024.xlsx
+2024-11-01,TXHML,Declined,1036,0.32941176470588235,interest-list-data-nov-2024.xlsx
+2024-11-01,TXHML,Denied,181,0.057551669316375204,interest-list-data-nov-2024.xlsx
+2024-11-01,TXHML,Enrolled,395,0.12559618441971382,interest-list-data-nov-2024.xlsx
+2024-11-01,TXHML,No Response,629,0.2,interest-list-data-nov-2024.xlsx
+2024-11-01,TXHML,Not Categorized,184,0.058505564387917326,interest-list-data-nov-2024.xlsx
+2024-11-01,TXHML,Other,0,,interest-list-data-nov-2024.xlsx
+2024-11-01,TXHML,Totals,3145,1.0,interest-list-data-nov-2024.xlsx
+2024-11-01,TXHML,Unable to Locate,630,0.20031796502384738,interest-list-data-nov-2024.xlsx
+2024-11-01,TXHML,Withdrawn,0,,interest-list-data-nov-2024.xlsx
+2024-12-01,CLASS,Deceased,14,0.0200286,interest-list-data-dec-2024.xlsx
+2024-12-01,CLASS,Declined,124,0.1773963,interest-list-data-dec-2024.xlsx
+2024-12-01,CLASS,Denied,40,0.0572246,interest-list-data-dec-2024.xlsx
+2024-12-01,CLASS,Enrolled,225,0.3218884,interest-list-data-dec-2024.xlsx
+2024-12-01,CLASS,No Response,217,0.3104435,interest-list-data-dec-2024.xlsx
+2024-12-01,CLASS,Not Categorized,1,0.0014306,interest-list-data-dec-2024.xlsx
+2024-12-01,CLASS,Other,7,0.0100143,interest-list-data-dec-2024.xlsx
+2024-12-01,CLASS,Totals,699,1.0,interest-list-data-dec-2024.xlsx
+2024-12-01,CLASS,Unable to Locate,0,,interest-list-data-dec-2024.xlsx
+2024-12-01,CLASS,Withdrawn,71,0.1015737,interest-list-data-dec-2024.xlsx
+2024-12-01,DBMD,Deceased,5,0.0438596,interest-list-data-dec-2024.xlsx
+2024-12-01,DBMD,Declined,22,0.1929825,interest-list-data-dec-2024.xlsx
+2024-12-01,DBMD,Denied,0,,interest-list-data-dec-2024.xlsx
+2024-12-01,DBMD,Enrolled,10,0.0877193,interest-list-data-dec-2024.xlsx
+2024-12-01,DBMD,No Response,62,0.5438596,interest-list-data-dec-2024.xlsx
+2024-12-01,DBMD,Not Categorized,0,,interest-list-data-dec-2024.xlsx
+2024-12-01,DBMD,Other,1,0.0087719,interest-list-data-dec-2024.xlsx
+2024-12-01,DBMD,Totals,114,1.0,interest-list-data-dec-2024.xlsx
+2024-12-01,DBMD,Unable to Locate,0,,interest-list-data-dec-2024.xlsx
+2024-12-01,DBMD,Withdrawn,14,0.122807,interest-list-data-dec-2024.xlsx
+2024-12-01,HCS,Deceased,66,0.032673267326732675,interest-list-data-dec-2024.xlsx
+2024-12-01,HCS,Declined,755,0.37376237623762376,interest-list-data-dec-2024.xlsx
+2024-12-01,HCS,Denied,109,0.05396039603960396,interest-list-data-dec-2024.xlsx
+2024-12-01,HCS,Enrolled,704,0.3485148514851485,interest-list-data-dec-2024.xlsx
+2024-12-01,HCS,No Response,8,0.0039603960396039604,interest-list-data-dec-2024.xlsx
+2024-12-01,HCS,Not Categorized,97,0.04801980198019802,interest-list-data-dec-2024.xlsx
+2024-12-01,HCS,Other,0,,interest-list-data-dec-2024.xlsx
+2024-12-01,HCS,Totals,2020,1.0,interest-list-data-dec-2024.xlsx
+2024-12-01,HCS,Unable to Locate,280,0.13861386138613863,interest-list-data-dec-2024.xlsx
+2024-12-01,HCS,Withdrawn,1,0.0004950495049504951,interest-list-data-dec-2024.xlsx
+2024-12-01,MDCP,Deceased,53,0.0110141,interest-list-data-dec-2024.xlsx
+2024-12-01,MDCP,Declined,607,0.126143,interest-list-data-dec-2024.xlsx
+2024-12-01,MDCP,Denied,938,0.1949293,interest-list-data-dec-2024.xlsx
+2024-12-01,MDCP,Enrolled,686,0.1425603,interest-list-data-dec-2024.xlsx
+2024-12-01,MDCP,No Response,1770,0.3678304,interest-list-data-dec-2024.xlsx
+2024-12-01,MDCP,Not Categorized,4,0.0008313,interest-list-data-dec-2024.xlsx
+2024-12-01,MDCP,Other,7,0.0014547,interest-list-data-dec-2024.xlsx
+2024-12-01,MDCP,Totals,4812,1.0,interest-list-data-dec-2024.xlsx
+2024-12-01,MDCP,Unable to Locate,32,0.00665,interest-list-data-dec-2024.xlsx
+2024-12-01,MDCP,Withdrawn,715,0.1485869,interest-list-data-dec-2024.xlsx
+2024-12-01,STAR_PLUS_HCBS,Deceased,1138,0.0391941,interest-list-data-dec-2024.xlsx
+2024-12-01,STAR_PLUS_HCBS,Declined,1989,0.0685035,interest-list-data-dec-2024.xlsx
+2024-12-01,STAR_PLUS_HCBS,Denied,4334,0.1492681,interest-list-data-dec-2024.xlsx
+2024-12-01,STAR_PLUS_HCBS,Enrolled,4000,0.1377648,interest-list-data-dec-2024.xlsx
+2024-12-01,STAR_PLUS_HCBS,No Response,11254,0.3876012,interest-list-data-dec-2024.xlsx
+2024-12-01,STAR_PLUS_HCBS,Not Categorized,10,0.0003444,interest-list-data-dec-2024.xlsx
+2024-12-01,STAR_PLUS_HCBS,Other,611,0.0210436,interest-list-data-dec-2024.xlsx
+2024-12-01,STAR_PLUS_HCBS,Totals,29035,1.0,interest-list-data-dec-2024.xlsx
+2024-12-01,STAR_PLUS_HCBS,Unable to Locate,192,0.0066127,interest-list-data-dec-2024.xlsx
+2024-12-01,STAR_PLUS_HCBS,Withdrawn,5507,0.1896676,interest-list-data-dec-2024.xlsx
+2024-12-01,TXHML,Deceased,94,0.028169014084507043,interest-list-data-dec-2024.xlsx
+2024-12-01,TXHML,Declined,1123,0.33652981720107883,interest-list-data-dec-2024.xlsx
+2024-12-01,TXHML,Denied,196,0.058735391069823194,interest-list-data-dec-2024.xlsx
+2024-12-01,TXHML,Enrolled,459,0.13754869643392267,interest-list-data-dec-2024.xlsx
+2024-12-01,TXHML,No Response,687,0.2058735391069823,interest-list-data-dec-2024.xlsx
+2024-12-01,TXHML,Not Categorized,197,0.05903506143242433,interest-list-data-dec-2024.xlsx
+2024-12-01,TXHML,Other,0,,interest-list-data-dec-2024.xlsx
+2024-12-01,TXHML,Totals,3337,0.9999999999999999,interest-list-data-dec-2024.xlsx
+2024-12-01,TXHML,Unable to Locate,581,0.1741084806712616,interest-list-data-dec-2024.xlsx
+2024-12-01,TXHML,Withdrawn,0,,interest-list-data-dec-2024.xlsx
+2025-01-01,CLASS,Deceased,19,0.0233415,interest-list-data-jan-2025.xlsx
+2025-01-01,CLASS,Declined,142,0.1744472,interest-list-data-jan-2025.xlsx
+2025-01-01,CLASS,Denied,49,0.0601966,interest-list-data-jan-2025.xlsx
+2025-01-01,CLASS,Enrolled,250,0.3071253,interest-list-data-jan-2025.xlsx
+2025-01-01,CLASS,No Response,247,0.3034398,interest-list-data-jan-2025.xlsx
+2025-01-01,CLASS,Not Categorized,1,0.0012285,interest-list-data-jan-2025.xlsx
+2025-01-01,CLASS,Other,25,0.0307125,interest-list-data-jan-2025.xlsx
+2025-01-01,CLASS,Totals,814,1.0,interest-list-data-jan-2025.xlsx
+2025-01-01,CLASS,Unable to Locate,0,,interest-list-data-jan-2025.xlsx
+2025-01-01,CLASS,Withdrawn,81,0.0995086,interest-list-data-jan-2025.xlsx
+2025-01-01,DBMD,Deceased,6,0.0410959,interest-list-data-jan-2025.xlsx
+2025-01-01,DBMD,Declined,37,0.2534247,interest-list-data-jan-2025.xlsx
+2025-01-01,DBMD,Denied,0,,interest-list-data-jan-2025.xlsx
+2025-01-01,DBMD,Enrolled,12,0.0821918,interest-list-data-jan-2025.xlsx
+2025-01-01,DBMD,No Response,64,0.4383562,interest-list-data-jan-2025.xlsx
+2025-01-01,DBMD,Not Categorized,0,,interest-list-data-jan-2025.xlsx
+2025-01-01,DBMD,Other,1,0.0068493,interest-list-data-jan-2025.xlsx
+2025-01-01,DBMD,Totals,146,1.0,interest-list-data-jan-2025.xlsx
+2025-01-01,DBMD,Unable to Locate,0,,interest-list-data-jan-2025.xlsx
+2025-01-01,DBMD,Withdrawn,26,0.1780822,interest-list-data-jan-2025.xlsx
+2025-01-01,HCS,Deceased,78,0.03252710592160134,interest-list-data-jan-2025.xlsx
+2025-01-01,HCS,Declined,878,0.3661384487072561,interest-list-data-jan-2025.xlsx
+2025-01-01,HCS,Denied,124,0.05170975813177649,interest-list-data-jan-2025.xlsx
+2025-01-01,HCS,Enrolled,833,0.34737281067556297,interest-list-data-jan-2025.xlsx
+2025-01-01,HCS,No Response,17,0.007089241034195163,interest-list-data-jan-2025.xlsx
+2025-01-01,HCS,Not Categorized,118,0.049207673060884076,interest-list-data-jan-2025.xlsx
+2025-01-01,HCS,Other,0,,interest-list-data-jan-2025.xlsx
+2025-01-01,HCS,Totals,2398,1.0,interest-list-data-jan-2025.xlsx
+2025-01-01,HCS,Unable to Locate,348,0.1451209341117598,interest-list-data-jan-2025.xlsx
+2025-01-01,HCS,Withdrawn,2,0.0008340283569641367,interest-list-data-jan-2025.xlsx
+2025-01-01,MDCP,Deceased,54,0.010453,interest-list-data-jan-2025.xlsx
+2025-01-01,MDCP,Declined,644,0.1246612,interest-list-data-jan-2025.xlsx
+2025-01-01,MDCP,Denied,995,0.1926055,interest-list-data-jan-2025.xlsx
+2025-01-01,MDCP,Enrolled,780,0.1509872,interest-list-data-jan-2025.xlsx
+2025-01-01,MDCP,No Response,1893,0.3664344,interest-list-data-jan-2025.xlsx
+2025-01-01,MDCP,Not Categorized,6,0.0011614,interest-list-data-jan-2025.xlsx
+2025-01-01,MDCP,Other,8,0.0015486,interest-list-data-jan-2025.xlsx
+2025-01-01,MDCP,Totals,5166,1.0,interest-list-data-jan-2025.xlsx
+2025-01-01,MDCP,Unable to Locate,32,0.0061943,interest-list-data-jan-2025.xlsx
+2025-01-01,MDCP,Withdrawn,754,0.1459543,interest-list-data-jan-2025.xlsx
+2025-01-01,STAR_PLUS_HCBS,Deceased,1213,0.0402122,interest-list-data-jan-2025.xlsx
+2025-01-01,STAR_PLUS_HCBS,Declined,2129,0.0705785,interest-list-data-jan-2025.xlsx
+2025-01-01,STAR_PLUS_HCBS,Denied,4590,0.1521631,interest-list-data-jan-2025.xlsx
+2025-01-01,STAR_PLUS_HCBS,Enrolled,4285,0.142052,interest-list-data-jan-2025.xlsx
+2025-01-01,STAR_PLUS_HCBS,No Response,11444,0.3793801,interest-list-data-jan-2025.xlsx
+2025-01-01,STAR_PLUS_HCBS,Not Categorized,10,0.0003315,interest-list-data-jan-2025.xlsx
+2025-01-01,STAR_PLUS_HCBS,Other,641,0.0212498,interest-list-data-jan-2025.xlsx
+2025-01-01,STAR_PLUS_HCBS,Totals,30165,1.0,interest-list-data-jan-2025.xlsx
+2025-01-01,STAR_PLUS_HCBS,Unable to Locate,214,0.0070943,interest-list-data-jan-2025.xlsx
+2025-01-01,STAR_PLUS_HCBS,Withdrawn,5639,0.1869385,interest-list-data-jan-2025.xlsx
+2025-01-01,TXHML,Deceased,99,0.02613516367476241,interest-list-data-jan-2025.xlsx
+2025-01-01,TXHML,Declined,1238,0.32682154171066524,interest-list-data-jan-2025.xlsx
+2025-01-01,TXHML,Denied,224,0.059134107708553325,interest-list-data-jan-2025.xlsx
+2025-01-01,TXHML,Enrolled,504,0.133051742344245,interest-list-data-jan-2025.xlsx
+2025-01-01,TXHML,No Response,767,0.20248152059134109,interest-list-data-jan-2025.xlsx
+2025-01-01,TXHML,Not Categorized,216,0.05702217529039071,interest-list-data-jan-2025.xlsx
+2025-01-01,TXHML,Other,0,,interest-list-data-jan-2025.xlsx
+2025-01-01,TXHML,Totals,3788,1.0,interest-list-data-jan-2025.xlsx
+2025-01-01,TXHML,Unable to Locate,740,0.19535374868004224,interest-list-data-jan-2025.xlsx
+2025-01-01,TXHML,Withdrawn,0,,interest-list-data-jan-2025.xlsx
+2025-02-01,CLASS,Deceased,19,0.020765,interest-list-data-feb-2025.xlsx
+2025-02-01,CLASS,Declined,164,0.179235,interest-list-data-feb-2025.xlsx
+2025-02-01,CLASS,Denied,58,0.063388,interest-list-data-feb-2025.xlsx
+2025-02-01,CLASS,Enrolled,271,0.2961749,interest-list-data-feb-2025.xlsx
+2025-02-01,CLASS,No Response,288,0.3147541,interest-list-data-feb-2025.xlsx
+2025-02-01,CLASS,Not Categorized,1,0.0010929,interest-list-data-feb-2025.xlsx
+2025-02-01,CLASS,Other,28,0.0306011,interest-list-data-feb-2025.xlsx
+2025-02-01,CLASS,Totals,915,1.0,interest-list-data-feb-2025.xlsx
+2025-02-01,CLASS,Unable to Locate,0,,interest-list-data-feb-2025.xlsx
+2025-02-01,CLASS,Withdrawn,86,0.0939891,interest-list-data-feb-2025.xlsx
+2025-02-01,DBMD,Deceased,6,0.0368098,interest-list-data-feb-2025.xlsx
+2025-02-01,DBMD,Declined,41,0.2515337,interest-list-data-feb-2025.xlsx
+2025-02-01,DBMD,Denied,4,0.0245399,interest-list-data-feb-2025.xlsx
+2025-02-01,DBMD,Enrolled,14,0.0858896,interest-list-data-feb-2025.xlsx
+2025-02-01,DBMD,No Response,64,0.392638,interest-list-data-feb-2025.xlsx
+2025-02-01,DBMD,Not Categorized,0,,interest-list-data-feb-2025.xlsx
+2025-02-01,DBMD,Other,1,0.006135,interest-list-data-feb-2025.xlsx
+2025-02-01,DBMD,Totals,163,1.0,interest-list-data-feb-2025.xlsx
+2025-02-01,DBMD,Unable to Locate,0,,interest-list-data-feb-2025.xlsx
+2025-02-01,DBMD,Withdrawn,33,0.202454,interest-list-data-feb-2025.xlsx
+2025-02-01,HCS,Deceased,88,0.030439294361812523,interest-list-data-feb-2025.xlsx
+2025-02-01,HCS,Declined,1004,0.3472846765824974,interest-list-data-feb-2025.xlsx
+2025-02-01,HCS,Denied,144,0.049809754410238674,interest-list-data-feb-2025.xlsx
+2025-02-01,HCS,Enrolled,972,0.33621584226911105,interest-list-data-feb-2025.xlsx
+2025-02-01,HCS,No Response,63,0.021791767554479417,interest-list-data-feb-2025.xlsx
+2025-02-01,HCS,Not Categorized,135,0.046696644759598754,interest-list-data-feb-2025.xlsx
+2025-02-01,HCS,Other,0,0.0,interest-list-data-feb-2025.xlsx
+2025-02-01,HCS,Totals,2891,1.0,interest-list-data-feb-2025.xlsx
+2025-02-01,HCS,Unable to Locate,483,0.16707021791767554,interest-list-data-feb-2025.xlsx
+2025-02-01,HCS,Withdrawn,2,0.0006918021445866483,interest-list-data-feb-2025.xlsx
+2025-02-01,MDCP,Deceased,56,0.0102847,interest-list-data-feb-2025.xlsx
+2025-02-01,MDCP,Declined,656,0.1204775,interest-list-data-feb-2025.xlsx
+2025-02-01,MDCP,Denied,1034,0.189899,interest-list-data-feb-2025.xlsx
+2025-02-01,MDCP,Enrolled,836,0.1535354,interest-list-data-feb-2025.xlsx
+2025-02-01,MDCP,No Response,2027,0.3722681,interest-list-data-feb-2025.xlsx
+2025-02-01,MDCP,Not Categorized,11,0.0020202,interest-list-data-feb-2025.xlsx
+2025-02-01,MDCP,Other,8,0.0014692,interest-list-data-feb-2025.xlsx
+2025-02-01,MDCP,Totals,5445,1.0,interest-list-data-feb-2025.xlsx
+2025-02-01,MDCP,Unable to Locate,32,0.005877,interest-list-data-feb-2025.xlsx
+2025-02-01,MDCP,Withdrawn,785,0.144169,interest-list-data-feb-2025.xlsx
+2025-02-01,STAR_PLUS_HCBS,Deceased,1346,0.0401611,interest-list-data-feb-2025.xlsx
+2025-02-01,STAR_PLUS_HCBS,Declined,2310,0.0689244,interest-list-data-feb-2025.xlsx
+2025-02-01,STAR_PLUS_HCBS,Denied,4898,0.1461435,interest-list-data-feb-2025.xlsx
+2025-02-01,STAR_PLUS_HCBS,Enrolled,4552,0.1358198,interest-list-data-feb-2025.xlsx
+2025-02-01,STAR_PLUS_HCBS,No Response,13546,0.4041772,interest-list-data-feb-2025.xlsx
+2025-02-01,STAR_PLUS_HCBS,Not Categorized,11,0.0003282,interest-list-data-feb-2025.xlsx
+2025-02-01,STAR_PLUS_HCBS,Other,672,0.0200507,interest-list-data-feb-2025.xlsx
+2025-02-01,STAR_PLUS_HCBS,Totals,33515,1.0,interest-list-data-feb-2025.xlsx
+2025-02-01,STAR_PLUS_HCBS,Unable to Locate,239,0.0071311,interest-list-data-feb-2025.xlsx
+2025-02-01,STAR_PLUS_HCBS,Withdrawn,5941,0.1772639,interest-list-data-feb-2025.xlsx
+2025-02-01,TXHML,Deceased,107,0.025579727468324168,interest-list-data-feb-2025.xlsx
+2025-02-01,TXHML,Declined,1349,0.32249581639971314,interest-list-data-feb-2025.xlsx
+2025-02-01,TXHML,Denied,256,0.061200095625149414,interest-list-data-feb-2025.xlsx
+2025-02-01,TXHML,Enrolled,581,0.13889552952426487,interest-list-data-feb-2025.xlsx
+2025-02-01,TXHML,No Response,851,0.20344250537891465,interest-list-data-feb-2025.xlsx
+2025-02-01,TXHML,Not Categorized,188,0.04494382022471909,interest-list-data-feb-2025.xlsx
+2025-02-01,TXHML,Other,0,0.0,interest-list-data-feb-2025.xlsx
+2025-02-01,TXHML,Totals,4183,1.0,interest-list-data-feb-2025.xlsx
+2025-02-01,TXHML,Unable to Locate,851,0.20344250537891465,interest-list-data-feb-2025.xlsx
+2025-02-01,TXHML,Withdrawn,0,0.0,interest-list-data-feb-2025.xlsx
+2025-03-01,CLASS,Deceased,21,0.0212982,interest-list-data-march-2025.xlsx
+2025-03-01,CLASS,Declined,176,0.178499,interest-list-data-march-2025.xlsx
+2025-03-01,CLASS,Denied,58,0.0588235,interest-list-data-march-2025.xlsx
+2025-03-01,CLASS,Enrolled,297,0.301217,interest-list-data-march-2025.xlsx
+2025-03-01,CLASS,No Response,309,0.3133874,interest-list-data-march-2025.xlsx
+2025-03-01,CLASS,Not Categorized,1,0.0010142,interest-list-data-march-2025.xlsx
+2025-03-01,CLASS,Other,28,0.0283976,interest-list-data-march-2025.xlsx
+2025-03-01,CLASS,Totals,986,1.0,interest-list-data-march-2025.xlsx
+2025-03-01,CLASS,Unable to Locate,0,,interest-list-data-march-2025.xlsx
+2025-03-01,CLASS,Withdrawn,96,0.0973631,interest-list-data-march-2025.xlsx
+2025-03-01,DBMD,Deceased,7,0.0315315,interest-list-data-march-2025.xlsx
+2025-03-01,DBMD,Declined,46,0.2072072,interest-list-data-march-2025.xlsx
+2025-03-01,DBMD,Denied,36,0.1621622,interest-list-data-march-2025.xlsx
+2025-03-01,DBMD,Enrolled,24,0.1081081,interest-list-data-march-2025.xlsx
+2025-03-01,DBMD,No Response,71,0.3198198,interest-list-data-march-2025.xlsx
+2025-03-01,DBMD,Not Categorized,0,,interest-list-data-march-2025.xlsx
+2025-03-01,DBMD,Other,1,0.0045045,interest-list-data-march-2025.xlsx
+2025-03-01,DBMD,Totals,222,1.0,interest-list-data-march-2025.xlsx
+2025-03-01,DBMD,Unable to Locate,0,,interest-list-data-march-2025.xlsx
+2025-03-01,DBMD,Withdrawn,37,0.1666667,interest-list-data-march-2025.xlsx
+2025-03-01,HCS,Deceased,100,0.029455081001472753,interest-list-data-march-2025.xlsx
+2025-03-01,HCS,Declined,1125,0.33136966126656847,interest-list-data-march-2025.xlsx
+2025-03-01,HCS,Denied,167,0.0491899852724595,interest-list-data-march-2025.xlsx
+2025-03-01,HCS,Enrolled,1150,0.3387334315169367,interest-list-data-march-2025.xlsx
+2025-03-01,HCS,No Response,103,0.030338733431516936,interest-list-data-march-2025.xlsx
+2025-03-01,HCS,Not Categorized,146,0.04300441826215022,interest-list-data-march-2025.xlsx
+2025-03-01,HCS,Other,1,0.0002945508100147275,interest-list-data-march-2025.xlsx
+2025-03-01,HCS,Totals,3395,1.0,interest-list-data-march-2025.xlsx
+2025-03-01,HCS,Unable to Locate,601,0.17702503681885126,interest-list-data-march-2025.xlsx
+2025-03-01,HCS,Withdrawn,2,0.000589101620029455,interest-list-data-march-2025.xlsx
+2025-03-01,MDCP,Deceased,58,0.0103221,interest-list-data-march-2025.xlsx
+2025-03-01,MDCP,Declined,681,0.1211959,interest-list-data-march-2025.xlsx
+2025-03-01,MDCP,Denied,1076,0.1914931,interest-list-data-march-2025.xlsx
+2025-03-01,MDCP,Enrolled,911,0.1621285,interest-list-data-march-2025.xlsx
+2025-03-01,MDCP,No Response,2050,0.3648336,interest-list-data-march-2025.xlsx
+2025-03-01,MDCP,Not Categorized,11,0.0019576,interest-list-data-march-2025.xlsx
+2025-03-01,MDCP,Other,8,0.0014237,interest-list-data-march-2025.xlsx
+2025-03-01,MDCP,Totals,5619,1.0,interest-list-data-march-2025.xlsx
+2025-03-01,MDCP,Unable to Locate,32,0.005695,interest-list-data-march-2025.xlsx
+2025-03-01,MDCP,Withdrawn,792,0.1409503,interest-list-data-march-2025.xlsx
+2025-03-01,STAR_PLUS_HCBS,Deceased,1564,0.0426019,interest-list-data-march-2025.xlsx
+2025-03-01,STAR_PLUS_HCBS,Declined,2556,0.069623,interest-list-data-march-2025.xlsx
+2025-03-01,STAR_PLUS_HCBS,Denied,5371,0.1463009,interest-list-data-march-2025.xlsx
+2025-03-01,STAR_PLUS_HCBS,Enrolled,4922,0.1340706,interest-list-data-march-2025.xlsx
+2025-03-01,STAR_PLUS_HCBS,No Response,14836,0.4041185,interest-list-data-march-2025.xlsx
+2025-03-01,STAR_PLUS_HCBS,Not Categorized,12,0.0003269,interest-list-data-march-2025.xlsx
+2025-03-01,STAR_PLUS_HCBS,Other,719,0.0195849,interest-list-data-march-2025.xlsx
+2025-03-01,STAR_PLUS_HCBS,Totals,36712,1.0,interest-list-data-march-2025.xlsx
+2025-03-01,STAR_PLUS_HCBS,Unable to Locate,301,0.008199,interest-list-data-march-2025.xlsx
+2025-03-01,STAR_PLUS_HCBS,Withdrawn,6431,0.1751743,interest-list-data-march-2025.xlsx
+2025-03-01,TXHML,Deceased,116,0.025333042148940818,interest-list-data-march-2025.xlsx
+2025-03-01,TXHML,Declined,1439,0.31426075562349864,interest-list-data-march-2025.xlsx
+2025-03-01,TXHML,Denied,288,0.0628958287835772,interest-list-data-march-2025.xlsx
+2025-03-01,TXHML,Enrolled,627,0.13692946058091288,interest-list-data-march-2025.xlsx
+2025-03-01,TXHML,No Response,921,0.2011356191308146,interest-list-data-march-2025.xlsx
+2025-03-01,TXHML,Not Categorized,247,0.05394190871369295,interest-list-data-march-2025.xlsx
+2025-03-01,TXHML,Other,0,,interest-list-data-march-2025.xlsx
+2025-03-01,TXHML,Totals,4579,1.0,interest-list-data-march-2025.xlsx
+2025-03-01,TXHML,Unable to Locate,941,0.205503385018563,interest-list-data-march-2025.xlsx
+2025-03-01,TXHML,Withdrawn,0,,interest-list-data-march-2025.xlsx
+2025-04-01,CLASS,Deceased,22,0.0208333,interest-list-data-april-2025.xlsx
+2025-04-01,CLASS,Declined,193,0.1827652,interest-list-data-april-2025.xlsx
+2025-04-01,CLASS,Denied,59,0.0558712,interest-list-data-april-2025.xlsx
+2025-04-01,CLASS,Enrolled,315,0.2982955,interest-list-data-april-2025.xlsx
+2025-04-01,CLASS,No Response,333,0.3153409,interest-list-data-april-2025.xlsx
+2025-04-01,CLASS,Not Categorized,1,0.000947,interest-list-data-april-2025.xlsx
+2025-04-01,CLASS,Other,28,0.0265152,interest-list-data-april-2025.xlsx
+2025-04-01,CLASS,Totals,1056,1.0,interest-list-data-april-2025.xlsx
+2025-04-01,CLASS,Unable to Locate,0,,interest-list-data-april-2025.xlsx
+2025-04-01,CLASS,Withdrawn,105,0.0994318,interest-list-data-april-2025.xlsx
+2025-04-01,DBMD,Deceased,10,0.0358423,interest-list-data-april-2025.xlsx
+2025-04-01,DBMD,Declined,60,0.2150538,interest-list-data-april-2025.xlsx
+2025-04-01,DBMD,Denied,40,0.1433692,interest-list-data-april-2025.xlsx
+2025-04-01,DBMD,Enrolled,32,0.1146953,interest-list-data-april-2025.xlsx
+2025-04-01,DBMD,No Response,89,0.3189964,interest-list-data-april-2025.xlsx
+2025-04-01,DBMD,Not Categorized,0,,interest-list-data-april-2025.xlsx
+2025-04-01,DBMD,Other,3,0.0107527,interest-list-data-april-2025.xlsx
+2025-04-01,DBMD,Totals,279,1.0,interest-list-data-april-2025.xlsx
+2025-04-01,DBMD,Unable to Locate,0,,interest-list-data-april-2025.xlsx
+2025-04-01,DBMD,Withdrawn,45,0.1612903,interest-list-data-april-2025.xlsx
+2025-04-01,HCS,Deceased,103,0.026977475117862755,interest-list-data-april-2025.xlsx
+2025-04-01,HCS,Declined,1189,0.31141959140911474,interest-list-data-april-2025.xlsx
+2025-04-01,HCS,Denied,186,0.04871660555264537,interest-list-data-april-2025.xlsx
+2025-04-01,HCS,Enrolled,1342,0.3514929282346778,interest-list-data-april-2025.xlsx
+2025-04-01,HCS,No Response,166,0.043478260869565216,interest-list-data-april-2025.xlsx
+2025-04-01,HCS,Not Categorized,153,0.040073336825563126,interest-list-data-april-2025.xlsx
+2025-04-01,HCS,Other,1,0.00026191723415400735,interest-list-data-april-2025.xlsx
+2025-04-01,HCS,Totals,3818,1.0,interest-list-data-april-2025.xlsx
+2025-04-01,HCS,Unable to Locate,676,0.17705605028810895,interest-list-data-april-2025.xlsx
+2025-04-01,HCS,Withdrawn,2,0.0005238344683080147,interest-list-data-april-2025.xlsx
+2025-04-01,MDCP,Deceased,58,0.0098942,interest-list-data-april-2025.xlsx
+2025-04-01,MDCP,Declined,705,0.1202661,interest-list-data-april-2025.xlsx
+2025-04-01,MDCP,Denied,1166,0.1989082,interest-list-data-april-2025.xlsx
+2025-04-01,MDCP,Enrolled,984,0.1678608,interest-list-data-april-2025.xlsx
+2025-04-01,MDCP,No Response,2091,0.3567042,interest-list-data-april-2025.xlsx
+2025-04-01,MDCP,Not Categorized,12,0.0020471,interest-list-data-april-2025.xlsx
+2025-04-01,MDCP,Other,8,0.0013647,interest-list-data-april-2025.xlsx
+2025-04-01,MDCP,Totals,5862,1.0,interest-list-data-april-2025.xlsx
+2025-04-01,MDCP,Unable to Locate,33,0.0056295,interest-list-data-april-2025.xlsx
+2025-04-01,MDCP,Withdrawn,805,0.1373251,interest-list-data-april-2025.xlsx
+2025-04-01,STAR_PLUS_HCBS,Deceased,1639,0.0391468,interest-list-data-april-2025.xlsx
+2025-04-01,STAR_PLUS_HCBS,Declined,2962,0.0707462,interest-list-data-april-2025.xlsx
+2025-04-01,STAR_PLUS_HCBS,Denied,5839,0.1394621,interest-list-data-april-2025.xlsx
+2025-04-01,STAR_PLUS_HCBS,Enrolled,5407,0.129144,interest-list-data-april-2025.xlsx
+2025-04-01,STAR_PLUS_HCBS,No Response,17844,0.4261966,interest-list-data-april-2025.xlsx
+2025-04-01,STAR_PLUS_HCBS,Not Categorized,13,0.0003105,interest-list-data-april-2025.xlsx
+2025-04-01,STAR_PLUS_HCBS,Other,734,0.0175313,interest-list-data-april-2025.xlsx
+2025-04-01,STAR_PLUS_HCBS,Totals,41868,1.0,interest-list-data-april-2025.xlsx
+2025-04-01,STAR_PLUS_HCBS,Unable to Locate,349,0.0083357,interest-list-data-april-2025.xlsx
+2025-04-01,STAR_PLUS_HCBS,Withdrawn,7081,0.1691268,interest-list-data-april-2025.xlsx
+2025-04-01,TXHML,Deceased,120,0.024193548387096774,interest-list-data-april-2025.xlsx
+2025-04-01,TXHML,Declined,1502,0.3028225806451613,interest-list-data-april-2025.xlsx
+2025-04-01,TXHML,Denied,314,0.06330645161290323,interest-list-data-april-2025.xlsx
+2025-04-01,TXHML,Enrolled,703,0.14173387096774193,interest-list-data-april-2025.xlsx
+2025-04-01,TXHML,No Response,1016,0.20483870967741935,interest-list-data-april-2025.xlsx
+2025-04-01,TXHML,Not Categorized,255,0.05141129032258065,interest-list-data-april-2025.xlsx
+2025-04-01,TXHML,Other,0,,interest-list-data-april-2025.xlsx
+2025-04-01,TXHML,Totals,4960,1.0,interest-list-data-april-2025.xlsx
+2025-04-01,TXHML,Unable to Locate,1050,0.21169354838709678,interest-list-data-april-2025.xlsx
+2025-04-01,TXHML,Withdrawn,0,,interest-list-data-april-2025.xlsx
+2025-05-01,CLASS,Deceased,30,0.0227273,interest-list-data-may-2025.xlsx
+2025-05-01,CLASS,Declined,253,0.1916667,interest-list-data-may-2025.xlsx
+2025-05-01,CLASS,Denied,64,0.0484848,interest-list-data-may-2025.xlsx
+2025-05-01,CLASS,Enrolled,332,0.2515152,interest-list-data-may-2025.xlsx
+2025-05-01,CLASS,No Response,500,0.3787879,interest-list-data-may-2025.xlsx
+2025-05-01,CLASS,Not Categorized,1,0.0007576,interest-list-data-may-2025.xlsx
+2025-05-01,CLASS,Other,28,0.0212121,interest-list-data-may-2025.xlsx
+2025-05-01,CLASS,Totals,1320,1.0,interest-list-data-may-2025.xlsx
+2025-05-01,CLASS,Unable to Locate,0,,interest-list-data-may-2025.xlsx
+2025-05-01,CLASS,Withdrawn,112,0.0848485,interest-list-data-may-2025.xlsx
+2025-05-01,DBMD,Deceased,11,0.0325444,interest-list-data-may-2025.xlsx
+2025-05-01,DBMD,Declined,67,0.1982249,interest-list-data-may-2025.xlsx
+2025-05-01,DBMD,Denied,42,0.1242604,interest-list-data-may-2025.xlsx
+2025-05-01,DBMD,Enrolled,41,0.1213018,interest-list-data-may-2025.xlsx
+2025-05-01,DBMD,No Response,117,0.3461538,interest-list-data-may-2025.xlsx
+2025-05-01,DBMD,Not Categorized,0,,interest-list-data-may-2025.xlsx
+2025-05-01,DBMD,Other,3,0.0088757,interest-list-data-may-2025.xlsx
+2025-05-01,DBMD,Totals,338,1.0,interest-list-data-may-2025.xlsx
+2025-05-01,DBMD,Unable to Locate,0,,interest-list-data-may-2025.xlsx
+2025-05-01,DBMD,Withdrawn,57,0.1686391,interest-list-data-may-2025.xlsx
+2025-05-01,HCS,Deceased,106,0.025401389887371197,interest-list-data-may-2025.xlsx
+2025-05-01,HCS,Declined,1237,0.2964294272705488,interest-list-data-may-2025.xlsx
+2025-05-01,HCS,Denied,215,0.05152168703570573,interest-list-data-may-2025.xlsx
+2025-05-01,HCS,Enrolled,1540,0.3690390606278457,interest-list-data-may-2025.xlsx
+2025-05-01,HCS,No Response,210,0.0503235082674335,interest-list-data-may-2025.xlsx
+2025-05-01,HCS,Not Categorized,162,0.038820992092020126,interest-list-data-may-2025.xlsx
+2025-05-01,HCS,Other,1,0.00023963575365444525,interest-list-data-may-2025.xlsx
+2025-05-01,HCS,Totals,4173,1.0,interest-list-data-may-2025.xlsx
+2025-05-01,HCS,Unable to Locate,700,0.16774502755811166,interest-list-data-may-2025.xlsx
+2025-05-01,HCS,Withdrawn,2,0.0004792715073088905,interest-list-data-may-2025.xlsx
+2025-05-01,MDCP,Deceased,59,0.009941,interest-list-data-may-2025.xlsx
+2025-05-01,MDCP,Declined,712,0.1199663,interest-list-data-may-2025.xlsx
+2025-05-01,MDCP,Denied,1187,0.2,interest-list-data-may-2025.xlsx
+2025-05-01,MDCP,Enrolled,1004,0.169166,interest-list-data-may-2025.xlsx
+2025-05-01,MDCP,No Response,2112,0.3558551,interest-list-data-may-2025.xlsx
+2025-05-01,MDCP,Not Categorized,12,0.0020219,interest-list-data-may-2025.xlsx
+2025-05-01,MDCP,Other,9,0.0015164,interest-list-data-may-2025.xlsx
+2025-05-01,MDCP,Totals,5935,1.0,interest-list-data-may-2025.xlsx
+2025-05-01,MDCP,Unable to Locate,34,0.0057287,interest-list-data-may-2025.xlsx
+2025-05-01,MDCP,Withdrawn,806,0.1358045,interest-list-data-may-2025.xlsx
+2025-05-01,STAR_PLUS_HCBS,Deceased,1781,0.0377147,interest-list-data-may-2025.xlsx
+2025-05-01,STAR_PLUS_HCBS,Declined,3185,0.0674459,interest-list-data-may-2025.xlsx
+2025-05-01,STAR_PLUS_HCBS,Denied,6748,0.1428965,interest-list-data-may-2025.xlsx
+2025-05-01,STAR_PLUS_HCBS,Enrolled,5914,0.1252356,interest-list-data-may-2025.xlsx
+2025-05-01,STAR_PLUS_HCBS,No Response,20627,0.4367999,interest-list-data-may-2025.xlsx
+2025-05-01,STAR_PLUS_HCBS,Not Categorized,15,0.0003176,interest-list-data-may-2025.xlsx
+2025-05-01,STAR_PLUS_HCBS,Other,751,0.0159033,interest-list-data-may-2025.xlsx
+2025-05-01,STAR_PLUS_HCBS,Totals,47223,1.0,interest-list-data-may-2025.xlsx
+2025-05-01,STAR_PLUS_HCBS,Unable to Locate,390,0.0082587,interest-list-data-may-2025.xlsx
+2025-05-01,STAR_PLUS_HCBS,Withdrawn,7812,0.1654279,interest-list-data-may-2025.xlsx
+2025-05-01,TXHML,Deceased,122,0.023189507698156243,interest-list-data-may-2025.xlsx
+2025-05-01,TXHML,Declined,1548,0.29424063866185135,interest-list-data-may-2025.xlsx
+2025-05-01,TXHML,Denied,340,0.06462649686371412,interest-list-data-may-2025.xlsx
+2025-05-01,TXHML,Enrolled,762,0.14483938414750047,interest-list-data-may-2025.xlsx
+2025-05-01,TXHML,No Response,1105,0.2100361148070709,interest-list-data-may-2025.xlsx
+2025-05-01,TXHML,Not Categorized,264,0.05018057403535449,interest-list-data-may-2025.xlsx
+2025-05-01,TXHML,Other,0,,interest-list-data-may-2025.xlsx
+2025-05-01,TXHML,Totals,5261,1.0,interest-list-data-may-2025.xlsx
+2025-05-01,TXHML,Unable to Locate,1120,0.2128872837863524,interest-list-data-may-2025.xlsx
+2025-05-01,TXHML,Withdrawn,0,,interest-list-data-may-2025.xlsx
+2025-06-01,CLASS,Deceased,30,0.0168256,interest-list-data-june-2025.xlsx
+2025-06-01,CLASS,Declined,289,0.1620864,interest-list-data-june-2025.xlsx
+2025-06-01,CLASS,Denied,73,0.0409422,interest-list-data-june-2025.xlsx
+2025-06-01,CLASS,Enrolled,356,0.1996635,interest-list-data-june-2025.xlsx
+2025-06-01,CLASS,No Response,871,0.4885025,interest-list-data-june-2025.xlsx
+2025-06-01,CLASS,Not Categorized,2,0.0011217,interest-list-data-june-2025.xlsx
+2025-06-01,CLASS,Other,28,0.0157039,interest-list-data-june-2025.xlsx
+2025-06-01,CLASS,Totals,1783,1.0,interest-list-data-june-2025.xlsx
+2025-06-01,CLASS,Unable to Locate,0,,interest-list-data-june-2025.xlsx
+2025-06-01,CLASS,Withdrawn,134,0.0751542,interest-list-data-june-2025.xlsx
+2025-06-01,DBMD,Deceased,12,0.0225564,interest-list-data-june-2025.xlsx
+2025-06-01,DBMD,Declined,85,0.1597744,interest-list-data-june-2025.xlsx
+2025-06-01,DBMD,Denied,43,0.0808271,interest-list-data-june-2025.xlsx
+2025-06-01,DBMD,Enrolled,48,0.0902256,interest-list-data-june-2025.xlsx
+2025-06-01,DBMD,No Response,272,0.5112782,interest-list-data-june-2025.xlsx
+2025-06-01,DBMD,Not Categorized,0,,interest-list-data-june-2025.xlsx
+2025-06-01,DBMD,Other,3,0.0056391,interest-list-data-june-2025.xlsx
+2025-06-01,DBMD,Totals,532,1.0,interest-list-data-june-2025.xlsx
+2025-06-01,DBMD,Unable to Locate,1,0.0018797,interest-list-data-june-2025.xlsx
+2025-06-01,DBMD,Withdrawn,68,0.1278195,interest-list-data-june-2025.xlsx
+2025-06-01,HCS,Deceased,107,0.02403954167602786,interest-list-data-june-2025.xlsx
+2025-06-01,HCS,Declined,1269,0.2851044709054145,interest-list-data-june-2025.xlsx
+2025-06-01,HCS,Denied,232,0.05212311840035947,interest-list-data-june-2025.xlsx
+2025-06-01,HCS,Enrolled,1720,0.38643001572680297,interest-list-data-june-2025.xlsx
+2025-06-01,HCS,No Response,242,0.054369804538306,interest-list-data-june-2025.xlsx
+2025-06-01,HCS,Not Categorized,166,0.03729498988991238,interest-list-data-june-2025.xlsx
+2025-06-01,HCS,Other,1,0.00022466861379465288,interest-list-data-june-2025.xlsx
+2025-06-01,HCS,Totals,4451,1.0,interest-list-data-june-2025.xlsx
+2025-06-01,HCS,Unable to Locate,712,0.15996405302179287,interest-list-data-june-2025.xlsx
+2025-06-01,HCS,Withdrawn,2,0.00044933722758930576,interest-list-data-june-2025.xlsx
+2025-06-01,MDCP,Deceased,59,0.0098679,interest-list-data-june-2025.xlsx
+2025-06-01,MDCP,Declined,714,0.119418,interest-list-data-june-2025.xlsx
+2025-06-01,MDCP,Denied,1205,0.2015387,interest-list-data-june-2025.xlsx
+2025-06-01,MDCP,Enrolled,1027,0.1717679,interest-list-data-june-2025.xlsx
+2025-06-01,MDCP,No Response,2113,0.3534036,interest-list-data-june-2025.xlsx
+2025-06-01,MDCP,Not Categorized,12,0.002007,interest-list-data-june-2025.xlsx
+2025-06-01,MDCP,Other,9,0.0015053,interest-list-data-june-2025.xlsx
+2025-06-01,MDCP,Totals,5979,1.0,interest-list-data-june-2025.xlsx
+2025-06-01,MDCP,Unable to Locate,34,0.0056866,interest-list-data-june-2025.xlsx
+2025-06-01,MDCP,Withdrawn,806,0.1348052,interest-list-data-june-2025.xlsx
+2025-06-01,STAR_PLUS_HCBS,Deceased,1828,0.036002,interest-list-data-june-2025.xlsx
+2025-06-01,STAR_PLUS_HCBS,Declined,3282,0.0646381,interest-list-data-june-2025.xlsx
+2025-06-01,STAR_PLUS_HCBS,Denied,7254,0.1428656,interest-list-data-june-2025.xlsx
+2025-06-01,STAR_PLUS_HCBS,Enrolled,6429,0.1266174,interest-list-data-june-2025.xlsx
+2025-06-01,STAR_PLUS_HCBS,No Response,22675,0.446578,interest-list-data-june-2025.xlsx
+2025-06-01,STAR_PLUS_HCBS,Not Categorized,16,0.0003151,interest-list-data-june-2025.xlsx
+2025-06-01,STAR_PLUS_HCBS,Other,766,0.0150862,interest-list-data-june-2025.xlsx
+2025-06-01,STAR_PLUS_HCBS,Totals,50775,1.0,interest-list-data-june-2025.xlsx
+2025-06-01,STAR_PLUS_HCBS,Unable to Locate,413,0.0081339,interest-list-data-june-2025.xlsx
+2025-06-01,STAR_PLUS_HCBS,Withdrawn,8112,0.1597637,interest-list-data-june-2025.xlsx
+2025-06-01,TXHML,Deceased,123,0.022214195412678345,interest-list-data-june-2025.xlsx
+2025-06-01,TXHML,Declined,1602,0.2893263500090302,interest-list-data-june-2025.xlsx
+2025-06-01,TXHML,Denied,362,0.06537836373487448,interest-list-data-june-2025.xlsx
+2025-06-01,TXHML,Enrolled,827,0.14935885858768286,interest-list-data-june-2025.xlsx
+2025-06-01,TXHML,No Response,1179,0.2129311901751851,interest-list-data-june-2025.xlsx
+2025-06-01,TXHML,Not Categorized,267,0.04822105833483836,interest-list-data-june-2025.xlsx
+2025-06-01,TXHML,Other,0,,interest-list-data-june-2025.xlsx
+2025-06-01,TXHML,Totals,5537,1.0,interest-list-data-june-2025.xlsx
+2025-06-01,TXHML,Unable to Locate,1177,0.21256998374571068,interest-list-data-june-2025.xlsx
+2025-06-01,TXHML,Withdrawn,0,,interest-list-data-june-2025.xlsx
+2025-07-01,CLASS,Deceased,37,0.0172655,interest-list-data-july-2025.xlsx
+2025-07-01,CLASS,Declined,309,0.1441904,interest-list-data-july-2025.xlsx
+2025-07-01,CLASS,Denied,78,0.0363976,interest-list-data-july-2025.xlsx
+2025-07-01,CLASS,Enrolled,390,0.1819879,interest-list-data-july-2025.xlsx
+2025-07-01,CLASS,No Response,1137,0.5305646,interest-list-data-july-2025.xlsx
+2025-07-01,CLASS,Not Categorized,2,0.0009333,interest-list-data-july-2025.xlsx
+2025-07-01,CLASS,Other,28,0.0130658,interest-list-data-july-2025.xlsx
+2025-07-01,CLASS,Totals,2143,1.0,interest-list-data-july-2025.xlsx
+2025-07-01,CLASS,Unable to Locate,15,0.0069995,interest-list-data-july-2025.xlsx
+2025-07-01,CLASS,Withdrawn,147,0.0685954,interest-list-data-july-2025.xlsx
+2025-07-01,DBMD,Deceased,13,0.0216667,interest-list-data-july-2025.xlsx
+2025-07-01,DBMD,Declined,89,0.1483333,interest-list-data-july-2025.xlsx
+2025-07-01,DBMD,Denied,47,0.0783333,interest-list-data-july-2025.xlsx
+2025-07-01,DBMD,Enrolled,59,0.0983333,interest-list-data-july-2025.xlsx
+2025-07-01,DBMD,No Response,320,0.5333333,interest-list-data-july-2025.xlsx
+2025-07-01,DBMD,Not Categorized,0,,interest-list-data-july-2025.xlsx
+2025-07-01,DBMD,Other,3,0.005,interest-list-data-july-2025.xlsx
+2025-07-01,DBMD,Totals,600,1.0,interest-list-data-july-2025.xlsx
+2025-07-01,DBMD,Unable to Locate,1,0.0016667,interest-list-data-july-2025.xlsx
+2025-07-01,DBMD,Withdrawn,68,0.1133333,interest-list-data-july-2025.xlsx
+2025-07-01,HCS,Deceased,109,0.023098114007204917,interest-list-data-july-2025.xlsx
+2025-07-01,HCS,Declined,1284,0.27209154481881753,interest-list-data-july-2025.xlsx
+2025-07-01,HCS,Denied,251,0.05318923500741683,interest-list-data-july-2025.xlsx
+2025-07-01,HCS,Enrolled,1899,0.4024157660521297,interest-list-data-july-2025.xlsx
+2025-07-01,HCS,No Response,265,0.056155965246874336,interest-list-data-july-2025.xlsx
+2025-07-01,HCS,Not Categorized,170,0.03602458147912693,interest-list-data-july-2025.xlsx
+2025-07-01,HCS,Other,1,0.00021190930281839374,interest-list-data-july-2025.xlsx
+2025-07-01,HCS,Totals,4719,1.0,interest-list-data-july-2025.xlsx
+2025-07-01,HCS,Unable to Locate,738,0.15638906547997458,interest-list-data-july-2025.xlsx
+2025-07-01,HCS,Withdrawn,2,0.0004238186056367875,interest-list-data-july-2025.xlsx
+2025-07-01,MDCP,Deceased,59,0.0098432,interest-list-data-july-2025.xlsx
+2025-07-01,MDCP,Declined,714,0.1191191,interest-list-data-july-2025.xlsx
+2025-07-01,MDCP,Denied,1211,0.2020354,interest-list-data-july-2025.xlsx
+2025-07-01,MDCP,Enrolled,1035,0.1726727,interest-list-data-july-2025.xlsx
+2025-07-01,MDCP,No Response,2114,0.352686,interest-list-data-july-2025.xlsx
+2025-07-01,MDCP,Not Categorized,12,0.002002,interest-list-data-july-2025.xlsx
+2025-07-01,MDCP,Other,9,0.0015015,interest-list-data-july-2025.xlsx
+2025-07-01,MDCP,Totals,5994,1.0,interest-list-data-july-2025.xlsx
+2025-07-01,MDCP,Unable to Locate,34,0.0056723,interest-list-data-july-2025.xlsx
+2025-07-01,MDCP,Withdrawn,806,0.1344678,interest-list-data-july-2025.xlsx
+2025-07-01,STAR_PLUS_HCBS,Deceased,1851,0.0356544,interest-list-data-july-2025.xlsx
+2025-07-01,STAR_PLUS_HCBS,Declined,3303,0.0636232,interest-list-data-july-2025.xlsx
+2025-07-01,STAR_PLUS_HCBS,Denied,7656,0.1474718,interest-list-data-july-2025.xlsx
+2025-07-01,STAR_PLUS_HCBS,Enrolled,6899,0.1328903,interest-list-data-july-2025.xlsx
+2025-07-01,STAR_PLUS_HCBS,No Response,22815,0.4394684,interest-list-data-july-2025.xlsx
+2025-07-01,STAR_PLUS_HCBS,Not Categorized,17,0.0003275,interest-list-data-july-2025.xlsx
+2025-07-01,STAR_PLUS_HCBS,Other,774,0.014909,interest-list-data-july-2025.xlsx
+2025-07-01,STAR_PLUS_HCBS,Totals,51915,1.0,interest-list-data-july-2025.xlsx
+2025-07-01,STAR_PLUS_HCBS,Unable to Locate,425,0.0081865,interest-list-data-july-2025.xlsx
+2025-07-01,STAR_PLUS_HCBS,Withdrawn,8175,0.1574689,interest-list-data-july-2025.xlsx
+2025-07-01,TXHML,Deceased,125,0.021433470507544582,interest-list-data-july-2025.xlsx
+2025-07-01,TXHML,Declined,1660,0.28463648834019206,interest-list-data-july-2025.xlsx
+2025-07-01,TXHML,Denied,391,0.06704389574759945,interest-list-data-july-2025.xlsx
+2025-07-01,TXHML,Enrolled,886,0.151920438957476,interest-list-data-july-2025.xlsx
+2025-07-01,TXHML,No Response,1271,0.21793552812071332,interest-list-data-july-2025.xlsx
+2025-07-01,TXHML,Not Categorized,271,0.04646776406035665,interest-list-data-july-2025.xlsx
+2025-07-01,TXHML,Other,0,0.0,interest-list-data-july-2025.xlsx
+2025-07-01,TXHML,Totals,5832,1.0,interest-list-data-july-2025.xlsx
+2025-07-01,TXHML,Unable to Locate,1228,0.21056241426611796,interest-list-data-july-2025.xlsx
+2025-07-01,TXHML,Withdrawn,0,0.0,interest-list-data-july-2025.xlsx
+2025-08-01,CLASS,Deceased,41,0.0166938,interest-list-data-aug-2025.xlsx
+2025-08-01,CLASS,Declined,342,0.1392508,interest-list-data-aug-2025.xlsx
+2025-08-01,CLASS,Denied,82,0.0333876,interest-list-data-aug-2025.xlsx
+2025-08-01,CLASS,Enrolled,415,0.1689739,interest-list-data-aug-2025.xlsx
+2025-08-01,CLASS,No Response,1358,0.5529316,interest-list-data-aug-2025.xlsx
+2025-08-01,CLASS,Not Categorized,3,0.0012215,interest-list-data-aug-2025.xlsx
+2025-08-01,CLASS,Other,28,0.0114007,interest-list-data-aug-2025.xlsx
+2025-08-01,CLASS,Totals,2456,1.0,interest-list-data-aug-2025.xlsx
+2025-08-01,CLASS,Unable to Locate,29,0.0118078,interest-list-data-aug-2025.xlsx
+2025-08-01,CLASS,Withdrawn,158,0.0643322,interest-list-data-aug-2025.xlsx
+2025-08-01,DBMD,Deceased,13,0.0213465,interest-list-data-aug-2025.xlsx
+2025-08-01,DBMD,Declined,89,0.1461412,interest-list-data-aug-2025.xlsx
+2025-08-01,DBMD,Denied,47,0.0771757,interest-list-data-aug-2025.xlsx
+2025-08-01,DBMD,Enrolled,68,0.1116585,interest-list-data-aug-2025.xlsx
+2025-08-01,DBMD,No Response,320,0.5254516,interest-list-data-aug-2025.xlsx
+2025-08-01,DBMD,Not Categorized,0,,interest-list-data-aug-2025.xlsx
+2025-08-01,DBMD,Other,3,0.0049261,interest-list-data-aug-2025.xlsx
+2025-08-01,DBMD,Totals,609,1.0,interest-list-data-aug-2025.xlsx
+2025-08-01,DBMD,Unable to Locate,1,0.001642,interest-list-data-aug-2025.xlsx
+2025-08-01,DBMD,Withdrawn,68,0.1116585,interest-list-data-aug-2025.xlsx
+2025-08-01,HCS,Deceased,109,0.022127486804709703,interest-list-data-aug-2025.xlsx
+2025-08-01,HCS,Declined,1298,0.26349979699553383,interest-list-data-aug-2025.xlsx
+2025-08-01,HCS,Denied,270,0.05481120584652863,interest-list-data-aug-2025.xlsx
+2025-08-01,HCS,Enrolled,2053,0.4167681688997158,interest-list-data-aug-2025.xlsx
+2025-08-01,HCS,No Response,283,0.057450263905805925,interest-list-data-aug-2025.xlsx
+2025-08-01,HCS,Not Categorized,172,0.034916768168899714,interest-list-data-aug-2025.xlsx
+2025-08-01,HCS,Other,1,0.00020300446609825416,interest-list-data-aug-2025.xlsx
+2025-08-01,HCS,Totals,4926,1.0,interest-list-data-aug-2025.xlsx
+2025-08-01,HCS,Unable to Locate,738,0.14981729598051158,interest-list-data-aug-2025.xlsx
+2025-08-01,HCS,Withdrawn,2,0.0004060089321965083,interest-list-data-aug-2025.xlsx
+2025-08-01,MDCP,Deceased,59,0.0098268,interest-list-data-aug-2025.xlsx
+2025-08-01,MDCP,Declined,714,0.1189207,interest-list-data-aug-2025.xlsx
+2025-08-01,MDCP,Denied,1215,0.2023651,interest-list-data-aug-2025.xlsx
+2025-08-01,MDCP,Enrolled,1041,0.1733844,interest-list-data-aug-2025.xlsx
+2025-08-01,MDCP,No Response,2114,0.3520986,interest-list-data-aug-2025.xlsx
+2025-08-01,MDCP,Not Categorized,12,0.0019987,interest-list-data-aug-2025.xlsx
+2025-08-01,MDCP,Other,9,0.001499,interest-list-data-aug-2025.xlsx
+2025-08-01,MDCP,Totals,6004,1.0,interest-list-data-aug-2025.xlsx
+2025-08-01,MDCP,Unable to Locate,34,0.0056629,interest-list-data-aug-2025.xlsx
+2025-08-01,MDCP,Withdrawn,806,0.1342438,interest-list-data-aug-2025.xlsx
+2025-08-01,STAR_PLUS_HCBS,Deceased,1864,0.0355156,interest-list-data-aug-2025.xlsx
+2025-08-01,STAR_PLUS_HCBS,Declined,3308,0.0630287,interest-list-data-aug-2025.xlsx
+2025-08-01,STAR_PLUS_HCBS,Denied,7882,0.1501791,interest-list-data-aug-2025.xlsx
+2025-08-01,STAR_PLUS_HCBS,Enrolled,7173,0.1366702,interest-list-data-aug-2025.xlsx
+2025-08-01,STAR_PLUS_HCBS,No Response,22834,0.4350659,interest-list-data-aug-2025.xlsx
+2025-08-01,STAR_PLUS_HCBS,Not Categorized,17,0.0003239,interest-list-data-aug-2025.xlsx
+2025-08-01,STAR_PLUS_HCBS,Other,776,0.0147855,interest-list-data-aug-2025.xlsx
+2025-08-01,STAR_PLUS_HCBS,Totals,52484,1.0,interest-list-data-aug-2025.xlsx
+2025-08-01,STAR_PLUS_HCBS,Unable to Locate,434,0.0082692,interest-list-data-aug-2025.xlsx
+2025-08-01,STAR_PLUS_HCBS,Withdrawn,8196,0.1561619,interest-list-data-aug-2025.xlsx
+2025-08-01,TXHML,Deceased,125,0.02072624772011275,interest-list-data-aug-2025.xlsx
+2025-08-01,TXHML,Declined,1692,0.2805504891394462,interest-list-data-aug-2025.xlsx
+2025-08-01,TXHML,Denied,405,0.06715304261316532,interest-list-data-aug-2025.xlsx
+2025-08-01,TXHML,Enrolled,1002,0.1661416017244238,interest-list-data-aug-2025.xlsx
+2025-08-01,TXHML,No Response,1298,0.21522135632565081,interest-list-data-aug-2025.xlsx
+2025-08-01,TXHML,Not Categorized,273,0.045266125020726244,interest-list-data-aug-2025.xlsx
+2025-08-01,TXHML,Other,0,,interest-list-data-aug-2025.xlsx
+2025-08-01,TXHML,Totals,6031,1.0,interest-list-data-aug-2025.xlsx
+2025-08-01,TXHML,Unable to Locate,1236,0.20494113745647488,interest-list-data-aug-2025.xlsx
+2025-08-01,TXHML,Withdrawn,0,,interest-list-data-aug-2025.xlsx
+2025-09-01,CLASS,Deceased,15,0.0765306,interest-list-data-sept-2025.xlsx
+2025-09-01,CLASS,Declined,19,0.0969388,interest-list-data-sept-2025.xlsx
+2025-09-01,CLASS,Denied,12,0.0612245,interest-list-data-sept-2025.xlsx
+2025-09-01,CLASS,Enrolled,19,0.0969388,interest-list-data-sept-2025.xlsx
+2025-09-01,CLASS,No Response,115,0.5867347,interest-list-data-sept-2025.xlsx
+2025-09-01,CLASS,Not Categorized,0,,interest-list-data-sept-2025.xlsx
+2025-09-01,CLASS,Other,0,,interest-list-data-sept-2025.xlsx
+2025-09-01,CLASS,Totals,196,1.0,interest-list-data-sept-2025.xlsx
+2025-09-01,CLASS,Unable to Locate,0,,interest-list-data-sept-2025.xlsx
+2025-09-01,CLASS,Withdrawn,16,0.0816327,interest-list-data-sept-2025.xlsx
+2025-09-01,DBMD,Deceased,0,,interest-list-data-sept-2025.xlsx
+2025-09-01,DBMD,Declined,0,,interest-list-data-sept-2025.xlsx
+2025-09-01,DBMD,Denied,0,,interest-list-data-sept-2025.xlsx
+2025-09-01,DBMD,Enrolled,7,0.875,interest-list-data-sept-2025.xlsx
+2025-09-01,DBMD,No Response,0,,interest-list-data-sept-2025.xlsx
+2025-09-01,DBMD,Not Categorized,0,,interest-list-data-sept-2025.xlsx
+2025-09-01,DBMD,Other,0,,interest-list-data-sept-2025.xlsx
+2025-09-01,DBMD,Totals,8,1.0,interest-list-data-sept-2025.xlsx
+2025-09-01,DBMD,Unable to Locate,0,,interest-list-data-sept-2025.xlsx
+2025-09-01,DBMD,Withdrawn,1,0.125,interest-list-data-sept-2025.xlsx
+2025-09-01,HCS,Deceased,0,,interest-list-data-sept-2025.xlsx
+2025-09-01,HCS,Declined,8,0.05633802816901408,interest-list-data-sept-2025.xlsx
+2025-09-01,HCS,Denied,14,0.09859154929577466,interest-list-data-sept-2025.xlsx
+2025-09-01,HCS,Enrolled,105,0.7394366197183099,interest-list-data-sept-2025.xlsx
+2025-09-01,HCS,No Response,13,0.09154929577464789,interest-list-data-sept-2025.xlsx
+2025-09-01,HCS,Not Categorized,2,0.014084507042253521,interest-list-data-sept-2025.xlsx
+2025-09-01,HCS,Other,0,,interest-list-data-sept-2025.xlsx
+2025-09-01,HCS,Totals,142,1.0,interest-list-data-sept-2025.xlsx
+2025-09-01,HCS,Unable to Locate,0,,interest-list-data-sept-2025.xlsx
+2025-09-01,HCS,Withdrawn,0,,interest-list-data-sept-2025.xlsx
+2025-09-01,MDCP,Deceased,3,0.0545455,interest-list-data-sept-2025.xlsx
+2025-09-01,MDCP,Declined,20,0.3636364,interest-list-data-sept-2025.xlsx
+2025-09-01,MDCP,Denied,5,0.0909091,interest-list-data-sept-2025.xlsx
+2025-09-01,MDCP,Enrolled,1,0.0181818,interest-list-data-sept-2025.xlsx
+2025-09-01,MDCP,No Response,0,,interest-list-data-sept-2025.xlsx
+2025-09-01,MDCP,Not Categorized,0,,interest-list-data-sept-2025.xlsx
+2025-09-01,MDCP,Other,0,,interest-list-data-sept-2025.xlsx
+2025-09-01,MDCP,Totals,55,1.0,interest-list-data-sept-2025.xlsx
+2025-09-01,MDCP,Unable to Locate,0,,interest-list-data-sept-2025.xlsx
+2025-09-01,MDCP,Withdrawn,26,0.4727273,interest-list-data-sept-2025.xlsx
+2025-09-01,STAR_PLUS_HCBS,Deceased,7,0.0115702,interest-list-data-sept-2025.xlsx
+2025-09-01,STAR_PLUS_HCBS,Declined,65,0.107438,interest-list-data-sept-2025.xlsx
+2025-09-01,STAR_PLUS_HCBS,Denied,151,0.2495868,interest-list-data-sept-2025.xlsx
+2025-09-01,STAR_PLUS_HCBS,Enrolled,194,0.3206612,interest-list-data-sept-2025.xlsx
+2025-09-01,STAR_PLUS_HCBS,No Response,169,0.2793388,interest-list-data-sept-2025.xlsx
+2025-09-01,STAR_PLUS_HCBS,Not Categorized,0,,interest-list-data-sept-2025.xlsx
+2025-09-01,STAR_PLUS_HCBS,Other,1,0.0016529,interest-list-data-sept-2025.xlsx
+2025-09-01,STAR_PLUS_HCBS,Totals,605,1.0,interest-list-data-sept-2025.xlsx
+2025-09-01,STAR_PLUS_HCBS,Unable to Locate,4,0.0066116,interest-list-data-sept-2025.xlsx
+2025-09-01,STAR_PLUS_HCBS,Withdrawn,14,0.0231405,interest-list-data-sept-2025.xlsx
+2025-09-01,TXHML,Deceased,0,,interest-list-data-sept-2025.xlsx
+2025-09-01,TXHML,Declined,21,0.18584070796460178,interest-list-data-sept-2025.xlsx
+2025-09-01,TXHML,Denied,18,0.1592920353982301,interest-list-data-sept-2025.xlsx
+2025-09-01,TXHML,Enrolled,63,0.5575221238938053,interest-list-data-sept-2025.xlsx
+2025-09-01,TXHML,No Response,8,0.07079646017699115,interest-list-data-sept-2025.xlsx
+2025-09-01,TXHML,Not Categorized,0,,interest-list-data-sept-2025.xlsx
+2025-09-01,TXHML,Other,0,,interest-list-data-sept-2025.xlsx
+2025-09-01,TXHML,Totals,113,1.0,interest-list-data-sept-2025.xlsx
+2025-09-01,TXHML,Unable to Locate,3,0.02654867256637168,interest-list-data-sept-2025.xlsx
+2025-09-01,TXHML,Withdrawn,0,,interest-list-data-sept-2025.xlsx
+2025-10-01,CLASS,Deceased,30,0.0993377,interest-list-data-oct-2025.xlsx
+2025-10-01,CLASS,Declined,53,0.1754967,interest-list-data-oct-2025.xlsx
+2025-10-01,CLASS,Denied,25,0.0827815,interest-list-data-oct-2025.xlsx
+2025-10-01,CLASS,Enrolled,41,0.1357616,interest-list-data-oct-2025.xlsx
+2025-10-01,CLASS,No Response,113,0.3741722,interest-list-data-oct-2025.xlsx
+2025-10-01,CLASS,Not Categorized,1,0.0033113,interest-list-data-oct-2025.xlsx
+2025-10-01,CLASS,Other,0,,interest-list-data-oct-2025.xlsx
+2025-10-01,CLASS,Totals,302,1.0,interest-list-data-oct-2025.xlsx
+2025-10-01,CLASS,Unable to Locate,0,,interest-list-data-oct-2025.xlsx
+2025-10-01,CLASS,Withdrawn,39,0.1291391,interest-list-data-oct-2025.xlsx
+2025-10-01,DBMD,Deceased,0,,interest-list-data-oct-2025.xlsx
+2025-10-01,DBMD,Declined,3,0.1428571,interest-list-data-oct-2025.xlsx
+2025-10-01,DBMD,Denied,0,,interest-list-data-oct-2025.xlsx
+2025-10-01,DBMD,Enrolled,13,0.6190476,interest-list-data-oct-2025.xlsx
+2025-10-01,DBMD,No Response,4,0.1904762,interest-list-data-oct-2025.xlsx
+2025-10-01,DBMD,Not Categorized,0,,interest-list-data-oct-2025.xlsx
+2025-10-01,DBMD,Other,0,,interest-list-data-oct-2025.xlsx
+2025-10-01,DBMD,Totals,21,1.0,interest-list-data-oct-2025.xlsx
+2025-10-01,DBMD,Unable to Locate,0,,interest-list-data-oct-2025.xlsx
+2025-10-01,DBMD,Withdrawn,1,0.047619,interest-list-data-oct-2025.xlsx
+2025-10-01,HCS,Deceased,2,0.006688963210702341,interest-list-data-oct-2025.xlsx
+2025-10-01,HCS,Declined,34,0.1137123745819398,interest-list-data-oct-2025.xlsx
+2025-10-01,HCS,Denied,29,0.09698996655518394,interest-list-data-oct-2025.xlsx
+2025-10-01,HCS,Enrolled,205,0.68561872909699,interest-list-data-oct-2025.xlsx
+2025-10-01,HCS,No Response,18,0.06020066889632107,interest-list-data-oct-2025.xlsx
+2025-10-01,HCS,Not Categorized,5,0.016722408026755852,interest-list-data-oct-2025.xlsx
+2025-10-01,HCS,Other,0,,interest-list-data-oct-2025.xlsx
+2025-10-01,HCS,Totals,299,1.0,interest-list-data-oct-2025.xlsx
+2025-10-01,HCS,Unable to Locate,6,0.020066889632107024,interest-list-data-oct-2025.xlsx
+2025-10-01,HCS,Withdrawn,0,,interest-list-data-oct-2025.xlsx
+2025-10-01,MDCP,Deceased,5,0.0263158,interest-list-data-oct-2025.xlsx
+2025-10-01,MDCP,Declined,53,0.2789474,interest-list-data-oct-2025.xlsx
+2025-10-01,MDCP,Denied,25,0.1315789,interest-list-data-oct-2025.xlsx
+2025-10-01,MDCP,Enrolled,26,0.1368421,interest-list-data-oct-2025.xlsx
+2025-10-01,MDCP,No Response,0,,interest-list-data-oct-2025.xlsx
+2025-10-01,MDCP,Not Categorized,0,,interest-list-data-oct-2025.xlsx
+2025-10-01,MDCP,Other,0,,interest-list-data-oct-2025.xlsx
+2025-10-01,MDCP,Totals,190,1.0,interest-list-data-oct-2025.xlsx
+2025-10-01,MDCP,Unable to Locate,0,,interest-list-data-oct-2025.xlsx
+2025-10-01,MDCP,Withdrawn,81,0.4263158,interest-list-data-oct-2025.xlsx
+2025-10-01,STAR_PLUS_HCBS,Deceased,19,0.0181298,interest-list-data-oct-2025.xlsx
+2025-10-01,STAR_PLUS_HCBS,Declined,133,0.1269084,interest-list-data-oct-2025.xlsx
+2025-10-01,STAR_PLUS_HCBS,Denied,214,0.2041985,interest-list-data-oct-2025.xlsx
+2025-10-01,STAR_PLUS_HCBS,Enrolled,306,0.2919847,interest-list-data-oct-2025.xlsx
+2025-10-01,STAR_PLUS_HCBS,No Response,245,0.2337786,interest-list-data-oct-2025.xlsx
+2025-10-01,STAR_PLUS_HCBS,Not Categorized,1,0.0009542,interest-list-data-oct-2025.xlsx
+2025-10-01,STAR_PLUS_HCBS,Other,6,0.0057252,interest-list-data-oct-2025.xlsx
+2025-10-01,STAR_PLUS_HCBS,Totals,1048,1.0,interest-list-data-oct-2025.xlsx
+2025-10-01,STAR_PLUS_HCBS,Unable to Locate,5,0.004771,interest-list-data-oct-2025.xlsx
+2025-10-01,STAR_PLUS_HCBS,Withdrawn,119,0.1135496,interest-list-data-oct-2025.xlsx
+2025-10-01,TXHML,Deceased,1,0.0049261083743842365,interest-list-data-oct-2025.xlsx
+2025-10-01,TXHML,Declined,81,0.3990147783251231,interest-list-data-oct-2025.xlsx
+2025-10-01,TXHML,Denied,31,0.15270935960591134,interest-list-data-oct-2025.xlsx
+2025-10-01,TXHML,Enrolled,64,0.31527093596059114,interest-list-data-oct-2025.xlsx
+2025-10-01,TXHML,No Response,11,0.054187192118226604,interest-list-data-oct-2025.xlsx
+2025-10-01,TXHML,Not Categorized,4,0.019704433497536946,interest-list-data-oct-2025.xlsx
+2025-10-01,TXHML,Other,0,,interest-list-data-oct-2025.xlsx
+2025-10-01,TXHML,Totals,203,1.0,interest-list-data-oct-2025.xlsx
+2025-10-01,TXHML,Unable to Locate,11,0.054187192118226604,interest-list-data-oct-2025.xlsx
+2025-10-01,TXHML,Withdrawn,0,,interest-list-data-oct-2025.xlsx
+2025-11-01,CLASS,Deceased,37,0.067029,interest-list-data-nov-2025.xlsx
+2025-11-01,CLASS,Declined,99,0.1793478,interest-list-data-nov-2025.xlsx
+2025-11-01,CLASS,Denied,30,0.0543478,interest-list-data-nov-2025.xlsx
+2025-11-01,CLASS,Enrolled,64,0.115942,interest-list-data-nov-2025.xlsx
+2025-11-01,CLASS,No Response,236,0.4275362,interest-list-data-nov-2025.xlsx
+2025-11-01,CLASS,Not Categorized,1,0.0018116,interest-list-data-nov-2025.xlsx
+2025-11-01,CLASS,Other,0,,interest-list-data-nov-2025.xlsx
+2025-11-01,CLASS,Totals,552,1.0,interest-list-data-nov-2025.xlsx
+2025-11-01,CLASS,Unable to Locate,19,0.0344203,interest-list-data-nov-2025.xlsx
+2025-11-01,CLASS,Withdrawn,66,0.1195652,interest-list-data-nov-2025.xlsx
+2025-11-01,DBMD,Deceased,0,,interest-list-data-nov-2025.xlsx
+2025-11-01,DBMD,Declined,3,0.1071429,interest-list-data-nov-2025.xlsx
+2025-11-01,DBMD,Denied,0,,interest-list-data-nov-2025.xlsx
+2025-11-01,DBMD,Enrolled,19,0.6785714,interest-list-data-nov-2025.xlsx
+2025-11-01,DBMD,No Response,4,0.1428571,interest-list-data-nov-2025.xlsx
+2025-11-01,DBMD,Not Categorized,0,,interest-list-data-nov-2025.xlsx
+2025-11-01,DBMD,Other,0,,interest-list-data-nov-2025.xlsx
+2025-11-01,DBMD,Totals,28,1.0,interest-list-data-nov-2025.xlsx
+2025-11-01,DBMD,Unable to Locate,0,,interest-list-data-nov-2025.xlsx
+2025-11-01,DBMD,Withdrawn,2,0.0714286,interest-list-data-nov-2025.xlsx
+2025-11-01,HCS,Deceased,2,0.005141388174807198,interest-list-data-nov-2025.xlsx
+2025-11-01,HCS,Declined,45,0.11568123393316196,interest-list-data-nov-2025.xlsx
+2025-11-01,HCS,Denied,38,0.09768637532133675,interest-list-data-nov-2025.xlsx
+2025-11-01,HCS,Enrolled,253,0.6503856041131105,interest-list-data-nov-2025.xlsx
+2025-11-01,HCS,No Response,21,0.05398457583547558,interest-list-data-nov-2025.xlsx
+2025-11-01,HCS,Not Categorized,11,0.028277634961439587,interest-list-data-nov-2025.xlsx
+2025-11-01,HCS,Other,0,,interest-list-data-nov-2025.xlsx
+2025-11-01,HCS,Totals,389,1.0,interest-list-data-nov-2025.xlsx
+2025-11-01,HCS,Unable to Locate,19,0.04884318766066838,interest-list-data-nov-2025.xlsx
+2025-11-01,HCS,Withdrawn,0,,interest-list-data-nov-2025.xlsx
+2025-11-01,MDCP,Deceased,12,0.0237624,interest-list-data-nov-2025.xlsx
+2025-11-01,MDCP,Declined,95,0.1881188,interest-list-data-nov-2025.xlsx
+2025-11-01,MDCP,Denied,45,0.0891089,interest-list-data-nov-2025.xlsx
+2025-11-01,MDCP,Enrolled,75,0.1485149,interest-list-data-nov-2025.xlsx
+2025-11-01,MDCP,No Response,146,0.2891089,interest-list-data-nov-2025.xlsx
+2025-11-01,MDCP,Not Categorized,0,,interest-list-data-nov-2025.xlsx
+2025-11-01,MDCP,Other,1,0.0019802,interest-list-data-nov-2025.xlsx
+2025-11-01,MDCP,Totals,505,1.0,interest-list-data-nov-2025.xlsx
+2025-11-01,MDCP,Unable to Locate,0,,interest-list-data-nov-2025.xlsx
+2025-11-01,MDCP,Withdrawn,131,0.2594059,interest-list-data-nov-2025.xlsx
+2025-11-01,STAR_PLUS_HCBS,Deceased,80,0.0326797,interest-list-data-nov-2025.xlsx
+2025-11-01,STAR_PLUS_HCBS,Declined,290,0.1184641,interest-list-data-nov-2025.xlsx
+2025-11-01,STAR_PLUS_HCBS,Denied,278,0.1135621,interest-list-data-nov-2025.xlsx
+2025-11-01,STAR_PLUS_HCBS,Enrolled,369,0.1507353,interest-list-data-nov-2025.xlsx
+2025-11-01,STAR_PLUS_HCBS,No Response,922,0.376634,interest-list-data-nov-2025.xlsx
+2025-11-01,STAR_PLUS_HCBS,Not Categorized,1,0.0004085,interest-list-data-nov-2025.xlsx
+2025-11-01,STAR_PLUS_HCBS,Other,8,0.003268,interest-list-data-nov-2025.xlsx
+2025-11-01,STAR_PLUS_HCBS,Totals,2448,1.0,interest-list-data-nov-2025.xlsx
+2025-11-01,STAR_PLUS_HCBS,Unable to Locate,16,0.0065359,interest-list-data-nov-2025.xlsx
+2025-11-01,STAR_PLUS_HCBS,Withdrawn,484,0.1977124,interest-list-data-nov-2025.xlsx
+2025-11-01,TXHML,Deceased,6,0.017857142857142856,interest-list-data-nov-2025.xlsx
+2025-11-01,TXHML,Declined,152,0.45238095238095233,interest-list-data-nov-2025.xlsx
+2025-11-01,TXHML,Denied,48,0.14285714285714285,interest-list-data-nov-2025.xlsx
+2025-11-01,TXHML,Enrolled,65,0.19345238095238096,interest-list-data-nov-2025.xlsx
+2025-11-01,TXHML,No Response,20,0.05952380952380952,interest-list-data-nov-2025.xlsx
+2025-11-01,TXHML,Not Categorized,18,0.05357142857142857,interest-list-data-nov-2025.xlsx
+2025-11-01,TXHML,Other,0,,interest-list-data-nov-2025.xlsx
+2025-11-01,TXHML,Totals,336,1.0,interest-list-data-nov-2025.xlsx
+2025-11-01,TXHML,Unable to Locate,27,0.08035714285714286,interest-list-data-nov-2025.xlsx
+2025-11-01,TXHML,Withdrawn,0,,interest-list-data-nov-2025.xlsx
+2025-12-01,CLASS,Deceased,45,0.0418994,interest-list-data-dec-2025.xlsx
+2025-12-01,CLASS,Declined,154,0.1433892,interest-list-data-dec-2025.xlsx
+2025-12-01,CLASS,Denied,44,0.0409683,interest-list-data-dec-2025.xlsx
+2025-12-01,CLASS,Enrolled,79,0.0735568,interest-list-data-dec-2025.xlsx
+2025-12-01,CLASS,No Response,637,0.5931099,interest-list-data-dec-2025.xlsx
+2025-12-01,CLASS,Not Categorized,1,0.0009311,interest-list-data-dec-2025.xlsx
+2025-12-01,CLASS,Other,1,0.0009311,interest-list-data-dec-2025.xlsx
+2025-12-01,CLASS,Totals,1074,1.0,interest-list-data-dec-2025.xlsx
+2025-12-01,CLASS,Unable to Locate,19,0.0176909,interest-list-data-dec-2025.xlsx
+2025-12-01,CLASS,Withdrawn,94,0.0875233,interest-list-data-dec-2025.xlsx
+2025-12-01,DBMD,Deceased,0,,interest-list-data-dec-2025.xlsx
+2025-12-01,DBMD,Declined,6,0.1276596,interest-list-data-dec-2025.xlsx
+2025-12-01,DBMD,Denied,0,,interest-list-data-dec-2025.xlsx
+2025-12-01,DBMD,Enrolled,21,0.4468085,interest-list-data-dec-2025.xlsx
+2025-12-01,DBMD,No Response,16,0.3404255,interest-list-data-dec-2025.xlsx
+2025-12-01,DBMD,Not Categorized,0,,interest-list-data-dec-2025.xlsx
+2025-12-01,DBMD,Other,0,,interest-list-data-dec-2025.xlsx
+2025-12-01,DBMD,Totals,47,1.0,interest-list-data-dec-2025.xlsx
+2025-12-01,DBMD,Unable to Locate,2,0.0425532,interest-list-data-dec-2025.xlsx
+2025-12-01,DBMD,Withdrawn,2,0.0425532,interest-list-data-dec-2025.xlsx
+2025-12-01,HCS,Deceased,5,0.010245901639344262,interest-list-data-dec-2025.xlsx
+2025-12-01,HCS,Declined,64,0.13114754098360656,interest-list-data-dec-2025.xlsx
+2025-12-01,HCS,Denied,44,0.09016393442622951,interest-list-data-dec-2025.xlsx
+2025-12-01,HCS,Enrolled,297,0.6086065573770492,interest-list-data-dec-2025.xlsx
+2025-12-01,HCS,No Response,31,0.06352459016393443,interest-list-data-dec-2025.xlsx
+2025-12-01,HCS,Not Categorized,14,0.028688524590163935,interest-list-data-dec-2025.xlsx
+2025-12-01,HCS,Other,0,0.0,interest-list-data-dec-2025.xlsx
+2025-12-01,HCS,Totals,488,1.0,interest-list-data-dec-2025.xlsx
+2025-12-01,HCS,Unable to Locate,33,0.06762295081967214,interest-list-data-dec-2025.xlsx
+2025-12-01,HCS,Withdrawn,0,0.0,interest-list-data-dec-2025.xlsx
+2025-12-01,MDCP,Deceased,21,0.0210421,interest-list-data-dec-2025.xlsx
+2025-12-01,MDCP,Declined,162,0.1623246,interest-list-data-dec-2025.xlsx
+2025-12-01,MDCP,Denied,122,0.1222445,interest-list-data-dec-2025.xlsx
+2025-12-01,MDCP,Enrolled,168,0.1683367,interest-list-data-dec-2025.xlsx
+2025-12-01,MDCP,No Response,306,0.3066132,interest-list-data-dec-2025.xlsx
+2025-12-01,MDCP,Not Categorized,3,0.003006,interest-list-data-dec-2025.xlsx
+2025-12-01,MDCP,Other,1,0.001002,interest-list-data-dec-2025.xlsx
+2025-12-01,MDCP,Totals,998,1.0,interest-list-data-dec-2025.xlsx
+2025-12-01,MDCP,Unable to Locate,0,,interest-list-data-dec-2025.xlsx
+2025-12-01,MDCP,Withdrawn,215,0.2154309,interest-list-data-dec-2025.xlsx
+2025-12-01,STAR_PLUS_HCBS,Deceased,146,0.0347536,interest-list-data-dec-2025.xlsx
+2025-12-01,STAR_PLUS_HCBS,Declined,437,0.1040229,interest-list-data-dec-2025.xlsx
+2025-12-01,STAR_PLUS_HCBS,Denied,388,0.092359,interest-list-data-dec-2025.xlsx
+2025-12-01,STAR_PLUS_HCBS,Enrolled,489,0.1164009,interest-list-data-dec-2025.xlsx
+2025-12-01,STAR_PLUS_HCBS,No Response,1803,0.4291835,interest-list-data-dec-2025.xlsx
+2025-12-01,STAR_PLUS_HCBS,Not Categorized,1,0.000238,interest-list-data-dec-2025.xlsx
+2025-12-01,STAR_PLUS_HCBS,Other,15,0.0035706,interest-list-data-dec-2025.xlsx
+2025-12-01,STAR_PLUS_HCBS,Totals,4201,1.0,interest-list-data-dec-2025.xlsx
+2025-12-01,STAR_PLUS_HCBS,Unable to Locate,24,0.0057129,interest-list-data-dec-2025.xlsx
+2025-12-01,STAR_PLUS_HCBS,Withdrawn,898,0.2137586,interest-list-data-dec-2025.xlsx
+2025-12-01,TXHML,Deceased,10,0.015220700152207,interest-list-data-dec-2025.xlsx
+2025-12-01,TXHML,Declined,236,0.3592085235920852,interest-list-data-dec-2025.xlsx
+2025-12-01,TXHML,Denied,66,0.1004566210045662,interest-list-data-dec-2025.xlsx
+2025-12-01,TXHML,Enrolled,181,0.2754946727549467,interest-list-data-dec-2025.xlsx
+2025-12-01,TXHML,No Response,54,0.0821917808219178,interest-list-data-dec-2025.xlsx
+2025-12-01,TXHML,Not Categorized,34,0.0517503805175038,interest-list-data-dec-2025.xlsx
+2025-12-01,TXHML,Other,0,0.0,interest-list-data-dec-2025.xlsx
+2025-12-01,TXHML,Totals,657,0.9999999999999999,interest-list-data-dec-2025.xlsx
+2025-12-01,TXHML,Unable to Locate,76,0.1156773211567732,interest-list-data-dec-2025.xlsx
+2025-12-01,TXHML,Withdrawn,0,0.0,interest-list-data-dec-2025.xlsx
+2026-01-01,CLASS,Deceased,55,0.0372124,interest-list-data-jan-2026.xlsx
+2026-01-01,CLASS,Declined,203,0.1373478,interest-list-data-jan-2026.xlsx
+2026-01-01,CLASS,Denied,51,0.0345061,interest-list-data-jan-2026.xlsx
+2026-01-01,CLASS,Enrolled,86,0.0581867,interest-list-data-jan-2026.xlsx
+2026-01-01,CLASS,No Response,930,0.6292287,interest-list-data-jan-2026.xlsx
+2026-01-01,CLASS,Not Categorized,1,0.0006766,interest-list-data-jan-2026.xlsx
+2026-01-01,CLASS,Other,0,,interest-list-data-jan-2026.xlsx
+2026-01-01,CLASS,Totals,1478,1.0,interest-list-data-jan-2026.xlsx
+2026-01-01,CLASS,Unable to Locate,20,0.0135318,interest-list-data-jan-2026.xlsx
+2026-01-01,CLASS,Withdrawn,132,0.0893099,interest-list-data-jan-2026.xlsx
+2026-01-01,DBMD,Deceased,0,,interest-list-data-jan-2026.xlsx
+2026-01-01,DBMD,Declined,7,0.1060606,interest-list-data-jan-2026.xlsx
+2026-01-01,DBMD,Denied,1,0.0151515,interest-list-data-jan-2026.xlsx
+2026-01-01,DBMD,Enrolled,27,0.4090909,interest-list-data-jan-2026.xlsx
+2026-01-01,DBMD,No Response,25,0.3787879,interest-list-data-jan-2026.xlsx
+2026-01-01,DBMD,Not Categorized,0,,interest-list-data-jan-2026.xlsx
+2026-01-01,DBMD,Other,0,,interest-list-data-jan-2026.xlsx
+2026-01-01,DBMD,Totals,66,1.0,interest-list-data-jan-2026.xlsx
+2026-01-01,DBMD,Unable to Locate,2,0.030303,interest-list-data-jan-2026.xlsx
+2026-01-01,DBMD,Withdrawn,4,0.0606061,interest-list-data-jan-2026.xlsx
+2026-01-01,HCS,Deceased,6,0.010582010582010581,interest-list-data-jan-2026.xlsx
+2026-01-01,HCS,Declined,81,0.14285714285714285,interest-list-data-jan-2026.xlsx
+2026-01-01,HCS,Denied,50,0.08818342151675485,interest-list-data-jan-2026.xlsx
+2026-01-01,HCS,Enrolled,339,0.5978835978835979,interest-list-data-jan-2026.xlsx
+2026-01-01,HCS,No Response,35,0.06172839506172839,interest-list-data-jan-2026.xlsx
+2026-01-01,HCS,Not Categorized,16,0.02821869488536155,interest-list-data-jan-2026.xlsx
+2026-01-01,HCS,Other,0,,interest-list-data-jan-2026.xlsx
+2026-01-01,HCS,Totals,567,1.0,interest-list-data-jan-2026.xlsx
+2026-01-01,HCS,Unable to Locate,40,0.07054673721340388,interest-list-data-jan-2026.xlsx
+2026-01-01,HCS,Withdrawn,0,,interest-list-data-jan-2026.xlsx
+2026-01-01,MDCP,Deceased,31,0.0209036,interest-list-data-jan-2026.xlsx
+2026-01-01,MDCP,Declined,226,0.1523938,interest-list-data-jan-2026.xlsx
+2026-01-01,MDCP,Denied,205,0.1382333,interest-list-data-jan-2026.xlsx
+2026-01-01,MDCP,Enrolled,251,0.1692515,interest-list-data-jan-2026.xlsx
+2026-01-01,MDCP,No Response,465,0.3135536,interest-list-data-jan-2026.xlsx
+2026-01-01,MDCP,Not Categorized,4,0.0026972,interest-list-data-jan-2026.xlsx
+2026-01-01,MDCP,Other,3,0.0020229,interest-list-data-jan-2026.xlsx
+2026-01-01,MDCP,Totals,1483,1.0,interest-list-data-jan-2026.xlsx
+2026-01-01,MDCP,Unable to Locate,0,,interest-list-data-jan-2026.xlsx
+2026-01-01,MDCP,Withdrawn,298,0.200944,interest-list-data-jan-2026.xlsx
+2026-01-01,STAR_PLUS_HCBS,Deceased,234,0.0370195,interest-list-data-jan-2026.xlsx
+2026-01-01,STAR_PLUS_HCBS,Declined,570,0.0901756,interest-list-data-jan-2026.xlsx
+2026-01-01,STAR_PLUS_HCBS,Denied,525,0.0830565,interest-list-data-jan-2026.xlsx
+2026-01-01,STAR_PLUS_HCBS,Enrolled,640,0.1012498,interest-list-data-jan-2026.xlsx
+2026-01-01,STAR_PLUS_HCBS,No Response,2902,0.4591046,interest-list-data-jan-2026.xlsx
+2026-01-01,STAR_PLUS_HCBS,Not Categorized,3,0.0004746,interest-list-data-jan-2026.xlsx
+2026-01-01,STAR_PLUS_HCBS,Other,16,0.0025312,interest-list-data-jan-2026.xlsx
+2026-01-01,STAR_PLUS_HCBS,Totals,6321,1.0,interest-list-data-jan-2026.xlsx
+2026-01-01,STAR_PLUS_HCBS,Unable to Locate,25,0.0039551,interest-list-data-jan-2026.xlsx
+2026-01-01,STAR_PLUS_HCBS,Withdrawn,1406,0.2224332,interest-list-data-jan-2026.xlsx
+2026-01-01,TXHML,Deceased,27,0.024171888988361683,interest-list-data-jan-2026.xlsx
+2026-01-01,TXHML,Declined,354,0.3169203222918532,interest-list-data-jan-2026.xlsx
+2026-01-01,TXHML,Denied,101,0.09042076991942703,interest-list-data-jan-2026.xlsx
+2026-01-01,TXHML,Enrolled,214,0.19158460161145927,interest-list-data-jan-2026.xlsx
+2026-01-01,TXHML,No Response,137,0.12264995523724262,interest-list-data-jan-2026.xlsx
+2026-01-01,TXHML,Not Categorized,49,0.043867502238137866,interest-list-data-jan-2026.xlsx
+2026-01-01,TXHML,Other,0,,interest-list-data-jan-2026.xlsx
+2026-01-01,TXHML,Totals,1117,1.0,interest-list-data-jan-2026.xlsx
+2026-01-01,TXHML,Unable to Locate,235,0.21038495971351837,interest-list-data-jan-2026.xlsx
+2026-01-01,TXHML,Withdrawn,0,,interest-list-data-jan-2026.xlsx

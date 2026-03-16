@@ -1,0 +1,1562 @@
+report_month,program,metric,label,reference_text,value,source_file
+2023-09-01,ALL_PROGRAMS,added_this_biennium,Added This Biennium,New Requests,1766,interest-list-data-sept-2023.xlsx
+2023-09-01,ALL_PROGRAMS,current_interest_list_counts,Current Interest List Counts,"As of September 30, 2023",322125,interest-list-data-sept-2023.xlsx
+2023-09-01,ALL_PROGRAMS,denied_declined_withdrawn,Denied/Declined/Withdrawn 4,,767,interest-list-data-sept-2023.xlsx
+2023-09-01,ALL_PROGRAMS,enrolled,Enrolled 4,Released/Removed from Interest List 2,212,interest-list-data-sept-2023.xlsx
+2023-09-01,ALL_PROGRAMS,pipeline,Pipeline,,2728,interest-list-data-sept-2023.xlsx
+2023-09-01,ALL_PROGRAMS,previous_biennium_counts,Previous Biennium Counts,"As of August 31, 2023",319905,interest-list-data-sept-2023.xlsx
+2023-09-01,ALL_PROGRAMS,total_releases_this_biennium,Total Releases This Biennium 3,"Since September 1, 2023",4532,interest-list-data-sept-2023.xlsx
+2023-09-01,CLASS,added_this_biennium,Added This Biennium,New Requests,141,interest-list-data-sept-2023.xlsx
+2023-09-01,CLASS,current_interest_list_counts,Current Interest List Counts,"As of September 30, 2023",81943,interest-list-data-sept-2023.xlsx
+2023-09-01,CLASS,denied_declined_withdrawn,Denied/Declined/Withdrawn 4,,8,interest-list-data-sept-2023.xlsx
+2023-09-01,CLASS,enrolled,Enrolled 4,Released/Removed from Interest List 2,8,interest-list-data-sept-2023.xlsx
+2023-09-01,CLASS,pipeline,Pipeline,,524,interest-list-data-sept-2023.xlsx
+2023-09-01,CLASS,previous_biennium_counts,Previous Biennium Counts,"As of August 31, 2023",81759,interest-list-data-sept-2023.xlsx
+2023-09-01,CLASS,total_releases_this_biennium,Total Releases This Biennium 3,"Since September 1, 2023",547,interest-list-data-sept-2023.xlsx
+2023-09-01,DBMD,added_this_biennium,Added This Biennium,New Requests,26,interest-list-data-sept-2023.xlsx
+2023-09-01,DBMD,current_interest_list_counts,Current Interest List Counts,"As of September 30, 2023",1732,interest-list-data-sept-2023.xlsx
+2023-09-01,DBMD,denied_declined_withdrawn,Denied/Declined/Withdrawn 4,,1,interest-list-data-sept-2023.xlsx
+2023-09-01,DBMD,enrolled,Enrolled 4,Released/Removed from Interest List 2,0,interest-list-data-sept-2023.xlsx
+2023-09-01,DBMD,pipeline,Pipeline,,38,interest-list-data-sept-2023.xlsx
+2023-09-01,DBMD,previous_biennium_counts,Previous Biennium Counts,"As of August 31, 2023",1709,interest-list-data-sept-2023.xlsx
+2023-09-01,DBMD,total_releases_this_biennium,Total Releases This Biennium 3,"Since September 1, 2023",39,interest-list-data-sept-2023.xlsx
+2023-09-01,HCS,added_this_biennium,Added This Biennium,New Requests,191,interest-list-data-sept-2023.xlsx
+2023-09-01,HCS,current_interest_list_counts,Current Interest List Counts,"As of September 30, 2023",117371,interest-list-data-sept-2023.xlsx
+2023-09-01,HCS,denied_declined_withdrawn,Denied/Declined/Withdrawn 4,,6,interest-list-data-sept-2023.xlsx
+2023-09-01,HCS,enrolled,Enrolled 4,Released/Removed from Interest List 2,41,interest-list-data-sept-2023.xlsx
+2023-09-01,HCS,pipeline,Pipeline,,129,interest-list-data-sept-2023.xlsx
+2023-09-01,HCS,previous_biennium_counts,Previous Biennium Counts,"As of August 31, 2023",117132,interest-list-data-sept-2023.xlsx
+2023-09-01,HCS,total_releases_this_biennium,Total Releases This Biennium 3,"Since September 1, 2023",0,interest-list-data-sept-2023.xlsx
+2023-09-01,MDCP,added_this_biennium,Added This Biennium,New Requests,108,interest-list-data-sept-2023.xlsx
+2023-09-01,MDCP,current_interest_list_counts,Current Interest List Counts,"As of September 30, 2023",6976,interest-list-data-sept-2023.xlsx
+2023-09-01,MDCP,denied_declined_withdrawn,Denied/Declined/Withdrawn 4,,4,interest-list-data-sept-2023.xlsx
+2023-09-01,MDCP,enrolled,Enrolled 4,Released/Removed from Interest List 2,2,interest-list-data-sept-2023.xlsx
+2023-09-01,MDCP,pipeline,Pipeline,,65,interest-list-data-sept-2023.xlsx
+2023-09-01,MDCP,previous_biennium_counts,Previous Biennium Counts,"As of August 31, 2023",6879,interest-list-data-sept-2023.xlsx
+2023-09-01,MDCP,total_releases_this_biennium,Total Releases This Biennium 3,"Since September 1, 2023",77,interest-list-data-sept-2023.xlsx
+2023-09-01,STAR_PLUS_HCBS,added_this_biennium,Added This Biennium,New Requests,1112,interest-list-data-sept-2023.xlsx
+2023-09-01,STAR_PLUS_HCBS,current_interest_list_counts,Current Interest List Counts,"As of September 30, 2023",7813,interest-list-data-sept-2023.xlsx
+2023-09-01,STAR_PLUS_HCBS,denied_declined_withdrawn,Denied/Declined/Withdrawn 4,,726,interest-list-data-sept-2023.xlsx
+2023-09-01,STAR_PLUS_HCBS,enrolled,Enrolled 4,Released/Removed from Interest List 2,151,interest-list-data-sept-2023.xlsx
+2023-09-01,STAR_PLUS_HCBS,pipeline,Pipeline,,1822,interest-list-data-sept-2023.xlsx
+2023-09-01,STAR_PLUS_HCBS,previous_biennium_counts,Previous Biennium Counts,"As of August 31, 2023",6358,interest-list-data-sept-2023.xlsx
+2023-09-01,STAR_PLUS_HCBS,total_releases_this_biennium,Total Releases This Biennium 3,"Since September 1, 2023",3869,interest-list-data-sept-2023.xlsx
+2023-09-01,TXHML,added_this_biennium,Added This Biennium,New Requests,188,interest-list-data-sept-2023.xlsx
+2023-09-01,TXHML,current_interest_list_counts,Current Interest List Counts,"As of September 30, 2023",106290,interest-list-data-sept-2023.xlsx
+2023-09-01,TXHML,denied_declined_withdrawn,Denied/Declined/Withdrawn 4,,22,interest-list-data-sept-2023.xlsx
+2023-09-01,TXHML,enrolled,Enrolled 4,Released/Removed from Interest List 2,10,interest-list-data-sept-2023.xlsx
+2023-09-01,TXHML,pipeline,Pipeline,,150,interest-list-data-sept-2023.xlsx
+2023-09-01,TXHML,previous_biennium_counts,Previous Biennium Counts,"As of August 31, 2023",106068,interest-list-data-sept-2023.xlsx
+2023-09-01,TXHML,total_releases_this_biennium,Total Releases This Biennium 3,"Since September 1, 2023",0,interest-list-data-sept-2023.xlsx
+2023-10-01,ALL_PROGRAMS,added_this_biennium,Added This Biennium,New Requests,3819,interest-list-data-oct-2023.xlsx
+2023-10-01,ALL_PROGRAMS,current_interest_list_counts,Current Interest List Counts,"As of October 31, 2023",320828,interest-list-data-oct-2023.xlsx
+2023-10-01,ALL_PROGRAMS,denied_declined_withdrawn,Denied/Declined/Withdrawn 4,,1178,interest-list-data-oct-2023.xlsx
+2023-10-01,ALL_PROGRAMS,enrolled,Enrolled 4,Released/Removed from Interest List 2,359,interest-list-data-oct-2023.xlsx
+2023-10-01,ALL_PROGRAMS,pipeline,Pipeline,,5384,interest-list-data-oct-2023.xlsx
+2023-10-01,ALL_PROGRAMS,previous_biennium_counts,Previous Biennium Counts,"As of August 31, 2023",319905,interest-list-data-oct-2023.xlsx
+2023-10-01,ALL_PROGRAMS,total_releases_this_biennium,Total Releases This Biennium 3,"Since September 1, 2023",7726,interest-list-data-oct-2023.xlsx
+2023-10-01,CLASS,added_this_biennium,Added This Biennium,New Requests,283,interest-list-data-oct-2023.xlsx
+2023-10-01,CLASS,current_interest_list_counts,Current Interest List Counts,"As of October 31, 2023",82118,interest-list-data-oct-2023.xlsx
+2023-10-01,CLASS,denied_declined_withdrawn,Denied/Declined/Withdrawn 4,,67,interest-list-data-oct-2023.xlsx
+2023-10-01,CLASS,enrolled,Enrolled 4,Released/Removed from Interest List 2,19,interest-list-data-oct-2023.xlsx
+2023-10-01,CLASS,pipeline,Pipeline,,452,interest-list-data-oct-2023.xlsx
+2023-10-01,CLASS,previous_biennium_counts,Previous Biennium Counts,"As of August 31, 2023",81759,interest-list-data-oct-2023.xlsx
+2023-10-01,CLASS,total_releases_this_biennium,Total Releases This Biennium 3,"Since September 1, 2023",547,interest-list-data-oct-2023.xlsx
+2023-10-01,DBMD,added_this_biennium,Added This Biennium,New Requests,44,interest-list-data-oct-2023.xlsx
+2023-10-01,DBMD,current_interest_list_counts,Current Interest List Counts,"As of October 31, 2023",1748,interest-list-data-oct-2023.xlsx
+2023-10-01,DBMD,denied_declined_withdrawn,Denied/Declined/Withdrawn 4,,1,interest-list-data-oct-2023.xlsx
+2023-10-01,DBMD,enrolled,Enrolled 4,Released/Removed from Interest List 2,1,interest-list-data-oct-2023.xlsx
+2023-10-01,DBMD,pipeline,Pipeline,,37,interest-list-data-oct-2023.xlsx
+2023-10-01,DBMD,previous_biennium_counts,Previous Biennium Counts,"As of August 31, 2023",1709,interest-list-data-oct-2023.xlsx
+2023-10-01,DBMD,total_releases_this_biennium,Total Releases This Biennium 3,"Since September 1, 2023",39,interest-list-data-oct-2023.xlsx
+2023-10-01,HCS,added_this_biennium,Added This Biennium,New Requests,515,interest-list-data-oct-2023.xlsx
+2023-10-01,HCS,current_interest_list_counts,Current Interest List Counts,"As of October 31, 2023",117604,interest-list-data-oct-2023.xlsx
+2023-10-01,HCS,denied_declined_withdrawn,Denied/Declined/Withdrawn 4,,17,interest-list-data-oct-2023.xlsx
+2023-10-01,HCS,enrolled,Enrolled 4,Released/Removed from Interest List 2,76,interest-list-data-oct-2023.xlsx
+2023-10-01,HCS,pipeline,Pipeline,,83,interest-list-data-oct-2023.xlsx
+2023-10-01,HCS,previous_biennium_counts,Previous Biennium Counts,"As of August 31, 2023",117132,interest-list-data-oct-2023.xlsx
+2023-10-01,HCS,total_releases_this_biennium,Total Releases This Biennium 3,"Since September 1, 2023",0,interest-list-data-oct-2023.xlsx
+2023-10-01,MDCP,added_this_biennium,Added This Biennium,New Requests,204,interest-list-data-oct-2023.xlsx
+2023-10-01,MDCP,current_interest_list_counts,Current Interest List Counts,"As of October 31, 2023",6550,interest-list-data-oct-2023.xlsx
+2023-10-01,MDCP,denied_declined_withdrawn,Denied/Declined/Withdrawn 4,,9,interest-list-data-oct-2023.xlsx
+2023-10-01,MDCP,enrolled,Enrolled 4,Released/Removed from Interest List 2,4,interest-list-data-oct-2023.xlsx
+2023-10-01,MDCP,pipeline,Pipeline,,563,interest-list-data-oct-2023.xlsx
+2023-10-01,MDCP,previous_biennium_counts,Previous Biennium Counts,"As of August 31, 2023",6879,interest-list-data-oct-2023.xlsx
+2023-10-01,MDCP,total_releases_this_biennium,Total Releases This Biennium 3,"Since September 1, 2023",583,interest-list-data-oct-2023.xlsx
+2023-10-01,STAR_PLUS_HCBS,added_this_biennium,Added This Biennium,New Requests,2269,interest-list-data-oct-2023.xlsx
+2023-10-01,STAR_PLUS_HCBS,current_interest_list_counts,Current Interest List Counts,"As of October 31, 2023",6203,interest-list-data-oct-2023.xlsx
+2023-10-01,STAR_PLUS_HCBS,denied_declined_withdrawn,Denied/Declined/Withdrawn 4,,1041,interest-list-data-oct-2023.xlsx
+2023-10-01,STAR_PLUS_HCBS,enrolled,Enrolled 4,Released/Removed from Interest List 2,240,interest-list-data-oct-2023.xlsx
+2023-10-01,STAR_PLUS_HCBS,pipeline,Pipeline,,4130,interest-list-data-oct-2023.xlsx
+2023-10-01,STAR_PLUS_HCBS,previous_biennium_counts,Previous Biennium Counts,"As of August 31, 2023",6358,interest-list-data-oct-2023.xlsx
+2023-10-01,STAR_PLUS_HCBS,total_releases_this_biennium,Total Releases This Biennium 3,"Since September 1, 2023",6557,interest-list-data-oct-2023.xlsx
+2023-10-01,TXHML,added_this_biennium,Added This Biennium,New Requests,504,interest-list-data-oct-2023.xlsx
+2023-10-01,TXHML,current_interest_list_counts,Current Interest List Counts,"As of October 31, 2023",106605,interest-list-data-oct-2023.xlsx
+2023-10-01,TXHML,denied_declined_withdrawn,Denied/Declined/Withdrawn 4,,43,interest-list-data-oct-2023.xlsx
+2023-10-01,TXHML,enrolled,Enrolled 4,Released/Removed from Interest List 2,19,interest-list-data-oct-2023.xlsx
+2023-10-01,TXHML,pipeline,Pipeline,,119,interest-list-data-oct-2023.xlsx
+2023-10-01,TXHML,previous_biennium_counts,Previous Biennium Counts,"As of August 31, 2023",106068,interest-list-data-oct-2023.xlsx
+2023-10-01,TXHML,total_releases_this_biennium,Total Releases This Biennium 3,"Since September 1, 2023",0,interest-list-data-oct-2023.xlsx
+2023-11-01,ALL_PROGRAMS,added_this_biennium,Added This Biennium,New Requests,5784,interest-list-data-nov-2023.xlsx
+2023-11-01,ALL_PROGRAMS,current_interest_list_counts,Current Interest List Counts,"As of November 30, 2023",319731,interest-list-data-nov-2023.xlsx
+2023-11-01,ALL_PROGRAMS,denied_declined_withdrawn,Denied/Declined/Withdrawn 4,,1532,interest-list-data-nov-2023.xlsx
+2023-11-01,ALL_PROGRAMS,enrolled,Enrolled 4,Released/Removed from Interest List 2,444,interest-list-data-nov-2023.xlsx
+2023-11-01,ALL_PROGRAMS,pipeline,Pipeline,,7983,interest-list-data-nov-2023.xlsx
+2023-11-01,ALL_PROGRAMS,previous_biennium_counts,Previous Biennium Counts,"As of August 31, 2023",319905,interest-list-data-nov-2023.xlsx
+2023-11-01,ALL_PROGRAMS,total_releases_this_biennium,Total Releases This Biennium 3,"Since September 1, 2023",10635,interest-list-data-nov-2023.xlsx
+2023-11-01,CLASS,added_this_biennium,Added This Biennium,New Requests,417,interest-list-data-nov-2023.xlsx
+2023-11-01,CLASS,current_interest_list_counts,Current Interest List Counts,"As of November 30, 2023",82273,interest-list-data-nov-2023.xlsx
+2023-11-01,CLASS,denied_declined_withdrawn,Denied/Declined/Withdrawn 4,,119,interest-list-data-nov-2023.xlsx
+2023-11-01,CLASS,enrolled,Enrolled 4,Released/Removed from Interest List 2,27,interest-list-data-nov-2023.xlsx
+2023-11-01,CLASS,pipeline,Pipeline,,392,interest-list-data-nov-2023.xlsx
+2023-11-01,CLASS,previous_biennium_counts,Previous Biennium Counts,"As of August 31, 2023",81759,interest-list-data-nov-2023.xlsx
+2023-11-01,CLASS,total_releases_this_biennium,Total Releases This Biennium 3,"Since September 1, 2023",547,interest-list-data-nov-2023.xlsx
+2023-11-01,DBMD,added_this_biennium,Added This Biennium,New Requests,61,interest-list-data-nov-2023.xlsx
+2023-11-01,DBMD,current_interest_list_counts,Current Interest List Counts,"As of November 30, 2023",1764,interest-list-data-nov-2023.xlsx
+2023-11-01,DBMD,denied_declined_withdrawn,Denied/Declined/Withdrawn 4,,1,interest-list-data-nov-2023.xlsx
+2023-11-01,DBMD,enrolled,Enrolled 4,Released/Removed from Interest List 2,1,interest-list-data-nov-2023.xlsx
+2023-11-01,DBMD,pipeline,Pipeline,,37,interest-list-data-nov-2023.xlsx
+2023-11-01,DBMD,previous_biennium_counts,Previous Biennium Counts,"As of August 31, 2023",1709,interest-list-data-nov-2023.xlsx
+2023-11-01,DBMD,total_releases_this_biennium,Total Releases This Biennium 3,"Since September 1, 2023",39,interest-list-data-nov-2023.xlsx
+2023-11-01,HCS,added_this_biennium,Added This Biennium,New Requests,751,interest-list-data-nov-2023.xlsx
+2023-11-01,HCS,current_interest_list_counts,Current Interest List Counts,"As of November 30, 2023",117778,interest-list-data-nov-2023.xlsx
+2023-11-01,HCS,denied_declined_withdrawn,Denied/Declined/Withdrawn 4,,28,interest-list-data-nov-2023.xlsx
+2023-11-01,HCS,enrolled,Enrolled 4,Released/Removed from Interest List 2,94,interest-list-data-nov-2023.xlsx
+2023-11-01,HCS,pipeline,Pipeline,,54,interest-list-data-nov-2023.xlsx
+2023-11-01,HCS,previous_biennium_counts,Previous Biennium Counts,"As of August 31, 2023",117132,interest-list-data-nov-2023.xlsx
+2023-11-01,HCS,total_releases_this_biennium,Total Releases This Biennium 3,"Since September 1, 2023",0,interest-list-data-nov-2023.xlsx
+2023-11-01,MDCP,added_this_biennium,Added This Biennium,New Requests,299,interest-list-data-nov-2023.xlsx
+2023-11-01,MDCP,current_interest_list_counts,Current Interest List Counts,"As of November 30, 2023",6134,interest-list-data-nov-2023.xlsx
+2023-11-01,MDCP,denied_declined_withdrawn,Denied/Declined/Withdrawn 4,,49,interest-list-data-nov-2023.xlsx
+2023-11-01,MDCP,enrolled,Enrolled 4,Released/Removed from Interest List 2,8,interest-list-data-nov-2023.xlsx
+2023-11-01,MDCP,pipeline,Pipeline,,1015,interest-list-data-nov-2023.xlsx
+2023-11-01,MDCP,previous_biennium_counts,Previous Biennium Counts,"As of August 31, 2023",6879,interest-list-data-nov-2023.xlsx
+2023-11-01,MDCP,total_releases_this_biennium,Total Releases This Biennium 3,"Since September 1, 2023",1080,interest-list-data-nov-2023.xlsx
+2023-11-01,STAR_PLUS_HCBS,added_this_biennium,Added This Biennium,New Requests,3520,interest-list-data-nov-2023.xlsx
+2023-11-01,STAR_PLUS_HCBS,current_interest_list_counts,Current Interest List Counts,"As of November 30, 2023",4971,interest-list-data-nov-2023.xlsx
+2023-11-01,STAR_PLUS_HCBS,denied_declined_withdrawn,Denied/Declined/Withdrawn 4,,1281,interest-list-data-nov-2023.xlsx
+2023-11-01,STAR_PLUS_HCBS,enrolled,Enrolled 4,Released/Removed from Interest List 2,285,interest-list-data-nov-2023.xlsx
+2023-11-01,STAR_PLUS_HCBS,pipeline,Pipeline,,6391,interest-list-data-nov-2023.xlsx
+2023-11-01,STAR_PLUS_HCBS,previous_biennium_counts,Previous Biennium Counts,"As of August 31, 2023",6358,interest-list-data-nov-2023.xlsx
+2023-11-01,STAR_PLUS_HCBS,total_releases_this_biennium,Total Releases This Biennium 3,"Since September 1, 2023",8969,interest-list-data-nov-2023.xlsx
+2023-11-01,TXHML,added_this_biennium,Added This Biennium,New Requests,736,interest-list-data-nov-2023.xlsx
+2023-11-01,TXHML,current_interest_list_counts,Current Interest List Counts,"As of November 30, 2023",106811,interest-list-data-nov-2023.xlsx
+2023-11-01,TXHML,denied_declined_withdrawn,Denied/Declined/Withdrawn 4,,54,interest-list-data-nov-2023.xlsx
+2023-11-01,TXHML,enrolled,Enrolled 4,Released/Removed from Interest List 2,29,interest-list-data-nov-2023.xlsx
+2023-11-01,TXHML,pipeline,Pipeline,,94,interest-list-data-nov-2023.xlsx
+2023-11-01,TXHML,previous_biennium_counts,Previous Biennium Counts,"As of August 31, 2023",106068,interest-list-data-nov-2023.xlsx
+2023-11-01,TXHML,total_releases_this_biennium,Total Releases This Biennium 3,"Since September 1, 2023",0,interest-list-data-nov-2023.xlsx
+2023-12-01,ALL_PROGRAMS,added_this_biennium,Added This Biennium,New Requests,7430,interest-list-data-dec-2023.xlsx
+2023-12-01,ALL_PROGRAMS,current_interest_list_counts,Current Interest List Counts,"As of December 31, 2023",318766,interest-list-data-dec-2023.xlsx
+2023-12-01,ALL_PROGRAMS,denied_declined_withdrawn,Denied/Declined/Withdrawn 4,,2742,interest-list-data-dec-2023.xlsx
+2023-12-01,ALL_PROGRAMS,enrolled,Enrolled 4,Released/Removed from Interest List 2,538,interest-list-data-dec-2023.xlsx
+2023-12-01,ALL_PROGRAMS,pipeline,Pipeline,,9563,interest-list-data-dec-2023.xlsx
+2023-12-01,ALL_PROGRAMS,previous_biennium_counts,Previous Biennium Counts,"As of August 31, 2023",319904,interest-list-data-dec-2023.xlsx
+2023-12-01,ALL_PROGRAMS,total_releases_this_biennium,Total Releases This Biennium 3,"Since September 1, 2023",13457,interest-list-data-dec-2023.xlsx
+2023-12-01,CLASS,added_this_biennium,Added This Biennium,New Requests,513,interest-list-data-dec-2023.xlsx
+2023-12-01,CLASS,current_interest_list_counts,Current Interest List Counts,"As of December 31, 2023",82375,interest-list-data-dec-2023.xlsx
+2023-12-01,CLASS,denied_declined_withdrawn,Denied/Declined/Withdrawn 4,,164,interest-list-data-dec-2023.xlsx
+2023-12-01,CLASS,enrolled,Enrolled 4,Released/Removed from Interest List 2,38,interest-list-data-dec-2023.xlsx
+2023-12-01,CLASS,pipeline,Pipeline,,330,interest-list-data-dec-2023.xlsx
+2023-12-01,CLASS,previous_biennium_counts,Previous Biennium Counts,"As of August 31, 2023",81758,interest-list-data-dec-2023.xlsx
+2023-12-01,CLASS,total_releases_this_biennium,Total Releases This Biennium 3,"Since September 1, 2023",547,interest-list-data-dec-2023.xlsx
+2023-12-01,DBMD,added_this_biennium,Added This Biennium,New Requests,84,interest-list-data-dec-2023.xlsx
+2023-12-01,DBMD,current_interest_list_counts,Current Interest List Counts,"As of December 31, 2023",1785,interest-list-data-dec-2023.xlsx
+2023-12-01,DBMD,denied_declined_withdrawn,Denied/Declined/Withdrawn 4,,1,interest-list-data-dec-2023.xlsx
+2023-12-01,DBMD,enrolled,Enrolled 4,Released/Removed from Interest List 2,1,interest-list-data-dec-2023.xlsx
+2023-12-01,DBMD,pipeline,Pipeline,,37,interest-list-data-dec-2023.xlsx
+2023-12-01,DBMD,previous_biennium_counts,Previous Biennium Counts,"As of August 31, 2023",1709,interest-list-data-dec-2023.xlsx
+2023-12-01,DBMD,total_releases_this_biennium,Total Releases This Biennium 3,"Since September 1, 2023",39,interest-list-data-dec-2023.xlsx
+2023-12-01,HCS,added_this_biennium,Added This Biennium,New Requests,954,interest-list-data-dec-2023.xlsx
+2023-12-01,HCS,current_interest_list_counts,Current Interest List Counts,"As of December 31, 2023",117973,interest-list-data-dec-2023.xlsx
+2023-12-01,HCS,denied_declined_withdrawn,Denied/Declined/Withdrawn 4,,30,interest-list-data-dec-2023.xlsx
+2023-12-01,HCS,enrolled,Enrolled 4,Released/Removed from Interest List 2,102,interest-list-data-dec-2023.xlsx
+2023-12-01,HCS,pipeline,Pipeline,,50,interest-list-data-dec-2023.xlsx
+2023-12-01,HCS,previous_biennium_counts,Previous Biennium Counts,"As of August 31, 2023",117132,interest-list-data-dec-2023.xlsx
+2023-12-01,HCS,total_releases_this_biennium,Total Releases This Biennium 3,"Since September 1, 2023",0,interest-list-data-dec-2023.xlsx
+2023-12-01,MDCP,added_this_biennium,Added This Biennium,New Requests,375,interest-list-data-dec-2023.xlsx
+2023-12-01,MDCP,current_interest_list_counts,Current Interest List Counts,"As of December 31, 2023",5706,interest-list-data-dec-2023.xlsx
+2023-12-01,MDCP,denied_declined_withdrawn,Denied/Declined/Withdrawn 4,,262,interest-list-data-dec-2023.xlsx
+2023-12-01,MDCP,enrolled,Enrolled 4,Released/Removed from Interest List 2,45,interest-list-data-dec-2023.xlsx
+2023-12-01,MDCP,pipeline,Pipeline,,1260,interest-list-data-dec-2023.xlsx
+2023-12-01,MDCP,previous_biennium_counts,Previous Biennium Counts,"As of August 31, 2023",6879,interest-list-data-dec-2023.xlsx
+2023-12-01,MDCP,total_releases_this_biennium,Total Releases This Biennium 3,"Since September 1, 2023",1579,interest-list-data-dec-2023.xlsx
+2023-12-01,STAR_PLUS_HCBS,added_this_biennium,Added This Biennium,New Requests,4570,interest-list-data-dec-2023.xlsx
+2023-12-01,STAR_PLUS_HCBS,current_interest_list_counts,Current Interest List Counts,"As of December 31, 2023",3933,interest-list-data-dec-2023.xlsx
+2023-12-01,STAR_PLUS_HCBS,denied_declined_withdrawn,Denied/Declined/Withdrawn 4,,2229,interest-list-data-dec-2023.xlsx
+2023-12-01,STAR_PLUS_HCBS,enrolled,Enrolled 4,Released/Removed from Interest List 2,314,interest-list-data-dec-2023.xlsx
+2023-12-01,STAR_PLUS_HCBS,pipeline,Pipeline,,7803,interest-list-data-dec-2023.xlsx
+2023-12-01,STAR_PLUS_HCBS,previous_biennium_counts,Previous Biennium Counts,"As of August 31, 2023",6358,interest-list-data-dec-2023.xlsx
+2023-12-01,STAR_PLUS_HCBS,total_releases_this_biennium,Total Releases This Biennium 3,"Since September 1, 2023",11292,interest-list-data-dec-2023.xlsx
+2023-12-01,TXHML,added_this_biennium,Added This Biennium,New Requests,934,interest-list-data-dec-2023.xlsx
+2023-12-01,TXHML,current_interest_list_counts,Current Interest List Counts,"As of December 31, 2023",106994,interest-list-data-dec-2023.xlsx
+2023-12-01,TXHML,denied_declined_withdrawn,Denied/Declined/Withdrawn 4,,56,interest-list-data-dec-2023.xlsx
+2023-12-01,TXHML,enrolled,Enrolled 4,Released/Removed from Interest List 2,38,interest-list-data-dec-2023.xlsx
+2023-12-01,TXHML,pipeline,Pipeline,,83,interest-list-data-dec-2023.xlsx
+2023-12-01,TXHML,previous_biennium_counts,Previous Biennium Counts,"As of August 31, 2023",106068,interest-list-data-dec-2023.xlsx
+2023-12-01,TXHML,total_releases_this_biennium,Total Releases This Biennium 3,"Since September 1, 2023",0,interest-list-data-dec-2023.xlsx
+2024-01-01,ALL_PROGRAMS,added_this_biennium,Added This Biennium,New Requests,9892,interest-list-data-jan-2024.xlsx
+2024-01-01,ALL_PROGRAMS,current_interest_list_counts,Current Interest List Counts,"As of January 31, 2024",317258,interest-list-data-jan-2024.xlsx
+2024-01-01,ALL_PROGRAMS,denied_declined_withdrawn,Denied/Declined/Withdrawn 4,,5339,interest-list-data-jan-2024.xlsx
+2024-01-01,ALL_PROGRAMS,enrolled,Enrolled 4,Released/Removed from Interest List 2,661,interest-list-data-jan-2024.xlsx
+2024-01-01,ALL_PROGRAMS,pipeline,Pipeline,,11641,interest-list-data-jan-2024.xlsx
+2024-01-01,ALL_PROGRAMS,previous_biennium_counts,Previous Biennium Counts,"As of August 31, 2023",319904,interest-list-data-jan-2024.xlsx
+2024-01-01,ALL_PROGRAMS,total_releases_this_biennium,Total Releases This Biennium 3,"Since September 1, 2023",13868,interest-list-data-jan-2024.xlsx
+2024-01-01,CLASS,added_this_biennium,Added This Biennium,New Requests,706,interest-list-data-jan-2024.xlsx
+2024-01-01,CLASS,current_interest_list_counts,Current Interest List Counts,"As of January 31, 2024",82455,interest-list-data-jan-2024.xlsx
+2024-01-01,CLASS,denied_declined_withdrawn,Denied/Declined/Withdrawn 4,,192,interest-list-data-jan-2024.xlsx
+2024-01-01,CLASS,enrolled,Enrolled 4,Released/Removed from Interest List 2,41,interest-list-data-jan-2024.xlsx
+2024-01-01,CLASS,pipeline,Pipeline,,441,interest-list-data-jan-2024.xlsx
+2024-01-01,CLASS,previous_biennium_counts,Previous Biennium Counts,"As of August 31, 2023",81758,interest-list-data-jan-2024.xlsx
+2024-01-01,CLASS,total_releases_this_biennium,Total Releases This Biennium 3,"Since September 1, 2023",143,interest-list-data-jan-2024.xlsx
+2024-01-01,DBMD,added_this_biennium,Added This Biennium,New Requests,117,interest-list-data-jan-2024.xlsx
+2024-01-01,DBMD,current_interest_list_counts,Current Interest List Counts,"As of January 31, 2024",1820,interest-list-data-jan-2024.xlsx
+2024-01-01,DBMD,denied_declined_withdrawn,Denied/Declined/Withdrawn 4,,1,interest-list-data-jan-2024.xlsx
+2024-01-01,DBMD,enrolled,Enrolled 4,Released/Removed from Interest List 2,1,interest-list-data-jan-2024.xlsx
+2024-01-01,DBMD,pipeline,Pipeline,,37,interest-list-data-jan-2024.xlsx
+2024-01-01,DBMD,previous_biennium_counts,Previous Biennium Counts,"As of August 31, 2023",1709,interest-list-data-jan-2024.xlsx
+2024-01-01,DBMD,total_releases_this_biennium,Total Releases This Biennium 3,"Since September 1, 2023",26,interest-list-data-jan-2024.xlsx
+2024-01-01,HCS,added_this_biennium,Added This Biennium,New Requests,1252,interest-list-data-jan-2024.xlsx
+2024-01-01,HCS,current_interest_list_counts,Current Interest List Counts,"As of January 31, 2024",117957,interest-list-data-jan-2024.xlsx
+2024-01-01,HCS,denied_declined_withdrawn,Denied/Declined/Withdrawn 4,,45,interest-list-data-jan-2024.xlsx
+2024-01-01,HCS,enrolled,Enrolled 4,Released/Removed from Interest List 2,112,interest-list-data-jan-2024.xlsx
+2024-01-01,HCS,pipeline,Pipeline,,246,interest-list-data-jan-2024.xlsx
+2024-01-01,HCS,previous_biennium_counts,Previous Biennium Counts,"As of August 31, 2023",117132,interest-list-data-jan-2024.xlsx
+2024-01-01,HCS,total_releases_this_biennium,Total Releases This Biennium 3,"Since September 1, 2023",227,interest-list-data-jan-2024.xlsx
+2024-01-01,MDCP,added_this_biennium,Added This Biennium,New Requests,504,interest-list-data-jan-2024.xlsx
+2024-01-01,MDCP,current_interest_list_counts,Current Interest List Counts,"As of January 31, 2024",5320,interest-list-data-jan-2024.xlsx
+2024-01-01,MDCP,denied_declined_withdrawn,Denied/Declined/Withdrawn 4,,631,interest-list-data-jan-2024.xlsx
+2024-01-01,MDCP,enrolled,Enrolled 4,Released/Removed from Interest List 2,99,interest-list-data-jan-2024.xlsx
+2024-01-01,MDCP,pipeline,Pipeline,,1343,interest-list-data-jan-2024.xlsx
+2024-01-01,MDCP,previous_biennium_counts,Previous Biennium Counts,"As of August 31, 2023",6879,interest-list-data-jan-2024.xlsx
+2024-01-01,MDCP,total_releases_this_biennium,Total Releases This Biennium 3,"Since September 1, 2023",2009,interest-list-data-jan-2024.xlsx
+2024-01-01,STAR_PLUS_HCBS,added_this_biennium,Added This Biennium,New Requests,6090,interest-list-data-jan-2024.xlsx
+2024-01-01,STAR_PLUS_HCBS,current_interest_list_counts,Current Interest List Counts,"As of January 31, 2024",2902,interest-list-data-jan-2024.xlsx
+2024-01-01,STAR_PLUS_HCBS,denied_declined_withdrawn,Denied/Declined/Withdrawn 4,,4381,interest-list-data-jan-2024.xlsx
+2024-01-01,STAR_PLUS_HCBS,enrolled,Enrolled 4,Released/Removed from Interest List 2,366,interest-list-data-jan-2024.xlsx
+2024-01-01,STAR_PLUS_HCBS,pipeline,Pipeline,,9074,interest-list-data-jan-2024.xlsx
+2024-01-01,STAR_PLUS_HCBS,previous_biennium_counts,Previous Biennium Counts,"As of August 31, 2023",6358,interest-list-data-jan-2024.xlsx
+2024-01-01,STAR_PLUS_HCBS,total_releases_this_biennium,Total Releases This Biennium 3,"Since September 1, 2023",10998,interest-list-data-jan-2024.xlsx
+2024-01-01,TXHML,added_this_biennium,Added This Biennium,New Requests,1223,interest-list-data-jan-2024.xlsx
+2024-01-01,TXHML,current_interest_list_counts,Current Interest List Counts,"As of January 31, 2024",106804,interest-list-data-jan-2024.xlsx
+2024-01-01,TXHML,denied_declined_withdrawn,Denied/Declined/Withdrawn 4,,89,interest-list-data-jan-2024.xlsx
+2024-01-01,TXHML,enrolled,Enrolled 4,Released/Removed from Interest List 2,42,interest-list-data-jan-2024.xlsx
+2024-01-01,TXHML,pipeline,Pipeline,,500,interest-list-data-jan-2024.xlsx
+2024-01-01,TXHML,previous_biennium_counts,Previous Biennium Counts,"As of August 31, 2023",106068,interest-list-data-jan-2024.xlsx
+2024-01-01,TXHML,total_releases_this_biennium,Total Releases This Biennium 3,"Since September 1, 2023",465,interest-list-data-jan-2024.xlsx
+2024-02-01,ALL_PROGRAMS,added_this_biennium,Added This Biennium,New Requests,14676,interest-list-data-feb-2024.xlsx
+2024-02-01,ALL_PROGRAMS,current_interest_list_counts,Current Interest List Counts,"As of January 31, 2024",317777,interest-list-data-feb-2024.xlsx
+2024-02-01,ALL_PROGRAMS,denied_declined_withdrawn,Denied/Declined/Withdrawn 4,,7759,interest-list-data-feb-2024.xlsx
+2024-02-01,ALL_PROGRAMS,enrolled,Enrolled 4,Released/Removed from Interest List 2,839,interest-list-data-feb-2024.xlsx
+2024-02-01,ALL_PROGRAMS,pipeline,Pipeline,,13272,interest-list-data-feb-2024.xlsx
+2024-02-01,ALL_PROGRAMS,previous_biennium_counts,Previous Biennium Counts,"As of August 31, 2023",319903,interest-list-data-feb-2024.xlsx
+2024-02-01,ALL_PROGRAMS,total_releases_this_biennium,Total Releases This Biennium 3,"Since September 1, 2023",17334,interest-list-data-feb-2024.xlsx
+2024-02-01,CLASS,added_this_biennium,Added This Biennium,New Requests,1340,interest-list-data-feb-2024.xlsx
+2024-02-01,CLASS,current_interest_list_counts,Current Interest List Counts,"As of January 31, 2024",83003,interest-list-data-feb-2024.xlsx
+2024-02-01,CLASS,denied_declined_withdrawn,Denied/Declined/Withdrawn 4,,216,interest-list-data-feb-2024.xlsx
+2024-02-01,CLASS,enrolled,Enrolled 4,Released/Removed from Interest List 2,51,interest-list-data-feb-2024.xlsx
+2024-02-01,CLASS,pipeline,Pipeline,,543,interest-list-data-feb-2024.xlsx
+2024-02-01,CLASS,previous_biennium_counts,Previous Biennium Counts,"As of August 31, 2023",81757,interest-list-data-feb-2024.xlsx
+2024-02-01,CLASS,total_releases_this_biennium,Total Releases This Biennium 3,"Since September 1, 2023",282,interest-list-data-feb-2024.xlsx
+2024-02-01,DBMD,added_this_biennium,Added This Biennium,New Requests,164,interest-list-data-feb-2024.xlsx
+2024-02-01,DBMD,current_interest_list_counts,Current Interest List Counts,"As of January 31, 2024",1815,interest-list-data-feb-2024.xlsx
+2024-02-01,DBMD,denied_declined_withdrawn,Denied/Declined/Withdrawn 4,,11,interest-list-data-feb-2024.xlsx
+2024-02-01,DBMD,enrolled,Enrolled 4,Released/Removed from Interest List 2,1,interest-list-data-feb-2024.xlsx
+2024-02-01,DBMD,pipeline,Pipeline,,79,interest-list-data-feb-2024.xlsx
+2024-02-01,DBMD,previous_biennium_counts,Previous Biennium Counts,"As of August 31, 2023",1709,interest-list-data-feb-2024.xlsx
+2024-02-01,DBMD,total_releases_this_biennium,Total Releases This Biennium 3,"Since September 1, 2023",52,interest-list-data-feb-2024.xlsx
+2024-02-01,HCS,added_this_biennium,Added This Biennium,New Requests,2042,interest-list-data-feb-2024.xlsx
+2024-02-01,HCS,current_interest_list_counts,Current Interest List Counts,"As of January 31, 2024",118489,interest-list-data-feb-2024.xlsx
+2024-02-01,HCS,denied_declined_withdrawn,Denied/Declined/Withdrawn 4,,81,interest-list-data-feb-2024.xlsx
+2024-02-01,HCS,enrolled,Enrolled 4,Released/Removed from Interest List 2,103,interest-list-data-feb-2024.xlsx
+2024-02-01,HCS,pipeline,Pipeline,,423,interest-list-data-feb-2024.xlsx
+2024-02-01,HCS,previous_biennium_counts,Previous Biennium Counts,"As of August 31, 2023",117132,interest-list-data-feb-2024.xlsx
+2024-02-01,HCS,total_releases_this_biennium,Total Releases This Biennium 3,"Since September 1, 2023",443,interest-list-data-feb-2024.xlsx
+2024-02-01,MDCP,added_this_biennium,Added This Biennium,New Requests,773,interest-list-data-feb-2024.xlsx
+2024-02-01,MDCP,current_interest_list_counts,Current Interest List Counts,"As of January 31, 2024",5081,interest-list-data-feb-2024.xlsx
+2024-02-01,MDCP,denied_declined_withdrawn,Denied/Declined/Withdrawn 4,,804,interest-list-data-feb-2024.xlsx
+2024-02-01,MDCP,enrolled,Enrolled 4,Released/Removed from Interest List 2,193,interest-list-data-feb-2024.xlsx
+2024-02-01,MDCP,pipeline,Pipeline,,1578,interest-list-data-feb-2024.xlsx
+2024-02-01,MDCP,previous_biennium_counts,Previous Biennium Counts,"As of August 31, 2023",6879,interest-list-data-feb-2024.xlsx
+2024-02-01,MDCP,total_releases_this_biennium,Total Releases This Biennium 3,"Since September 1, 2023",2511,interest-list-data-feb-2024.xlsx
+2024-02-01,STAR_PLUS_HCBS,added_this_biennium,Added This Biennium,New Requests,8369,interest-list-data-feb-2024.xlsx
+2024-02-01,STAR_PLUS_HCBS,current_interest_list_counts,Current Interest List Counts,"As of January 31, 2024",2273,interest-list-data-feb-2024.xlsx
+2024-02-01,STAR_PLUS_HCBS,denied_declined_withdrawn,Denied/Declined/Withdrawn 4,,6440,interest-list-data-feb-2024.xlsx
+2024-02-01,STAR_PLUS_HCBS,enrolled,Enrolled 4,Released/Removed from Interest List 2,438,interest-list-data-feb-2024.xlsx
+2024-02-01,STAR_PLUS_HCBS,pipeline,Pipeline,,9812,interest-list-data-feb-2024.xlsx
+2024-02-01,STAR_PLUS_HCBS,previous_biennium_counts,Previous Biennium Counts,"As of August 31, 2023",6358,interest-list-data-feb-2024.xlsx
+2024-02-01,STAR_PLUS_HCBS,total_releases_this_biennium,Total Releases This Biennium 3,"Since September 1, 2023",13115,interest-list-data-feb-2024.xlsx
+2024-02-01,TXHML,added_this_biennium,Added This Biennium,New Requests,1988,interest-list-data-feb-2024.xlsx
+2024-02-01,TXHML,current_interest_list_counts,Current Interest List Counts,"As of January 31, 2024",107116,interest-list-data-feb-2024.xlsx
+2024-02-01,TXHML,denied_declined_withdrawn,Denied/Declined/Withdrawn 4,,207,interest-list-data-feb-2024.xlsx
+2024-02-01,TXHML,enrolled,Enrolled 4,Released/Removed from Interest List 2,53,interest-list-data-feb-2024.xlsx
+2024-02-01,TXHML,pipeline,Pipeline,,837,interest-list-data-feb-2024.xlsx
+2024-02-01,TXHML,previous_biennium_counts,Previous Biennium Counts,"As of August 31, 2023",106068,interest-list-data-feb-2024.xlsx
+2024-02-01,TXHML,total_releases_this_biennium,Total Releases This Biennium 3,"Since September 1, 2023",931,interest-list-data-feb-2024.xlsx
+2024-03-01,ALL_PROGRAMS,added_this_biennium,Added This Biennium,New Requests,30719,interest-list-data-march-2024.xlsx
+2024-03-01,ALL_PROGRAMS,current_interest_list_counts,Current Interest List Counts,"As of March 31, 2024",333371,interest-list-data-march-2024.xlsx
+2024-03-01,ALL_PROGRAMS,denied_declined_withdrawn,Denied/Declined/Withdrawn 4,,9836,interest-list-data-march-2024.xlsx
+2024-03-01,ALL_PROGRAMS,enrolled,Enrolled 4,Released/Removed from Interest List 2,891,interest-list-data-march-2024.xlsx
+2024-03-01,ALL_PROGRAMS,pipeline,Pipeline,,20287,interest-list-data-march-2024.xlsx
+2024-03-01,ALL_PROGRAMS,previous_biennium_counts,Previous Biennium Counts,"As of August 31, 2023",320965,interest-list-data-march-2024.xlsx
+2024-03-01,ALL_PROGRAMS,total_releases_this_biennium,Total Releases This Biennium 3,"Since September 1, 2023",26671,interest-list-data-march-2024.xlsx
+2024-03-01,CLASS,added_this_biennium,Added This Biennium,New Requests,3784,interest-list-data-march-2024.xlsx
+2024-03-01,CLASS,current_interest_list_counts,Current Interest List Counts,"As of March 31, 2024",88555,interest-list-data-march-2024.xlsx
+2024-03-01,CLASS,denied_declined_withdrawn,Denied/Declined/Withdrawn 4,,251,interest-list-data-march-2024.xlsx
+2024-03-01,CLASS,enrolled,Enrolled 4,Released/Removed from Interest List 2,54,interest-list-data-march-2024.xlsx
+2024-03-01,CLASS,pipeline,Pipeline,,645,interest-list-data-march-2024.xlsx
+2024-03-01,CLASS,previous_biennium_counts,Previous Biennium Counts,"As of August 31, 2023",82643,interest-list-data-march-2024.xlsx
+2024-03-01,CLASS,total_releases_this_biennium,Total Releases This Biennium 3,"Since September 1, 2023",422,interest-list-data-march-2024.xlsx
+2024-03-01,DBMD,added_this_biennium,Added This Biennium,New Requests,339,interest-list-data-march-2024.xlsx
+2024-03-01,DBMD,current_interest_list_counts,Current Interest List Counts,"As of March 31, 2024",2018,interest-list-data-march-2024.xlsx
+2024-03-01,DBMD,denied_declined_withdrawn,Denied/Declined/Withdrawn 4,,25,interest-list-data-march-2024.xlsx
+2024-03-01,DBMD,enrolled,Enrolled 4,Released/Removed from Interest List 2,1,interest-list-data-march-2024.xlsx
+2024-03-01,DBMD,pipeline,Pipeline,,90,interest-list-data-march-2024.xlsx
+2024-03-01,DBMD,previous_biennium_counts,Previous Biennium Counts,"As of August 31, 2023",1714,interest-list-data-march-2024.xlsx
+2024-03-01,DBMD,total_releases_this_biennium,Total Releases This Biennium 3,"Since September 1, 2023",77,interest-list-data-march-2024.xlsx
+2024-03-01,HCS,added_this_biennium,Added This Biennium,New Requests,5053,interest-list-data-march-2024.xlsx
+2024-03-01,HCS,current_interest_list_counts,Current Interest List Counts,"As of March 31, 2024",122972,interest-list-data-march-2024.xlsx
+2024-03-01,HCS,denied_declined_withdrawn,Denied/Declined/Withdrawn 4,,157,interest-list-data-march-2024.xlsx
+2024-03-01,HCS,enrolled,Enrolled 4,Released/Removed from Interest List 2,128,interest-list-data-march-2024.xlsx
+2024-03-01,HCS,pipeline,Pipeline,,567,interest-list-data-march-2024.xlsx
+2024-03-01,HCS,previous_biennium_counts,Previous Biennium Counts,"As of August 31, 2023",117220,interest-list-data-march-2024.xlsx
+2024-03-01,HCS,total_releases_this_biennium,Total Releases This Biennium 3,"Since September 1, 2023",659,interest-list-data-march-2024.xlsx
+2024-03-01,MDCP,added_this_biennium,Added This Biennium,New Requests,1784,interest-list-data-march-2024.xlsx
+2024-03-01,MDCP,current_interest_list_counts,Current Interest List Counts,"As of March 31, 2024",5908,interest-list-data-march-2024.xlsx
+2024-03-01,MDCP,denied_declined_withdrawn,Denied/Declined/Withdrawn 4,,1157,interest-list-data-march-2024.xlsx
+2024-03-01,MDCP,enrolled,Enrolled 4,Released/Removed from Interest List 2,63,interest-list-data-march-2024.xlsx
+2024-03-01,MDCP,pipeline,Pipeline,,1874,interest-list-data-march-2024.xlsx
+2024-03-01,MDCP,previous_biennium_counts,Previous Biennium Counts,"As of August 31, 2023",6901,interest-list-data-march-2024.xlsx
+2024-03-01,MDCP,total_releases_this_biennium,Total Releases This Biennium 3,"Since September 1, 2023",3056,interest-list-data-march-2024.xlsx
+2024-03-01,STAR_PLUS_HCBS,added_this_biennium,Added This Biennium,New Requests,14845,interest-list-data-march-2024.xlsx
+2024-03-01,STAR_PLUS_HCBS,current_interest_list_counts,Current Interest List Counts,"As of March 31, 2024",2623,interest-list-data-march-2024.xlsx
+2024-03-01,STAR_PLUS_HCBS,denied_declined_withdrawn,Denied/Declined/Withdrawn 4,,7855,interest-list-data-march-2024.xlsx
+2024-03-01,STAR_PLUS_HCBS,enrolled,Enrolled 4,Released/Removed from Interest List 2,580,interest-list-data-march-2024.xlsx
+2024-03-01,STAR_PLUS_HCBS,pipeline,Pipeline,,15993,interest-list-data-march-2024.xlsx
+2024-03-01,STAR_PLUS_HCBS,previous_biennium_counts,Previous Biennium Counts,"As of August 31, 2023",6339,interest-list-data-march-2024.xlsx
+2024-03-01,STAR_PLUS_HCBS,total_releases_this_biennium,Total Releases This Biennium 3,"Since September 1, 2023",21061,interest-list-data-march-2024.xlsx
+2024-03-01,TXHML,added_this_biennium,Added This Biennium,New Requests,4914,interest-list-data-march-2024.xlsx
+2024-03-01,TXHML,current_interest_list_counts,Current Interest List Counts,"As of March 31, 2024",111295,interest-list-data-march-2024.xlsx
+2024-03-01,TXHML,denied_declined_withdrawn,Denied/Declined/Withdrawn 4,,391,interest-list-data-march-2024.xlsx
+2024-03-01,TXHML,enrolled,Enrolled 4,Released/Removed from Interest List 2,65,interest-list-data-march-2024.xlsx
+2024-03-01,TXHML,pipeline,Pipeline,,1118,interest-list-data-march-2024.xlsx
+2024-03-01,TXHML,previous_biennium_counts,Previous Biennium Counts,"As of August 31, 2023",106148,interest-list-data-march-2024.xlsx
+2024-03-01,TXHML,total_releases_this_biennium,Total Releases This Biennium 3,"Since September 1, 2023",1396,interest-list-data-march-2024.xlsx
+2024-04-01,ALL_PROGRAMS,added_this_biennium,Added This Biennium,New Requests,35892,interest-list-data-april-2024.xlsx
+2024-04-01,ALL_PROGRAMS,current_interest_list_counts,Current Interest List Counts,"As of April 30, 2024",334984,interest-list-data-april-2024.xlsx
+2024-04-01,ALL_PROGRAMS,denied_declined_withdrawn,Denied/Declined/Withdrawn 4,,13610,interest-list-data-april-2024.xlsx
+2024-04-01,ALL_PROGRAMS,enrolled,Enrolled 4,Released/Removed from Interest List 2,1221,interest-list-data-april-2024.xlsx
+2024-04-01,ALL_PROGRAMS,pipeline,Pipeline,,19683,interest-list-data-april-2024.xlsx
+2024-04-01,ALL_PROGRAMS,previous_biennium_counts,Previous Biennium Counts,"As of August 31, 2023",320965,interest-list-data-april-2024.xlsx
+2024-04-01,ALL_PROGRAMS,total_releases_this_biennium,Total Releases This Biennium 3,"Since September 1, 2023",30097,interest-list-data-april-2024.xlsx
+2024-04-01,CLASS,added_this_biennium,Added This Biennium,New Requests,4415,interest-list-data-april-2024.xlsx
+2024-04-01,CLASS,current_interest_list_counts,Current Interest List Counts,"As of April 30, 2024",89006,interest-list-data-april-2024.xlsx
+2024-04-01,CLASS,denied_declined_withdrawn,Denied/Declined/Withdrawn 4,,275,interest-list-data-april-2024.xlsx
+2024-04-01,CLASS,enrolled,Enrolled 4,Released/Removed from Interest List 2,60,interest-list-data-april-2024.xlsx
+2024-04-01,CLASS,pipeline,Pipeline,,777,interest-list-data-april-2024.xlsx
+2024-04-01,CLASS,previous_biennium_counts,Previous Biennium Counts,"As of August 31, 2023",82643,interest-list-data-april-2024.xlsx
+2024-04-01,CLASS,total_releases_this_biennium,Total Releases This Biennium 3,"Since September 1, 2023",584,interest-list-data-april-2024.xlsx
+2024-04-01,DBMD,added_this_biennium,Added This Biennium,New Requests,405,interest-list-data-april-2024.xlsx
+2024-04-01,DBMD,current_interest_list_counts,Current Interest List Counts,"As of April 30, 2024",2057,interest-list-data-april-2024.xlsx
+2024-04-01,DBMD,denied_declined_withdrawn,Denied/Declined/Withdrawn 4,,42,interest-list-data-april-2024.xlsx
+2024-04-01,DBMD,enrolled,Enrolled 4,Released/Removed from Interest List 2,1,interest-list-data-april-2024.xlsx
+2024-04-01,DBMD,pipeline,Pipeline,,98,interest-list-data-april-2024.xlsx
+2024-04-01,DBMD,previous_biennium_counts,Previous Biennium Counts,"As of August 31, 2023",1714,interest-list-data-april-2024.xlsx
+2024-04-01,DBMD,total_releases_this_biennium,Total Releases This Biennium 3,"Since September 1, 2023",102,interest-list-data-april-2024.xlsx
+2024-04-01,HCS,added_this_biennium,Added This Biennium,New Requests,5869,interest-list-data-april-2024.xlsx
+2024-04-01,HCS,current_interest_list_counts,Current Interest List Counts,"As of April 30, 2024",123432,interest-list-data-april-2024.xlsx
+2024-04-01,HCS,denied_declined_withdrawn,Denied/Declined/Withdrawn 4,,235,interest-list-data-april-2024.xlsx
+2024-04-01,HCS,enrolled,Enrolled 4,Released/Removed from Interest List 2,156,interest-list-data-april-2024.xlsx
+2024-04-01,HCS,pipeline,Pipeline,,664,interest-list-data-april-2024.xlsx
+2024-04-01,HCS,previous_biennium_counts,Previous Biennium Counts,"As of August 31, 2023",117220,interest-list-data-april-2024.xlsx
+2024-04-01,HCS,total_releases_this_biennium,Total Releases This Biennium 3,"Since September 1, 2023",875,interest-list-data-april-2024.xlsx
+2024-04-01,MDCP,added_this_biennium,Added This Biennium,New Requests,2117,interest-list-data-april-2024.xlsx
+2024-04-01,MDCP,current_interest_list_counts,Current Interest List Counts,"As of April 30, 2024",5809,interest-list-data-april-2024.xlsx
+2024-04-01,MDCP,denied_declined_withdrawn,Denied/Declined/Withdrawn 4,,1621,interest-list-data-april-2024.xlsx
+2024-04-01,MDCP,enrolled,Enrolled 4,Released/Removed from Interest List 2,88,interest-list-data-april-2024.xlsx
+2024-04-01,MDCP,pipeline,Pipeline,,1796,interest-list-data-april-2024.xlsx
+2024-04-01,MDCP,previous_biennium_counts,Previous Biennium Counts,"As of August 31, 2023",6901,interest-list-data-april-2024.xlsx
+2024-04-01,MDCP,total_releases_this_biennium,Total Releases This Biennium 3,"Since September 1, 2023",3468,interest-list-data-april-2024.xlsx
+2024-04-01,STAR_PLUS_HCBS,added_this_biennium,Added This Biennium,New Requests,17376,interest-list-data-april-2024.xlsx
+2024-04-01,STAR_PLUS_HCBS,current_interest_list_counts,Current Interest List Counts,"As of April 30, 2024",3102,interest-list-data-april-2024.xlsx
+2024-04-01,STAR_PLUS_HCBS,denied_declined_withdrawn,Denied/Declined/Withdrawn 4,,10772,interest-list-data-april-2024.xlsx
+2024-04-01,STAR_PLUS_HCBS,enrolled,Enrolled 4,Released/Removed from Interest List 2,849,interest-list-data-april-2024.xlsx
+2024-04-01,STAR_PLUS_HCBS,pipeline,Pipeline,,15055,interest-list-data-april-2024.xlsx
+2024-04-01,STAR_PLUS_HCBS,previous_biennium_counts,Previous Biennium Counts,"As of August 31, 2023",6339,interest-list-data-april-2024.xlsx
+2024-04-01,STAR_PLUS_HCBS,total_releases_this_biennium,Total Releases This Biennium 3,"Since September 1, 2023",23206,interest-list-data-april-2024.xlsx
+2024-04-01,TXHML,added_this_biennium,Added This Biennium,New Requests,5710,interest-list-data-april-2024.xlsx
+2024-04-01,TXHML,current_interest_list_counts,Current Interest List Counts,"As of April 30, 2024",111578,interest-list-data-april-2024.xlsx
+2024-04-01,TXHML,denied_declined_withdrawn,Denied/Declined/Withdrawn 4,,665,interest-list-data-april-2024.xlsx
+2024-04-01,TXHML,enrolled,Enrolled 4,Released/Removed from Interest List 2,67,interest-list-data-april-2024.xlsx
+2024-04-01,TXHML,pipeline,Pipeline,,1293,interest-list-data-april-2024.xlsx
+2024-04-01,TXHML,previous_biennium_counts,Previous Biennium Counts,"As of August 31, 2023",106148,interest-list-data-april-2024.xlsx
+2024-04-01,TXHML,total_releases_this_biennium,Total Releases This Biennium 3,"Since September 1, 2023",1862,interest-list-data-april-2024.xlsx
+2024-05-01,ALL_PROGRAMS,added_this_biennium,Added This Biennium,New Requests,40692,interest-list-data-may-2024.xlsx
+2024-05-01,ALL_PROGRAMS,current_interest_list_counts,Current Interest List Counts,"As of May 31, 2024",335765,interest-list-data-may-2024.xlsx
+2024-05-01,ALL_PROGRAMS,denied_declined_withdrawn,Denied/Declined/Withdrawn 4,,16422,interest-list-data-may-2024.xlsx
+2024-05-01,ALL_PROGRAMS,enrolled,Enrolled 4,Released/Removed from Interest List 2,1738,interest-list-data-may-2024.xlsx
+2024-05-01,ALL_PROGRAMS,pipeline,Pipeline,,19730,interest-list-data-may-2024.xlsx
+2024-05-01,ALL_PROGRAMS,previous_biennium_counts,Previous Biennium Counts,"As of August 31, 2023",320966,interest-list-data-may-2024.xlsx
+2024-05-01,ALL_PROGRAMS,total_releases_this_biennium,Total Releases This Biennium 3,"Since September 1, 2023",37679,interest-list-data-may-2024.xlsx
+2024-05-01,CLASS,added_this_biennium,Added This Biennium,New Requests,4994,interest-list-data-may-2024.xlsx
+2024-05-01,CLASS,current_interest_list_counts,Current Interest List Counts,"As of May 31, 2024",89402,interest-list-data-may-2024.xlsx
+2024-05-01,CLASS,denied_declined_withdrawn,Denied/Declined/Withdrawn 4,,319,interest-list-data-may-2024.xlsx
+2024-05-01,CLASS,enrolled,Enrolled 4,Released/Removed from Interest List 2,72,interest-list-data-may-2024.xlsx
+2024-05-01,CLASS,pipeline,Pipeline,,887,interest-list-data-may-2024.xlsx
+2024-05-01,CLASS,previous_biennium_counts,Previous Biennium Counts,"As of August 31, 2023",82643,interest-list-data-may-2024.xlsx
+2024-05-01,CLASS,total_releases_this_biennium,Total Releases This Biennium 3,"Since September 1, 2023",1297,interest-list-data-may-2024.xlsx
+2024-05-01,DBMD,added_this_biennium,Added This Biennium,New Requests,447,interest-list-data-may-2024.xlsx
+2024-05-01,DBMD,current_interest_list_counts,Current Interest List Counts,"As of May 31, 2024",2079,interest-list-data-may-2024.xlsx
+2024-05-01,DBMD,denied_declined_withdrawn,Denied/Declined/Withdrawn 4,,58,interest-list-data-may-2024.xlsx
+2024-05-01,DBMD,enrolled,Enrolled 4,Released/Removed from Interest List 2,2,interest-list-data-may-2024.xlsx
+2024-05-01,DBMD,pipeline,Pipeline,,99,interest-list-data-may-2024.xlsx
+2024-05-01,DBMD,previous_biennium_counts,Previous Biennium Counts,"As of August 31, 2023",1714,interest-list-data-may-2024.xlsx
+2024-05-01,DBMD,total_releases_this_biennium,Total Releases This Biennium 3,"Since September 1, 2023",159,interest-list-data-may-2024.xlsx
+2024-05-01,HCS,added_this_biennium,Added This Biennium,New Requests,6717,interest-list-data-may-2024.xlsx
+2024-05-01,HCS,current_interest_list_counts,Current Interest List Counts,"As of May 31, 2024",124001,interest-list-data-may-2024.xlsx
+2024-05-01,HCS,denied_declined_withdrawn,Denied/Declined/Withdrawn 4,,427,interest-list-data-may-2024.xlsx
+2024-05-01,HCS,enrolled,Enrolled 4,Released/Removed from Interest List 2,202,interest-list-data-may-2024.xlsx
+2024-05-01,HCS,pipeline,Pipeline,,341,interest-list-data-may-2024.xlsx
+2024-05-01,HCS,previous_biennium_counts,Previous Biennium Counts,"As of August 31, 2023",117221,interest-list-data-may-2024.xlsx
+2024-05-01,HCS,total_releases_this_biennium,Total Releases This Biennium 3,"Since September 1, 2023",1091,interest-list-data-may-2024.xlsx
+2024-05-01,MDCP,added_this_biennium,Added This Biennium,New Requests,2374,interest-list-data-may-2024.xlsx
+2024-05-01,MDCP,current_interest_list_counts,Current Interest List Counts,"As of May 31, 2024",5626,interest-list-data-may-2024.xlsx
+2024-05-01,MDCP,denied_declined_withdrawn,Denied/Declined/Withdrawn 4,,2049,interest-list-data-may-2024.xlsx
+2024-05-01,MDCP,enrolled,Enrolled 4,Released/Removed from Interest List 2,196,interest-list-data-may-2024.xlsx
+2024-05-01,MDCP,pipeline,Pipeline,,1676,interest-list-data-may-2024.xlsx
+2024-05-01,MDCP,previous_biennium_counts,Previous Biennium Counts,"As of August 31, 2023",6901,interest-list-data-may-2024.xlsx
+2024-05-01,MDCP,total_releases_this_biennium,Total Releases This Biennium 3,"Since September 1, 2023",3990,interest-list-data-may-2024.xlsx
+2024-05-01,STAR_PLUS_HCBS,added_this_biennium,Added This Biennium,New Requests,19669,interest-list-data-may-2024.xlsx
+2024-05-01,STAR_PLUS_HCBS,current_interest_list_counts,Current Interest List Counts,"As of May 31, 2024",2809,interest-list-data-may-2024.xlsx
+2024-05-01,STAR_PLUS_HCBS,denied_declined_withdrawn,Denied/Declined/Withdrawn 4,,12282,interest-list-data-may-2024.xlsx
+2024-05-01,STAR_PLUS_HCBS,enrolled,Enrolled 4,Released/Removed from Interest List 2,1153,interest-list-data-may-2024.xlsx
+2024-05-01,STAR_PLUS_HCBS,pipeline,Pipeline,,15739,interest-list-data-may-2024.xlsx
+2024-05-01,STAR_PLUS_HCBS,previous_biennium_counts,Previous Biennium Counts,"As of August 31, 2023",6339,interest-list-data-may-2024.xlsx
+2024-05-01,STAR_PLUS_HCBS,total_releases_this_biennium,Total Releases This Biennium 3,"Since September 1, 2023",28815,interest-list-data-may-2024.xlsx
+2024-05-01,TXHML,added_this_biennium,Added This Biennium,New Requests,6491,interest-list-data-may-2024.xlsx
+2024-05-01,TXHML,current_interest_list_counts,Current Interest List Counts,"As of May 31, 2024",111848,interest-list-data-may-2024.xlsx
+2024-05-01,TXHML,denied_declined_withdrawn,Denied/Declined/Withdrawn 4,,1287,interest-list-data-may-2024.xlsx
+2024-05-01,TXHML,enrolled,Enrolled 4,Released/Removed from Interest List 2,113,interest-list-data-may-2024.xlsx
+2024-05-01,TXHML,pipeline,Pipeline,,988,interest-list-data-may-2024.xlsx
+2024-05-01,TXHML,previous_biennium_counts,Previous Biennium Counts,"As of August 31, 2023",106148,interest-list-data-may-2024.xlsx
+2024-05-01,TXHML,total_releases_this_biennium,Total Releases This Biennium 3,"Since September 1, 2023",2327,interest-list-data-may-2024.xlsx
+2024-06-01,ALL_PROGRAMS,added_this_biennium,Added This Biennium,New Requests,45173,interest-list-data-june-2024.xlsx
+2024-06-01,ALL_PROGRAMS,current_interest_list_counts,Current Interest List Counts,"As of June 30, 2024",339258,interest-list-data-june-2024.xlsx
+2024-06-01,ALL_PROGRAMS,denied_declined_withdrawn,Denied/Declined/Withdrawn 4,,18821,interest-list-data-june-2024.xlsx
+2024-06-01,ALL_PROGRAMS,enrolled,Enrolled 4,Released/Removed from Interest List 2,2341,interest-list-data-june-2024.xlsx
+2024-06-01,ALL_PROGRAMS,not_categorized,Not Categorized,0,118,interest-list-data-june-2024.xlsx
+2024-06-01,ALL_PROGRAMS,pipeline,Pipeline,,17700,interest-list-data-june-2024.xlsx
+2024-06-01,ALL_PROGRAMS,previous_biennium_counts,Previous Biennium Counts,"As of August 31, 2023",320965,interest-list-data-june-2024.xlsx
+2024-06-01,ALL_PROGRAMS,total_releases_this_biennium,Total Releases This Biennium 3,"Since September 1, 2023",34835,interest-list-data-june-2024.xlsx
+2024-06-01,CLASS,added_this_biennium,Added This Biennium,New Requests,5536,interest-list-data-june-2024.xlsx
+2024-06-01,CLASS,current_interest_list_counts,Current Interest List Counts,"As of June 30, 2024",89633,interest-list-data-june-2024.xlsx
+2024-06-01,CLASS,denied_declined_withdrawn,Denied/Declined/Withdrawn 4,,355,interest-list-data-june-2024.xlsx
+2024-06-01,CLASS,enrolled,Enrolled 4,Released/Removed from Interest List 2,80,interest-list-data-june-2024.xlsx
+2024-06-01,CLASS,not_categorized,Not Categorized,0,0,interest-list-data-june-2024.xlsx
+2024-06-01,CLASS,pipeline,Pipeline,,1014,interest-list-data-june-2024.xlsx
+2024-06-01,CLASS,previous_biennium_counts,Previous Biennium Counts,"As of August 31, 2023",82643,interest-list-data-june-2024.xlsx
+2024-06-01,CLASS,total_releases_this_biennium,Total Releases This Biennium 3,"Since September 1, 2023",921,interest-list-data-june-2024.xlsx
+2024-06-01,DBMD,added_this_biennium,Added This Biennium,New Requests,503,interest-list-data-june-2024.xlsx
+2024-06-01,DBMD,current_interest_list_counts,Current Interest List Counts,"As of June 30, 2024",2107,interest-list-data-june-2024.xlsx
+2024-06-01,DBMD,denied_declined_withdrawn,Denied/Declined/Withdrawn 4,,83,interest-list-data-june-2024.xlsx
+2024-06-01,DBMD,enrolled,Enrolled 4,Released/Removed from Interest List 2,2,interest-list-data-june-2024.xlsx
+2024-06-01,DBMD,not_categorized,Not Categorized,0,0,interest-list-data-june-2024.xlsx
+2024-06-01,DBMD,pipeline,Pipeline,,94,interest-list-data-june-2024.xlsx
+2024-06-01,DBMD,previous_biennium_counts,Previous Biennium Counts,"As of August 31, 2023",1714,interest-list-data-june-2024.xlsx
+2024-06-01,DBMD,total_releases_this_biennium,Total Releases This Biennium 3,"Since September 1, 2023",140,interest-list-data-june-2024.xlsx
+2024-06-01,HCS,added_this_biennium,Added This Biennium,New Requests,7469,interest-list-data-june-2024.xlsx
+2024-06-01,HCS,current_interest_list_counts,Current Interest List Counts,"As of June 30, 2024",124409,interest-list-data-june-2024.xlsx
+2024-06-01,HCS,denied_declined_withdrawn,Denied/Declined/Withdrawn 4,,380,interest-list-data-june-2024.xlsx
+2024-06-01,HCS,enrolled,Enrolled 4,Released/Removed from Interest List 2,236,interest-list-data-june-2024.xlsx
+2024-06-01,HCS,not_categorized,Not Categorized,0,38,interest-list-data-june-2024.xlsx
+2024-06-01,HCS,pipeline,Pipeline,,832,interest-list-data-june-2024.xlsx
+2024-06-01,HCS,previous_biennium_counts,Previous Biennium Counts,"As of August 31, 2023",117220,interest-list-data-june-2024.xlsx
+2024-06-01,HCS,total_releases_this_biennium,Total Releases This Biennium 3,"Since September 1, 2023",1307,interest-list-data-june-2024.xlsx
+2024-06-01,MDCP,added_this_biennium,Added This Biennium,New Requests,2689,interest-list-data-june-2024.xlsx
+2024-06-01,MDCP,current_interest_list_counts,Current Interest List Counts,"As of June 30, 2024",5716,interest-list-data-june-2024.xlsx
+2024-06-01,MDCP,denied_declined_withdrawn,Denied/Declined/Withdrawn 4,,2356,interest-list-data-june-2024.xlsx
+2024-06-01,MDCP,enrolled,Enrolled 4,Released/Removed from Interest List 2,306,interest-list-data-june-2024.xlsx
+2024-06-01,MDCP,not_categorized,Not Categorized,0,0,interest-list-data-june-2024.xlsx
+2024-06-01,MDCP,pipeline,Pipeline,,1454,interest-list-data-june-2024.xlsx
+2024-06-01,MDCP,previous_biennium_counts,Previous Biennium Counts,"As of August 31, 2023",6901,interest-list-data-june-2024.xlsx
+2024-06-01,MDCP,total_releases_this_biennium,Total Releases This Biennium 3,"Since September 1, 2023",4080,interest-list-data-june-2024.xlsx
+2024-06-01,STAR_PLUS_HCBS,added_this_biennium,Added This Biennium,New Requests,21750,interest-list-data-june-2024.xlsx
+2024-06-01,STAR_PLUS_HCBS,current_interest_list_counts,Current Interest List Counts,"As of June 30, 2024",5372,interest-list-data-june-2024.xlsx
+2024-06-01,STAR_PLUS_HCBS,denied_declined_withdrawn,Denied/Declined/Withdrawn 4,,14451,interest-list-data-june-2024.xlsx
+2024-06-01,STAR_PLUS_HCBS,enrolled,Enrolled 4,Released/Removed from Interest List 2,1584,interest-list-data-june-2024.xlsx
+2024-06-01,STAR_PLUS_HCBS,not_categorized,Not Categorized,0,5,interest-list-data-june-2024.xlsx
+2024-06-01,STAR_PLUS_HCBS,pipeline,Pipeline,,12738,interest-list-data-june-2024.xlsx
+2024-06-01,STAR_PLUS_HCBS,previous_biennium_counts,Previous Biennium Counts,"As of August 31, 2023",6339,interest-list-data-june-2024.xlsx
+2024-06-01,STAR_PLUS_HCBS,total_releases_this_biennium,Total Releases This Biennium 3,"Since September 1, 2023",25594,interest-list-data-june-2024.xlsx
+2024-06-01,TXHML,added_this_biennium,Added This Biennium,New Requests,7226,interest-list-data-june-2024.xlsx
+2024-06-01,TXHML,current_interest_list_counts,Current Interest List Counts,"As of June 30, 2024",112021,interest-list-data-june-2024.xlsx
+2024-06-01,TXHML,denied_declined_withdrawn,Denied/Declined/Withdrawn 4,,1196,interest-list-data-june-2024.xlsx
+2024-06-01,TXHML,enrolled,Enrolled 4,Released/Removed from Interest List 2,133,interest-list-data-june-2024.xlsx
+2024-06-01,TXHML,not_categorized,Not Categorized,0,75,interest-list-data-june-2024.xlsx
+2024-06-01,TXHML,pipeline,Pipeline,,1568,interest-list-data-june-2024.xlsx
+2024-06-01,TXHML,previous_biennium_counts,Previous Biennium Counts,"As of August 31, 2023",106148,interest-list-data-june-2024.xlsx
+2024-06-01,TXHML,total_releases_this_biennium,Total Releases This Biennium 3,"Since September 1, 2023",2793,interest-list-data-june-2024.xlsx
+2024-07-01,ALL_PROGRAMS,added_this_biennium,Added This Biennium,New Requests,49192,interest-list-data-july-2024.xlsx
+2024-07-01,ALL_PROGRAMS,current_interest_list_counts,Current Interest List Counts,"As of July 31, 2024",341623,interest-list-data-july-2024.xlsx
+2024-07-01,ALL_PROGRAMS,denied_declined_withdrawn,Denied/Declined/Withdrawn 4,,21266,interest-list-data-july-2024.xlsx
+2024-07-01,ALL_PROGRAMS,enrolled,Enrolled 4,Released/Removed from Interest List 2,3036,interest-list-data-july-2024.xlsx
+2024-07-01,ALL_PROGRAMS,not_categorized,Not Categorized,0,167,interest-list-data-july-2024.xlsx
+2024-07-01,ALL_PROGRAMS,pipeline,Pipeline,,15096,interest-list-data-july-2024.xlsx
+2024-07-01,ALL_PROGRAMS,previous_biennium_counts,Previous Biennium Counts,"As of August 31, 2023",320966,interest-list-data-july-2024.xlsx
+2024-07-01,ALL_PROGRAMS,total_releases_this_biennium,Total Releases This Biennium 3,"Since September 1, 2023",39772,interest-list-data-july-2024.xlsx
+2024-07-01,CLASS,added_this_biennium,Added This Biennium,New Requests,6011,interest-list-data-july-2024.xlsx
+2024-07-01,CLASS,current_interest_list_counts,Current Interest List Counts,"As of July 31, 2024",89917,interest-list-data-july-2024.xlsx
+2024-07-01,CLASS,denied_declined_withdrawn,Denied/Declined/Withdrawn 4,,371,interest-list-data-july-2024.xlsx
+2024-07-01,CLASS,enrolled,Enrolled 4,Released/Removed from Interest List 2,98,interest-list-data-july-2024.xlsx
+2024-07-01,CLASS,not_categorized,Not Categorized,0,1,interest-list-data-july-2024.xlsx
+2024-07-01,CLASS,pipeline,Pipeline,,1144,interest-list-data-july-2024.xlsx
+2024-07-01,CLASS,previous_biennium_counts,Previous Biennium Counts,"As of August 31, 2023",82643,interest-list-data-july-2024.xlsx
+2024-07-01,CLASS,total_releases_this_biennium,Total Releases This Biennium 3,"Since September 1, 2023",1633,interest-list-data-july-2024.xlsx
+2024-07-01,DBMD,added_this_biennium,Added This Biennium,New Requests,550,interest-list-data-july-2024.xlsx
+2024-07-01,DBMD,current_interest_list_counts,Current Interest List Counts,"As of July 31, 2024",2134,interest-list-data-july-2024.xlsx
+2024-07-01,DBMD,denied_declined_withdrawn,Denied/Declined/Withdrawn 4,,94,interest-list-data-july-2024.xlsx
+2024-07-01,DBMD,enrolled,Enrolled 4,Released/Removed from Interest List 2,3,interest-list-data-july-2024.xlsx
+2024-07-01,DBMD,not_categorized,Not Categorized,0,0,interest-list-data-july-2024.xlsx
+2024-07-01,DBMD,pipeline,Pipeline,,102,interest-list-data-july-2024.xlsx
+2024-07-01,DBMD,previous_biennium_counts,Previous Biennium Counts,"As of August 31, 2023",1714,interest-list-data-july-2024.xlsx
+2024-07-01,DBMD,total_releases_this_biennium,Total Releases This Biennium 3,"Since September 1, 2023",199,interest-list-data-july-2024.xlsx
+2024-07-01,HCS,added_this_biennium,Added This Biennium,New Requests,8127,interest-list-data-july-2024.xlsx
+2024-07-01,HCS,current_interest_list_counts,Current Interest List Counts,"As of July 31, 2024",124345,interest-list-data-july-2024.xlsx
+2024-07-01,HCS,denied_declined_withdrawn,Denied/Declined/Withdrawn 4,,469,interest-list-data-july-2024.xlsx
+2024-07-01,HCS,enrolled,Enrolled 4,Released/Removed from Interest List 2,275,interest-list-data-july-2024.xlsx
+2024-07-01,HCS,not_categorized,Not Categorized,0,47,interest-list-data-july-2024.xlsx
+2024-07-01,HCS,pipeline,Pipeline,,906,interest-list-data-july-2024.xlsx
+2024-07-01,HCS,previous_biennium_counts,Previous Biennium Counts,"As of August 31, 2023",117221,interest-list-data-july-2024.xlsx
+2024-07-01,HCS,total_releases_this_biennium,Total Releases This Biennium 3,"Since September 1, 2023",1523,interest-list-data-july-2024.xlsx
+2024-07-01,MDCP,added_this_biennium,Added This Biennium,New Requests,2982,interest-list-data-july-2024.xlsx
+2024-07-01,MDCP,current_interest_list_counts,Current Interest List Counts,"As of July 31, 2024",5785,interest-list-data-july-2024.xlsx
+2024-07-01,MDCP,denied_declined_withdrawn,Denied/Declined/Withdrawn 4,,2679,interest-list-data-july-2024.xlsx
+2024-07-01,MDCP,enrolled,Enrolled 4,Released/Removed from Interest List 2,392,interest-list-data-july-2024.xlsx
+2024-07-01,MDCP,not_categorized,Not Categorized,0,0,interest-list-data-july-2024.xlsx
+2024-07-01,MDCP,pipeline,Pipeline,,1244,interest-list-data-july-2024.xlsx
+2024-07-01,MDCP,previous_biennium_counts,Previous Biennium Counts,"As of August 31, 2023",6901,interest-list-data-july-2024.xlsx
+2024-07-01,MDCP,total_releases_this_biennium,Total Releases This Biennium 3,"Since September 1, 2023",4382,interest-list-data-july-2024.xlsx
+2024-07-01,STAR_PLUS_HCBS,added_this_biennium,Added This Biennium,New Requests,23680,interest-list-data-july-2024.xlsx
+2024-07-01,STAR_PLUS_HCBS,current_interest_list_counts,Current Interest List Counts,"As of July 31, 2024",7660,interest-list-data-july-2024.xlsx
+2024-07-01,STAR_PLUS_HCBS,denied_declined_withdrawn,Denied/Declined/Withdrawn 4,,16233,interest-list-data-july-2024.xlsx
+2024-07-01,STAR_PLUS_HCBS,enrolled,Enrolled 4,Released/Removed from Interest List 2,2103,interest-list-data-july-2024.xlsx
+2024-07-01,STAR_PLUS_HCBS,not_categorized,Not Categorized,0,6,interest-list-data-july-2024.xlsx
+2024-07-01,STAR_PLUS_HCBS,pipeline,Pipeline,,9961,interest-list-data-july-2024.xlsx
+2024-07-01,STAR_PLUS_HCBS,previous_biennium_counts,Previous Biennium Counts,"As of August 31, 2023",6339,interest-list-data-july-2024.xlsx
+2024-07-01,STAR_PLUS_HCBS,total_releases_this_biennium,Total Releases This Biennium 3,"Since September 1, 2023",28777,interest-list-data-july-2024.xlsx
+2024-07-01,TXHML,added_this_biennium,Added This Biennium,New Requests,7842,interest-list-data-july-2024.xlsx
+2024-07-01,TXHML,current_interest_list_counts,Current Interest List Counts,"As of July 31, 2024",111782,interest-list-data-july-2024.xlsx
+2024-07-01,TXHML,denied_declined_withdrawn,Denied/Declined/Withdrawn 4,,1420,interest-list-data-july-2024.xlsx
+2024-07-01,TXHML,enrolled,Enrolled 4,Released/Removed from Interest List 2,165,interest-list-data-july-2024.xlsx
+2024-07-01,TXHML,not_categorized,Not Categorized,0,113,interest-list-data-july-2024.xlsx
+2024-07-01,TXHML,pipeline,Pipeline,,1739,interest-list-data-july-2024.xlsx
+2024-07-01,TXHML,previous_biennium_counts,Previous Biennium Counts,"As of August 31, 2023",106148,interest-list-data-july-2024.xlsx
+2024-07-01,TXHML,total_releases_this_biennium,Total Releases This Biennium 3,"Since September 1, 2023",3258,interest-list-data-july-2024.xlsx
+2024-08-01,ALL_PROGRAMS,added_this_biennium,Added This Biennium,New Requests,53793,interest-list-data-aug-2024.xlsx
+2024-08-01,ALL_PROGRAMS,current_interest_list_counts,Current Interest List Counts,"As of August 31, 2024",344999,interest-list-data-aug-2024.xlsx
+2024-08-01,ALL_PROGRAMS,denied_declined_withdrawn,Denied/Declined/Withdrawn 4,,23668,interest-list-data-aug-2024.xlsx
+2024-08-01,ALL_PROGRAMS,enrolled,Enrolled 4,Released/Removed from Interest List 2,3702,interest-list-data-aug-2024.xlsx
+2024-08-01,ALL_PROGRAMS,not_categorized,Not Categorized,0,197,interest-list-data-aug-2024.xlsx
+2024-08-01,ALL_PROGRAMS,pipeline,Pipeline,,12559,interest-list-data-aug-2024.xlsx
+2024-08-01,ALL_PROGRAMS,previous_biennium_counts,Previous Biennium Counts,"As of August 31, 2023",320966,interest-list-data-aug-2024.xlsx
+2024-08-01,ALL_PROGRAMS,total_releases_this_biennium,Total Releases This Biennium 3,"Since September 1, 2023",40824,interest-list-data-aug-2024.xlsx
+2024-08-01,CLASS,added_this_biennium,Added This Biennium,New Requests,6585,interest-list-data-aug-2024.xlsx
+2024-08-01,CLASS,current_interest_list_counts,Current Interest List Counts,"As of August 31, 2024",90281,interest-list-data-aug-2024.xlsx
+2024-08-01,CLASS,denied_declined_withdrawn,Denied/Declined/Withdrawn 4,,401,interest-list-data-aug-2024.xlsx
+2024-08-01,CLASS,enrolled,Enrolled 4,Released/Removed from Interest List 2,126,interest-list-data-aug-2024.xlsx
+2024-08-01,CLASS,not_categorized,Not Categorized,0,1,interest-list-data-aug-2024.xlsx
+2024-08-01,CLASS,pipeline,Pipeline,,1260,interest-list-data-aug-2024.xlsx
+2024-08-01,CLASS,previous_biennium_counts,Previous Biennium Counts,"As of August 31, 2023",82643,interest-list-data-aug-2024.xlsx
+2024-08-01,CLASS,total_releases_this_biennium,Total Releases This Biennium 3,"Since September 1, 2023",1807,interest-list-data-aug-2024.xlsx
+2024-08-01,DBMD,added_this_biennium,Added This Biennium,New Requests,605,interest-list-data-aug-2024.xlsx
+2024-08-01,DBMD,current_interest_list_counts,Current Interest List Counts,"As of August 31, 2024",2171,interest-list-data-aug-2024.xlsx
+2024-08-01,DBMD,denied_declined_withdrawn,Denied/Declined/Withdrawn 4,,95,interest-list-data-aug-2024.xlsx
+2024-08-01,DBMD,enrolled,Enrolled 4,Released/Removed from Interest List 2,3,interest-list-data-aug-2024.xlsx
+2024-08-01,DBMD,not_categorized,Not Categorized,0,0,interest-list-data-aug-2024.xlsx
+2024-08-01,DBMD,pipeline,Pipeline,,117,interest-list-data-aug-2024.xlsx
+2024-08-01,DBMD,previous_biennium_counts,Previous Biennium Counts,"As of August 31, 2023",1714,interest-list-data-aug-2024.xlsx
+2024-08-01,DBMD,total_releases_this_biennium,Total Releases This Biennium 3,"Since September 1, 2023",215,interest-list-data-aug-2024.xlsx
+2024-08-01,HCS,added_this_biennium,Added This Biennium,New Requests,8782,interest-list-data-aug-2024.xlsx
+2024-08-01,HCS,current_interest_list_counts,Current Interest List Counts,"As of August 31, 2024",124443,interest-list-data-aug-2024.xlsx
+2024-08-01,HCS,denied_declined_withdrawn,Denied/Declined/Withdrawn 4,,575,interest-list-data-aug-2024.xlsx
+2024-08-01,HCS,enrolled,Enrolled 4,Released/Removed from Interest List 2,331,interest-list-data-aug-2024.xlsx
+2024-08-01,HCS,not_categorized,Not Categorized,0,57,interest-list-data-aug-2024.xlsx
+2024-08-01,HCS,pipeline,Pipeline,,955,interest-list-data-aug-2024.xlsx
+2024-08-01,HCS,previous_biennium_counts,Previous Biennium Counts,"As of August 31, 2023",117221,interest-list-data-aug-2024.xlsx
+2024-08-01,HCS,total_releases_this_biennium,Total Releases This Biennium 3,"Since September 1, 2023",1739,interest-list-data-aug-2024.xlsx
+2024-08-01,MDCP,added_this_biennium,Added This Biennium,New Requests,3317,interest-list-data-aug-2024.xlsx
+2024-08-01,MDCP,current_interest_list_counts,Current Interest List Counts,"As of August 31, 2024",5901,interest-list-data-aug-2024.xlsx
+2024-08-01,MDCP,denied_declined_withdrawn,Denied/Declined/Withdrawn 4,,2837,interest-list-data-aug-2024.xlsx
+2024-08-01,MDCP,enrolled,Enrolled 4,Released/Removed from Interest List 2,452,interest-list-data-aug-2024.xlsx
+2024-08-01,MDCP,not_categorized,Not Categorized,0,0,interest-list-data-aug-2024.xlsx
+2024-08-01,MDCP,pipeline,Pipeline,,1220,interest-list-data-aug-2024.xlsx
+2024-08-01,MDCP,previous_biennium_counts,Previous Biennium Counts,"As of August 31, 2023",6901,interest-list-data-aug-2024.xlsx
+2024-08-01,MDCP,total_releases_this_biennium,Total Releases This Biennium 3,"Since September 1, 2023",4575,interest-list-data-aug-2024.xlsx
+2024-08-01,STAR_PLUS_HCBS,added_this_biennium,Added This Biennium,New Requests,26042,interest-list-data-aug-2024.xlsx
+2024-08-01,STAR_PLUS_HCBS,current_interest_list_counts,Current Interest List Counts,"As of August 31, 2024",10502,interest-list-data-aug-2024.xlsx
+2024-08-01,STAR_PLUS_HCBS,denied_declined_withdrawn,Denied/Declined/Withdrawn 4,,18037,interest-list-data-aug-2024.xlsx
+2024-08-01,STAR_PLUS_HCBS,enrolled,Enrolled 4,Released/Removed from Interest List 2,2612,interest-list-data-aug-2024.xlsx
+2024-08-01,STAR_PLUS_HCBS,not_categorized,Not Categorized,0,6,interest-list-data-aug-2024.xlsx
+2024-08-01,STAR_PLUS_HCBS,pipeline,Pipeline,,7142,interest-list-data-aug-2024.xlsx
+2024-08-01,STAR_PLUS_HCBS,previous_biennium_counts,Previous Biennium Counts,"As of August 31, 2023",6339,interest-list-data-aug-2024.xlsx
+2024-08-01,STAR_PLUS_HCBS,total_releases_this_biennium,Total Releases This Biennium 3,"Since September 1, 2023",28765,interest-list-data-aug-2024.xlsx
+2024-08-01,TXHML,added_this_biennium,Added This Biennium,New Requests,8462,interest-list-data-aug-2024.xlsx
+2024-08-01,TXHML,current_interest_list_counts,Current Interest List Counts,"As of August 31, 2024",111701,interest-list-data-aug-2024.xlsx
+2024-08-01,TXHML,denied_declined_withdrawn,Denied/Declined/Withdrawn 4,,1723,interest-list-data-aug-2024.xlsx
+2024-08-01,TXHML,enrolled,Enrolled 4,Released/Removed from Interest List 2,178,interest-list-data-aug-2024.xlsx
+2024-08-01,TXHML,not_categorized,Not Categorized,0,133,interest-list-data-aug-2024.xlsx
+2024-08-01,TXHML,pipeline,Pipeline,,1865,interest-list-data-aug-2024.xlsx
+2024-08-01,TXHML,previous_biennium_counts,Previous Biennium Counts,"As of August 31, 2023",106148,interest-list-data-aug-2024.xlsx
+2024-08-01,TXHML,total_releases_this_biennium,Total Releases This Biennium 3,"Since September 1, 2023",3723,interest-list-data-aug-2024.xlsx
+2024-09-01,ALL_PROGRAMS,added_this_biennium,Added This Biennium,New Requests,58135,interest-list-data-sept-2024.xlsx
+2024-09-01,ALL_PROGRAMS,current_interest_list_counts,Current Interest List Counts,"As of September 30, 2024",342052,interest-list-data-sept-2024.xlsx
+2024-09-01,ALL_PROGRAMS,denied_declined_withdrawn,Denied/Declined/Withdrawn 4,,25248,interest-list-data-sept-2024.xlsx
+2024-09-01,ALL_PROGRAMS,enrolled,Enrolled 4,Released/Removed from Interest List 2,4415,interest-list-data-sept-2024.xlsx
+2024-09-01,ALL_PROGRAMS,not_categorized,Not Categorized,0,230,interest-list-data-sept-2024.xlsx
+2024-09-01,ALL_PROGRAMS,pipeline,Pipeline,,16155,interest-list-data-sept-2024.xlsx
+2024-09-01,ALL_PROGRAMS,previous_biennium_counts,Previous Biennium Counts,"As of August 31, 2023",320964,interest-list-data-sept-2024.xlsx
+2024-09-01,ALL_PROGRAMS,total_releases_this_biennium,Total Releases This Biennium 3,"Since September 1, 2023",45824,interest-list-data-sept-2024.xlsx
+2024-09-01,CLASS,added_this_biennium,Added This Biennium,New Requests,7148,interest-list-data-sept-2024.xlsx
+2024-09-01,CLASS,current_interest_list_counts,Current Interest List Counts,"As of September 30, 2024",90630,interest-list-data-sept-2024.xlsx
+2024-09-01,CLASS,denied_declined_withdrawn,Denied/Declined/Withdrawn 4,,422,interest-list-data-sept-2024.xlsx
+2024-09-01,CLASS,enrolled,Enrolled 4,Released/Removed from Interest List 2,143,interest-list-data-sept-2024.xlsx
+2024-09-01,CLASS,not_categorized,Not Categorized,0,1,interest-list-data-sept-2024.xlsx
+2024-09-01,CLASS,pipeline,Pipeline,,1350,interest-list-data-sept-2024.xlsx
+2024-09-01,CLASS,previous_biennium_counts,Previous Biennium Counts,"As of August 31, 2023",82641,interest-list-data-sept-2024.xlsx
+2024-09-01,CLASS,total_releases_this_biennium,Total Releases This Biennium 3,"Since September 1, 2023",1935,interest-list-data-sept-2024.xlsx
+2024-09-01,DBMD,added_this_biennium,Added This Biennium,New Requests,653,interest-list-data-sept-2024.xlsx
+2024-09-01,DBMD,current_interest_list_counts,Current Interest List Counts,"As of September 30, 2024",2124,interest-list-data-sept-2024.xlsx
+2024-09-01,DBMD,denied_declined_withdrawn,Denied/Declined/Withdrawn 4,,95,interest-list-data-sept-2024.xlsx
+2024-09-01,DBMD,enrolled,Enrolled 4,Released/Removed from Interest List 2,6,interest-list-data-sept-2024.xlsx
+2024-09-01,DBMD,not_categorized,Not Categorized,0,0,interest-list-data-sept-2024.xlsx
+2024-09-01,DBMD,pipeline,Pipeline,,205,interest-list-data-sept-2024.xlsx
+2024-09-01,DBMD,previous_biennium_counts,Previous Biennium Counts,"As of August 31, 2023",1714,interest-list-data-sept-2024.xlsx
+2024-09-01,DBMD,total_releases_this_biennium,Total Releases This Biennium 3,"Since September 1, 2023",306,interest-list-data-sept-2024.xlsx
+2024-09-01,HCS,added_this_biennium,Added This Biennium,New Requests,9499,interest-list-data-sept-2024.xlsx
+2024-09-01,HCS,current_interest_list_counts,Current Interest List Counts,"As of September 30, 2024",124163,interest-list-data-sept-2024.xlsx
+2024-09-01,HCS,denied_declined_withdrawn,Denied/Declined/Withdrawn 4,,666,interest-list-data-sept-2024.xlsx
+2024-09-01,HCS,enrolled,Enrolled 4,Released/Removed from Interest List 2,437,interest-list-data-sept-2024.xlsx
+2024-09-01,HCS,not_categorized,Not Categorized,0,64,interest-list-data-sept-2024.xlsx
+2024-09-01,HCS,pipeline,Pipeline,,955,interest-list-data-sept-2024.xlsx
+2024-09-01,HCS,previous_biennium_counts,Previous Biennium Counts,"As of August 31, 2023",117221,interest-list-data-sept-2024.xlsx
+2024-09-01,HCS,total_releases_this_biennium,Total Releases This Biennium 3,"Since September 1, 2023",2436,interest-list-data-sept-2024.xlsx
+2024-09-01,MDCP,added_this_biennium,Added This Biennium,New Requests,3700,interest-list-data-sept-2024.xlsx
+2024-09-01,MDCP,current_interest_list_counts,Current Interest List Counts,"As of September 30, 2024",5888,interest-list-data-sept-2024.xlsx
+2024-09-01,MDCP,denied_declined_withdrawn,Denied/Declined/Withdrawn 4,,3314,interest-list-data-sept-2024.xlsx
+2024-09-01,MDCP,enrolled,Enrolled 4,Released/Removed from Interest List 2,500,interest-list-data-sept-2024.xlsx
+2024-09-01,MDCP,not_categorized,Not Categorized,0,4,interest-list-data-sept-2024.xlsx
+2024-09-01,MDCP,pipeline,Pipeline,,1068,interest-list-data-sept-2024.xlsx
+2024-09-01,MDCP,previous_biennium_counts,Previous Biennium Counts,"As of August 31, 2023",6901,interest-list-data-sept-2024.xlsx
+2024-09-01,MDCP,total_releases_this_biennium,Total Releases This Biennium 3,"Since September 1, 2023",4952,interest-list-data-sept-2024.xlsx
+2024-09-01,STAR_PLUS_HCBS,added_this_biennium,Added This Biennium,New Requests,28000,interest-list-data-sept-2024.xlsx
+2024-09-01,STAR_PLUS_HCBS,current_interest_list_counts,Current Interest List Counts,"As of September 30, 2024",7543,interest-list-data-sept-2024.xlsx
+2024-09-01,STAR_PLUS_HCBS,denied_declined_withdrawn,Denied/Declined/Withdrawn 4,,18727,interest-list-data-sept-2024.xlsx
+2024-09-01,STAR_PLUS_HCBS,enrolled,Enrolled 4,Released/Removed from Interest List 2,3059,interest-list-data-sept-2024.xlsx
+2024-09-01,STAR_PLUS_HCBS,not_categorized,Not Categorized,0,6,interest-list-data-sept-2024.xlsx
+2024-09-01,STAR_PLUS_HCBS,pipeline,Pipeline,,10879,interest-list-data-sept-2024.xlsx
+2024-09-01,STAR_PLUS_HCBS,previous_biennium_counts,Previous Biennium Counts,"As of August 31, 2023",6339,interest-list-data-sept-2024.xlsx
+2024-09-01,STAR_PLUS_HCBS,total_releases_this_biennium,Total Releases This Biennium 3,"Since September 1, 2023",32017,interest-list-data-sept-2024.xlsx
+2024-09-01,TXHML,added_this_biennium,Added This Biennium,New Requests,9135,interest-list-data-sept-2024.xlsx
+2024-09-01,TXHML,current_interest_list_counts,Current Interest List Counts,"As of September 30, 2024",111704,interest-list-data-sept-2024.xlsx
+2024-09-01,TXHML,denied_declined_withdrawn,Denied/Declined/Withdrawn 4,,2024,interest-list-data-sept-2024.xlsx
+2024-09-01,TXHML,enrolled,Enrolled 4,Released/Removed from Interest List 2,270,interest-list-data-sept-2024.xlsx
+2024-09-01,TXHML,not_categorized,Not Categorized,0,155,interest-list-data-sept-2024.xlsx
+2024-09-01,TXHML,pipeline,Pipeline,,1698,interest-list-data-sept-2024.xlsx
+2024-09-01,TXHML,previous_biennium_counts,Previous Biennium Counts,"As of August 31, 2023",106148,interest-list-data-sept-2024.xlsx
+2024-09-01,TXHML,total_releases_this_biennium,Total Releases This Biennium 3,"Since September 1, 2023",4178,interest-list-data-sept-2024.xlsx
+2024-10-01,ALL_PROGRAMS,added_this_biennium,Added This Biennium,New Requests,63390,interest-list-data-oct-2024.xlsx
+2024-10-01,ALL_PROGRAMS,current_interest_list_counts,Current Interest List Counts,"As of October 31, 2024",340477,interest-list-data-oct-2024.xlsx
+2024-10-01,ALL_PROGRAMS,denied_declined_withdrawn,Denied/Declined/Withdrawn 4,,26576,interest-list-data-oct-2024.xlsx
+2024-10-01,ALL_PROGRAMS,enrolled,Enrolled 4,Released/Removed from Interest List 2,5094,interest-list-data-oct-2024.xlsx
+2024-10-01,ALL_PROGRAMS,not_categorized,Not Categorized,0,268,interest-list-data-oct-2024.xlsx
+2024-10-01,ALL_PROGRAMS,pipeline,Pipeline,,21508,interest-list-data-oct-2024.xlsx
+2024-10-01,ALL_PROGRAMS,previous_biennium_counts,Previous Biennium Counts,"As of August 31, 2023",320964,interest-list-data-oct-2024.xlsx
+2024-10-01,ALL_PROGRAMS,total_releases_this_biennium,Total Releases This Biennium 3,"Since September 1, 2023",52077,interest-list-data-oct-2024.xlsx
+2024-10-01,CLASS,added_this_biennium,Added This Biennium,New Requests,7848,interest-list-data-oct-2024.xlsx
+2024-10-01,CLASS,current_interest_list_counts,Current Interest List Counts,"As of October 31, 2024",91174,interest-list-data-oct-2024.xlsx
+2024-10-01,CLASS,denied_declined_withdrawn,Denied/Declined/Withdrawn 4,,443,interest-list-data-oct-2024.xlsx
+2024-10-01,CLASS,enrolled,Enrolled 4,Released/Removed from Interest List 2,165,interest-list-data-oct-2024.xlsx
+2024-10-01,CLASS,not_categorized,Not Categorized,0,1,interest-list-data-oct-2024.xlsx
+2024-10-01,CLASS,pipeline,Pipeline,,1430,interest-list-data-oct-2024.xlsx
+2024-10-01,CLASS,previous_biennium_counts,Previous Biennium Counts,"As of August 31, 2023",82641,interest-list-data-oct-2024.xlsx
+2024-10-01,CLASS,total_releases_this_biennium,Total Releases This Biennium 3,"Since September 1, 2023",2058,interest-list-data-oct-2024.xlsx
+2024-10-01,DBMD,added_this_biennium,Added This Biennium,New Requests,731,interest-list-data-oct-2024.xlsx
+2024-10-01,DBMD,current_interest_list_counts,Current Interest List Counts,"As of October 31, 2024",2119,interest-list-data-oct-2024.xlsx
+2024-10-01,DBMD,denied_declined_withdrawn,Denied/Declined/Withdrawn 4,,96,interest-list-data-oct-2024.xlsx
+2024-10-01,DBMD,enrolled,Enrolled 4,Released/Removed from Interest List 2,6,interest-list-data-oct-2024.xlsx
+2024-10-01,DBMD,not_categorized,Not Categorized,0,0,interest-list-data-oct-2024.xlsx
+2024-10-01,DBMD,pipeline,Pipeline,,286,interest-list-data-oct-2024.xlsx
+2024-10-01,DBMD,previous_biennium_counts,Previous Biennium Counts,"As of August 31, 2023",1714,interest-list-data-oct-2024.xlsx
+2024-10-01,DBMD,total_releases_this_biennium,Total Releases This Biennium 3,"Since September 1, 2023",388,interest-list-data-oct-2024.xlsx
+2024-10-01,HCS,added_this_biennium,Added This Biennium,New Requests,10321,interest-list-data-oct-2024.xlsx
+2024-10-01,HCS,current_interest_list_counts,Current Interest List Counts,"As of October 31, 2024",124178,interest-list-data-oct-2024.xlsx
+2024-10-01,HCS,denied_declined_withdrawn,Denied/Declined/Withdrawn 4,,832,interest-list-data-oct-2024.xlsx
+2024-10-01,HCS,enrolled,Enrolled 4,Released/Removed from Interest List 2,543,interest-list-data-oct-2024.xlsx
+2024-10-01,HCS,not_categorized,Not Categorized,0,83,interest-list-data-oct-2024.xlsx
+2024-10-01,HCS,pipeline,Pipeline,,1844,interest-list-data-oct-2024.xlsx
+2024-10-01,HCS,previous_biennium_counts,Previous Biennium Counts,"As of August 31, 2023",117221,interest-list-data-oct-2024.xlsx
+2024-10-01,HCS,total_releases_this_biennium,Total Releases This Biennium 3,"Since September 1, 2023",3134,interest-list-data-oct-2024.xlsx
+2024-10-01,MDCP,added_this_biennium,Added This Biennium,New Requests,4137,interest-list-data-oct-2024.xlsx
+2024-10-01,MDCP,current_interest_list_counts,Current Interest List Counts,"As of October 31, 2024",5932,interest-list-data-oct-2024.xlsx
+2024-10-01,MDCP,denied_declined_withdrawn,Denied/Declined/Withdrawn 4,,3579,interest-list-data-oct-2024.xlsx
+2024-10-01,MDCP,enrolled,Enrolled 4,Released/Removed from Interest List 2,555,interest-list-data-oct-2024.xlsx
+2024-10-01,MDCP,not_categorized,Not Categorized,0,4,interest-list-data-oct-2024.xlsx
+2024-10-01,MDCP,pipeline,Pipeline,,1122,interest-list-data-oct-2024.xlsx
+2024-10-01,MDCP,previous_biennium_counts,Previous Biennium Counts,"As of August 31, 2023",6901,interest-list-data-oct-2024.xlsx
+2024-10-01,MDCP,total_releases_this_biennium,Total Releases This Biennium 3,"Since September 1, 2023",5326,interest-list-data-oct-2024.xlsx
+2024-10-01,STAR_PLUS_HCBS,added_this_biennium,Added This Biennium,New Requests,30445,interest-list-data-oct-2024.xlsx
+2024-10-01,STAR_PLUS_HCBS,current_interest_list_counts,Current Interest List Counts,"As of October 31, 2024",5135,interest-list-data-oct-2024.xlsx
+2024-10-01,STAR_PLUS_HCBS,denied_declined_withdrawn,Denied/Declined/Withdrawn 4,,19292,interest-list-data-oct-2024.xlsx
+2024-10-01,STAR_PLUS_HCBS,enrolled,Enrolled 4,Released/Removed from Interest List 2,3489,interest-list-data-oct-2024.xlsx
+2024-10-01,STAR_PLUS_HCBS,not_categorized,Not Categorized,0,5,interest-list-data-oct-2024.xlsx
+2024-10-01,STAR_PLUS_HCBS,pipeline,Pipeline,,14862,interest-list-data-oct-2024.xlsx
+2024-10-01,STAR_PLUS_HCBS,previous_biennium_counts,Previous Biennium Counts,"As of August 31, 2023",6339,interest-list-data-oct-2024.xlsx
+2024-10-01,STAR_PLUS_HCBS,total_releases_this_biennium,Total Releases This Biennium 3,"Since September 1, 2023",36538,interest-list-data-oct-2024.xlsx
+2024-10-01,TXHML,added_this_biennium,Added This Biennium,New Requests,9908,interest-list-data-oct-2024.xlsx
+2024-10-01,TXHML,current_interest_list_counts,Current Interest List Counts,"As of October 31, 2024",111939,interest-list-data-oct-2024.xlsx
+2024-10-01,TXHML,denied_declined_withdrawn,Denied/Declined/Withdrawn 4,,2334,interest-list-data-oct-2024.xlsx
+2024-10-01,TXHML,enrolled,Enrolled 4,Released/Removed from Interest List 2,336,interest-list-data-oct-2024.xlsx
+2024-10-01,TXHML,not_categorized,Not Categorized,0,175,interest-list-data-oct-2024.xlsx
+2024-10-01,TXHML,pipeline,Pipeline,,1964,interest-list-data-oct-2024.xlsx
+2024-10-01,TXHML,previous_biennium_counts,Previous Biennium Counts,"As of August 31, 2023",106148,interest-list-data-oct-2024.xlsx
+2024-10-01,TXHML,total_releases_this_biennium,Total Releases This Biennium 3,"Since September 1, 2023",4633,interest-list-data-oct-2024.xlsx
+2024-11-01,ALL_PROGRAMS,added_this_biennium,Added This Biennium,New Requests,67916,interest-list-data-nov-2024.xlsx
+2024-11-01,ALL_PROGRAMS,current_interest_list_counts,Current Interest List Counts,"As of November 30, 2024",337921,interest-list-data-nov-2024.xlsx
+2024-11-01,ALL_PROGRAMS,denied_declined_withdrawn,Denied/Declined/Withdrawn 4,,27651,interest-list-data-nov-2024.xlsx
+2024-11-01,ALL_PROGRAMS,enrolled,Enrolled 4,Released/Removed from Interest List 2,5544,interest-list-data-nov-2024.xlsx
+2024-11-01,ALL_PROGRAMS,not_categorized,Not Categorized,0,292,interest-list-data-nov-2024.xlsx
+2024-11-01,ALL_PROGRAMS,pipeline,Pipeline,,26741,interest-list-data-nov-2024.xlsx
+2024-11-01,ALL_PROGRAMS,previous_biennium_counts,Previous Biennium Counts,"As of August 31, 2023",320812,interest-list-data-nov-2024.xlsx
+2024-11-01,ALL_PROGRAMS,total_releases_this_biennium,Total Releases This Biennium 3,"Since September 1, 2023",58308,interest-list-data-nov-2024.xlsx
+2024-11-01,CLASS,added_this_biennium,Added This Biennium,New Requests,8419,interest-list-data-nov-2024.xlsx
+2024-11-01,CLASS,current_interest_list_counts,Current Interest List Counts,"As of November 30, 2024",91575,interest-list-data-nov-2024.xlsx
+2024-11-01,CLASS,denied_declined_withdrawn,Denied/Declined/Withdrawn 4,,464,interest-list-data-nov-2024.xlsx
+2024-11-01,CLASS,enrolled,Enrolled 4,Released/Removed from Interest List 2,190,interest-list-data-nov-2024.xlsx
+2024-11-01,CLASS,not_categorized,Not Categorized,0,1,interest-list-data-nov-2024.xlsx
+2024-11-01,CLASS,pipeline,Pipeline,,1523,interest-list-data-nov-2024.xlsx
+2024-11-01,CLASS,previous_biennium_counts,Previous Biennium Counts,"As of August 31, 2023",82640,interest-list-data-nov-2024.xlsx
+2024-11-01,CLASS,total_releases_this_biennium,Total Releases This Biennium 3,"Since September 1, 2023",2197,interest-list-data-nov-2024.xlsx
+2024-11-01,DBMD,added_this_biennium,Added This Biennium,New Requests,782,interest-list-data-nov-2024.xlsx
+2024-11-01,DBMD,current_interest_list_counts,Current Interest List Counts,"As of November 30, 2024",2084,interest-list-data-nov-2024.xlsx
+2024-11-01,DBMD,denied_declined_withdrawn,Denied/Declined/Withdrawn 4,,99,interest-list-data-nov-2024.xlsx
+2024-11-01,DBMD,enrolled,Enrolled 4,Released/Removed from Interest List 2,8,interest-list-data-nov-2024.xlsx
+2024-11-01,DBMD,not_categorized,Not Categorized,0,0,interest-list-data-nov-2024.xlsx
+2024-11-01,DBMD,pipeline,Pipeline,,365,interest-list-data-nov-2024.xlsx
+2024-11-01,DBMD,previous_biennium_counts,Previous Biennium Counts,"As of August 31, 2023",1714,interest-list-data-nov-2024.xlsx
+2024-11-01,DBMD,total_releases_this_biennium,Total Releases This Biennium 3,"Since September 1, 2023",472,interest-list-data-nov-2024.xlsx
+2024-11-01,HCS,added_this_biennium,Added This Biennium,New Requests,11085,interest-list-data-nov-2024.xlsx
+2024-11-01,HCS,current_interest_list_counts,Current Interest List Counts,"As of November 30, 2024",124053,interest-list-data-nov-2024.xlsx
+2024-11-01,HCS,denied_declined_withdrawn,Denied/Declined/Withdrawn 4,,1025,interest-list-data-nov-2024.xlsx
+2024-11-01,HCS,enrolled,Enrolled 4,Released/Removed from Interest List 2,610,interest-list-data-nov-2024.xlsx
+2024-11-01,HCS,not_categorized,Not Categorized,0,93,interest-list-data-nov-2024.xlsx
+2024-11-01,HCS,pipeline,Pipeline,,2282,interest-list-data-nov-2024.xlsx
+2024-11-01,HCS,previous_biennium_counts,Previous Biennium Counts,"As of August 31, 2023",117146,interest-list-data-nov-2024.xlsx
+2024-11-01,HCS,total_releases_this_biennium,Total Releases This Biennium 3,"Since September 1, 2023",3832,interest-list-data-nov-2024.xlsx
+2024-11-01,MDCP,added_this_biennium,Added This Biennium,New Requests,4489,interest-list-data-nov-2024.xlsx
+2024-11-01,MDCP,current_interest_list_counts,Current Interest List Counts,"As of November 30, 2024",5900,interest-list-data-nov-2024.xlsx
+2024-11-01,MDCP,denied_declined_withdrawn,Denied/Declined/Withdrawn 4,,3823,interest-list-data-nov-2024.xlsx
+2024-11-01,MDCP,enrolled,Enrolled 4,Released/Removed from Interest List 2,619,interest-list-data-nov-2024.xlsx
+2024-11-01,MDCP,not_categorized,Not Categorized,0,4,interest-list-data-nov-2024.xlsx
+2024-11-01,MDCP,pipeline,Pipeline,,1186,interest-list-data-nov-2024.xlsx
+2024-11-01,MDCP,previous_biennium_counts,Previous Biennium Counts,"As of August 31, 2023",6901,interest-list-data-nov-2024.xlsx
+2024-11-01,MDCP,total_releases_this_biennium,Total Releases This Biennium 3,"Since September 1, 2023",5698,interest-list-data-nov-2024.xlsx
+2024-11-01,STAR_PLUS_HCBS,added_this_biennium,Added This Biennium,New Requests,32510,interest-list-data-nov-2024.xlsx
+2024-11-01,STAR_PLUS_HCBS,current_interest_list_counts,Current Interest List Counts,"As of November 30, 2024",2246,interest-list-data-nov-2024.xlsx
+2024-11-01,STAR_PLUS_HCBS,denied_declined_withdrawn,Denied/Declined/Withdrawn 4,,19674,interest-list-data-nov-2024.xlsx
+2024-11-01,STAR_PLUS_HCBS,enrolled,Enrolled 4,Released/Removed from Interest List 2,3722,interest-list-data-nov-2024.xlsx
+2024-11-01,STAR_PLUS_HCBS,not_categorized,Not Categorized,0,10,interest-list-data-nov-2024.xlsx
+2024-11-01,STAR_PLUS_HCBS,pipeline,Pipeline,,19266,interest-list-data-nov-2024.xlsx
+2024-11-01,STAR_PLUS_HCBS,previous_biennium_counts,Previous Biennium Counts,"As of August 31, 2023",6339,interest-list-data-nov-2024.xlsx
+2024-11-01,STAR_PLUS_HCBS,total_releases_this_biennium,Total Releases This Biennium 3,"Since September 1, 2023",41020,interest-list-data-nov-2024.xlsx
+2024-11-01,TXHML,added_this_biennium,Added This Biennium,New Requests,10631,interest-list-data-nov-2024.xlsx
+2024-11-01,TXHML,current_interest_list_counts,Current Interest List Counts,"As of November 30, 2024",112063,interest-list-data-nov-2024.xlsx
+2024-11-01,TXHML,denied_declined_withdrawn,Denied/Declined/Withdrawn 4,,2566,interest-list-data-nov-2024.xlsx
+2024-11-01,TXHML,enrolled,Enrolled 4,Released/Removed from Interest List 2,395,interest-list-data-nov-2024.xlsx
+2024-11-01,TXHML,not_categorized,Not Categorized,0,184,interest-list-data-nov-2024.xlsx
+2024-11-01,TXHML,pipeline,Pipeline,,2119,interest-list-data-nov-2024.xlsx
+2024-11-01,TXHML,previous_biennium_counts,Previous Biennium Counts,"As of August 31, 2023",106072,interest-list-data-nov-2024.xlsx
+2024-11-01,TXHML,total_releases_this_biennium,Total Releases This Biennium 3,"Since September 1, 2023",5089,interest-list-data-nov-2024.xlsx
+2024-12-01,ALL_PROGRAMS,added_this_biennium,Added This Biennium,New Requests,71774,interest-list-data-dec-2024.xlsx
+2024-12-01,ALL_PROGRAMS,current_interest_list_counts,Current Interest List Counts,"As of December 31, 2024",338753,interest-list-data-dec-2024.xlsx
+2024-12-01,ALL_PROGRAMS,denied_declined_withdrawn,Denied/Declined/Withdrawn 4,,29971,interest-list-data-dec-2024.xlsx
+2024-12-01,ALL_PROGRAMS,enrolled,Enrolled 4,Released/Removed from Interest List 2,6004,interest-list-data-dec-2024.xlsx
+2024-12-01,ALL_PROGRAMS,not_categorized,Not Categorized,0,309,interest-list-data-dec-2024.xlsx
+2024-12-01,ALL_PROGRAMS,pipeline,Pipeline,,26680,interest-list-data-dec-2024.xlsx
+2024-12-01,ALL_PROGRAMS,previous_biennium_counts,Previous Biennium Counts,"As of August 31, 2023",320934,interest-list-data-dec-2024.xlsx
+2024-12-01,ALL_PROGRAMS,total_releases_this_biennium,Total Releases This Biennium 3,"Since September 1, 2023",62040,interest-list-data-dec-2024.xlsx
+2024-12-01,CLASS,added_this_biennium,Added This Biennium,New Requests,8879,interest-list-data-dec-2024.xlsx
+2024-12-01,CLASS,current_interest_list_counts,Current Interest List Counts,"As of December 31, 2024",91881,interest-list-data-dec-2024.xlsx
+2024-12-01,CLASS,denied_declined_withdrawn,Denied/Declined/Withdrawn 4,,473,interest-list-data-dec-2024.xlsx
+2024-12-01,CLASS,enrolled,Enrolled 4,Released/Removed from Interest List 2,222,interest-list-data-dec-2024.xlsx
+2024-12-01,CLASS,not_categorized,Not Categorized,0,1,interest-list-data-dec-2024.xlsx
+2024-12-01,CLASS,pipeline,Pipeline,,1617,interest-list-data-dec-2024.xlsx
+2024-12-01,CLASS,previous_biennium_counts,Previous Biennium Counts,"As of August 31, 2023",82640,interest-list-data-dec-2024.xlsx
+2024-12-01,CLASS,total_releases_this_biennium,Total Releases This Biennium 3,"Since September 1, 2023",2332,interest-list-data-dec-2024.xlsx
+2024-12-01,DBMD,added_this_biennium,Added This Biennium,New Requests,822,interest-list-data-dec-2024.xlsx
+2024-12-01,DBMD,current_interest_list_counts,Current Interest List Counts,"As of December 31, 2024",2040,interest-list-data-dec-2024.xlsx
+2024-12-01,DBMD,denied_declined_withdrawn,Denied/Declined/Withdrawn 4,,104,interest-list-data-dec-2024.xlsx
+2024-12-01,DBMD,enrolled,Enrolled 4,Released/Removed from Interest List 2,10,interest-list-data-dec-2024.xlsx
+2024-12-01,DBMD,not_categorized,Not Categorized,0,0,interest-list-data-dec-2024.xlsx
+2024-12-01,DBMD,pipeline,Pipeline,,440,interest-list-data-dec-2024.xlsx
+2024-12-01,DBMD,previous_biennium_counts,Previous Biennium Counts,"As of August 31, 2023",1714,interest-list-data-dec-2024.xlsx
+2024-12-01,DBMD,total_releases_this_biennium,Total Releases This Biennium 3,"Since September 1, 2023",554,interest-list-data-dec-2024.xlsx
+2024-12-01,HCS,added_this_biennium,Added This Biennium,New Requests,11722,interest-list-data-dec-2024.xlsx
+2024-12-01,HCS,current_interest_list_counts,Current Interest List Counts,"As of December 31, 2024",123954,interest-list-data-dec-2024.xlsx
+2024-12-01,HCS,denied_declined_withdrawn,Denied/Declined/Withdrawn 4,,1219,interest-list-data-dec-2024.xlsx
+2024-12-01,HCS,enrolled,Enrolled 4,Released/Removed from Interest List 2,704,interest-list-data-dec-2024.xlsx
+2024-12-01,HCS,not_categorized,Not Categorized,0,97,interest-list-data-dec-2024.xlsx
+2024-12-01,HCS,pipeline,Pipeline,,2688,interest-list-data-dec-2024.xlsx
+2024-12-01,HCS,previous_biennium_counts,Previous Biennium Counts,"As of August 31, 2023",117206,interest-list-data-dec-2024.xlsx
+2024-12-01,HCS,total_releases_this_biennium,Total Releases This Biennium 3,"Since September 1, 2023",4530,interest-list-data-dec-2024.xlsx
+2024-12-01,MDCP,added_this_biennium,Added This Biennium,New Requests,4756,interest-list-data-dec-2024.xlsx
+2024-12-01,MDCP,current_interest_list_counts,Current Interest List Counts,"As of December 31, 2024",5778,interest-list-data-dec-2024.xlsx
+2024-12-01,MDCP,denied_declined_withdrawn,Denied/Declined/Withdrawn 4,,4117,interest-list-data-dec-2024.xlsx
+2024-12-01,MDCP,enrolled,Enrolled 4,Released/Removed from Interest List 2,684,interest-list-data-dec-2024.xlsx
+2024-12-01,MDCP,not_categorized,Not Categorized,0,4,interest-list-data-dec-2024.xlsx
+2024-12-01,MDCP,pipeline,Pipeline,,1188,interest-list-data-dec-2024.xlsx
+2024-12-01,MDCP,previous_biennium_counts,Previous Biennium Counts,"As of August 31, 2023",6901,interest-list-data-dec-2024.xlsx
+2024-12-01,MDCP,total_releases_this_biennium,Total Releases This Biennium 3,"Since September 1, 2023",6060,interest-list-data-dec-2024.xlsx
+2024-12-01,STAR_PLUS_HCBS,added_this_biennium,Added This Biennium,New Requests,34365,interest-list-data-dec-2024.xlsx
+2024-12-01,STAR_PLUS_HCBS,current_interest_list_counts,Current Interest List Counts,"As of December 31, 2024",2881,interest-list-data-dec-2024.xlsx
+2024-12-01,STAR_PLUS_HCBS,denied_declined_withdrawn,Denied/Declined/Withdrawn 4,,21377,interest-list-data-dec-2024.xlsx
+2024-12-01,STAR_PLUS_HCBS,enrolled,Enrolled 4,Released/Removed from Interest List 2,3925,interest-list-data-dec-2024.xlsx
+2024-12-01,STAR_PLUS_HCBS,not_categorized,Not Categorized,0,10,interest-list-data-dec-2024.xlsx
+2024-12-01,STAR_PLUS_HCBS,pipeline,Pipeline,,18465,interest-list-data-dec-2024.xlsx
+2024-12-01,STAR_PLUS_HCBS,previous_biennium_counts,Previous Biennium Counts,"As of August 31, 2023",6339,interest-list-data-dec-2024.xlsx
+2024-12-01,STAR_PLUS_HCBS,total_releases_this_biennium,Total Releases This Biennium 3,"Since September 1, 2023",43019,interest-list-data-dec-2024.xlsx
+2024-12-01,TXHML,added_this_biennium,Added This Biennium,New Requests,11230,interest-list-data-dec-2024.xlsx
+2024-12-01,TXHML,current_interest_list_counts,Current Interest List Counts,"As of December 31, 2024",112219,interest-list-data-dec-2024.xlsx
+2024-12-01,TXHML,denied_declined_withdrawn,Denied/Declined/Withdrawn 4,,2681,interest-list-data-dec-2024.xlsx
+2024-12-01,TXHML,enrolled,Enrolled 4,Released/Removed from Interest List 2,459,interest-list-data-dec-2024.xlsx
+2024-12-01,TXHML,not_categorized,Not Categorized,0,197,interest-list-data-dec-2024.xlsx
+2024-12-01,TXHML,pipeline,Pipeline,,2282,interest-list-data-dec-2024.xlsx
+2024-12-01,TXHML,previous_biennium_counts,Previous Biennium Counts,"As of August 31, 2023",106134,interest-list-data-dec-2024.xlsx
+2024-12-01,TXHML,total_releases_this_biennium,Total Releases This Biennium 3,"Since September 1, 2023",5545,interest-list-data-dec-2024.xlsx
+2025-01-01,ALL_PROGRAMS,added_this_biennium,Added This Biennium,New Requests,76399,interest-list-data-jan-2025.xlsx
+2025-01-01,ALL_PROGRAMS,current_interest_list_counts,Current Interest List Counts,"As of January 31, 2025",339728,interest-list-data-jan-2025.xlsx
+2025-01-01,ALL_PROGRAMS,denied_declined_withdrawn,Denied/Declined/Withdrawn 4,,31658,interest-list-data-jan-2025.xlsx
+2025-01-01,ALL_PROGRAMS,enrolled,Enrolled 4,Released/Removed from Interest List 2,6583,interest-list-data-jan-2025.xlsx
+2025-01-01,ALL_PROGRAMS,not_categorized,Not Categorized,0,351,interest-list-data-jan-2025.xlsx
+2025-01-01,ALL_PROGRAMS,pipeline,Pipeline,,28030,interest-list-data-jan-2025.xlsx
+2025-01-01,ALL_PROGRAMS,previous_biennium_counts,Previous Biennium Counts,"As of August 31, 2023",320935,interest-list-data-jan-2025.xlsx
+2025-01-01,ALL_PROGRAMS,total_releases_this_biennium,Total Releases This Biennium 3,"Since September 1, 2023",64625,interest-list-data-jan-2025.xlsx
+2025-01-01,CLASS,added_this_biennium,Added This Biennium,New Requests,9543,interest-list-data-jan-2025.xlsx
+2025-01-01,CLASS,current_interest_list_counts,Current Interest List Counts,"As of January 31, 2025",92311,interest-list-data-jan-2025.xlsx
+2025-01-01,CLASS,denied_declined_withdrawn,Denied/Declined/Withdrawn 4,,562,interest-list-data-jan-2025.xlsx
+2025-01-01,CLASS,enrolled,Enrolled 4,Released/Removed from Interest List 2,247,interest-list-data-jan-2025.xlsx
+2025-01-01,CLASS,not_categorized,Not Categorized,0,1,interest-list-data-jan-2025.xlsx
+2025-01-01,CLASS,pipeline,Pipeline,,1707,interest-list-data-jan-2025.xlsx
+2025-01-01,CLASS,previous_biennium_counts,Previous Biennium Counts,"As of August 31, 2023",82641,interest-list-data-jan-2025.xlsx
+2025-01-01,CLASS,total_releases_this_biennium,Total Releases This Biennium 3,"Since September 1, 2023",2536,interest-list-data-jan-2025.xlsx
+2025-01-01,DBMD,added_this_biennium,Added This Biennium,New Requests,897,interest-list-data-jan-2025.xlsx
+2025-01-01,DBMD,current_interest_list_counts,Current Interest List Counts,"As of January 31, 2025",2029,interest-list-data-jan-2025.xlsx
+2025-01-01,DBMD,denied_declined_withdrawn,Denied/Declined/Withdrawn 4,,134,interest-list-data-jan-2025.xlsx
+2025-01-01,DBMD,enrolled,Enrolled 4,Released/Removed from Interest List 2,12,interest-list-data-jan-2025.xlsx
+2025-01-01,DBMD,not_categorized,Not Categorized,0,0,interest-list-data-jan-2025.xlsx
+2025-01-01,DBMD,pipeline,Pipeline,,493,interest-list-data-jan-2025.xlsx
+2025-01-01,DBMD,previous_biennium_counts,Previous Biennium Counts,"As of August 31, 2023",1714,interest-list-data-jan-2025.xlsx
+2025-01-01,DBMD,total_releases_this_biennium,Total Releases This Biennium 3,"Since September 1, 2023",639,interest-list-data-jan-2025.xlsx
+2025-01-01,HCS,added_this_biennium,Added This Biennium,New Requests,12437,interest-list-data-jan-2025.xlsx
+2025-01-01,HCS,current_interest_list_counts,Current Interest List Counts,"As of January 31, 2025",124303,interest-list-data-jan-2025.xlsx
+2025-01-01,HCS,denied_declined_withdrawn,Denied/Declined/Withdrawn 4,,1447,interest-list-data-jan-2025.xlsx
+2025-01-01,HCS,enrolled,Enrolled 4,Released/Removed from Interest List 2,833,interest-list-data-jan-2025.xlsx
+2025-01-01,HCS,not_categorized,Not Categorized,0,118,interest-list-data-jan-2025.xlsx
+2025-01-01,HCS,pipeline,Pipeline,,2552,interest-list-data-jan-2025.xlsx
+2025-01-01,HCS,previous_biennium_counts,Previous Biennium Counts,"As of August 31, 2023",117206,interest-list-data-jan-2025.xlsx
+2025-01-01,HCS,total_releases_this_biennium,Total Releases This Biennium 3,"Since September 1, 2023",4772,interest-list-data-jan-2025.xlsx
+2025-01-01,MDCP,added_this_biennium,Added This Biennium,New Requests,5101,interest-list-data-jan-2025.xlsx
+2025-01-01,MDCP,current_interest_list_counts,Current Interest List Counts,"As of January 31, 2025",6048,interest-list-data-jan-2025.xlsx
+2025-01-01,MDCP,denied_declined_withdrawn,Denied/Declined/Withdrawn 4,,4375,interest-list-data-jan-2025.xlsx
+2025-01-01,MDCP,enrolled,Enrolled 4,Released/Removed from Interest List 2,778,interest-list-data-jan-2025.xlsx
+2025-01-01,MDCP,not_categorized,Not Categorized,0,6,interest-list-data-jan-2025.xlsx
+2025-01-01,MDCP,pipeline,Pipeline,,883,interest-list-data-jan-2025.xlsx
+2025-01-01,MDCP,previous_biennium_counts,Previous Biennium Counts,"As of August 31, 2023",6901,interest-list-data-jan-2025.xlsx
+2025-01-01,MDCP,total_releases_this_biennium,Total Releases This Biennium 3,"Since September 1, 2023",6108,interest-list-data-jan-2025.xlsx
+2025-01-01,STAR_PLUS_HCBS,added_this_biennium,Added This Biennium,New Requests,36538,interest-list-data-jan-2025.xlsx
+2025-01-01,STAR_PLUS_HCBS,current_interest_list_counts,Current Interest List Counts,"As of January 31, 2025",2456,interest-list-data-jan-2025.xlsx
+2025-01-01,STAR_PLUS_HCBS,denied_declined_withdrawn,Denied/Declined/Withdrawn 4,,22072,interest-list-data-jan-2025.xlsx
+2025-01-01,STAR_PLUS_HCBS,enrolled,Enrolled 4,Released/Removed from Interest List 2,4209,interest-list-data-jan-2025.xlsx
+2025-01-01,STAR_PLUS_HCBS,not_categorized,Not Categorized,0,10,interest-list-data-jan-2025.xlsx
+2025-01-01,STAR_PLUS_HCBS,pipeline,Pipeline,,20210,interest-list-data-jan-2025.xlsx
+2025-01-01,STAR_PLUS_HCBS,previous_biennium_counts,Previous Biennium Counts,"As of August 31, 2023",6339,interest-list-data-jan-2025.xlsx
+2025-01-01,STAR_PLUS_HCBS,total_releases_this_biennium,Total Releases This Biennium 3,"Since September 1, 2023",44775,interest-list-data-jan-2025.xlsx
+2025-01-01,TXHML,added_this_biennium,Added This Biennium,New Requests,11883,interest-list-data-jan-2025.xlsx
+2025-01-01,TXHML,current_interest_list_counts,Current Interest List Counts,"As of January 31, 2025",112581,interest-list-data-jan-2025.xlsx
+2025-01-01,TXHML,denied_declined_withdrawn,Denied/Declined/Withdrawn 4,,3068,interest-list-data-jan-2025.xlsx
+2025-01-01,TXHML,enrolled,Enrolled 4,Released/Removed from Interest List 2,504,interest-list-data-jan-2025.xlsx
+2025-01-01,TXHML,not_categorized,Not Categorized,0,216,interest-list-data-jan-2025.xlsx
+2025-01-01,TXHML,pipeline,Pipeline,,2185,interest-list-data-jan-2025.xlsx
+2025-01-01,TXHML,previous_biennium_counts,Previous Biennium Counts,"As of August 31, 2023",106134,interest-list-data-jan-2025.xlsx
+2025-01-01,TXHML,total_releases_this_biennium,Total Releases This Biennium 3,"Since September 1, 2023",5795,interest-list-data-jan-2025.xlsx
+2025-02-01,ALL_PROGRAMS,added_this_biennium,Added This Biennium,New Requests,80732,interest-list-data-feb-2025.xlsx
+2025-02-01,ALL_PROGRAMS,current_interest_list_counts,Current Interest List Counts,"As of February 28, 2025",341031,interest-list-data-feb-2025.xlsx
+2025-02-01,ALL_PROGRAMS,denied_declined_withdrawn,Denied/Declined/Withdrawn 4,,35369,interest-list-data-feb-2025.xlsx
+2025-02-01,ALL_PROGRAMS,enrolled,Enrolled 4,Released/Removed from Interest List 2,7145,interest-list-data-feb-2025.xlsx
+2025-02-01,ALL_PROGRAMS,not_categorized,Not Categorized,0,346,interest-list-data-feb-2025.xlsx
+2025-02-01,ALL_PROGRAMS,pipeline,Pipeline,,26641,interest-list-data-feb-2025.xlsx
+2025-02-01,ALL_PROGRAMS,previous_biennium_counts,Previous Biennium Counts,"As of August 31, 2023",320934,interest-list-data-feb-2025.xlsx
+2025-02-01,ALL_PROGRAMS,total_releases_this_biennium,Total Releases This Biennium 3,"Since September 1, 2023",67536,interest-list-data-feb-2025.xlsx
+2025-02-01,CLASS,added_this_biennium,Added This Biennium,New Requests,10160,interest-list-data-feb-2025.xlsx
+2025-02-01,CLASS,current_interest_list_counts,Current Interest List Counts,"As of February 28, 2025",92713,interest-list-data-feb-2025.xlsx
+2025-02-01,CLASS,denied_declined_withdrawn,Denied/Declined/Withdrawn 4,,642,interest-list-data-feb-2025.xlsx
+2025-02-01,CLASS,enrolled,Enrolled 4,Released/Removed from Interest List 2,268,interest-list-data-feb-2025.xlsx
+2025-02-01,CLASS,not_categorized,Not Categorized,0,1,interest-list-data-feb-2025.xlsx
+2025-02-01,CLASS,pipeline,Pipeline,,1809,interest-list-data-feb-2025.xlsx
+2025-02-01,CLASS,previous_biennium_counts,Previous Biennium Counts,"As of August 31, 2023",82640,interest-list-data-feb-2025.xlsx
+2025-02-01,CLASS,total_releases_this_biennium,Total Releases This Biennium 3,"Since September 1, 2023",2739,interest-list-data-feb-2025.xlsx
+2025-02-01,DBMD,added_this_biennium,Added This Biennium,New Requests,972,interest-list-data-feb-2025.xlsx
+2025-02-01,DBMD,current_interest_list_counts,Current Interest List Counts,"As of February 28, 2025",2019,interest-list-data-feb-2025.xlsx
+2025-02-01,DBMD,denied_declined_withdrawn,Denied/Declined/Withdrawn 4,,149,interest-list-data-feb-2025.xlsx
+2025-02-01,DBMD,enrolled,Enrolled 4,Released/Removed from Interest List 2,14,interest-list-data-feb-2025.xlsx
+2025-02-01,DBMD,not_categorized,Not Categorized,0,0,interest-list-data-feb-2025.xlsx
+2025-02-01,DBMD,pipeline,Pipeline,,561,interest-list-data-feb-2025.xlsx
+2025-02-01,DBMD,previous_biennium_counts,Previous Biennium Counts,"As of August 31, 2023",1714,interest-list-data-feb-2025.xlsx
+2025-02-01,DBMD,total_releases_this_biennium,Total Releases This Biennium 3,"Since September 1, 2023",724,interest-list-data-feb-2025.xlsx
+2025-02-01,HCS,added_this_biennium,Added This Biennium,New Requests,13092,interest-list-data-feb-2025.xlsx
+2025-02-01,HCS,current_interest_list_counts,Current Interest List Counts,"As of February 28, 2025",124617,interest-list-data-feb-2025.xlsx
+2025-02-01,HCS,denied_declined_withdrawn,Denied/Declined/Withdrawn 4,,1784,interest-list-data-feb-2025.xlsx
+2025-02-01,HCS,enrolled,Enrolled 4,Released/Removed from Interest List 2,972,interest-list-data-feb-2025.xlsx
+2025-02-01,HCS,not_categorized,Not Categorized,0,135,interest-list-data-feb-2025.xlsx
+2025-02-01,HCS,pipeline,Pipeline,,2335,interest-list-data-feb-2025.xlsx
+2025-02-01,HCS,previous_biennium_counts,Previous Biennium Counts,"As of August 31, 2023",117206,interest-list-data-feb-2025.xlsx
+2025-02-01,HCS,total_releases_this_biennium,Total Releases This Biennium 3,"Since September 1, 2023",5013,interest-list-data-feb-2025.xlsx
+2025-02-01,MDCP,added_this_biennium,Added This Biennium,New Requests,5425,interest-list-data-feb-2025.xlsx
+2025-02-01,MDCP,current_interest_list_counts,Current Interest List Counts,"As of February 28, 2025",6252,interest-list-data-feb-2025.xlsx
+2025-02-01,MDCP,denied_declined_withdrawn,Denied/Declined/Withdrawn 4,,4591,interest-list-data-feb-2025.xlsx
+2025-02-01,MDCP,enrolled,Enrolled 4,Released/Removed from Interest List 2,834,interest-list-data-feb-2025.xlsx
+2025-02-01,MDCP,not_categorized,Not Categorized,0,11,interest-list-data-feb-2025.xlsx
+2025-02-01,MDCP,pipeline,Pipeline,,664,interest-list-data-feb-2025.xlsx
+2025-02-01,MDCP,previous_biennium_counts,Previous Biennium Counts,"As of August 31, 2023",6901,interest-list-data-feb-2025.xlsx
+2025-02-01,MDCP,total_releases_this_biennium,Total Releases This Biennium 3,"Since September 1, 2023",6167,interest-list-data-feb-2025.xlsx
+2025-02-01,STAR_PLUS_HCBS,added_this_biennium,Added This Biennium,New Requests,38600,interest-list-data-feb-2025.xlsx
+2025-02-01,STAR_PLUS_HCBS,current_interest_list_counts,Current Interest List Counts,"As of February 28, 2025",2507,interest-list-data-feb-2025.xlsx
+2025-02-01,STAR_PLUS_HCBS,denied_declined_withdrawn,Denied/Declined/Withdrawn 4,,24789,interest-list-data-feb-2025.xlsx
+2025-02-01,STAR_PLUS_HCBS,enrolled,Enrolled 4,Released/Removed from Interest List 2,4476,interest-list-data-feb-2025.xlsx
+2025-02-01,STAR_PLUS_HCBS,not_categorized,Not Categorized,0,11,interest-list-data-feb-2025.xlsx
+2025-02-01,STAR_PLUS_HCBS,pipeline,Pipeline,,19283,interest-list-data-feb-2025.xlsx
+2025-02-01,STAR_PLUS_HCBS,previous_biennium_counts,Previous Biennium Counts,"As of August 31, 2023",6339,interest-list-data-feb-2025.xlsx
+2025-02-01,STAR_PLUS_HCBS,total_releases_this_biennium,Total Releases This Biennium 3,"Since September 1, 2023",46848,interest-list-data-feb-2025.xlsx
+2025-02-01,TXHML,added_this_biennium,Added This Biennium,New Requests,12483,interest-list-data-feb-2025.xlsx
+2025-02-01,TXHML,current_interest_list_counts,Current Interest List Counts,"As of February 28, 2025",112923,interest-list-data-feb-2025.xlsx
+2025-02-01,TXHML,denied_declined_withdrawn,Denied/Declined/Withdrawn 4,,3414,interest-list-data-feb-2025.xlsx
+2025-02-01,TXHML,enrolled,Enrolled 4,Released/Removed from Interest List 2,581,interest-list-data-feb-2025.xlsx
+2025-02-01,TXHML,not_categorized,Not Categorized,0,188,interest-list-data-feb-2025.xlsx
+2025-02-01,TXHML,pipeline,Pipeline,,1989,interest-list-data-feb-2025.xlsx
+2025-02-01,TXHML,previous_biennium_counts,Previous Biennium Counts,"As of August 31, 2023",106134,interest-list-data-feb-2025.xlsx
+2025-02-01,TXHML,total_releases_this_biennium,Total Releases This Biennium 3,"Since September 1, 2023",6045,interest-list-data-feb-2025.xlsx
+2025-03-01,ALL_PROGRAMS,added_this_biennium,Added This Biennium,New Requests,85148,interest-list-data-march-2025.xlsx
+2025-03-01,ALL_PROGRAMS,current_interest_list_counts,Current Interest List Counts,"As of March 31, 2025",342513,interest-list-data-march-2025.xlsx
+2025-03-01,ALL_PROGRAMS,denied_declined_withdrawn,Denied/Declined/Withdrawn 4,,38659,interest-list-data-march-2025.xlsx
+2025-03-01,ALL_PROGRAMS,enrolled,Enrolled 4,Released/Removed from Interest List 2,7850,interest-list-data-march-2025.xlsx
+2025-03-01,ALL_PROGRAMS,not_categorized,Not Categorized,0,417,interest-list-data-march-2025.xlsx
+2025-03-01,ALL_PROGRAMS,pipeline,Pipeline,,25578,interest-list-data-march-2025.xlsx
+2025-03-01,ALL_PROGRAMS,previous_biennium_counts,Previous Biennium Counts,"As of August 31, 2023",320934,interest-list-data-march-2025.xlsx
+2025-03-01,ALL_PROGRAMS,total_releases_this_biennium,Total Releases This Biennium 3,"Since September 1, 2023",70310,interest-list-data-march-2025.xlsx
+2025-03-01,CLASS,added_this_biennium,Added This Biennium,New Requests,10747,interest-list-data-march-2025.xlsx
+2025-03-01,CLASS,current_interest_list_counts,Current Interest List Counts,"As of March 31, 2025",93065,interest-list-data-march-2025.xlsx
+2025-03-01,CLASS,denied_declined_withdrawn,Denied/Declined/Withdrawn 4,,687,interest-list-data-march-2025.xlsx
+2025-03-01,CLASS,enrolled,Enrolled 4,Released/Removed from Interest List 2,294,interest-list-data-march-2025.xlsx
+2025-03-01,CLASS,not_categorized,Not Categorized,0,1,interest-list-data-march-2025.xlsx
+2025-03-01,CLASS,pipeline,Pipeline,,1943,interest-list-data-march-2025.xlsx
+2025-03-01,CLASS,previous_biennium_counts,Previous Biennium Counts,"As of August 31, 2023",82640,interest-list-data-march-2025.xlsx
+2025-03-01,CLASS,total_releases_this_biennium,Total Releases This Biennium 3,"Since September 1, 2023",2944,interest-list-data-march-2025.xlsx
+2025-03-01,DBMD,added_this_biennium,Added This Biennium,New Requests,1034,interest-list-data-march-2025.xlsx
+2025-03-01,DBMD,current_interest_list_counts,Current Interest List Counts,"As of March 31, 2025",2034,interest-list-data-march-2025.xlsx
+2025-03-01,DBMD,denied_declined_withdrawn,Denied/Declined/Withdrawn 4,,198,interest-list-data-march-2025.xlsx
+2025-03-01,DBMD,enrolled,Enrolled 4,Released/Removed from Interest List 2,24,interest-list-data-march-2025.xlsx
+2025-03-01,DBMD,not_categorized,Not Categorized,0,0,interest-list-data-march-2025.xlsx
+2025-03-01,DBMD,pipeline,Pipeline,,543,interest-list-data-march-2025.xlsx
+2025-03-01,DBMD,previous_biennium_counts,Previous Biennium Counts,"As of August 31, 2023",1714,interest-list-data-march-2025.xlsx
+2025-03-01,DBMD,total_releases_this_biennium,Total Releases This Biennium 3,"Since September 1, 2023",772,interest-list-data-march-2025.xlsx
+2025-03-01,HCS,added_this_biennium,Added This Biennium,New Requests,13749,interest-list-data-march-2025.xlsx
+2025-03-01,HCS,current_interest_list_counts,Current Interest List Counts,"As of March 31, 2025",124897,interest-list-data-march-2025.xlsx
+2025-03-01,HCS,denied_declined_withdrawn,Denied/Declined/Withdrawn 4,,2099,interest-list-data-march-2025.xlsx
+2025-03-01,HCS,enrolled,Enrolled 4,Released/Removed from Interest List 2,1150,interest-list-data-march-2025.xlsx
+2025-03-01,HCS,not_categorized,Not Categorized,0,146,interest-list-data-march-2025.xlsx
+2025-03-01,HCS,pipeline,Pipeline,,2037,interest-list-data-march-2025.xlsx
+2025-03-01,HCS,previous_biennium_counts,Previous Biennium Counts,"As of August 31, 2023",117206,interest-list-data-march-2025.xlsx
+2025-03-01,HCS,total_releases_this_biennium,Total Releases This Biennium 3,"Since September 1, 2023",5254,interest-list-data-march-2025.xlsx
+2025-03-01,MDCP,added_this_biennium,Added This Biennium,New Requests,5688,interest-list-data-march-2025.xlsx
+2025-03-01,MDCP,current_interest_list_counts,Current Interest List Counts,"As of March 31, 2025",6444,interest-list-data-march-2025.xlsx
+2025-03-01,MDCP,denied_declined_withdrawn,Denied/Declined/Withdrawn 4,,4690,interest-list-data-march-2025.xlsx
+2025-03-01,MDCP,enrolled,Enrolled 4,Released/Removed from Interest List 2,909,interest-list-data-march-2025.xlsx
+2025-03-01,MDCP,not_categorized,Not Categorized,0,11,interest-list-data-march-2025.xlsx
+2025-03-01,MDCP,pipeline,Pipeline,,554,interest-list-data-march-2025.xlsx
+2025-03-01,MDCP,previous_biennium_counts,Previous Biennium Counts,"As of August 31, 2023",6901,interest-list-data-march-2025.xlsx
+2025-03-01,MDCP,total_releases_this_biennium,Total Releases This Biennium 3,"Since September 1, 2023",6230,interest-list-data-march-2025.xlsx
+2025-03-01,STAR_PLUS_HCBS,added_this_biennium,Added This Biennium,New Requests,40833,interest-list-data-march-2025.xlsx
+2025-03-01,STAR_PLUS_HCBS,current_interest_list_counts,Current Interest List Counts,"As of March 31, 2025",2866,interest-list-data-march-2025.xlsx
+2025-03-01,STAR_PLUS_HCBS,denied_declined_withdrawn,Denied/Declined/Withdrawn 4,,27280,interest-list-data-march-2025.xlsx
+2025-03-01,STAR_PLUS_HCBS,enrolled,Enrolled 4,Released/Removed from Interest List 2,4846,interest-list-data-march-2025.xlsx
+2025-03-01,STAR_PLUS_HCBS,not_categorized,Not Categorized,0,12,interest-list-data-march-2025.xlsx
+2025-03-01,STAR_PLUS_HCBS,pipeline,Pipeline,,18606,interest-list-data-march-2025.xlsx
+2025-03-01,STAR_PLUS_HCBS,previous_biennium_counts,Previous Biennium Counts,"As of August 31, 2023",6339,interest-list-data-march-2025.xlsx
+2025-03-01,STAR_PLUS_HCBS,total_releases_this_biennium,Total Releases This Biennium 3,"Since September 1, 2023",48814,interest-list-data-march-2025.xlsx
+2025-03-01,TXHML,added_this_biennium,Added This Biennium,New Requests,13097,interest-list-data-march-2025.xlsx
+2025-03-01,TXHML,current_interest_list_counts,Current Interest List Counts,"As of March 31, 2025",113207,interest-list-data-march-2025.xlsx
+2025-03-01,TXHML,denied_declined_withdrawn,Denied/Declined/Withdrawn 4,,3705,interest-list-data-march-2025.xlsx
+2025-03-01,TXHML,enrolled,Enrolled 4,Released/Removed from Interest List 2,627,interest-list-data-march-2025.xlsx
+2025-03-01,TXHML,not_categorized,Not Categorized,0,247,interest-list-data-march-2025.xlsx
+2025-03-01,TXHML,pipeline,Pipeline,,1895,interest-list-data-march-2025.xlsx
+2025-03-01,TXHML,previous_biennium_counts,Previous Biennium Counts,"As of August 31, 2023",106134,interest-list-data-march-2025.xlsx
+2025-03-01,TXHML,total_releases_this_biennium,Total Releases This Biennium 3,"Since September 1, 2023",6296,interest-list-data-march-2025.xlsx
+2025-04-01,ALL_PROGRAMS,added_this_biennium,Added This Biennium,New Requests,90145,interest-list-data-april-2025.xlsx
+2025-04-01,ALL_PROGRAMS,current_interest_list_counts,Current Interest List Counts,"As of April 30, 2025",348012,interest-list-data-april-2025.xlsx
+2025-04-01,ALL_PROGRAMS,denied_declined_withdrawn,Denied/Declined/Withdrawn 4,,43395,interest-list-data-april-2025.xlsx
+2025-04-01,ALL_PROGRAMS,enrolled,Enrolled 4,Released/Removed from Interest List 2,8701,interest-list-data-april-2025.xlsx
+2025-04-01,ALL_PROGRAMS,not_categorized,Not Categorized,0,434,interest-list-data-april-2025.xlsx
+2025-04-01,ALL_PROGRAMS,pipeline,Pipeline,,19240,interest-list-data-april-2025.xlsx
+2025-04-01,ALL_PROGRAMS,previous_biennium_counts,Previous Biennium Counts,"As of August 31, 2023",320934,interest-list-data-april-2025.xlsx
+2025-04-01,ALL_PROGRAMS,total_releases_this_biennium,Total Releases This Biennium 3,"Since September 1, 2023",70298,interest-list-data-april-2025.xlsx
+2025-04-01,CLASS,added_this_biennium,Added This Biennium,New Requests,11482,interest-list-data-april-2025.xlsx
+2025-04-01,CLASS,current_interest_list_counts,Current Interest List Counts,"As of April 30, 2025",93765,interest-list-data-april-2025.xlsx
+2025-04-01,CLASS,denied_declined_withdrawn,Denied/Declined/Withdrawn 4,,738,interest-list-data-april-2025.xlsx
+2025-04-01,CLASS,enrolled,Enrolled 4,Released/Removed from Interest List 2,312,interest-list-data-april-2025.xlsx
+2025-04-01,CLASS,not_categorized,Not Categorized,0,1,interest-list-data-april-2025.xlsx
+2025-04-01,CLASS,pipeline,Pipeline,,1873,interest-list-data-april-2025.xlsx
+2025-04-01,CLASS,previous_biennium_counts,Previous Biennium Counts,"As of August 31, 2023",82640,interest-list-data-april-2025.xlsx
+2025-04-01,CLASS,total_releases_this_biennium,Total Releases This Biennium 3,"Since September 1, 2023",2943,interest-list-data-april-2025.xlsx
+2025-04-01,DBMD,added_this_biennium,Added This Biennium,New Requests,1096,interest-list-data-april-2025.xlsx
+2025-04-01,DBMD,current_interest_list_counts,Current Interest List Counts,"As of April 30, 2025",2094,interest-list-data-april-2025.xlsx
+2025-04-01,DBMD,denied_declined_withdrawn,Denied/Declined/Withdrawn 4,,247,interest-list-data-april-2025.xlsx
+2025-04-01,DBMD,enrolled,Enrolled 4,Released/Removed from Interest List 2,32,interest-list-data-april-2025.xlsx
+2025-04-01,DBMD,not_categorized,Not Categorized,0,0,interest-list-data-april-2025.xlsx
+2025-04-01,DBMD,pipeline,Pipeline,,486,interest-list-data-april-2025.xlsx
+2025-04-01,DBMD,previous_biennium_counts,Previous Biennium Counts,"As of August 31, 2023",1714,interest-list-data-april-2025.xlsx
+2025-04-01,DBMD,total_releases_this_biennium,Total Releases This Biennium 3,"Since September 1, 2023",772,interest-list-data-april-2025.xlsx
+2025-04-01,HCS,added_this_biennium,Added This Biennium,New Requests,14590,interest-list-data-april-2025.xlsx
+2025-04-01,HCS,current_interest_list_counts,Current Interest List Counts,"As of April 30, 2025",125564,interest-list-data-april-2025.xlsx
+2025-04-01,HCS,denied_declined_withdrawn,Denied/Declined/Withdrawn 4,,2323,interest-list-data-april-2025.xlsx
+2025-04-01,HCS,enrolled,Enrolled 4,Released/Removed from Interest List 2,1342,interest-list-data-april-2025.xlsx
+2025-04-01,HCS,not_categorized,Not Categorized,0,153,interest-list-data-april-2025.xlsx
+2025-04-01,HCS,pipeline,Pipeline,,1619,interest-list-data-april-2025.xlsx
+2025-04-01,HCS,previous_biennium_counts,Previous Biennium Counts,"As of August 31, 2023",117206,interest-list-data-april-2025.xlsx
+2025-04-01,HCS,total_releases_this_biennium,Total Releases This Biennium 3,"Since September 1, 2023",5255,interest-list-data-april-2025.xlsx
+2025-04-01,MDCP,added_this_biennium,Added This Biennium,New Requests,6002,interest-list-data-april-2025.xlsx
+2025-04-01,MDCP,current_interest_list_counts,Current Interest List Counts,"As of April 30, 2025",6736,interest-list-data-april-2025.xlsx
+2025-04-01,MDCP,denied_declined_withdrawn,Denied/Declined/Withdrawn 4,,4858,interest-list-data-april-2025.xlsx
+2025-04-01,MDCP,enrolled,Enrolled 4,Released/Removed from Interest List 2,982,interest-list-data-april-2025.xlsx
+2025-04-01,MDCP,not_categorized,Not Categorized,0,12,interest-list-data-april-2025.xlsx
+2025-04-01,MDCP,pipeline,Pipeline,,311,interest-list-data-april-2025.xlsx
+2025-04-01,MDCP,previous_biennium_counts,Previous Biennium Counts,"As of August 31, 2023",6901,interest-list-data-april-2025.xlsx
+2025-04-01,MDCP,total_releases_this_biennium,Total Releases This Biennium 3,"Since September 1, 2023",6229,interest-list-data-april-2025.xlsx
+2025-04-01,STAR_PLUS_HCBS,added_this_biennium,Added This Biennium,New Requests,43088,interest-list-data-april-2025.xlsx
+2025-04-01,STAR_PLUS_HCBS,current_interest_list_counts,Current Interest List Counts,"As of April 30, 2025",5927,interest-list-data-april-2025.xlsx
+2025-04-01,STAR_PLUS_HCBS,denied_declined_withdrawn,Denied/Declined/Withdrawn 4,,31227,interest-list-data-april-2025.xlsx
+2025-04-01,STAR_PLUS_HCBS,enrolled,Enrolled 4,Released/Removed from Interest List 2,5330,interest-list-data-april-2025.xlsx
+2025-04-01,STAR_PLUS_HCBS,not_categorized,Not Categorized,0,13,interest-list-data-april-2025.xlsx
+2025-04-01,STAR_PLUS_HCBS,pipeline,Pipeline,,13438,interest-list-data-april-2025.xlsx
+2025-04-01,STAR_PLUS_HCBS,previous_biennium_counts,Previous Biennium Counts,"As of August 31, 2023",6339,interest-list-data-april-2025.xlsx
+2025-04-01,STAR_PLUS_HCBS,total_releases_this_biennium,Total Releases This Biennium 3,"Since September 1, 2023",48802,interest-list-data-april-2025.xlsx
+2025-04-01,TXHML,added_this_biennium,Added This Biennium,New Requests,13887,interest-list-data-april-2025.xlsx
+2025-04-01,TXHML,current_interest_list_counts,Current Interest List Counts,"As of April 30, 2025",113926,interest-list-data-april-2025.xlsx
+2025-04-01,TXHML,denied_declined_withdrawn,Denied/Declined/Withdrawn 4,,4002,interest-list-data-april-2025.xlsx
+2025-04-01,TXHML,enrolled,Enrolled 4,Released/Removed from Interest List 2,703,interest-list-data-april-2025.xlsx
+2025-04-01,TXHML,not_categorized,Not Categorized,0,255,interest-list-data-april-2025.xlsx
+2025-04-01,TXHML,pipeline,Pipeline,,1513,interest-list-data-april-2025.xlsx
+2025-04-01,TXHML,previous_biennium_counts,Previous Biennium Counts,"As of August 31, 2023",106134,interest-list-data-april-2025.xlsx
+2025-04-01,TXHML,total_releases_this_biennium,Total Releases This Biennium 3,"Since September 1, 2023",6297,interest-list-data-april-2025.xlsx
+2025-05-01,ALL_PROGRAMS,added_this_biennium,Added This Biennium,New Requests,94604,interest-list-data-may-2025.xlsx
+2025-05-01,ALL_PROGRAMS,current_interest_list_counts,Current Interest List Counts,"As of May 31, 2025",353010,interest-list-data-may-2025.xlsx
+2025-05-01,ALL_PROGRAMS,denied_declined_withdrawn,Denied/Declined/Withdrawn 4,,48012,interest-list-data-may-2025.xlsx
+2025-05-01,ALL_PROGRAMS,enrolled,Enrolled 4,Released/Removed from Interest List 2,9508,interest-list-data-may-2025.xlsx
+2025-05-01,ALL_PROGRAMS,not_categorized,Not Categorized,0,454,interest-list-data-may-2025.xlsx
+2025-05-01,ALL_PROGRAMS,pipeline,Pipeline,,12807,interest-list-data-may-2025.xlsx
+2025-05-01,ALL_PROGRAMS,previous_biennium_counts,Previous Biennium Counts,"As of August 31, 2023",320933,interest-list-data-may-2025.xlsx
+2025-05-01,ALL_PROGRAMS,total_releases_this_biennium,Total Releases This Biennium 3,"Since September 1, 2023",70278,interest-list-data-may-2025.xlsx
+2025-05-01,CLASS,added_this_biennium,Added This Biennium,New Requests,12053,interest-list-data-may-2025.xlsx
+2025-05-01,CLASS,current_interest_list_counts,Current Interest List Counts,"As of May 31, 2025",94322,interest-list-data-may-2025.xlsx
+2025-05-01,CLASS,denied_declined_withdrawn,Denied/Declined/Withdrawn 4,,983,interest-list-data-may-2025.xlsx
+2025-05-01,CLASS,enrolled,Enrolled 4,Released/Removed from Interest List 2,329,interest-list-data-may-2025.xlsx
+2025-05-01,CLASS,not_categorized,Not Categorized,0,1,interest-list-data-may-2025.xlsx
+2025-05-01,CLASS,pipeline,Pipeline,,1609,interest-list-data-may-2025.xlsx
+2025-05-01,CLASS,previous_biennium_counts,Previous Biennium Counts,"As of August 31, 2023",82640,interest-list-data-may-2025.xlsx
+2025-05-01,CLASS,total_releases_this_biennium,Total Releases This Biennium 3,"Since September 1, 2023",2943,interest-list-data-may-2025.xlsx
+2025-05-01,DBMD,added_this_biennium,Added This Biennium,New Requests,1166,interest-list-data-may-2025.xlsx
+2025-05-01,DBMD,current_interest_list_counts,Current Interest List Counts,"As of May 31, 2025",2162,interest-list-data-may-2025.xlsx
+2025-05-01,DBMD,denied_declined_withdrawn,Denied/Declined/Withdrawn 4,,297,interest-list-data-may-2025.xlsx
+2025-05-01,DBMD,enrolled,Enrolled 4,Released/Removed from Interest List 2,41,interest-list-data-may-2025.xlsx
+2025-05-01,DBMD,not_categorized,Not Categorized,0,0,interest-list-data-may-2025.xlsx
+2025-05-01,DBMD,pipeline,Pipeline,,426,interest-list-data-may-2025.xlsx
+2025-05-01,DBMD,previous_biennium_counts,Previous Biennium Counts,"As of August 31, 2023",1714,interest-list-data-may-2025.xlsx
+2025-05-01,DBMD,total_releases_this_biennium,Total Releases This Biennium 3,"Since September 1, 2023",771,interest-list-data-may-2025.xlsx
+2025-05-01,HCS,added_this_biennium,Added This Biennium,New Requests,15365,interest-list-data-may-2025.xlsx
+2025-05-01,HCS,current_interest_list_counts,Current Interest List Counts,"As of May 31, 2025",126167,interest-list-data-may-2025.xlsx
+2025-05-01,HCS,denied_declined_withdrawn,Denied/Declined/Withdrawn 4,,2471,interest-list-data-may-2025.xlsx
+2025-05-01,HCS,enrolled,Enrolled 4,Released/Removed from Interest List 2,1540,interest-list-data-may-2025.xlsx
+2025-05-01,HCS,not_categorized,Not Categorized,0,162,interest-list-data-may-2025.xlsx
+2025-05-01,HCS,pipeline,Pipeline,,1264,interest-list-data-may-2025.xlsx
+2025-05-01,HCS,previous_biennium_counts,Previous Biennium Counts,"As of August 31, 2023",117205,interest-list-data-may-2025.xlsx
+2025-05-01,HCS,total_releases_this_biennium,Total Releases This Biennium 3,"Since September 1, 2023",5255,interest-list-data-may-2025.xlsx
+2025-05-01,MDCP,added_this_biennium,Added This Biennium,New Requests,6277,interest-list-data-may-2025.xlsx
+2025-05-01,MDCP,current_interest_list_counts,Current Interest List Counts,"As of May 31, 2025",6993,interest-list-data-may-2025.xlsx
+2025-05-01,MDCP,denied_declined_withdrawn,Denied/Declined/Withdrawn 4,,4911,interest-list-data-may-2025.xlsx
+2025-05-01,MDCP,enrolled,Enrolled 4,Released/Removed from Interest List 2,1001,interest-list-data-may-2025.xlsx
+2025-05-01,MDCP,not_categorized,Not Categorized,0,12,interest-list-data-may-2025.xlsx
+2025-05-01,MDCP,pipeline,Pipeline,,238,interest-list-data-may-2025.xlsx
+2025-05-01,MDCP,previous_biennium_counts,Previous Biennium Counts,"As of August 31, 2023",6901,interest-list-data-may-2025.xlsx
+2025-05-01,MDCP,total_releases_this_biennium,Total Releases This Biennium 3,"Since September 1, 2023",6228,interest-list-data-may-2025.xlsx
+2025-05-01,STAR_PLUS_HCBS,added_this_biennium,Added This Biennium,New Requests,45136,interest-list-data-may-2025.xlsx
+2025-05-01,STAR_PLUS_HCBS,current_interest_list_counts,Current Interest List Counts,"As of May 31, 2025",8813,interest-list-data-may-2025.xlsx
+2025-05-01,STAR_PLUS_HCBS,denied_declined_withdrawn,Denied/Declined/Withdrawn 4,,35115,interest-list-data-may-2025.xlsx
+2025-05-01,STAR_PLUS_HCBS,enrolled,Enrolled 4,Released/Removed from Interest List 2,5835,interest-list-data-may-2025.xlsx
+2025-05-01,STAR_PLUS_HCBS,not_categorized,Not Categorized,0,15,interest-list-data-may-2025.xlsx
+2025-05-01,STAR_PLUS_HCBS,pipeline,Pipeline,,8058,interest-list-data-may-2025.xlsx
+2025-05-01,STAR_PLUS_HCBS,previous_biennium_counts,Previous Biennium Counts,"As of August 31, 2023",6339,interest-list-data-may-2025.xlsx
+2025-05-01,STAR_PLUS_HCBS,total_releases_this_biennium,Total Releases This Biennium 3,"Since September 1, 2023",48784,interest-list-data-may-2025.xlsx
+2025-05-01,TXHML,added_this_biennium,Added This Biennium,New Requests,14607,interest-list-data-may-2025.xlsx
+2025-05-01,TXHML,current_interest_list_counts,Current Interest List Counts,"As of May 31, 2025",114553,interest-list-data-may-2025.xlsx
+2025-05-01,TXHML,denied_declined_withdrawn,Denied/Declined/Withdrawn 4,,4235,interest-list-data-may-2025.xlsx
+2025-05-01,TXHML,enrolled,Enrolled 4,Released/Removed from Interest List 2,762,interest-list-data-may-2025.xlsx
+2025-05-01,TXHML,not_categorized,Not Categorized,0,264,interest-list-data-may-2025.xlsx
+2025-05-01,TXHML,pipeline,Pipeline,,1212,interest-list-data-may-2025.xlsx
+2025-05-01,TXHML,previous_biennium_counts,Previous Biennium Counts,"As of August 31, 2023",106134,interest-list-data-may-2025.xlsx
+2025-05-01,TXHML,total_releases_this_biennium,Total Releases This Biennium 3,"Since September 1, 2023",6297,interest-list-data-may-2025.xlsx
+2025-06-01,ALL_PROGRAMS,added_this_biennium,Added This Biennium,New Requests,99116,interest-list-data-june-2025.xlsx
+2025-06-01,ALL_PROGRAMS,current_interest_list_counts,Current Interest List Counts,"As of June 30, 2025",357765,interest-list-data-june-2025.xlsx
+2025-06-01,ALL_PROGRAMS,denied_declined_withdrawn,Denied/Declined/Withdrawn 4,,51369,interest-list-data-june-2025.xlsx
+2025-06-01,ALL_PROGRAMS,enrolled,Enrolled 4,Released/Removed from Interest List 2,10321,interest-list-data-june-2025.xlsx
+2025-06-01,ALL_PROGRAMS,not_categorized,Not Categorized,0,463,interest-list-data-june-2025.xlsx
+2025-06-01,ALL_PROGRAMS,pipeline,Pipeline,,8020,interest-list-data-june-2025.xlsx
+2025-06-01,ALL_PROGRAMS,previous_biennium_counts,Previous Biennium Counts,"As of August 31, 2023",320933,interest-list-data-june-2025.xlsx
+2025-06-01,ALL_PROGRAMS,total_releases_this_biennium,Total Releases This Biennium 3,"Since September 1, 2023",70281,interest-list-data-june-2025.xlsx
+2025-06-01,CLASS,added_this_biennium,Added This Biennium,New Requests,12673,interest-list-data-june-2025.xlsx
+2025-06-01,CLASS,current_interest_list_counts,Current Interest List Counts,"As of June 30, 2025",94917,interest-list-data-june-2025.xlsx
+2025-06-01,CLASS,denied_declined_withdrawn,Denied/Declined/Withdrawn 4,,1421,interest-list-data-june-2025.xlsx
+2025-06-01,CLASS,enrolled,Enrolled 4,Released/Removed from Interest List 2,353,interest-list-data-june-2025.xlsx
+2025-06-01,CLASS,not_categorized,Not Categorized,0,2,interest-list-data-june-2025.xlsx
+2025-06-01,CLASS,pipeline,Pipeline,,1146,interest-list-data-june-2025.xlsx
+2025-06-01,CLASS,previous_biennium_counts,Previous Biennium Counts,"As of August 31, 2023",82640,interest-list-data-june-2025.xlsx
+2025-06-01,CLASS,total_releases_this_biennium,Total Releases This Biennium 3,"Since September 1, 2023",2943,interest-list-data-june-2025.xlsx
+2025-06-01,DBMD,added_this_biennium,Added This Biennium,New Requests,1231,interest-list-data-june-2025.xlsx
+2025-06-01,DBMD,current_interest_list_counts,Current Interest List Counts,"As of June 30, 2025",2226,interest-list-data-june-2025.xlsx
+2025-06-01,DBMD,denied_declined_withdrawn,Denied/Declined/Withdrawn 4,,484,interest-list-data-june-2025.xlsx
+2025-06-01,DBMD,enrolled,Enrolled 4,Released/Removed from Interest List 2,48,interest-list-data-june-2025.xlsx
+2025-06-01,DBMD,not_categorized,Not Categorized,0,0,interest-list-data-june-2025.xlsx
+2025-06-01,DBMD,pipeline,Pipeline,,231,interest-list-data-june-2025.xlsx
+2025-06-01,DBMD,previous_biennium_counts,Previous Biennium Counts,"As of August 31, 2023",1714,interest-list-data-june-2025.xlsx
+2025-06-01,DBMD,total_releases_this_biennium,Total Releases This Biennium 3,"Since September 1, 2023",770,interest-list-data-june-2025.xlsx
+2025-06-01,HCS,added_this_biennium,Added This Biennium,New Requests,16196,interest-list-data-june-2025.xlsx
+2025-06-01,HCS,current_interest_list_counts,Current Interest List Counts,"As of June 30, 2025",126897,interest-list-data-june-2025.xlsx
+2025-06-01,HCS,denied_declined_withdrawn,Denied/Declined/Withdrawn 4,,2565,interest-list-data-june-2025.xlsx
+2025-06-01,HCS,enrolled,Enrolled 4,Released/Removed from Interest List 2,1720,interest-list-data-june-2025.xlsx
+2025-06-01,HCS,not_categorized,Not Categorized,0,166,interest-list-data-june-2025.xlsx
+2025-06-01,HCS,pipeline,Pipeline,,984,interest-list-data-june-2025.xlsx
+2025-06-01,HCS,previous_biennium_counts,Previous Biennium Counts,"As of August 31, 2023",117205,interest-list-data-june-2025.xlsx
+2025-06-01,HCS,total_releases_this_biennium,Total Releases This Biennium 3,"Since September 1, 2023",5256,interest-list-data-june-2025.xlsx
+2025-06-01,MDCP,added_this_biennium,Added This Biennium,New Requests,6591,interest-list-data-june-2025.xlsx
+2025-06-01,MDCP,current_interest_list_counts,Current Interest List Counts,"As of June 30, 2025",7294,interest-list-data-june-2025.xlsx
+2025-06-01,MDCP,denied_declined_withdrawn,Denied/Declined/Withdrawn 4,,4932,interest-list-data-june-2025.xlsx
+2025-06-01,MDCP,enrolled,Enrolled 4,Released/Removed from Interest List 2,1024,interest-list-data-june-2025.xlsx
+2025-06-01,MDCP,not_categorized,Not Categorized,0,12,interest-list-data-june-2025.xlsx
+2025-06-01,MDCP,pipeline,Pipeline,,194,interest-list-data-june-2025.xlsx
+2025-06-01,MDCP,previous_biennium_counts,Previous Biennium Counts,"As of August 31, 2023",6901,interest-list-data-june-2025.xlsx
+2025-06-01,MDCP,total_releases_this_biennium,Total Releases This Biennium 3,"Since September 1, 2023",6228,interest-list-data-june-2025.xlsx
+2025-06-01,STAR_PLUS_HCBS,added_this_biennium,Added This Biennium,New Requests,47017,interest-list-data-june-2025.xlsx
+2025-06-01,STAR_PLUS_HCBS,current_interest_list_counts,Current Interest List Counts,"As of June 30, 2025",11125,interest-list-data-june-2025.xlsx
+2025-06-01,STAR_PLUS_HCBS,denied_declined_withdrawn,Denied/Declined/Withdrawn 4,,37524,interest-list-data-june-2025.xlsx
+2025-06-01,STAR_PLUS_HCBS,enrolled,Enrolled 4,Released/Removed from Interest List 2,6349,interest-list-data-june-2025.xlsx
+2025-06-01,STAR_PLUS_HCBS,not_categorized,Not Categorized,0,16,interest-list-data-june-2025.xlsx
+2025-06-01,STAR_PLUS_HCBS,pipeline,Pipeline,,4527,interest-list-data-june-2025.xlsx
+2025-06-01,STAR_PLUS_HCBS,previous_biennium_counts,Previous Biennium Counts,"As of August 31, 2023",6339,interest-list-data-june-2025.xlsx
+2025-06-01,STAR_PLUS_HCBS,total_releases_this_biennium,Total Releases This Biennium 3,"Since September 1, 2023",48785,interest-list-data-june-2025.xlsx
+2025-06-01,TXHML,added_this_biennium,Added This Biennium,New Requests,15408,interest-list-data-june-2025.xlsx
+2025-06-01,TXHML,current_interest_list_counts,Current Interest List Counts,"As of June 30, 2025",115306,interest-list-data-june-2025.xlsx
+2025-06-01,TXHML,denied_declined_withdrawn,Denied/Declined/Withdrawn 4,,4443,interest-list-data-june-2025.xlsx
+2025-06-01,TXHML,enrolled,Enrolled 4,Released/Removed from Interest List 2,827,interest-list-data-june-2025.xlsx
+2025-06-01,TXHML,not_categorized,Not Categorized,0,267,interest-list-data-june-2025.xlsx
+2025-06-01,TXHML,pipeline,Pipeline,,938,interest-list-data-june-2025.xlsx
+2025-06-01,TXHML,previous_biennium_counts,Previous Biennium Counts,"As of August 31, 2023",106134,interest-list-data-june-2025.xlsx
+2025-06-01,TXHML,total_releases_this_biennium,Total Releases This Biennium 3,"Since September 1, 2023",6299,interest-list-data-june-2025.xlsx
+2025-07-01,ALL_PROGRAMS,added_this_biennium,Added This Biennium,New Requests,103379,interest-list-data-july-2025.xlsx
+2025-07-01,ALL_PROGRAMS,current_interest_list_counts,Current Interest List Counts,"As of July 31, 2025",362104,interest-list-data-july-2025.xlsx
+2025-07-01,ALL_PROGRAMS,denied_declined_withdrawn,Denied/Declined/Withdrawn 4,,52655,interest-list-data-july-2025.xlsx
+2025-07-01,ALL_PROGRAMS,enrolled,Enrolled 4,Released/Removed from Interest List 2,11081,interest-list-data-july-2025.xlsx
+2025-07-01,ALL_PROGRAMS,not_categorized,Not Categorized,0,472,interest-list-data-july-2025.xlsx
+2025-07-01,ALL_PROGRAMS,pipeline,Pipeline,,5873,interest-list-data-july-2025.xlsx
+2025-07-01,ALL_PROGRAMS,previous_biennium_counts,Previous Biennium Counts,"As of August 31, 2023",320933,interest-list-data-july-2025.xlsx
+2025-07-01,ALL_PROGRAMS,total_releases_this_biennium,Total Releases This Biennium 3,"Since September 1, 2023",70273,interest-list-data-july-2025.xlsx
+2025-07-01,CLASS,added_this_biennium,Added This Biennium,New Requests,13278,interest-list-data-july-2025.xlsx
+2025-07-01,CLASS,current_interest_list_counts,Current Interest List Counts,"As of July 31, 2025",95498,interest-list-data-july-2025.xlsx
+2025-07-01,CLASS,denied_declined_withdrawn,Denied/Declined/Withdrawn 4,,1747,interest-list-data-july-2025.xlsx
+2025-07-01,CLASS,enrolled,Enrolled 4,Released/Removed from Interest List 2,387,interest-list-data-july-2025.xlsx
+2025-07-01,CLASS,not_categorized,Not Categorized,0,2,interest-list-data-july-2025.xlsx
+2025-07-01,CLASS,pipeline,Pipeline,,785,interest-list-data-july-2025.xlsx
+2025-07-01,CLASS,previous_biennium_counts,Previous Biennium Counts,"As of August 31, 2023",82640,interest-list-data-july-2025.xlsx
+2025-07-01,CLASS,total_releases_this_biennium,Total Releases This Biennium 3,"Since September 1, 2023",2942,interest-list-data-july-2025.xlsx
+2025-07-01,DBMD,added_this_biennium,Added This Biennium,New Requests,1278,interest-list-data-july-2025.xlsx
+2025-07-01,DBMD,current_interest_list_counts,Current Interest List Counts,"As of July 31, 2025",2272,interest-list-data-july-2025.xlsx
+2025-07-01,DBMD,denied_declined_withdrawn,Denied/Declined/Withdrawn 4,,541,interest-list-data-july-2025.xlsx
+2025-07-01,DBMD,enrolled,Enrolled 4,Released/Removed from Interest List 2,59,interest-list-data-july-2025.xlsx
+2025-07-01,DBMD,not_categorized,Not Categorized,0,0,interest-list-data-july-2025.xlsx
+2025-07-01,DBMD,pipeline,Pipeline,,163,interest-list-data-july-2025.xlsx
+2025-07-01,DBMD,previous_biennium_counts,Previous Biennium Counts,"As of August 31, 2023",1714,interest-list-data-july-2025.xlsx
+2025-07-01,DBMD,total_releases_this_biennium,Total Releases This Biennium 3,"Since September 1, 2023",770,interest-list-data-july-2025.xlsx
+2025-07-01,HCS,added_this_biennium,Added This Biennium,New Requests,16886,interest-list-data-july-2025.xlsx
+2025-07-01,HCS,current_interest_list_counts,Current Interest List Counts,"As of July 31, 2025",127448,interest-list-data-july-2025.xlsx
+2025-07-01,HCS,denied_declined_withdrawn,Denied/Declined/Withdrawn 4,,2650,interest-list-data-july-2025.xlsx
+2025-07-01,HCS,enrolled,Enrolled 4,Released/Removed from Interest List 2,1899,interest-list-data-july-2025.xlsx
+2025-07-01,HCS,not_categorized,Not Categorized,0,170,interest-list-data-july-2025.xlsx
+2025-07-01,HCS,pipeline,Pipeline,,721,interest-list-data-july-2025.xlsx
+2025-07-01,HCS,previous_biennium_counts,Previous Biennium Counts,"As of August 31, 2023",117205,interest-list-data-july-2025.xlsx
+2025-07-01,HCS,total_releases_this_biennium,Total Releases This Biennium 3,"Since September 1, 2023",5257,interest-list-data-july-2025.xlsx
+2025-07-01,MDCP,added_this_biennium,Added This Biennium,New Requests,6900,interest-list-data-july-2025.xlsx
+2025-07-01,MDCP,current_interest_list_counts,Current Interest List Counts,"As of July 31, 2025",7588,interest-list-data-july-2025.xlsx
+2025-07-01,MDCP,denied_declined_withdrawn,Denied/Declined/Withdrawn 4,,4938,interest-list-data-july-2025.xlsx
+2025-07-01,MDCP,enrolled,Enrolled 4,Released/Removed from Interest List 2,1032,interest-list-data-july-2025.xlsx
+2025-07-01,MDCP,not_categorized,Not Categorized,0,12,interest-list-data-july-2025.xlsx
+2025-07-01,MDCP,pipeline,Pipeline,,179,interest-list-data-july-2025.xlsx
+2025-07-01,MDCP,previous_biennium_counts,Previous Biennium Counts,"As of August 31, 2023",6901,interest-list-data-july-2025.xlsx
+2025-07-01,MDCP,total_releases_this_biennium,Total Releases This Biennium 3,"Since September 1, 2023",6227,interest-list-data-july-2025.xlsx
+2025-07-01,STAR_PLUS_HCBS,added_this_biennium,Added This Biennium,New Requests,48988,interest-list-data-july-2025.xlsx
+2025-07-01,STAR_PLUS_HCBS,current_interest_list_counts,Current Interest List Counts,"As of July 31, 2025",13412,interest-list-data-july-2025.xlsx
+2025-07-01,STAR_PLUS_HCBS,denied_declined_withdrawn,Denied/Declined/Withdrawn 4,,38104,interest-list-data-july-2025.xlsx
+2025-07-01,STAR_PLUS_HCBS,enrolled,Enrolled 4,Released/Removed from Interest List 2,6818,interest-list-data-july-2025.xlsx
+2025-07-01,STAR_PLUS_HCBS,not_categorized,Not Categorized,0,17,interest-list-data-july-2025.xlsx
+2025-07-01,STAR_PLUS_HCBS,pipeline,Pipeline,,3381,interest-list-data-july-2025.xlsx
+2025-07-01,STAR_PLUS_HCBS,previous_biennium_counts,Previous Biennium Counts,"As of August 31, 2023",6339,interest-list-data-july-2025.xlsx
+2025-07-01,STAR_PLUS_HCBS,total_releases_this_biennium,Total Releases This Biennium 3,"Since September 1, 2023",48775,interest-list-data-july-2025.xlsx
+2025-07-01,TXHML,added_this_biennium,Added This Biennium,New Requests,16049,interest-list-data-july-2025.xlsx
+2025-07-01,TXHML,current_interest_list_counts,Current Interest List Counts,"As of July 31, 2025",115886,interest-list-data-july-2025.xlsx
+2025-07-01,TXHML,denied_declined_withdrawn,Denied/Declined/Withdrawn 4,,4675,interest-list-data-july-2025.xlsx
+2025-07-01,TXHML,enrolled,Enrolled 4,Released/Removed from Interest List 2,886,interest-list-data-july-2025.xlsx
+2025-07-01,TXHML,not_categorized,Not Categorized,0,271,interest-list-data-july-2025.xlsx
+2025-07-01,TXHML,pipeline,Pipeline,,644,interest-list-data-july-2025.xlsx
+2025-07-01,TXHML,previous_biennium_counts,Previous Biennium Counts,"As of August 31, 2023",106134,interest-list-data-july-2025.xlsx
+2025-07-01,TXHML,total_releases_this_biennium,Total Releases This Biennium 3,"Since September 1, 2023",6302,interest-list-data-july-2025.xlsx
+2025-08-01,ALL_PROGRAMS,added_this_biennium,Added This Biennium,New Requests,108198,interest-list-data-aug-2025.xlsx
+2025-08-01,ALL_PROGRAMS,current_interest_list_counts,Current Interest List Counts,"As of August 31, 2025",366761,interest-list-data-aug-2025.xlsx
+2025-08-01,ALL_PROGRAMS,denied_declined_withdrawn,Denied/Declined/Withdrawn 4,,53338,interest-list-data-aug-2025.xlsx
+2025-08-01,ALL_PROGRAMS,enrolled,Enrolled 4,Released/Removed from Interest List 2,11663,interest-list-data-aug-2025.xlsx
+2025-08-01,ALL_PROGRAMS,not_categorized,Not Categorized,0,477,interest-list-data-aug-2025.xlsx
+2025-08-01,ALL_PROGRAMS,pipeline,Pipeline,,4561,interest-list-data-aug-2025.xlsx
+2025-08-01,ALL_PROGRAMS,previous_biennium_counts,Previous Biennium Counts,"As of August 31, 2023",320932,interest-list-data-aug-2025.xlsx
+2025-08-01,ALL_PROGRAMS,total_releases_this_biennium,Total Releases This Biennium 3,"Since September 1, 2023",70269,interest-list-data-aug-2025.xlsx
+2025-08-01,CLASS,added_this_biennium,Added This Biennium,New Requests,13997,interest-list-data-aug-2025.xlsx
+2025-08-01,CLASS,current_interest_list_counts,Current Interest List Counts,"As of August 31, 2025",96211,interest-list-data-aug-2025.xlsx
+2025-08-01,CLASS,denied_declined_withdrawn,Denied/Declined/Withdrawn 4,,2034,interest-list-data-aug-2025.xlsx
+2025-08-01,CLASS,enrolled,Enrolled 4,Released/Removed from Interest List 2,412,interest-list-data-aug-2025.xlsx
+2025-08-01,CLASS,not_categorized,Not Categorized,0,3,interest-list-data-aug-2025.xlsx
+2025-08-01,CLASS,pipeline,Pipeline,,472,interest-list-data-aug-2025.xlsx
+2025-08-01,CLASS,previous_biennium_counts,Previous Biennium Counts,"As of August 31, 2023",82640,interest-list-data-aug-2025.xlsx
+2025-08-01,CLASS,total_releases_this_biennium,Total Releases This Biennium 3,"Since September 1, 2023",2942,interest-list-data-aug-2025.xlsx
+2025-08-01,DBMD,added_this_biennium,Added This Biennium,New Requests,1334,interest-list-data-aug-2025.xlsx
+2025-08-01,DBMD,current_interest_list_counts,Current Interest List Counts,"As of August 31, 2025",2324,interest-list-data-aug-2025.xlsx
+2025-08-01,DBMD,denied_declined_withdrawn,Denied/Declined/Withdrawn 4,,541,interest-list-data-aug-2025.xlsx
+2025-08-01,DBMD,enrolled,Enrolled 4,Released/Removed from Interest List 2,68,interest-list-data-aug-2025.xlsx
+2025-08-01,DBMD,not_categorized,Not Categorized,0,0,interest-list-data-aug-2025.xlsx
+2025-08-01,DBMD,pipeline,Pipeline,,154,interest-list-data-aug-2025.xlsx
+2025-08-01,DBMD,previous_biennium_counts,Previous Biennium Counts,"As of August 31, 2023",1714,interest-list-data-aug-2025.xlsx
+2025-08-01,DBMD,total_releases_this_biennium,Total Releases This Biennium 3,"Since September 1, 2023",770,interest-list-data-aug-2025.xlsx
+2025-08-01,HCS,added_this_biennium,Added This Biennium,New Requests,17743,interest-list-data-aug-2025.xlsx
+2025-08-01,HCS,current_interest_list_counts,Current Interest List Counts,"As of August 31, 2025",128111,interest-list-data-aug-2025.xlsx
+2025-08-01,HCS,denied_declined_withdrawn,Denied/Declined/Withdrawn 4,,2701,interest-list-data-aug-2025.xlsx
+2025-08-01,HCS,enrolled,Enrolled 4,Released/Removed from Interest List 2,2053,interest-list-data-aug-2025.xlsx
+2025-08-01,HCS,not_categorized,Not Categorized,0,172,interest-list-data-aug-2025.xlsx
+2025-08-01,HCS,pipeline,Pipeline,,510,interest-list-data-aug-2025.xlsx
+2025-08-01,HCS,previous_biennium_counts,Previous Biennium Counts,"As of August 31, 2023",117204,interest-list-data-aug-2025.xlsx
+2025-08-01,HCS,total_releases_this_biennium,Total Releases This Biennium 3,"Since September 1, 2023",5257,interest-list-data-aug-2025.xlsx
+2025-08-01,MDCP,added_this_biennium,Added This Biennium,New Requests,7243,interest-list-data-aug-2025.xlsx
+2025-08-01,MDCP,current_interest_list_counts,Current Interest List Counts,"As of August 31, 2025",7875,interest-list-data-aug-2025.xlsx
+2025-08-01,MDCP,denied_declined_withdrawn,Denied/Declined/Withdrawn 4,,4942,interest-list-data-aug-2025.xlsx
+2025-08-01,MDCP,enrolled,Enrolled 4,Released/Removed from Interest List 2,1038,interest-list-data-aug-2025.xlsx
+2025-08-01,MDCP,not_categorized,Not Categorized,0,12,interest-list-data-aug-2025.xlsx
+2025-08-01,MDCP,pipeline,Pipeline,,167,interest-list-data-aug-2025.xlsx
+2025-08-01,MDCP,previous_biennium_counts,Previous Biennium Counts,"As of August 31, 2023",6901,interest-list-data-aug-2025.xlsx
+2025-08-01,MDCP,total_releases_this_biennium,Total Releases This Biennium 3,"Since September 1, 2023",6224,interest-list-data-aug-2025.xlsx
+2025-08-01,STAR_PLUS_HCBS,added_this_biennium,Added This Biennium,New Requests,51015,interest-list-data-aug-2025.xlsx
+2025-08-01,STAR_PLUS_HCBS,current_interest_list_counts,Current Interest List Counts,"As of August 31, 2025",15689,interest-list-data-aug-2025.xlsx
+2025-08-01,STAR_PLUS_HCBS,denied_declined_withdrawn,Denied/Declined/Withdrawn 4,,38364,interest-list-data-aug-2025.xlsx
+2025-08-01,STAR_PLUS_HCBS,enrolled,Enrolled 4,Released/Removed from Interest List 2,7090,interest-list-data-aug-2025.xlsx
+2025-08-01,STAR_PLUS_HCBS,not_categorized,Not Categorized,0,17,interest-list-data-aug-2025.xlsx
+2025-08-01,STAR_PLUS_HCBS,pipeline,Pipeline,,2812,interest-list-data-aug-2025.xlsx
+2025-08-01,STAR_PLUS_HCBS,previous_biennium_counts,Previous Biennium Counts,"As of August 31, 2023",6339,interest-list-data-aug-2025.xlsx
+2025-08-01,STAR_PLUS_HCBS,total_releases_this_biennium,Total Releases This Biennium 3,"Since September 1, 2023",48773,interest-list-data-aug-2025.xlsx
+2025-08-01,TXHML,added_this_biennium,Added This Biennium,New Requests,16866,interest-list-data-aug-2025.xlsx
+2025-08-01,TXHML,current_interest_list_counts,Current Interest List Counts,"As of August 31, 2025",116551,interest-list-data-aug-2025.xlsx
+2025-08-01,TXHML,denied_declined_withdrawn,Denied/Declined/Withdrawn 4,,4756,interest-list-data-aug-2025.xlsx
+2025-08-01,TXHML,enrolled,Enrolled 4,Released/Removed from Interest List 2,1002,interest-list-data-aug-2025.xlsx
+2025-08-01,TXHML,not_categorized,Not Categorized,0,273,interest-list-data-aug-2025.xlsx
+2025-08-01,TXHML,pipeline,Pipeline,,446,interest-list-data-aug-2025.xlsx
+2025-08-01,TXHML,previous_biennium_counts,Previous Biennium Counts,"As of August 31, 2023",106134,interest-list-data-aug-2025.xlsx
+2025-08-01,TXHML,total_releases_this_biennium,Total Releases This Biennium 3,"Since September 1, 2023",6303,interest-list-data-aug-2025.xlsx
+2025-09-01,ALL_PROGRAMS,added_this_biennium,Added This Biennium,New Requests,4248,interest-list-data-sept-2025.xlsx
+2025-09-01,ALL_PROGRAMS,current_interest_list_counts,Current Interest List Counts,"As of September 30, 2025",367100,interest-list-data-sept-2025.xlsx
+2025-09-01,ALL_PROGRAMS,denied_declined_withdrawn,Denied/Declined/Withdrawn 4,,733,interest-list-data-sept-2025.xlsx
+2025-09-01,ALL_PROGRAMS,enrolled,Enrolled 4,Released/Removed from Interest List 2,372,interest-list-data-sept-2025.xlsx
+2025-09-01,ALL_PROGRAMS,not_categorized,Not Categorized,,2,interest-list-data-sept-2025.xlsx
+2025-09-01,ALL_PROGRAMS,pipeline,Pipeline,,5696,interest-list-data-sept-2025.xlsx
+2025-09-01,ALL_PROGRAMS,previous_biennium_counts,Previous Biennium Counts,"As of August 31, 2025",366746,interest-list-data-sept-2025.xlsx
+2025-09-01,ALL_PROGRAMS,total_releases_this_biennium,Total Releases This Biennium 3,"Since September 1, 2025",5848,interest-list-data-sept-2025.xlsx
+2025-09-01,CLASS,added_this_biennium,Added This Biennium,New Requests,725,interest-list-data-sept-2025.xlsx
+2025-09-01,CLASS,current_interest_list_counts,Current Interest List Counts,"As of September 30, 2025",96366,interest-list-data-sept-2025.xlsx
+2025-09-01,CLASS,denied_declined_withdrawn,Denied/Declined/Withdrawn 4,,177,interest-list-data-sept-2025.xlsx
+2025-09-01,CLASS,enrolled,Enrolled 4,Released/Removed from Interest List 2,19,interest-list-data-sept-2025.xlsx
+2025-09-01,CLASS,not_categorized,Not Categorized,,0,interest-list-data-sept-2025.xlsx
+2025-09-01,CLASS,pipeline,Pipeline,,801,interest-list-data-sept-2025.xlsx
+2025-09-01,CLASS,previous_biennium_counts,Previous Biennium Counts,"As of August 31, 2025",96211,interest-list-data-sept-2025.xlsx
+2025-09-01,CLASS,total_releases_this_biennium,Total Releases This Biennium 3,"Since September 1, 2025",1001,interest-list-data-sept-2025.xlsx
+2025-09-01,DBMD,added_this_biennium,Added This Biennium,New Requests,34,interest-list-data-sept-2025.xlsx
+2025-09-01,DBMD,current_interest_list_counts,Current Interest List Counts,"As of September 30, 2025",2332,interest-list-data-sept-2025.xlsx
+2025-09-01,DBMD,denied_declined_withdrawn,Denied/Declined/Withdrawn 4,,1,interest-list-data-sept-2025.xlsx
+2025-09-01,DBMD,enrolled,Enrolled 4,Released/Removed from Interest List 2,7,interest-list-data-sept-2025.xlsx
+2025-09-01,DBMD,not_categorized,Not Categorized,,0,interest-list-data-sept-2025.xlsx
+2025-09-01,DBMD,pipeline,Pipeline,,173,interest-list-data-sept-2025.xlsx
+2025-09-01,DBMD,previous_biennium_counts,Previous Biennium Counts,"As of August 31, 2025",2324,interest-list-data-sept-2025.xlsx
+2025-09-01,DBMD,total_releases_this_biennium,Total Releases This Biennium 3,"Since September 1, 2025",181,interest-list-data-sept-2025.xlsx
+2025-09-01,HCS,added_this_biennium,Added This Biennium,New Requests,492,interest-list-data-sept-2025.xlsx
+2025-09-01,HCS,current_interest_list_counts,Current Interest List Counts,"As of September 30, 2025",128401,interest-list-data-sept-2025.xlsx
+2025-09-01,HCS,denied_declined_withdrawn,Denied/Declined/Withdrawn 4,,35,interest-list-data-sept-2025.xlsx
+2025-09-01,HCS,enrolled,Enrolled 4,Released/Removed from Interest List 2,105,interest-list-data-sept-2025.xlsx
+2025-09-01,HCS,not_categorized,Not Categorized,,2,interest-list-data-sept-2025.xlsx
+2025-09-01,HCS,pipeline,Pipeline,,655,interest-list-data-sept-2025.xlsx
+2025-09-01,HCS,previous_biennium_counts,Previous Biennium Counts,"As of August 31, 2025",128101,interest-list-data-sept-2025.xlsx
+2025-09-01,HCS,total_releases_this_biennium,Total Releases This Biennium 3,"Since September 1, 2025",284,interest-list-data-sept-2025.xlsx
+2025-09-01,MDCP,added_this_biennium,Added This Biennium,New Requests,347,interest-list-data-sept-2025.xlsx
+2025-09-01,MDCP,current_interest_list_counts,Current Interest List Counts,"As of September 30, 2025",7686,interest-list-data-sept-2025.xlsx
+2025-09-01,MDCP,denied_declined_withdrawn,Denied/Declined/Withdrawn 4,,54,interest-list-data-sept-2025.xlsx
+2025-09-01,MDCP,enrolled,Enrolled 4,Released/Removed from Interest List 2,0,interest-list-data-sept-2025.xlsx
+2025-09-01,MDCP,not_categorized,Not Categorized,,0,interest-list-data-sept-2025.xlsx
+2025-09-01,MDCP,pipeline,Pipeline,,500,interest-list-data-sept-2025.xlsx
+2025-09-01,MDCP,previous_biennium_counts,Previous Biennium Counts,"As of August 31, 2025",7878,interest-list-data-sept-2025.xlsx
+2025-09-01,MDCP,total_releases_this_biennium,Total Releases This Biennium 3,"Since September 1, 2025",554,interest-list-data-sept-2025.xlsx
+2025-09-01,STAR_PLUS_HCBS,added_this_biennium,Added This Biennium,New Requests,2196,interest-list-data-sept-2025.xlsx
+2025-09-01,STAR_PLUS_HCBS,current_interest_list_counts,Current Interest List Counts,"As of September 30, 2025",15608,interest-list-data-sept-2025.xlsx
+2025-09-01,STAR_PLUS_HCBS,denied_declined_withdrawn,Denied/Declined/Withdrawn 4,,416,interest-list-data-sept-2025.xlsx
+2025-09-01,STAR_PLUS_HCBS,enrolled,Enrolled 4,Released/Removed from Interest List 2,178,interest-list-data-sept-2025.xlsx
+2025-09-01,STAR_PLUS_HCBS,not_categorized,Not Categorized,,0,interest-list-data-sept-2025.xlsx
+2025-09-01,STAR_PLUS_HCBS,pipeline,Pipeline,,2733,interest-list-data-sept-2025.xlsx
+2025-09-01,STAR_PLUS_HCBS,previous_biennium_counts,Previous Biennium Counts,"As of August 31, 2025",15689,interest-list-data-sept-2025.xlsx
+2025-09-01,STAR_PLUS_HCBS,total_releases_this_biennium,Total Releases This Biennium 3,"Since September 1, 2025",3328,interest-list-data-sept-2025.xlsx
+2025-09-01,TXHML,added_this_biennium,Added This Biennium,New Requests,454,interest-list-data-sept-2025.xlsx
+2025-09-01,TXHML,current_interest_list_counts,Current Interest List Counts,"As of September 30, 2025",116707,interest-list-data-sept-2025.xlsx
+2025-09-01,TXHML,denied_declined_withdrawn,Denied/Declined/Withdrawn 4,,50,interest-list-data-sept-2025.xlsx
+2025-09-01,TXHML,enrolled,Enrolled 4,Released/Removed from Interest List 2,63,interest-list-data-sept-2025.xlsx
+2025-09-01,TXHML,not_categorized,Not Categorized,,0,interest-list-data-sept-2025.xlsx
+2025-09-01,TXHML,pipeline,Pipeline,,834,interest-list-data-sept-2025.xlsx
+2025-09-01,TXHML,previous_biennium_counts,Previous Biennium Counts,"As of August 31, 2025",116543,interest-list-data-sept-2025.xlsx
+2025-09-01,TXHML,total_releases_this_biennium,Total Releases This Biennium 3,"Since September 1, 2025",500,interest-list-data-sept-2025.xlsx
+2025-10-01,ALL_PROGRAMS,added_this_biennium,Added This Biennium,New Requests,9225,interest-list-data-oct-2025.xlsx
+2025-10-01,ALL_PROGRAMS,current_interest_list_counts,Current Interest List Counts,"As of October 31, 2025",368069,interest-list-data-oct-2025.xlsx
+2025-10-01,ALL_PROGRAMS,denied_declined_withdrawn,Denied/Declined/Withdrawn 4,,1401,interest-list-data-oct-2025.xlsx
+2025-10-01,ALL_PROGRAMS,enrolled,Enrolled 4,Released/Removed from Interest List 2,623,interest-list-data-oct-2025.xlsx
+2025-10-01,ALL_PROGRAMS,not_categorized,Not Categorized,0,11,interest-list-data-oct-2025.xlsx
+2025-10-01,ALL_PROGRAMS,pipeline,Pipeline,,8417,interest-list-data-oct-2025.xlsx
+2025-10-01,ALL_PROGRAMS,previous_biennium_counts,Previous Biennium Counts,"As of August 31, 2025",366746,interest-list-data-oct-2025.xlsx
+2025-10-01,ALL_PROGRAMS,total_releases_this_biennium,Total Releases This Biennium 3,"Since September 1, 2025",9565,interest-list-data-oct-2025.xlsx
+2025-10-01,CLASS,added_this_biennium,Added This Biennium,New Requests,1398,interest-list-data-oct-2025.xlsx
+2025-10-01,CLASS,current_interest_list_counts,Current Interest List Counts,"As of October 31, 2025",96424,interest-list-data-oct-2025.xlsx
+2025-10-01,CLASS,denied_declined_withdrawn,Denied/Declined/Withdrawn 4,,261,interest-list-data-oct-2025.xlsx
+2025-10-01,CLASS,enrolled,Enrolled 4,Released/Removed from Interest List 2,41,interest-list-data-oct-2025.xlsx
+2025-10-01,CLASS,not_categorized,Not Categorized,0,1,interest-list-data-oct-2025.xlsx
+2025-10-01,CLASS,pipeline,Pipeline,,1224,interest-list-data-oct-2025.xlsx
+2025-10-01,CLASS,previous_biennium_counts,Previous Biennium Counts,"As of August 31, 2025",96211,interest-list-data-oct-2025.xlsx
+2025-10-01,CLASS,total_releases_this_biennium,Total Releases This Biennium 3,"Since September 1, 2025",1531,interest-list-data-oct-2025.xlsx
+2025-10-01,DBMD,added_this_biennium,Added This Biennium,New Requests,74,interest-list-data-oct-2025.xlsx
+2025-10-01,DBMD,current_interest_list_counts,Current Interest List Counts,"As of October 31, 2025",2346,interest-list-data-oct-2025.xlsx
+2025-10-01,DBMD,denied_declined_withdrawn,Denied/Declined/Withdrawn 4,,8,interest-list-data-oct-2025.xlsx
+2025-10-01,DBMD,enrolled,Enrolled 4,Released/Removed from Interest List 2,13,interest-list-data-oct-2025.xlsx
+2025-10-01,DBMD,not_categorized,Not Categorized,0,0,interest-list-data-oct-2025.xlsx
+2025-10-01,DBMD,pipeline,Pipeline,,184,interest-list-data-oct-2025.xlsx
+2025-10-01,DBMD,previous_biennium_counts,Previous Biennium Counts,"As of August 31, 2025",2324,interest-list-data-oct-2025.xlsx
+2025-10-01,DBMD,total_releases_this_biennium,Total Releases This Biennium 3,"Since September 1, 2025",205,interest-list-data-oct-2025.xlsx
+2025-10-01,HCS,added_this_biennium,Added This Biennium,New Requests,1174,interest-list-data-oct-2025.xlsx
+2025-10-01,HCS,current_interest_list_counts,Current Interest List Counts,"As of October 31, 2025",129013,interest-list-data-oct-2025.xlsx
+2025-10-01,HCS,denied_declined_withdrawn,Denied/Declined/Withdrawn 4,,89,interest-list-data-oct-2025.xlsx
+2025-10-01,HCS,enrolled,Enrolled 4,Released/Removed from Interest List 2,205,interest-list-data-oct-2025.xlsx
+2025-10-01,HCS,not_categorized,Not Categorized,0,5,interest-list-data-oct-2025.xlsx
+2025-10-01,HCS,pipeline,Pipeline,,497,interest-list-data-oct-2025.xlsx
+2025-10-01,HCS,previous_biennium_counts,Previous Biennium Counts,"As of August 31, 2025",128101,interest-list-data-oct-2025.xlsx
+2025-10-01,HCS,total_releases_this_biennium,Total Releases This Biennium 3,"Since September 1, 2025",284,interest-list-data-oct-2025.xlsx
+2025-10-01,MDCP,added_this_biennium,Added This Biennium,New Requests,665,interest-list-data-oct-2025.xlsx
+2025-10-01,MDCP,current_interest_list_counts,Current Interest List Counts,"As of October 31, 2025",7457,interest-list-data-oct-2025.xlsx
+2025-10-01,MDCP,denied_declined_withdrawn,Denied/Declined/Withdrawn 4,,163,interest-list-data-oct-2025.xlsx
+2025-10-01,MDCP,enrolled,Enrolled 4,Released/Removed from Interest List 2,24,interest-list-data-oct-2025.xlsx
+2025-10-01,MDCP,not_categorized,Not Categorized,0,0,interest-list-data-oct-2025.xlsx
+2025-10-01,MDCP,pipeline,Pipeline,,867,interest-list-data-oct-2025.xlsx
+2025-10-01,MDCP,previous_biennium_counts,Previous Biennium Counts,"As of August 31, 2025",7878,interest-list-data-oct-2025.xlsx
+2025-10-01,MDCP,total_releases_this_biennium,Total Releases This Biennium 3,"Since September 1, 2025",1054,interest-list-data-oct-2025.xlsx
+2025-10-01,STAR_PLUS_HCBS,added_this_biennium,Added This Biennium,New Requests,4804,interest-list-data-oct-2025.xlsx
+2025-10-01,STAR_PLUS_HCBS,current_interest_list_counts,Current Interest List Counts,"As of October 31, 2025",15970,interest-list-data-oct-2025.xlsx
+2025-10-01,STAR_PLUS_HCBS,denied_declined_withdrawn,Denied/Declined/Withdrawn 4,,745,interest-list-data-oct-2025.xlsx
+2025-10-01,STAR_PLUS_HCBS,enrolled,Enrolled 4,Released/Removed from Interest List 2,276,interest-list-data-oct-2025.xlsx
+2025-10-01,STAR_PLUS_HCBS,not_categorized,Not Categorized,0,1,interest-list-data-oct-2025.xlsx
+2025-10-01,STAR_PLUS_HCBS,pipeline,Pipeline,,4467,interest-list-data-oct-2025.xlsx
+2025-10-01,STAR_PLUS_HCBS,previous_biennium_counts,Previous Biennium Counts,"As of August 31, 2025",15689,interest-list-data-oct-2025.xlsx
+2025-10-01,STAR_PLUS_HCBS,total_releases_this_biennium,Total Releases This Biennium 3,"Since September 1, 2025",5491,interest-list-data-oct-2025.xlsx
+2025-10-01,TXHML,added_this_biennium,Added This Biennium,New Requests,1110,interest-list-data-oct-2025.xlsx
+2025-10-01,TXHML,current_interest_list_counts,Current Interest List Counts,"As of October 31, 2025",116859,interest-list-data-oct-2025.xlsx
+2025-10-01,TXHML,denied_declined_withdrawn,Denied/Declined/Withdrawn 4,,135,interest-list-data-oct-2025.xlsx
+2025-10-01,TXHML,enrolled,Enrolled 4,Released/Removed from Interest List 2,64,interest-list-data-oct-2025.xlsx
+2025-10-01,TXHML,not_categorized,Not Categorized,0,4,interest-list-data-oct-2025.xlsx
+2025-10-01,TXHML,pipeline,Pipeline,,1178,interest-list-data-oct-2025.xlsx
+2025-10-01,TXHML,previous_biennium_counts,Previous Biennium Counts,"As of August 31, 2025",116543,interest-list-data-oct-2025.xlsx
+2025-10-01,TXHML,total_releases_this_biennium,Total Releases This Biennium 3,"Since September 1, 2025",1000,interest-list-data-oct-2025.xlsx
+2025-11-01,ALL_PROGRAMS,added_this_biennium,Added This Biennium,New Requests,13642,interest-list-data-nov-2025.xlsx
+2025-11-01,ALL_PROGRAMS,current_interest_list_counts,Current Interest List Counts,"As of November 30, 2025",368576,interest-list-data-nov-2025.xlsx
+2025-11-01,ALL_PROGRAMS,denied_declined_withdrawn,Denied/Declined/Withdrawn 4,,5458,interest-list-data-nov-2025.xlsx
+2025-11-01,ALL_PROGRAMS,enrolled,Enrolled 4,Released/Removed from Interest List 2,1067,interest-list-data-nov-2025.xlsx
+2025-11-01,ALL_PROGRAMS,not_categorized,Not Categorized,0,14,interest-list-data-nov-2025.xlsx
+2025-11-01,ALL_PROGRAMS,pipeline,Pipeline,,13594,interest-list-data-nov-2025.xlsx
+2025-11-01,ALL_PROGRAMS,previous_biennium_counts,Previous Biennium Counts,"As of August 31, 2025",366735,interest-list-data-nov-2025.xlsx
+2025-11-01,ALL_PROGRAMS,total_releases_this_biennium,Total Releases This Biennium 3,"Since September 1, 2025",19428,interest-list-data-nov-2025.xlsx
+2025-11-01,CLASS,added_this_biennium,Added This Biennium,New Requests,1960,interest-list-data-nov-2025.xlsx
+2025-11-01,CLASS,current_interest_list_counts,Current Interest List Counts,"As of November 30, 2025",96457,interest-list-data-nov-2025.xlsx
+2025-11-01,CLASS,denied_declined_withdrawn,Denied/Declined/Withdrawn 4,,488,interest-list-data-nov-2025.xlsx
+2025-11-01,CLASS,enrolled,Enrolled 4,Released/Removed from Interest List 2,64,interest-list-data-nov-2025.xlsx
+2025-11-01,CLASS,not_categorized,Not Categorized,0,1,interest-list-data-nov-2025.xlsx
+2025-11-01,CLASS,pipeline,Pipeline,,1484,interest-list-data-nov-2025.xlsx
+2025-11-01,CLASS,previous_biennium_counts,Previous Biennium Counts,"As of August 31, 2025",96210,interest-list-data-nov-2025.xlsx
+2025-11-01,CLASS,total_releases_this_biennium,Total Releases This Biennium 3,"Since September 1, 2025",2041,interest-list-data-nov-2025.xlsx
+2025-11-01,DBMD,added_this_biennium,Added This Biennium,New Requests,98,interest-list-data-nov-2025.xlsx
+2025-11-01,DBMD,current_interest_list_counts,Current Interest List Counts,"As of November 30, 2025",2370,interest-list-data-nov-2025.xlsx
+2025-11-01,DBMD,denied_declined_withdrawn,Denied/Declined/Withdrawn 4,,9,interest-list-data-nov-2025.xlsx
+2025-11-01,DBMD,enrolled,Enrolled 4,Released/Removed from Interest List 2,19,interest-list-data-nov-2025.xlsx
+2025-11-01,DBMD,not_categorized,Not Categorized,0,0,interest-list-data-nov-2025.xlsx
+2025-11-01,DBMD,pipeline,Pipeline,,177,interest-list-data-nov-2025.xlsx
+2025-11-01,DBMD,previous_biennium_counts,Previous Biennium Counts,"As of August 31, 2025",2324,interest-list-data-nov-2025.xlsx
+2025-11-01,DBMD,total_releases_this_biennium,Total Releases This Biennium 3,"Since September 1, 2025",205,interest-list-data-nov-2025.xlsx
+2025-11-01,HCS,added_this_biennium,Added This Biennium,New Requests,1893,interest-list-data-nov-2025.xlsx
+2025-11-01,HCS,current_interest_list_counts,Current Interest List Counts,"As of November 30, 2025",129657,interest-list-data-nov-2025.xlsx
+2025-11-01,HCS,denied_declined_withdrawn,Denied/Declined/Withdrawn 4,,125,interest-list-data-nov-2025.xlsx
+2025-11-01,HCS,enrolled,Enrolled 4,Released/Removed from Interest List 2,253,interest-list-data-nov-2025.xlsx
+2025-11-01,HCS,not_categorized,Not Categorized,0,11,interest-list-data-nov-2025.xlsx
+2025-11-01,HCS,pipeline,Pipeline,,399,interest-list-data-nov-2025.xlsx
+2025-11-01,HCS,previous_biennium_counts,Previous Biennium Counts,"As of August 31, 2025",128100,interest-list-data-nov-2025.xlsx
+2025-11-01,HCS,total_releases_this_biennium,Total Releases This Biennium 3,"Since September 1, 2025",284,interest-list-data-nov-2025.xlsx
+2025-11-01,MDCP,added_this_biennium,Added This Biennium,New Requests,928,interest-list-data-nov-2025.xlsx
+2025-11-01,MDCP,current_interest_list_counts,Current Interest List Counts,"As of November 30, 2025",7172,interest-list-data-nov-2025.xlsx
+2025-11-01,MDCP,denied_declined_withdrawn,Denied/Declined/Withdrawn 4,,429,interest-list-data-nov-2025.xlsx
+2025-11-01,MDCP,enrolled,Enrolled 4,Released/Removed from Interest List 2,73,interest-list-data-nov-2025.xlsx
+2025-11-01,MDCP,not_categorized,Not Categorized,0,0,interest-list-data-nov-2025.xlsx
+2025-11-01,MDCP,pipeline,Pipeline,,1051,interest-list-data-nov-2025.xlsx
+2025-11-01,MDCP,previous_biennium_counts,Previous Biennium Counts,"As of August 31, 2025",7872,interest-list-data-nov-2025.xlsx
+2025-11-01,MDCP,total_releases_this_biennium,Total Releases This Biennium 3,"Since September 1, 2025",1570,interest-list-data-nov-2025.xlsx
+2025-11-01,STAR_PLUS_HCBS,added_this_biennium,Added This Biennium,New Requests,6961,interest-list-data-nov-2025.xlsx
+2025-11-01,STAR_PLUS_HCBS,current_interest_list_counts,Current Interest List Counts,"As of November 30, 2025",15887,interest-list-data-nov-2025.xlsx
+2025-11-01,STAR_PLUS_HCBS,denied_declined_withdrawn,Denied/Declined/Withdrawn 4,,2078,interest-list-data-nov-2025.xlsx
+2025-11-01,STAR_PLUS_HCBS,enrolled,Enrolled 4,Released/Removed from Interest List 2,329,interest-list-data-nov-2025.xlsx
+2025-11-01,STAR_PLUS_HCBS,not_categorized,Not Categorized,0,1,interest-list-data-nov-2025.xlsx
+2025-11-01,STAR_PLUS_HCBS,pipeline,Pipeline,,5236,interest-list-data-nov-2025.xlsx
+2025-11-01,STAR_PLUS_HCBS,previous_biennium_counts,Previous Biennium Counts,"As of August 31, 2025",15686,interest-list-data-nov-2025.xlsx
+2025-11-01,STAR_PLUS_HCBS,total_releases_this_biennium,Total Releases This Biennium 3,"Since September 1, 2025",7664,interest-list-data-nov-2025.xlsx
+2025-11-01,TXHML,added_this_biennium,Added This Biennium,New Requests,1802,interest-list-data-nov-2025.xlsx
+2025-11-01,TXHML,current_interest_list_counts,Current Interest List Counts,"As of November 30, 2025",117033,interest-list-data-nov-2025.xlsx
+2025-11-01,TXHML,denied_declined_withdrawn,Denied/Declined/Withdrawn 4,,253,interest-list-data-nov-2025.xlsx
+2025-11-01,TXHML,enrolled,Enrolled 4,Released/Removed from Interest List 2,65,interest-list-data-nov-2025.xlsx
+2025-11-01,TXHML,not_categorized,Not Categorized,0,18,interest-list-data-nov-2025.xlsx
+2025-11-01,TXHML,pipeline,Pipeline,,1530,interest-list-data-nov-2025.xlsx
+2025-11-01,TXHML,previous_biennium_counts,Previous Biennium Counts,"As of August 31, 2025",116543,interest-list-data-nov-2025.xlsx
+2025-11-01,TXHML,total_releases_this_biennium,Total Releases This Biennium 3,"Since September 1, 2025",1500,interest-list-data-nov-2025.xlsx
+2025-12-01,ALL_PROGRAMS,added_this_biennium,Added This Biennium,New Requests,18107,interest-list-data-dec-2025.xlsx
+2025-12-01,ALL_PROGRAMS,current_interest_list_counts,Current Interest List Counts,"As of December 31, 2025",369100,interest-list-data-dec-2025.xlsx
+2025-12-01,ALL_PROGRAMS,denied_declined_withdrawn,Denied/Declined/Withdrawn 4,,6173,interest-list-data-dec-2025.xlsx
+2025-12-01,ALL_PROGRAMS,enrolled,Enrolled 4,Released/Removed from Interest List 2,1180,interest-list-data-dec-2025.xlsx
+2025-12-01,ALL_PROGRAMS,not_categorized,Not Categorized,0,53,interest-list-data-dec-2025.xlsx
+2025-12-01,ALL_PROGRAMS,pipeline,Pipeline,,10345,interest-list-data-dec-2025.xlsx
+2025-12-01,ALL_PROGRAMS,previous_biennium_counts,Previous Biennium Counts,"As of August 31, 2025",366734,interest-list-data-dec-2025.xlsx
+2025-12-01,ALL_PROGRAMS,total_releases_this_biennium,Total Releases This Biennium 3,"Since September 1, 2025",16847,interest-list-data-dec-2025.xlsx
+2025-12-01,CLASS,added_this_biennium,Added This Biennium,New Requests,2494,interest-list-data-dec-2025.xlsx
+2025-12-01,CLASS,current_interest_list_counts,Current Interest List Counts,"As of December 31, 2025",96447,interest-list-data-dec-2025.xlsx
+2025-12-01,CLASS,denied_declined_withdrawn,Denied/Declined/Withdrawn 4,,995,interest-list-data-dec-2025.xlsx
+2025-12-01,CLASS,enrolled,Enrolled 4,Released/Removed from Interest List 2,79,interest-list-data-dec-2025.xlsx
+2025-12-01,CLASS,not_categorized,Not Categorized,0,1,interest-list-data-dec-2025.xlsx
+2025-12-01,CLASS,pipeline,Pipeline,,1477,interest-list-data-dec-2025.xlsx
+2025-12-01,CLASS,previous_biennium_counts,Previous Biennium Counts,"As of August 31, 2025",96209,interest-list-data-dec-2025.xlsx
+2025-12-01,CLASS,total_releases_this_biennium,Total Releases This Biennium 3,"Since September 1, 2025",2556,interest-list-data-dec-2025.xlsx
+2025-12-01,DBMD,added_this_biennium,Added This Biennium,New Requests,131,interest-list-data-dec-2025.xlsx
+2025-12-01,DBMD,current_interest_list_counts,Current Interest List Counts,"As of December 31, 2025",2400,interest-list-data-dec-2025.xlsx
+2025-12-01,DBMD,denied_declined_withdrawn,Denied/Declined/Withdrawn 4,,26,interest-list-data-dec-2025.xlsx
+2025-12-01,DBMD,enrolled,Enrolled 4,Released/Removed from Interest List 2,21,interest-list-data-dec-2025.xlsx
+2025-12-01,DBMD,not_categorized,Not Categorized,0,0,interest-list-data-dec-2025.xlsx
+2025-12-01,DBMD,pipeline,Pipeline,,157,interest-list-data-dec-2025.xlsx
+2025-12-01,DBMD,previous_biennium_counts,Previous Biennium Counts,"As of August 31, 2025",2324,interest-list-data-dec-2025.xlsx
+2025-12-01,DBMD,total_releases_this_biennium,Total Releases This Biennium 3,"Since September 1, 2025",205,interest-list-data-dec-2025.xlsx
+2025-12-01,HCS,added_this_biennium,Added This Biennium,New Requests,2613,interest-list-data-dec-2025.xlsx
+2025-12-01,HCS,current_interest_list_counts,Current Interest List Counts,"As of December 31, 2025",130279,interest-list-data-dec-2025.xlsx
+2025-12-01,HCS,denied_declined_withdrawn,Denied/Declined/Withdrawn 4,,177,interest-list-data-dec-2025.xlsx
+2025-12-01,HCS,enrolled,Enrolled 4,Released/Removed from Interest List 2,297,interest-list-data-dec-2025.xlsx
+2025-12-01,HCS,not_categorized,Not Categorized,0,14,interest-list-data-dec-2025.xlsx
+2025-12-01,HCS,pipeline,Pipeline,,299,interest-list-data-dec-2025.xlsx
+2025-12-01,HCS,previous_biennium_counts,Previous Biennium Counts,"As of August 31, 2025",128100,interest-list-data-dec-2025.xlsx
+2025-12-01,HCS,total_releases_this_biennium,Total Releases This Biennium 3,"Since September 1, 2025",284,interest-list-data-dec-2025.xlsx
+2025-12-01,MDCP,added_this_biennium,Added This Biennium,New Requests,1240,interest-list-data-dec-2025.xlsx
+2025-12-01,MDCP,current_interest_list_counts,Current Interest List Counts,"As of December 31, 2025",6946,interest-list-data-dec-2025.xlsx
+2025-12-01,MDCP,denied_declined_withdrawn,Denied/Declined/Withdrawn 4,,826,interest-list-data-dec-2025.xlsx
+2025-12-01,MDCP,enrolled,Enrolled 4,Released/Removed from Interest List 2,167,interest-list-data-dec-2025.xlsx
+2025-12-01,MDCP,not_categorized,Not Categorized,0,3,interest-list-data-dec-2025.xlsx
+2025-12-01,MDCP,pipeline,Pipeline,,1065,interest-list-data-dec-2025.xlsx
+2025-12-01,MDCP,previous_biennium_counts,Previous Biennium Counts,"As of August 31, 2025",7872,interest-list-data-dec-2025.xlsx
+2025-12-01,MDCP,total_releases_this_biennium,Total Releases This Biennium 3,"Since September 1, 2025",2078,interest-list-data-dec-2025.xlsx
+2025-12-01,STAR_PLUS_HCBS,added_this_biennium,Added This Biennium,New Requests,9142,interest-list-data-dec-2025.xlsx
+2025-12-01,STAR_PLUS_HCBS,current_interest_list_counts,Current Interest List Counts,"As of December 31, 2025",15850,interest-list-data-dec-2025.xlsx
+2025-12-01,STAR_PLUS_HCBS,denied_declined_withdrawn,Denied/Declined/Withdrawn 4,,3707,interest-list-data-dec-2025.xlsx
+2025-12-01,STAR_PLUS_HCBS,enrolled,Enrolled 4,Released/Removed from Interest List 2,435,interest-list-data-dec-2025.xlsx
+2025-12-01,STAR_PLUS_HCBS,not_categorized,Not Categorized,0,1,interest-list-data-dec-2025.xlsx
+2025-12-01,STAR_PLUS_HCBS,pipeline,Pipeline,,5562,interest-list-data-dec-2025.xlsx
+2025-12-01,STAR_PLUS_HCBS,previous_biennium_counts,Previous Biennium Counts,"As of August 31, 2025",15686,interest-list-data-dec-2025.xlsx
+2025-12-01,STAR_PLUS_HCBS,total_releases_this_biennium,Total Releases This Biennium 3,"Since September 1, 2025",9724,interest-list-data-dec-2025.xlsx
+2025-12-01,TXHML,added_this_biennium,Added This Biennium,New Requests,2487,interest-list-data-dec-2025.xlsx
+2025-12-01,TXHML,current_interest_list_counts,Current Interest List Counts,"As of December 31, 2025",117178,interest-list-data-dec-2025.xlsx
+2025-12-01,TXHML,denied_declined_withdrawn,Denied/Declined/Withdrawn 4,,442,interest-list-data-dec-2025.xlsx
+2025-12-01,TXHML,enrolled,Enrolled 4,Released/Removed from Interest List 2,181,interest-list-data-dec-2025.xlsx
+2025-12-01,TXHML,not_categorized,Not Categorized,0,34,interest-list-data-dec-2025.xlsx
+2025-12-01,TXHML,pipeline,Pipeline,,1785,interest-list-data-dec-2025.xlsx
+2025-12-01,TXHML,previous_biennium_counts,Previous Biennium Counts,"As of August 31, 2025",116543,interest-list-data-dec-2025.xlsx
+2025-12-01,TXHML,total_releases_this_biennium,Total Releases This Biennium 3,"Since September 1, 2025",2000,interest-list-data-dec-2025.xlsx
+2026-01-01,ALL_PROGRAMS,added_this_biennium,Added This Biennium,New Requests,21909,interest-list-data-jan-2026.xlsx
+2026-01-01,ALL_PROGRAMS,current_interest_list_counts,Current Interest List Counts,"As of January 31, 2026",368902,interest-list-data-jan-2026.xlsx
+2026-01-01,ALL_PROGRAMS,denied_declined_withdrawn,Denied/Declined/Withdrawn 4,,9394,interest-list-data-jan-2026.xlsx
+2026-01-01,ALL_PROGRAMS,enrolled,Enrolled 4,Released/Removed from Interest List 2,1492,interest-list-data-jan-2026.xlsx
+2026-01-01,ALL_PROGRAMS,not_categorized,Not Categorized,0,73,interest-list-data-jan-2026.xlsx
+2026-01-01,ALL_PROGRAMS,pipeline,Pipeline,,10474,interest-list-data-jan-2026.xlsx
+2026-01-01,ALL_PROGRAMS,previous_biennium_counts,Previous Biennium Counts,"As of August 31, 2025",366734,interest-list-data-jan-2026.xlsx
+2026-01-01,ALL_PROGRAMS,total_releases_this_biennium,Total Releases This Biennium 3,"Since September 1, 2025",20537,interest-list-data-jan-2026.xlsx
+2026-01-01,CLASS,added_this_biennium,Added This Biennium,New Requests,3144,interest-list-data-jan-2026.xlsx
+2026-01-01,CLASS,current_interest_list_counts,Current Interest List Counts,"As of January 31, 2026",96547,interest-list-data-jan-2026.xlsx
+2026-01-01,CLASS,denied_declined_withdrawn,Denied/Declined/Withdrawn 4,,1392,interest-list-data-jan-2026.xlsx
+2026-01-01,CLASS,enrolled,Enrolled 4,Released/Removed from Interest List 2,86,interest-list-data-jan-2026.xlsx
+2026-01-01,CLASS,not_categorized,Not Categorized,0,1,interest-list-data-jan-2026.xlsx
+2026-01-01,CLASS,pipeline,Pipeline,,1596,interest-list-data-jan-2026.xlsx
+2026-01-01,CLASS,previous_biennium_counts,Previous Biennium Counts,"As of August 31, 2025",96209,interest-list-data-jan-2026.xlsx
+2026-01-01,CLASS,total_releases_this_biennium,Total Releases This Biennium 3,"Since September 1, 2025",3079,interest-list-data-jan-2026.xlsx
+2026-01-01,DBMD,added_this_biennium,Added This Biennium,New Requests,183,interest-list-data-jan-2026.xlsx
+2026-01-01,DBMD,current_interest_list_counts,Current Interest List Counts,"As of January 31, 2026",2447,interest-list-data-jan-2026.xlsx
+2026-01-01,DBMD,denied_declined_withdrawn,Denied/Declined/Withdrawn 4,,39,interest-list-data-jan-2026.xlsx
+2026-01-01,DBMD,enrolled,Enrolled 4,Released/Removed from Interest List 2,27,interest-list-data-jan-2026.xlsx
+2026-01-01,DBMD,not_categorized,Not Categorized,0,0,interest-list-data-jan-2026.xlsx
+2026-01-01,DBMD,pipeline,Pipeline,,138,interest-list-data-jan-2026.xlsx
+2026-01-01,DBMD,previous_biennium_counts,Previous Biennium Counts,"As of August 31, 2025",2324,interest-list-data-jan-2026.xlsx
+2026-01-01,DBMD,total_releases_this_biennium,Total Releases This Biennium 3,"Since September 1, 2025",205,interest-list-data-jan-2026.xlsx
+2026-01-01,HCS,added_this_biennium,Added This Biennium,New Requests,3220,interest-list-data-jan-2026.xlsx
+2026-01-01,HCS,current_interest_list_counts,Current Interest List Counts,"As of January 31, 2026",130764,interest-list-data-jan-2026.xlsx
+2026-01-01,HCS,denied_declined_withdrawn,Denied/Declined/Withdrawn 4,,212,interest-list-data-jan-2026.xlsx
+2026-01-01,HCS,enrolled,Enrolled 4,Released/Removed from Interest List 2,339,interest-list-data-jan-2026.xlsx
+2026-01-01,HCS,not_categorized,Not Categorized,0,16,interest-list-data-jan-2026.xlsx
+2026-01-01,HCS,pipeline,Pipeline,,220,interest-list-data-jan-2026.xlsx
+2026-01-01,HCS,previous_biennium_counts,Previous Biennium Counts,"As of August 31, 2025",128100,interest-list-data-jan-2026.xlsx
+2026-01-01,HCS,total_releases_this_biennium,Total Releases This Biennium 3,"Since September 1, 2025",284,interest-list-data-jan-2026.xlsx
+2026-01-01,MDCP,added_this_biennium,Added This Biennium,New Requests,1652,interest-list-data-jan-2026.xlsx
+2026-01-01,MDCP,current_interest_list_counts,Current Interest List Counts,"As of January 31, 2026",6825,interest-list-data-jan-2026.xlsx
+2026-01-01,MDCP,denied_declined_withdrawn,Denied/Declined/Withdrawn 4,,1227,interest-list-data-jan-2026.xlsx
+2026-01-01,MDCP,enrolled,Enrolled 4,Released/Removed from Interest List 2,250,interest-list-data-jan-2026.xlsx
+2026-01-01,MDCP,not_categorized,Not Categorized,0,4,interest-list-data-jan-2026.xlsx
+2026-01-01,MDCP,pipeline,Pipeline,,1092,interest-list-data-jan-2026.xlsx
+2026-01-01,MDCP,previous_biennium_counts,Previous Biennium Counts,"As of August 31, 2025",7872,interest-list-data-jan-2026.xlsx
+2026-01-01,MDCP,total_releases_this_biennium,Total Releases This Biennium 3,"Since September 1, 2025",2590,interest-list-data-jan-2026.xlsx
+2026-01-01,STAR_PLUS_HCBS,added_this_biennium,Added This Biennium,New Requests,10660,interest-list-data-jan-2026.xlsx
+2026-01-01,STAR_PLUS_HCBS,current_interest_list_counts,Current Interest List Counts,"As of January 31, 2026",15144,interest-list-data-jan-2026.xlsx
+2026-01-01,STAR_PLUS_HCBS,denied_declined_withdrawn,Denied/Declined/Withdrawn 4,,5670,interest-list-data-jan-2026.xlsx
+2026-01-01,STAR_PLUS_HCBS,enrolled,Enrolled 4,Released/Removed from Interest List 2,576,interest-list-data-jan-2026.xlsx
+2026-01-01,STAR_PLUS_HCBS,not_categorized,Not Categorized,0,3,interest-list-data-jan-2026.xlsx
+2026-01-01,STAR_PLUS_HCBS,pipeline,Pipeline,,5605,interest-list-data-jan-2026.xlsx
+2026-01-01,STAR_PLUS_HCBS,previous_biennium_counts,Previous Biennium Counts,"As of August 31, 2025",15686,interest-list-data-jan-2026.xlsx
+2026-01-01,STAR_PLUS_HCBS,total_releases_this_biennium,Total Releases This Biennium 3,"Since September 1, 2025",11879,interest-list-data-jan-2026.xlsx
+2026-01-01,TXHML,added_this_biennium,Added This Biennium,New Requests,3050,interest-list-data-jan-2026.xlsx
+2026-01-01,TXHML,current_interest_list_counts,Current Interest List Counts,"As of January 31, 2026",117175,interest-list-data-jan-2026.xlsx
+2026-01-01,TXHML,denied_declined_withdrawn,Denied/Declined/Withdrawn 4,,854,interest-list-data-jan-2026.xlsx
+2026-01-01,TXHML,enrolled,Enrolled 4,Released/Removed from Interest List 2,214,interest-list-data-jan-2026.xlsx
+2026-01-01,TXHML,not_categorized,Not Categorized,0,49,interest-list-data-jan-2026.xlsx
+2026-01-01,TXHML,pipeline,Pipeline,,1823,interest-list-data-jan-2026.xlsx
+2026-01-01,TXHML,previous_biennium_counts,Previous Biennium Counts,"As of August 31, 2025",116543,interest-list-data-jan-2026.xlsx
+2026-01-01,TXHML,total_releases_this_biennium,Total Releases This Biennium 3,"Since September 1, 2025",2500,interest-list-data-jan-2026.xlsx

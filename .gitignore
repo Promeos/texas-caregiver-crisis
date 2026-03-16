@@ -39,6 +39,7 @@ data/processed/*.parquet
 
 # Portfolio: include analysis outputs and source rate files for reviewability
 !data/processed/bls_oews_texas_2024.csv
+!data/processed/hhsc_*.csv
 !data/processed/market_wages.csv
 !data/processed/pfd_wage_calculator_target_programs.csv
 !data/processed/pfd_wage_calculator_all_services.csv

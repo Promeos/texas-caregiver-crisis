@@ -4,11 +4,11 @@
 
 Texas publishes a **$10.60 an hour** base target wage in the HHSC Personal Attendant Base Wage Calculator. That figure is directly visible in the raw workbook bundled in this repo, and it anchors the audited claim set below.
 
-This repo was audited on 2026-03-15 to separate checked figures from illustrative or stale claims. This README now shows only figures that are either read directly from checked-in source files or derived deterministically from those files with documented formulas. Older waitlist, turnover, retail-comparison, and policy-brief outputs remain in the repo as exploratory artifacts and are intentionally not embedded here. See [VERIFICATION.md](VERIFICATION.md).
+This repo was audited on 2026-03-15 to separate checked figures from illustrative or stale claims. This README now shows only figures that are either read directly from checked-in source files or derived deterministically from those files with documented formulas. The repo now also includes audited HHSC waitlist datasets and audited HCS/ICF cost datasets, but older waitlist-clearing, turnover, retail-comparison, and policy-brief outputs remain exploratory artifacts. See [VERIFICATION.md](VERIFICATION.md).
 
 ---
 
-![Verified README Summary](reports/readme_verified_summary.png)
+![Audited Wage Figures](reports/readme_verified_summary.png)
 
 *Only audited figures are shown here: the HHSC base wage from the checked-in calculator, the May 2024 Texas BLS mean for SOC 31-1120, and the CPI-derived purchasing-power adjustment documented in this repo.*
 
@@ -20,7 +20,7 @@ This repo was audited on 2026-03-15 to separate checked figures from illustrativ
 |---|---|---|---|
 | HHSC base target wage in calculator | **$10.60/hr** | Source | HHSC wage calculator, cell B7 (updated 2/7/2025) |
 | What $10.60 actually buys in 2025 | **$7.82/hr** | Derived | Adjusted to 2015 dollars using BLS CPI-U South |
-| What $10.60 should be in 2025 dollars | **$14.37/hr** | Derived | Same CPI data, calculated forward |
+| What $10.60 should be in 2025 dollars | **$14.38/hr** | Derived | Same CPI data, calculated forward |
 | Average pay for TX home health and personal care aides | **$12.19/hr** | Source | Bureau of Labor Statistics, OEWS May 2024, SOC 31-1120 |
 | Number of TX home health and personal care aides | **314,610** | Source | Bureau of Labor Statistics, OEWS May 2024, SOC 31-1120 |
 
@@ -28,17 +28,33 @@ This repo was audited on 2026-03-15 to separate checked figures from illustrativ
 
 The official BLS occupation title for SOC `31-1120` is **Home Health and Personal Care Aides**, which is broader than Medicaid-funded waiver staff alone.
 
-No waitlist, turnover, retail-wage, or policy-cost claim is treated as an audited headline figure in this README.
+No waitlist-clearing timeline, turnover, retail-wage, or replacement-cost scenario is treated as an audited headline figure in this README.
+
+## New Verified Datasets
+
+The repo now includes source-audited datasets built directly from official HHSC files.
+
+| Dataset | What it contains | Example verified value |
+|---|---|---|
+| `data/processed/hhsc_interest_list_totals_monthly.csv` | Monthly interest-list totals by program from the HHSC workbook archive | **HCS = 130,764** and **TxHmL = 117,175** as of **January 31, 2026** |
+| `data/processed/hhsc_interest_list_releases_summary_monthly.csv` | Monthly release, enrollment, pipeline, and current-count summary metrics | **HCS enrolled = 339** and **HCS total releases this biennium = 284** in the January 2026 workbook |
+| `data/processed/hhsc_interest_list_legislative_allocations.csv` | The official allocation table posted by HHSC for the 2022-23 biennium | **HCS = 542 slots**, **TxHmL = 471**, **Total = 1,549** |
+| `data/processed/hhsc_setting_costs_fy2023.csv` | HHSC monthly average Medicaid cost per individual by setting | **Community ICF/IID = $5,247.52**, **HCS residential = $6,563.91** |
+| `data/processed/hhsc_community_icf_iid_costs_by_lonsize_fy2023.csv` | Community ICF/IID monthly cost and average individuals served by level of need and facility size | **LON 1 / Small = 999 people served, $4,232.10 per person-month** |
+| `data/processed/hhsc_residential_rate_components.csv` | HHSC reimbursement components for HCS `SL/RSS` and non-state community ICF/IID residential rates | **ICF small LON 1 attendant component = $60.3944**; **HCS supervised living LON 5 attendant component = $85.74** |
+| `data/processed/hhsc_cost_report_cost_areas.csv` | Verified HCS/ICF cost-report categories from the official 2024 instructions | HCS includes `RESIDENTIAL_SL_RSS`; ICF includes `RESIDENTIAL_SMALL_MEDIUM_LARGE` and `DAY_HABILITATION` |
 
 ## What the Audited Evidence Supports
 
 The narrow conclusion that survives the audit is straightforward:
 
 - HHSC's published calculator still starts from **$10.60/hr**
-- CPI parity from a 2015 base year is about **$14.37/hr**
+- CPI parity from a 2015 base year is about **$14.38/hr**
 - The May 2024 BLS Texas mean for SOC 31-1120 is **$12.19/hr**
+- HHSC's latest checked-in interest-list workbook reports **130,764 HCS** names and **117,175 TxHmL** names as of **January 31, 2026**
+- HHSC's audited FY 2023 cost comparison report shows **$5,247.52** per month for **community ICF/IID** and **$6,563.91** for **HCS residential**
 
-The repo does not yet contain a reproducible fiscal model for a specific replacement wage, a source-audited waitlist-clearing timeline, or a Texas-specific turnover estimate. Those claims were removed from the README until the underlying data is checked in and tested.
+The repo now contains source-audited waitlist counts, release tables, legislative allocation data, and HCS/ICF cost tables. It still does not contain a reproducible waitlist-clearing timeline, a provider profit-and-loss model, or a Texas-specific turnover estimate. Those claims remain out of scope until the underlying data and assumptions are checked in and tested.
 
 ---
 
@@ -47,25 +63,30 @@ The repo does not yet contain a reproducible fiscal model for a specific replace
 <details>
 <summary><strong>Where the data comes from</strong></summary>
 
-The audited headline set in this README uses only three source families.
+The audited material in this README uses five source families.
 
 | Source | What we pulled | Website |
 |---|---|---|
 | **HHSC** (Texas Health & Human Services) | The $10.60 wage target and per-service rate inputs | pfd.hhs.texas.gov |
+| **HHSC** interest-list reporting | Monthly workbook snapshots of waiver interest-list totals and releases | hhs.texas.gov |
+| **HHSC** cost comparison and cost-report instructions | Per-person cost tables and operator cost-area definitions for HCS and ICF/IID | hhs.texas.gov |
 | **BLS** (Bureau of Labor Statistics) | How many home health and personal care aides work in Texas, and what they earn | bls.gov/oes/ |
 | **BLS** Consumer Price Index | Inflation data for the South region | bls.gov/cpi/ |
+| **LBB** (Legislative Budget Board) | Cross-checks on rider language and earlier misapplied slot claims | lbb.texas.gov |
 
-Supplementary audit files from LBB and NCI are kept locally to verify that earlier waitlist and turnover claims were overstated or misapplied. They are documented in [references/sources.yaml](references/sources.yaml) and [VERIFICATION.md](VERIFICATION.md), but they are not used as headline evidence here.
+Supplementary audit files from LBB and NCI are still kept locally to verify that earlier waitlist and turnover claims were overstated or misapplied. The new waitlist and operator-cost datasets, however, are now built from official HHSC files that are checked into `data/raw/official/`.
 
 </details>
 
 <details>
 <summary><strong>How we did the math</strong></summary>
 
-- **Inflation adjustment:** We used the Consumer Price Index for the South to calculate what $10.60 from ~2015 is worth in 2025 dollars.
+- **Inflation adjustment:** We used the Consumer Price Index for the South to calculate what $10.60 from the repo's stated 2015 base-year assumption is worth in 2025 dollars.
 - **BLS wage comparison:** We compared the HHSC base wage to the May 2024 Texas OEWS mean for SOC 31-1120 (`$12.19/hr`) and preserved the matching employment count (`314,610`) as context.
+- **Waitlist datasets:** We parse the official HHSC monthly interest-list workbooks into reproducible CSVs for totals, years-on-list buckets, closures, releases, and the posted 2022-23 legislative allocation table.
+- **HCS/ICF operator-cost datasets:** We parse the HHSC cost comparison report, the community ICF/IID LON-by-size table, the HCS and ICF cost-report instruction categories, and the HHSC rate workbook's attendant/non-attendant reimbursement components.
 - **README visuals:** The embedded chart is regenerated from `results_summary.json`, which is itself built from the checked-in HHSC workbook, the processed BLS extract, and the documented CPI formula.
-- **Excluded claims:** Waitlist, turnover, retail-wage, and policy-cost figures are omitted from the README unless they are tied back to checked-in source tables and verification tests.
+- **Excluded claims:** Waitlist-clearing timelines, turnover scenarios, retail-wage comparisons, and provider-margin claims are omitted unless they are tied back to checked-in source tables and verification tests.
 
 For the full methodology, assumptions, and limitations, see [METHODOLOGY.md](METHODOLOGY.md).
 
@@ -100,7 +121,7 @@ pip install -e ".[dev]"
 ```bash
 just setup    # install deps + editable package
 just check    # lint + run tests
-just results  # regenerate results_summary.json + audited README chart
+just results  # regenerate audited HHSC datasets + results_summary.json + README chart
 just build    # rebuild audited notebooks + results summary
 ```
 
@@ -122,7 +143,7 @@ jupyter lab
 
 | Notebook | What it does | Status |
 |---|---|---|
-| `02_waitlist_access` | Waitlist and turnover analysis | Uses manually entered data, not source-audited |
+| `02_waitlist_access` | Waitlist and turnover analysis | Exploratory notebook; not yet rewired to the audited waitlist CSVs |
 | `04_policy_brief` | One-page brief generator | Mixes audited and unaudited figures |
 
 ### Regenerate audited outputs
@@ -131,7 +152,7 @@ jupyter lab
 just build   # runs only audited notebooks + results generation
 ```
 
-All outputs go to `reports/`. Only `reports/readme_verified_summary.png` and `results_summary.json` are produced from checked-in source data.
+Audited dataset CSVs are written to `data/processed/`. Audited charts go to `reports/`. The README currently embeds only `reports/readme_verified_summary.png`, while `results_summary.json` carries the machine-readable audited figure set.
 
 </details>
 
@@ -152,14 +173,16 @@ texas-caregiver-crisis/
 │   ├── rates.py     — HHSC Medicaid rate structures
 │   ├── budget.py    — Legislative budget data by session
 │   ├── staffing.py  — 24/7 staffing coverage calculator
+│   ├── verified_datasets.py — Builds audited waitlist and HCS/ICF cost datasets
 │   └── scraper.py   — Downloads HHSC rate spreadsheets
 ├── scripts/
 │   ├── generate_results.py — Produces results_summary.json
+│   ├── generate_verified_datasets.py — Produces audited HHSC waitlist and cost CSVs
 │   └── generate_verified_readme_visuals.py — Produces the audited README chart
 ├── tests/           — Headline figure verification (pytest)
 ├── data/
-│   ├── raw/         — Original downloaded files (HHSC rate spreadsheets)
-│   └── processed/   — Cleaned, analysis-ready CSVs
+│   ├── raw/         — Checked-in source files, including HHSC rate, waitlist, and official report downloads
+│   └── processed/   — Cleaned, analysis-ready CSVs, including audited HHSC waitlist and cost datasets
 ├── reports/         — All charts (README uses only audited visuals)
 ├── results_summary.json — Machine-verifiable headline figures
 ├── METHODOLOGY.md   — Full methodology, figure audit, limitations
