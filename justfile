@@ -1,4 +1,4 @@
-# Texas Caregiver Crisis — task runner
+# Texas HHCS — task runner
 # Install: brew install just (macOS) or cargo install just
 
 # Install dependencies and package in dev mode

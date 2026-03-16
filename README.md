@@ -208,7 +208,7 @@ Provider classification (linking HHSC/TMHP/PPP records to identify provider type
 
 This work is licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) — free to share and adapt, but **you must give credit**.
 
-> Ortiz, C. (2026). "The Invisible Pay Cut: How Texas's $10.60 Wage Assumption Shows Up in Public Rate Data." Data science investigation. https://github.com/Promeos/texas-caregiver-crisis
+> Ortiz, C. (2026). "Texas HHCS — ICF/IID & HCS Provider Economics Investigation." Data science investigation. https://github.com/Promeos/texas-caregiver-crisis
 
 ---
 

@@ -53,3 +53,7 @@ credentials.*
 # Claude Code
 CLAUDE.md
 .claude/
+
+# Proprietary research — local only
+CRITICAL_FINDING_CIRCULAR_METHODOLOGY.md
+references/tpia-request-draft.md
