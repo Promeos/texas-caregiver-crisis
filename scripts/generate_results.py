@@ -33,6 +33,7 @@ CPI_ANNUAL = pd.DataFrame(
 
 
 def main():
+    """Build results_summary.json from processed CSVs and CPI constants."""
     # Load processed BLS data
     df_bls = pd.read_csv(PROCESSED / "bls_oews_texas_2024.csv")
     hha = df_bls[df_bls["soc_code"] == "31-1120"].set_index("measure")["value"]

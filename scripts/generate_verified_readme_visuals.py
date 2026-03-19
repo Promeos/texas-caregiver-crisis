@@ -11,11 +11,13 @@ OUTPUT = ROOT / "reports" / "readme_verified_summary.png"
 
 
 def load_figures() -> dict:
+    """Load the figures dict from results_summary.json."""
     data = json.loads(RESULTS.read_text())
     return data["figures"]
 
 
 def build_chart(figures: dict) -> None:
+    """Render a two-panel wage-context chart and save it to reports/."""
     hhsc_wage = figures["hhsc_target_wage"]["value"]
     bls_mean = figures["bls_tx_hha_mean_wage"]["value"]
     cpi_parity = figures["inflation_adjusted_wage"]["value"]
@@ -109,6 +111,7 @@ def build_chart(figures: dict) -> None:
 
 
 def main() -> None:
+    """Generate the README verified-summary chart from results_summary.json."""
     figures = load_figures()
     build_chart(figures)
     print(f"Wrote {OUTPUT}")

@@ -9,7 +9,6 @@ import pandas as pd
 from bs4 import BeautifulSoup
 from openpyxl import load_workbook
 
-
 MONTH_MAP = {
     "jan": 1,
     "january": 1,
@@ -219,6 +218,7 @@ ICF_COST_AREAS = [
 
 
 def _normalize_program(value: str | None) -> str | None:
+    """Map raw program name variants to a canonical key, or return None if unrecognised."""
     if value is None:
         return None
     cleaned = re.sub(r"[^A-Z+]", "", str(value).strip().upper())
@@ -238,6 +238,7 @@ def _normalize_program(value: str | None) -> str | None:
 
 
 def _clean_int(value: object) -> int | None:
+    """Coerce a cell value to int, stripping commas and whitespace. Returns None for blanks."""
     if value is None or value == "":
         return None
     if isinstance(value, str):
@@ -248,16 +249,19 @@ def _clean_int(value: object) -> int | None:
 
 
 def _clean_float(value: object) -> float | None:
+    """Coerce a cell value to float. Returns None for blanks."""
     if value is None or value == "":
         return None
     return float(value)
 
 
 def _parse_currency(value: str) -> float:
+    """Parse a dollar string like '$1,234.56' into a float."""
     return float(value.replace("$", "").replace(",", ""))
 
 
 def _interest_list_report_month(path: Path) -> str:
+    """Extract a YYYY-MM-01 report month string from an interest-list filename."""
     match = re.search(r"interest-list-data-([a-z]+)-(\d{4})\.xlsx$", path.name)
     if not match:
         raise ValueError(f"Could not parse report month from {path.name}")
@@ -267,10 +271,12 @@ def _interest_list_report_month(path: Path) -> str:
 
 
 def _stripped_lines(path: Path) -> list[str]:
+    """Read a text file and return non-empty lines with whitespace stripped."""
     return [line.strip() for line in path.read_text().splitlines() if line.strip()]
 
 
 def _find_row(ws, expected: str) -> int:
+    """Return the row number whose column-1 value exactly matches *expected*."""
     for row in range(1, ws.max_row + 1):
         value = ws.cell(row, 1).value
         if value == expected:
@@ -279,6 +285,7 @@ def _find_row(ws, expected: str) -> int:
 
 
 def _find_row_prefix(ws, prefix: str) -> int:
+    """Return the row number whose column-1 value starts with *prefix*."""
     for row in range(1, ws.max_row + 1):
         value = ws.cell(row, 1).value
         if isinstance(value, str) and value.strip().startswith(prefix):
@@ -287,6 +294,7 @@ def _find_row_prefix(ws, prefix: str) -> int:
 
 
 def _find_row_contains_prefix(ws, prefix: str) -> int:
+    """Return the row number where any cell's text starts with *prefix*."""
     for row in range(1, ws.max_row + 1):
         for col in range(1, ws.max_column + 1):
             value = ws.cell(row, col).value
@@ -296,6 +304,7 @@ def _find_row_contains_prefix(ws, prefix: str) -> int:
 
 
 def _find_line_prefix(lines: list[str], prefix: str, start: int = 0) -> int:
+    """Return the index of the first line starting with *prefix*, searching from *start*."""
     for idx in range(start, len(lines)):
         if lines[idx].startswith(prefix):
             return idx
@@ -303,6 +312,7 @@ def _find_line_prefix(lines: list[str], prefix: str, start: int = 0) -> int:
 
 
 def _sheet_by_prefix(workbook, prefix: str):
+    """Return the first worksheet whose name equals or starts with *prefix*."""
     for sheet_name in workbook.sheetnames:
         if sheet_name == prefix or sheet_name.startswith(prefix):
             return workbook[sheet_name]
@@ -310,6 +320,7 @@ def _sheet_by_prefix(workbook, prefix: str):
 
 
 def _program_columns(ws, program_row: int, value_row: int, expected_metric: str) -> list[tuple[int, str]]:
+    """Identify (column, program) pairs matching *expected_metric* in the header rows."""
     columns: list[tuple[int, str]] = []
     for col in range(2, ws.max_column + 1):
         program = _normalize_program(ws.cell(program_row, col).value)
@@ -322,6 +333,7 @@ def _program_columns(ws, program_row: int, value_row: int, expected_metric: str)
 
 
 def _row_texts(ws, row: int) -> list[str]:
+    """Collect all non-empty, whitespace-normalised text values from a worksheet row."""
     texts: list[str] = []
     for col in range(1, ws.max_column + 1):
         value = ws.cell(row, col).value
@@ -331,6 +343,7 @@ def _row_texts(ws, row: int) -> list[str]:
 
 
 def _row_label_and_reference(ws, row: int, label_prefix: str) -> tuple[str | None, str | None]:
+    """Extract the label and reference note from a row, keyed by *label_prefix*."""
     texts = _row_texts(ws, row)
     label = next((text for text in texts if text.startswith(label_prefix)), None)
     reference = next(
@@ -344,10 +357,29 @@ def _row_label_and_reference(ws, row: int, label_prefix: str) -> tuple[str | Non
     return label, reference
 
 
-def build_interest_list_totals(monthly_dir: Path) -> pd.DataFrame:
-    rows: list[dict] = []
+def _load_interest_list_workbooks(
+    monthly_dir: Path,
+) -> list[tuple[Path, object]]:
+    """Load all interest-list Excel workbooks from a directory once.
+
+    Returns a sorted list of (path, workbook) tuples.  Callers should
+    call ``wb.close()`` on each workbook when finished.
+    """
+    workbooks = []
     for path in sorted(monthly_dir.glob("interest-list-data-*.xlsx")):
         wb = load_workbook(path, data_only=True)
+        workbooks.append((path, wb))
+    return workbooks
+
+
+def build_interest_list_totals(
+    monthly_dir: Path,
+    *,
+    _workbooks: list[tuple[Path, object]] | None = None,
+) -> pd.DataFrame:
+    rows: list[dict] = []
+    workbooks = _workbooks or _load_interest_list_workbooks(monthly_dir)
+    for path, wb in workbooks:
         ws = _sheet_by_prefix(wb, "Time on Interest List")
         header_row = _find_row(ws, "Years on List")
         totals_row = _find_row(ws, "Totals")
@@ -367,14 +399,19 @@ def build_interest_list_totals(monthly_dir: Path) -> pd.DataFrame:
                     "source_file": path.name,
                 }
             )
-        wb.close()
+        if _workbooks is None:
+            wb.close()
     return pd.DataFrame(rows).sort_values(["report_month", "program"]).reset_index(drop=True)
 
 
-def build_interest_list_years_on_list(monthly_dir: Path) -> pd.DataFrame:
+def build_interest_list_years_on_list(
+    monthly_dir: Path,
+    *,
+    _workbooks: list[tuple[Path, object]] | None = None,
+) -> pd.DataFrame:
     rows: list[dict] = []
-    for path in sorted(monthly_dir.glob("interest-list-data-*.xlsx")):
-        wb = load_workbook(path, data_only=True)
+    workbooks = _workbooks or _load_interest_list_workbooks(monthly_dir)
+    for path, wb in workbooks:
         ws = _sheet_by_prefix(wb, "Time on Interest List")
         header_row = _find_row(ws, "Years on List")
         totals_row = _find_row(ws, "Totals")
@@ -407,16 +444,21 @@ def build_interest_list_years_on_list(monthly_dir: Path) -> pd.DataFrame:
                         "source_file": path.name,
                     }
                 )
-        wb.close()
+        if _workbooks is None:
+            wb.close()
     return pd.DataFrame(rows).sort_values(
         ["report_month", "program", "years_on_list_bucket"]
     ).reset_index(drop=True)
 
 
-def build_interest_list_closure_summary(monthly_dir: Path) -> pd.DataFrame:
+def build_interest_list_closure_summary(
+    monthly_dir: Path,
+    *,
+    _workbooks: list[tuple[Path, object]] | None = None,
+) -> pd.DataFrame:
     rows: list[dict] = []
-    for path in sorted(monthly_dir.glob("interest-list-data-*.xlsx")):
-        wb = load_workbook(path, data_only=True)
+    workbooks = _workbooks or _load_interest_list_workbooks(monthly_dir)
+    for path, wb in workbooks:
         ws = _sheet_by_prefix(wb, "Closure Overview")
         header_row = _find_row(ws, "Categories:")
         totals_row = _find_row(ws, "Totals")
@@ -447,13 +489,18 @@ def build_interest_list_closure_summary(monthly_dir: Path) -> pd.DataFrame:
                         "source_file": path.name,
                     }
                 )
-        wb.close()
+        if _workbooks is None:
+            wb.close()
     return pd.DataFrame(rows).sort_values(
         ["report_month", "program", "closure_category"]
     ).reset_index(drop=True)
 
 
-def build_interest_list_releases_summary(monthly_dir: Path) -> pd.DataFrame:
+def build_interest_list_releases_summary(
+    monthly_dir: Path,
+    *,
+    _workbooks: list[tuple[Path, object]] | None = None,
+) -> pd.DataFrame:
     rows: list[dict] = []
     metric_prefixes = [
         ("previous_biennium_counts", "Previous Biennium Counts", False),
@@ -465,8 +512,8 @@ def build_interest_list_releases_summary(monthly_dir: Path) -> pd.DataFrame:
         ("added_this_biennium", "Added This Biennium", False),
         ("current_interest_list_counts", "Current Interest List Counts", False),
     ]
-    for path in sorted(monthly_dir.glob("interest-list-data-*.xlsx")):
-        wb = load_workbook(path, data_only=True)
+    workbooks = _workbooks or _load_interest_list_workbooks(monthly_dir)
+    for path, wb in workbooks:
         ws = _sheet_by_prefix(wb, "IL Releases Summary")
         header_row = next(
             row
@@ -507,7 +554,8 @@ def build_interest_list_releases_summary(monthly_dir: Path) -> pd.DataFrame:
                         "source_file": path.name,
                     }
                 )
-        wb.close()
+        if _workbooks is None:
+            wb.close()
     return pd.DataFrame(rows).sort_values(
         ["report_month", "program", "metric"]
     ).reset_index(drop=True)
